@@ -1,7 +1,0 @@
-{
-   "parent": "techresourcesgenerator:block/basic_generator",
-   "textures": {
-        "particle": "minecraft:block/calcite",
-        "1": "minecraft:block/calcite"
-    }
-}
