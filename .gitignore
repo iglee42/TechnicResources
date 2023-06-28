@@ -21,6 +21,7 @@
 /saves/
 /schematics/
 /screenshots/
+/profileImage/
 /usercache.json
 *.log
 realms_persistence.json
