@@ -12,7 +12,7 @@ StartupEvents.registry('item',e =>{
         registerWithTexture(p+'_pebble',ModsUtils.getUpperName(p,' ')+ ' Pebble','technicresources:item/pebbles/' + p)
     });
 
-    registerIcon('technic_resources')
+    registerIcon('technic_resources','Technic Resources')
     // register('platinum_ingot','Platinum Ingot')
     // register('minecraft_ore_ingot','Minecraft Ores Ingot')
     // register('platinum_nugget','Platinum Nugget')
@@ -60,7 +60,7 @@ StartupEvents.registry('item',e =>{
         e.create('technicresources:'+unlocname).displayName(displayname).type(type).tier(tier)
     }
 
-    function registerIcon(unlocname) {
-        return e.create('icons:' + unlocname).displayName(ModsUtils.getUpperName(unlocname,"_")).texture('icons:item/' + unlocname)
+    function registerIcon(unlocname,displayName) {
+        return e.create('icons:' + unlocname).displayName(displayName).texture('icons:item/' + unlocname)
     }
 })
