@@ -1,38 +1,23 @@
-name: CI-SFTP
- 
-# Controls when the action will run. 
-on:
-  # Triggers the workflow on push or pull request events but only for the main branch
-  push:
-    branches: [ main ]
-#  pull_request:
-#    branches: [ main ]
- 
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
- 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+on: [push]
+
 jobs:
-  # This workflow contains a single job called "SFTP"
-  deploy-via-sftp:
+  mirror_with_sftp:
+    name: deploy
     runs-on: ubuntu-latest
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
-          
-      - name: SFTP Deploy
-        uses: wlixcc/SFTP-Deploy-Action@v1.2.1
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: FTP Deployer
+        uses: sand4rt/ftp-deployer@v1.4
         with:
+          sftp: true
+          host: ${{ secrets.SSH_IP }}
+          port: 22
           username: ${{ secrets.SSH_USERNAME }}
-          server: ${{ secrets.SSH_IP }}
-          port: 22 # default is 22
-          ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
- 
-          
-          # will put all file under this path
-          local_path: ./* # default is ./*
-          # files will copy to under remote_path
-          remote_path: /TechnicResourcesServ/
-          
-          # sftp args
-          args: '-o ConnectTimeout=5'
+          password: ${{ secrets.SSH_PASSWORD }}
+          remote_folder: '/TechnicResourcesServ/'
+          local_folder: '.'
+          cleanup: false
+          include: '[ "*", "**/*" ]'
+          exclude: '["node_modules/**", "_secret.php", ".github/**", ".git/**", "*.env"]'
+          pasive: true
