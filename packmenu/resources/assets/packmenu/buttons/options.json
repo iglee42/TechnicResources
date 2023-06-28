@@ -1,0 +1,14 @@
+{
+	"x": -100,
+	"y": 84,
+	"width": 98,
+	"height": 20,
+	"langKey": "menu.options",
+	"action": "OPEN_GUI",
+	"hoverU": 0,
+	"hoverV": 21,
+	"texWidth": 100,
+	"texHeight": 42,
+	"texture": "packmenu:textures/gui/options_button.png",
+	"data": "OPTIONS"
+}

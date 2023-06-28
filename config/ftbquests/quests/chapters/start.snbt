@@ -1,0 +1,140 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "start"
+	group: ""
+	icon: "compactmachines:solid_wall"
+	id: "3A690EAA4DF5F972"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["&bThe personal shriking device is an emergency item (the top left button of this gui)"]
+			icon: "minecraft:grass_block"
+			id: "67F21B17C1FE14A4"
+			rewards: [{
+				id: "5000F2EFCC67D699"
+				item: "compactmachines:personal_shrinking_device"
+				type: "item"
+			}]
+			subtitle: "&6This &amodpack &6start in a &acompact machine"
+			tasks: [{
+				id: "51C196571CAD83EB"
+				title: "Start of the Game"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67F21B17C1FE14A4"]
+			id: "2148C47C03622790"
+			subtitle: "&6Obtain when &aleft click &6on a &acompact machine wall"
+			tasks: [{
+				id: "2F05A53FECD3A84F"
+				item: "technicresources:wall_fragment"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2148C47C03622790"]
+			id: "6CC407BE9AE118B6"
+			tasks: [
+				{
+					id: "55F7FA46E8C8BB45"
+					item: "technicresources:wall_spoon_handle"
+					type: "item"
+				}
+				{
+					id: "4C17974F3CD44ED8"
+					item: "technicresources:spoon_piece"
+					type: "item"
+				}
+			]
+			title: "Spoon Parts"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6CC407BE9AE118B6"]
+			id: "12BC9E7E282A98C0"
+			tasks: [{
+				id: "547DC6042A189CE9"
+				item: {
+					Count: 1b
+					id: "technicresources:wall_spoon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["12BC9E7E282A98C0"]
+			id: "28916B2EDE8204BA"
+			subtitle: "&aObtain &6when left click on a &acompact machine wall &6with a &aspoon"
+			tasks: [{
+				id: "54BF2AE1C63CFA69"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "technicresources:granite_pebble"
+							}
+							{
+								Count: 1b
+								id: "technicresources:diorite_pebble"
+							}
+							{
+								Count: 1b
+								id: "technicresources:calcite_pebble"
+							}
+							{
+								Count: 1b
+								id: "technicresources:andesite_pebble"
+							}
+							{
+								Count: 1b
+								id: "technicresources:stone_pebble"
+							}
+							{
+								Count: 1b
+								id: "technicresources:tuff_pebble"
+							}
+							{
+								Count: 1b
+								id: "technicresources:deepslate_pebble"
+							}
+						]
+					}
+				}
+				title: "Pebbles"
+				type: "item"
+			}]
+			title: "Pebbles"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["28916B2EDE8204BA"]
+			id: "6FA4AD2C0C318D48"
+			tasks: [{
+				id: "42BF8013A7FDF3C6"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+	]
+	subtitle: ["A compact start"]
+	title: "&6The start of creation"
+}

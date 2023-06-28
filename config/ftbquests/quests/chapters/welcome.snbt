@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: ""
+	icon: "minecraft:grass_block"
+	id: "237AB2138BA1378C"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "&bWelcome"
+}

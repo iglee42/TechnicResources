@@ -1,0 +1,15 @@
+
+[NbtTooltip]
+	#Add a tooltip to view NBT on items when in extra info mode (F3 + H)
+	ADD_NBT_TOOLTIP = true
+
+[Log]
+	#send the debug calls through the Info log instead of Debug log
+	DEBUG_AS_INFO = true
+	#do debug calls actually log something. set to false to silence all debug calls
+	DO_DEBUG = true
+
+[BaseAnalogDiodeBlock]
+	#Read sides like the back (ex: will use the content of a chest on the side as a valid redstone signal)
+	ALL_POWERS_ON_SIDES = true
+

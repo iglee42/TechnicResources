@@ -1,0 +1,14 @@
+{
+	"x": -100,
+	"y": 24,
+	"width": 200,
+	"height": 20,
+	"langKey": "menu.multiplayer",
+	"action": "OPEN_GUI",
+	"hoverU": 0,
+	"hoverV": 21,
+	"texWidth": 100,
+	"texHeight": 42,
+	"texture": "packmenu:textures/gui/multiplayer_button.png",
+	"data": "MULTIPLAYER"
+}

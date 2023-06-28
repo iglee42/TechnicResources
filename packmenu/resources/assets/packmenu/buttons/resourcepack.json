@@ -1,0 +1,14 @@
+{
+	"x": -124,
+	"y": 24,
+	"width": 20,
+	"height": 20,
+	"texWidth": 20,
+	"texHeight": 40,
+	"hoverU": 0,
+	"hoverV": 20,
+	"widgets": false,
+	"texture": "packmenu:textures/gui/resource_pack_button.png",
+	"action": "OPEN_GUI",
+	"data": "RESOURCE_PACKS"
+}

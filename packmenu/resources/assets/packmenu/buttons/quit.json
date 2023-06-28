@@ -1,0 +1,13 @@
+{
+	"x": 2,
+	"y": 84,
+	"width": 98,
+	"height": 20,
+	"langKey": "menu.quit",
+	"hoverU": 0,
+	"hoverV": 21,
+	"texWidth": 100,
+	"texHeight": 42,
+	"texture": "packmenu:textures/gui/quit_button.png",
+	"action": "QUIT"
+}

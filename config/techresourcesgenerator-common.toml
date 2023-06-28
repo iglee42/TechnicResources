@@ -1,0 +1,80 @@
+
+[basic_generator]
+	#The number of items was generated !
+	#Range: 1 ~ 64
+	basic_generated_count = 1
+	#The delay beetween items ! Minimum : 1
+	basic_generated_delay = 20
+
+[magmatic_generators]
+
+	[magmatic_generators.iron]
+		#The number of items was generated !
+		#Range: 1 ~ 64
+		iron_generated_count = 2
+		#The delay beetween items ! Minimum : 1
+		iron_generated_delay = 17
+
+	[magmatic_generators.gold]
+		#The number of items was generated !
+		#Range: 1 ~ 64
+		gold_generated_count = 3
+		#The delay beetween items ! Minimum : 1
+		gold_generated_delay = 15
+
+	[magmatic_generators.diamond]
+		#The number of items was generated !
+		#Range: 1 ~ 64
+		diamond_generated_count = 4
+		#The delay beetween items ! Minimum : 1
+		diamond_generated_delay = 13
+
+	[magmatic_generators.netherite]
+		#The number of items was generated !
+		#Range: 1 ~ 64
+		netherite_generated_count = 8
+		#The delay beetween items ! Minimum : 1
+		netherite_generated_delay = 10
+
+[electric_generators]
+
+	[electric_generators.modium]
+		#The number of items was generated !
+		#Range: 1 ~ 64
+		modium_generated_count = 16
+		#The delay beetween items ! Minimum : 1
+		modium_generated_delay = 10
+		#FE consumed per ticks
+		#Range: > 1
+		modium_consume_ticks = 8192
+
+	[electric_generators.derium]
+		#The number of items was generated !
+		#Range: 1 ~ 64
+		derium_generated_count = 32
+		#The delay beetween items ! Minimum : 1
+		derium_generated_delay = 7
+		#FE consumed per ticks
+		#Range: > 1
+		derium_consume_ticks = 4096
+
+	[electric_generators.blazum]
+		#The number of items was generated !
+		#Range: 1 ~ 64
+		blazum_generated_count = 48
+		#The delay beetween items ! Minimum : 1
+		blazum_generated_delay = 5
+		#FE consumed per ticks
+		#Range: > 1
+		blazum_consume_ticks = 2048
+
+	[electric_generators.lavium]
+		#The number of items was generated !
+		#Range: 1 ~ 64
+		lavium_generated_count = 64
+		#The delay beetween items ! Minimum : 1
+		lavium_generated_delay = 3
+		#FE consumed per ticks
+		#Range: > 1
+		lavium_consume_ticks = 1024
+
