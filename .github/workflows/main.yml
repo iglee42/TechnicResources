@@ -1,23 +1,20 @@
-on: [push]
-
+on:
+  push:
+    branches:
+      main
 jobs:
-  mirror_with_sftp:
-    name: deploy
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      - name: FTP Deployer
-        uses: sand4rt/ftp-deployer@v1.4
-        with:
-          sftp: true
-          host: ${{ secrets.SSH_IP }}
-          port: 22
-          username: ${{ secrets.SSH_USERNAME }}
-          password: ${{ secrets.SSH_PASSWORD }}
-          remote_folder: '/TechnicResourcesServ/'
-          local_folder: '.'
-          cleanup: false
-          include: '[ "*", "**/*" ]'
-          exclude: '["node_modules/**", "_secret.php", ".github/**", ".git/**", "*.env"]'
-          pasive: true
+    deploy_job:
+      runs-on: ubuntu-latest
+      name: deploy
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v2
+        - name: Deploy file
+          uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+          with:
+            username: ${{ secrets.FTP_USERNAME }}
+            password: ${{ secrets.FTP_PASSWORD }}
+            server: ${{ secrets.FTP_SERVER }}
+            port: ${{ secrets.FTP_PORT }}
+            remote_path: '/TechnicResourcesServ'
+            sftp_only: true
