@@ -120,20 +120,24 @@
 		warpCost = 1
 		#Range: > 1000
 		scanBlocksCooldown = 2000
-		#Range: 1 ~ 64
+		#Range: > 1
 		scanBlocksMaxFreeRadius = 8
-		#Range: 1 ~ 64
+		#Range: > 1
 		scanBlocksMaxCostRadius = 16
 		#Range: 0.1 ~ 1.7976931348623157E308
 		scanBlocksExtraBlockCost = 0.17
 		#Range: > 1000
 		scanEntitiesCooldown = 2000
-		#Range: 1 ~ 64
+		#Range: > 1
 		scanEntitiesMaxFreeRadius = 8
-		#Range: 1 ~ 64
+		#Range: > 1
 		scanEntitiesMaxCostRadius = 16
 		#Range: 0.1 ~ 1.7976931348623157E308
 		scanEntitiesExtraBlockCost = 0.17
 		#Range: > 1000
 		chatMessageCooldown = 1000
+
+	[Peripherals.Pocket_Peripherals]
+		#If true, pockets will have infinite fuel
+		disablePocketFuelConsumption = true
 
