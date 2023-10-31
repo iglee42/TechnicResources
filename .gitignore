@@ -25,6 +25,7 @@
 /screenshots/
 /profileImage/
 /usercache.json
+/mods/
 run.sh
 user_jvm_args.txt
 *.log
@@ -33,3 +34,5 @@ TrashSlotSaveState.json
 usernamecache.json
 imgui.ini
 eula.txt
+knownkeys.txt
+reauth.toml
