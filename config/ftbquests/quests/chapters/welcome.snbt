@@ -3,10 +3,171 @@
 	default_quest_shape: ""
 	filename: "welcome"
 	group: ""
-	icon: "minecraft:grass_block"
+	icon: "minecraft:stone"
 	id: "237AB2138BA1378C"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "3FCBA1147733405D"
+			size: 2.0d
+			tasks: [{
+				id: "621EA61DCB9BE6E1"
+				title: "Welcome"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3FCBA1147733405D"]
+			description: [
+				"Hi!"
+				""
+				""
+				"We are the developper's and idea conceptor for the modpack!"
+				""
+				"&aIglee&r : Programation and main idea"
+				""
+				"&5Niouf_&r : Main quest conceptor and custom texture"
+				""
+				"&6Fieldo_&r : Storyline and quest conceptor"
+			]
+			id: "033315243A54DDEA"
+			rewards: [
+				{
+					id: "3024D13124E0AA94"
+					item: {
+						Count: 1b
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									-1759120075
+									-963558474
+									-1314262031
+									2104090645
+								]
+								Name: "iglee42"
+								Properties: {
+									textures: [{
+										Signature: "AIro3hz9/T9T3bPhuwulqdxxSauqtzNgoiFqxe7NrqaSEOL3oFvlcMT2EMJv91Y59MxuEaLpZGBaKCq5+hAG09tfu3Jtdr3/Yc1rukSPfkyN/LAfEE9lgI+ve6fZDSmmj/IxIqqqdlj7X+eL7iIe3YFpx5uIqJ/B8oxeIQnDCBPfdki2tFuoPLW9N6dnNrfCof2H/pwYpA8lAcY/v1eSf4eMDB84xgZGwAQKIo6hhtoQmgdIKaSuBFJ8/PiGXxXkq1uF3gGoY3Ud8rbCWPoLCge2+vgE/kKVFFSezrigyQkhaHlu4I+lCUHEk2tiRu2pBZyBH0lN3tqsW1LZvaQ7y7apAEugKJID799fiU3ggqOQ4pH3WWLGCZSJNDmqOVWW7e0fylUWkUAbruNAQbXR+MRxIAxmT196WWA1hAwqcTX7p95/H07ZGOnjcRJ9Fl8+g8WD6O/p4Yl/QvdkT7Achl37I8FIMqZ4KbjdO4uijQJFdQyeIWrtwZxrOjduNpBLx5gD3Re+BfsgtKgg0TGKlw/jwXOdyW713i4Chenld9IYVz49byZ7Q/wNy5kLyD94+Y3JflGS0WT8LhigeGNkGMzvd1oCc/lHJOV6M16j0ueaP6WZwLkFKG6a/cyQQBEebubBkmU3sXR4U9q0N1yUX7Zg/qqiBm5dCs9G1oru0uw="
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTY5ODc5MzE2MjY3MCwKICAicHJvZmlsZUlkIiA6ICI5NzI1ZjUzNWM2OTE0M2I2YjFhOWYzZjE3ZDY5ZTAxNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJpZ2xlZTQyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2UzNDQ2ZWQ5ODUxMGNiY2ZiM2EyZGExOGJmODY5ZmU3Nzg1M2U3MDFmNjQxZmYyNmQ4OGFjZTU3MWM5ZGE4NDMiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNDBjMGUwM2RkMjRhMTFiMTVhOGIzM2MyYTdlOWUzMmFiYjIwNTFiMjQ4MWQwYmE3ZGVmZDYzNWNhN2E5MzMiCiAgICB9CiAgfQp9"
+									}]
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "680242F4F5CD6DB3"
+					item: {
+						Count: 1b
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									-1824161784
+									630342790
+									-2003298291
+									263029903
+								]
+								Name: "Niouf_"
+								Properties: {
+									textures: [{
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTY5ODc5NDc1ODkyOCwKICAicHJvZmlsZUlkIiA6ICI5MzQ1ODAwODI1OTI0NDg2ODg5ODE4MGQwZmFkODQ4ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJOaW91Zl8iLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGY1ZmVhZGVjZTdhMzBhNzA2ZTQxMTA2NTdkMTVkYzZlMTNjYzJlZGU4NDdmM2I3NmQ3ZjYyYmFjMDAyZWJlYiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNDBjMGUwM2RkMjRhMTFiMTVhOGIzM2MyYTdlOWUzMmFiYjIwNTFiMjQ4MWQwYmE3ZGVmZDYzNWNhN2E5MzMiCiAgICB9CiAgfQp9"
+									}]
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7F8A43C68F1B28F3"
+					item: {
+						Count: 1b
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									-1649567398
+									2127842119
+									-1938813689
+									1493491300
+								]
+								Name: "Fieldo_"
+								Properties: {
+									textures: [{
+										Signature: "Rgm9sfXcWa0vkR6fCpq/WEqkzZKBWbccDMSUmIihJ9AWLNPbfN1NIgCyaX1++bPnBgkMwUcekDIqGFfeir52WbcLDEi3NFtCAqrUIn6n003UWyDAqjw0FGv6U66ucOetxGy2wdO6eglyFFpx07pXMY0P7pTNF/NB5mOqGkY7p3MwicTcGGG+BqmBd9J5WbNuJo6U1ox6IPeMAtDKEUUirRkNAXwSkYvD9/qxANUsC+4KuyfMnCrANP03ig9FCdTsrL23lYL+i2YBacSEHTtCfqyUgC1EVQ8yNg1/bIskxfXKkbo9eUVt3PNh6Wb+mFdhQUit4dsOZjAx49hAdJpT4O62zVAZ/ckh9PQYi8NR7k3hxDEcVNedyc0EcwT3uEqPB6MRkCwUOeif/rwrq3V1w7w0ggK6V8QDF58MAi+dKe6NoDXxE5Ljx6uqQ0OcwspLu+sEWqKObmWxzNLOdAd9cACQ42erdalt/LjZCfzT9ceDYwXm5jFBId+JesFtRBUOatq9TSbfUWSJo72HS4HJVB0/6FDQROnf7jVTV0e3BAuKDUtpDHsuFFHO5TtYFHhEdkQOUzKUY9dj3N2MImKnpsH7We3sDTT1oOh5TArXapIQ/+QDiHjKwdJbGa5tlm6luSgIDK6xYAdAFmD3oADlFqEM3MIfs+bK9TWpBy8rTXA="
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTY5ODgwNTIwNzU1NSwKICAicHJvZmlsZUlkIiA6ICI5ZGFkOTk1YTdlZDQ0YjQ3OGM3MDBkMDc1OTA0ZGU2NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJGaWVsZG9fIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzI5MWU2NzllZWFkMmY2NzE2YjJmYzVjM2JhMzNlZTdlY2Q5NGI2Yzc3NGM3Y2Q0OTZmOTA0MTZlMjBlMDYxODYiCiAgICB9CiAgfQp9"
+									}]
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Thank's for playing the modpack"
+			tasks: [{
+				id: "1163F24811543437"
+				title: "Developper's"
+				type: "checkmark"
+			}]
+			title: "Developpers"
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3FCBA1147733405D"]
+			id: "560E28E8C2FA86AB"
+			subtitle: "&aIglee42&r's discord server"
+			tasks: [{
+				id: "4173424C67DE1AAB"
+				title: "Discord"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3FCBA1147733405D"]
+			id: "6D9666C0C7A9B260"
+			subtitle: "Promo code: &n&aIglee42&r&r"
+			tasks: [{
+				id: "39F943F7E6C80665"
+				title: "Get a server on Bisect Hosting"
+				type: "checkmark"
+			}]
+			title: "Get a server!"
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3FCBA1147733405D"]
+			id: "44EA9A64451D42ED"
+			subtitle: "&5Niouf_&r's Github"
+			tasks: [{
+				id: "35555220646C36B4"
+				title: "Niouf_"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3FCBA1147733405D"]
+			id: "2D323B62A4BACC7A"
+			tasks: [{
+				id: "22173906AEE467B9"
+				title: "Fieldo_"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+	]
 	title: "&bWelcome"
 }

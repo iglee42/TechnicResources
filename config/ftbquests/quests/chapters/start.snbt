@@ -5,7 +5,7 @@
 	group: ""
 	icon: "compactmachines:solid_wall"
 	id: "3A690EAA4DF5F972"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
