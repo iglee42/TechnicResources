@@ -3,14 +3,37 @@
 	default_quest_shape: ""
 	filename: "welcome"
 	group: ""
-	icon: "minecraft:stone"
+	icon: "icons:tr"
 	id: "237AB2138BA1378C"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 2.0d
+		hover: [ ]
+		image: "icons:item/technic_resources"
+		rotation: 0.0d
+		width: 7.5d
+		x: -1.5d
+		y: -7.0d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
+			description: [
+				""
+				"        &l&n&aTechnic Resources&r is a modpack based on Create and Mekanism, there is a lot of quest and custom items"
+				"                "
+				"        This is an &lsemi-expert modpack&r, but even if you are a &lbeginner&r, you can play as the &lquests&r will help you a lot, and you can also join the &lDiscord server&r for &lsupport&r."
+				"               "
+				"                                              &l&n&aHave fun!&r&r&r"
+			]
+			icon: "icons:tr"
 			id: "3FCBA1147733405D"
-			size: 2.0d
+			shape: "gear"
+			size: 3.0d
+			subtitle: "&k&4technic&r Welcome to &l&n&aTechnic Resources&r! &4&ktechnic&r"
 			tasks: [{
 				id: "621EA61DCB9BE6E1"
 				title: "Welcome"
@@ -33,6 +56,7 @@
 				""
 				"&6Fieldo_&r : Storyline and quest conceptor"
 			]
+			icon: "bigreactors:wrench"
 			id: "033315243A54DDEA"
 			rewards: [
 				{
@@ -122,51 +146,207 @@
 		}
 		{
 			dependencies: ["3FCBA1147733405D"]
+			icon: "icons:discord"
 			id: "560E28E8C2FA86AB"
+			rewards: [{
+				command: "/tellraw @p [\"\",{\"text\":\"Iglee's Discord :\",\"color\":\"blue\"},{\"text\":\" https://discord.iglee.fr\",\"color\":\"dark_aqua\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://discord.iglee.fr\"}}]"
+				icon: "icons:discord"
+				id: "076E7CF00810FCA3"
+				type: "command"
+			}]
 			subtitle: "&aIglee42&r's discord server"
 			tasks: [{
 				id: "4173424C67DE1AAB"
 				title: "Discord"
 				type: "checkmark"
 			}]
-			x: -1.5d
-			y: 1.0d
+			x: -4.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["3FCBA1147733405D"]
+			icon: "icons:bisect_hosting"
 			id: "6D9666C0C7A9B260"
-			subtitle: "Promo code: &n&aIglee42&r&r"
+			rewards: [{
+				command: "/tellraw @p [\"\",{\"text\":\"Bisect Hosting Code : \",\"color\":\"gray\"},{\"text\":\"https://bisecthosting.com/iglee\",\"color\":\"blue\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://bisecthosting.com/iglee\"}}]"
+				icon: "icons:bisect_hosting"
+				id: "5224CD3948C156C2"
+				type: "command"
+			}]
+			subtitle: "Promo code: &n&aIglee&r&r"
 			tasks: [{
 				id: "39F943F7E6C80665"
 				title: "Get a server on Bisect Hosting"
 				type: "checkmark"
 			}]
 			title: "Get a server!"
-			x: 2.5d
-			y: -2.0d
+			x: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["3FCBA1147733405D"]
+			icon: {
+				Count: 1b
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							-1824161784
+							630342790
+							-2003298291
+							263029903
+						]
+						Name: "Niouf_"
+						Properties: {
+							textures: [{
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTY5ODk0NTgyNTg5OSwKICAicHJvZmlsZUlkIiA6ICI5MzQ1ODAwODI1OTI0NDg2ODg5ODE4MGQwZmFkODQ4ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJOaW91Zl8iLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGY1ZmVhZGVjZTdhMzBhNzA2ZTQxMTA2NTdkMTVkYzZlMTNjYzJlZGU4NDdmM2I3NmQ3ZjYyYmFjMDAyZWJlYiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNDBjMGUwM2RkMjRhMTFiMTVhOGIzM2MyYTdlOWUzMmFiYjIwNTFiMjQ4MWQwYmE3ZGVmZDYzNWNhN2E5MzMiCiAgICB9CiAgfQp9"
+							}]
+						}
+					}
+				}
+			}
 			id: "44EA9A64451D42ED"
+			rewards: [{
+				command: "/tellraw @p [\"\",{\"text\":\"Niouf's Github :\",\"color\":\"gray\"},{\"text\":\" https://github.com/Niouf07\",\"color\":\"gray\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://github.com/Niouf07\"}}]"
+				icon: {
+					Count: 1b
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								-1824161784
+								630342790
+								-2003298291
+								263029903
+							]
+							Name: "Niouf_"
+							Properties: {
+								textures: [{
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTY5ODk1Njg3NzE5MCwKICAicHJvZmlsZUlkIiA6ICI5MzQ1ODAwODI1OTI0NDg2ODg5ODE4MGQwZmFkODQ4ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJOaW91Zl8iLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGY1ZmVhZGVjZTdhMzBhNzA2ZTQxMTA2NTdkMTVkYzZlMTNjYzJlZGU4NDdmM2I3NmQ3ZjYyYmFjMDAyZWJlYiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNDBjMGUwM2RkMjRhMTFiMTVhOGIzM2MyYTdlOWUzMmFiYjIwNTFiMjQ4MWQwYmE3ZGVmZDYzNWNhN2E5MzMiCiAgICB9CiAgfQp9"
+								}]
+							}
+						}
+					}
+				}
+				id: "1297EF81513923EA"
+				type: "command"
+			}]
 			subtitle: "&5Niouf_&r's Github"
 			tasks: [{
 				id: "35555220646C36B4"
 				title: "Niouf_"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: 2.0d
+			x: -4.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["3FCBA1147733405D"]
-			id: "2D323B62A4BACC7A"
+			icon: "icons:github"
+			id: "01854E4661D0ECC3"
+			rewards: [{
+				command: "/tellraw @p [\"\",{\"text\":\"Modpack Github :\",\"color\":\"gray\"},{\"text\":\"https://github.com/iglee42/TechnicResources\",\"color\":\"gray\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://github.com/iglee42/TechnicResources\"}}]"
+				icon: "icons:github"
+				id: "5135417F58D03AC4"
+				type: "command"
+			}]
+			subtitle: "The modpack Github"
 			tasks: [{
-				id: "22173906AEE467B9"
-				title: "Fieldo_"
+				id: "27D987E13FF054D5"
+				title: "Github"
 				type: "checkmark"
 			}]
 			x: -3.0d
-			y: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3FCBA1147733405D"]
+			icon: "icons:website"
+			id: "3CC29AE46F90E8F8"
+			rewards: [{
+				command: "/tellraw @p [\"\",{\"text\":\"Iglee's Website :\",\"color\":\"dark_green\"},{\"text\":\" http://iglee.fr\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"http://iglee.fr\"}}]"
+				icon: "icons:website"
+				id: "25B33A31DDDDC3BA"
+				type: "command"
+			}]
+			subtitle: "&aIglee&r's Website"
+			tasks: [{
+				id: "7A03E5541805030D"
+				title: "Website"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3FCBA1147733405D"]
+			description: [
+				"To share your quests with your friends, you need to create a team."
+				""
+				"To do this, execute this command :"
+				"&a/ftbteams party create"
+				""
+				"To invite your friends, execute this command :"
+				"&b/ftbteams party invite &dName"
+				""
+				"Your friends just have to accept, and you are now in a team."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbteams:textures/teams.png"
+				}
+			}
+			id: "312D1D5130F5F613"
+			subtitle: "Explaination for FTB Teams"
+			tasks: [{
+				id: "21DBD2460463B992"
+				title: "FTB teams"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3FCBA1147733405D"]
+			description: ["&aSpice of Life: Carrot Edition&r keeps track of how many unique foods a player has eaten. As they pass certain milestone amounts of unique foods, they permanently gain new hearts, increasing their max health! In order to max out their HP bars, players will have to quest for and craft exotic foods."]
+			icon: "solcarrot:food_book"
+			id: "46F0C06511D00040"
+			tasks: [{
+				id: "5F01068943229220"
+				title: "Feeding"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3FCBA1147733405D"]
+			description: [
+				"FTB Chunks allows you to &4claim chunks&r to &4protect&r your blocks. It also has a &9minimap and large map&r ! You can find it in the top left corner of your inventory."
+				""
+				"&6Right-click&r anywhere in map to create a waypoint."
+				""
+				"&6Right-click&r on waypoints and death points to edit or delete them."
+				""
+				"Click on &1Claimed Chunks button&r, then left or &6right-click&r on map to select chunks that will belong to you. &6Shift-left&r or &6right-click&r on claimed chunks to toggle forceloading."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:textures/icons/map.png"
+				}
+			}
+			id: "33DFBD6ADA6339F1"
+			tasks: [{
+				id: "7531DAFD16223DC7"
+				title: "FTB Chunk"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -2.0d
 		}
 	]
 	title: "&bWelcome"
