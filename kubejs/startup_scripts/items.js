@@ -18,7 +18,12 @@ StartupEvents.registry('item',e =>{
 
     register('compact_upgrader','Compact Upgrader').unstackable()
 
+    registerIcon('tr','TR')
     registerIcon('technic_resources','Technic Resources')
+    registerIcon('discord','Discord')
+    registerIcon('github','Github')
+    registerIcon('website','Website')
+    registerIcon('bisect_hosting','Bisect Hosting')
     // register('platinum_ingot','Platinum Ingot')
     // register('minecraft_ore_ingot','Minecraft Ores Ingot')
     // register('platinum_nugget','Platinum Nugget')
