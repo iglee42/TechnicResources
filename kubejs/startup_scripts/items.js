@@ -12,7 +12,18 @@ StartupEvents.registry('item',e =>{
         registerWithTexture(p+'_pebble',ModsUtils.getUpperName(p,' ')+ ' Pebble','technicresources:item/pebbles/' + p)
     });
 
+
+    registerTool('stone_hammer','Stone Hammer','pickaxe','stone')
+
+
+    register('compact_upgrader','Compact Upgrader').unstackable()
+
+    registerIcon('tr','TR')
     registerIcon('technic_resources','Technic Resources')
+    registerIcon('discord','Discord')
+    registerIcon('github','Github')
+    registerIcon('website','Website')
+    registerIcon('bisect_hosting','Bisect Hosting')
     // register('platinum_ingot','Platinum Ingot')
     // register('minecraft_ore_ingot','Minecraft Ores Ingot')
     // register('platinum_nugget','Platinum Nugget')
@@ -54,10 +65,10 @@ StartupEvents.registry('item',e =>{
         return e.create('technicresources:'+unlocname).displayName(displayname).texture(texture)
     }
     function registerType(unlocname,displayname,type){
-        e.create('technicresources:'+unlocname).displayName(displayname).type(type)
+        e.create('technicresources:'+unlocname,type).displayName(displayname)
     }
     function registerTool(unlocname,displayname,type,tier){
-        e.create('technicresources:'+unlocname).displayName(displayname).type(type).tier(tier)
+        e.create('technicresources:'+unlocname,type).displayName(displayname).tier(tier)
     }
 
     function registerIcon(unlocname,displayName) {
