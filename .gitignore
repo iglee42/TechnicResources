@@ -34,5 +34,10 @@ TrashSlotSaveState.json
 usernamecache.json
 imgui.ini
 eula.txt
+<<<<<<< HEAD
 reauth.toml
 knownkeys.txt
+=======
+knownkeys.txt
+reauth.toml
+>>>>>>> main
