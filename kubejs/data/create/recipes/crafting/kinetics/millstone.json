@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "C": {
+      "item": "create:cogwheel"
+    },
+    "I": {
+      "tag": "forge:stone"
+    },
+    "S": {
+      "item": "createcasing-kubejs:stone_casing"
+    }
+  },
+  "pattern": [
+    "C",
+    "S",
+    "I"
+  ],
+  "result": {
+    "item": "create:millstone"
+  }
+}

@@ -6,4 +6,7 @@ ItemEvents.tooltip(event => {
 			Text.yellow("Machine can be upgrade with tier installer.")
 		]);
 	})*/
+	event.add('technicresources:compact_upgrader', [
+		Text.red('Please clear your compact machine before upgrade it !')
+	])
 })

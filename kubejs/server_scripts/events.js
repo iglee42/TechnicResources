@@ -32,17 +32,47 @@ BlockEvents.leftClicked(event =>{
         if (random.nextInt(35) === 0)
             player.give('technicresources:calcite_pebble')
         player.damageHeldItem()
+    } else if (event.getItem().id == 'minecraft:iron_pickaxe'){
+        let random = new Random();
+        if (random.nextInt(30) === 0)
+            player.give('compactmachines:wall')
+        if (random.nextInt(20) === 0)
+            player.give('minecraft:coal')
+        if (random.nextInt(20) === 0)
+            player.give('minecraft:redstone')
+        player.damageHeldItem()
     }
 });
 
 BlockEvents.rightClicked(event=>{
-    let player = event.player
-    if (event.getBlock().id != 'compactmachines:machine_tiny') return
-    if (event.getItem().id != 'technicresources:endstone_pebble') return
+    let server = event.getServer()
+    let player = event.getEntity()
     let block = event.getBlock()
-    event.player.server.runCommandSilent("fill " + (block.x - 1) + " " + (block.y - 1) + " " + (block.z + 1) + " " + (block.x - 1) + " " + (block.y + 3) + " " + (block.z - 1) + " air replace #technicresources:bedrock_remover")
-    event.player.server.runCommandSilent("fill " + (block.x) + " " + (block.y - 1) + " " + (block.z + 1) + " " + (block.x) + " " + (block.y + 3) + " " + (block.z - 1) + " air replace #technicresources:bedrock_remover")
-    event.player.server.runCommandSilent("fill " + (block.x + 1) + " " + (block.y - 1) + " " + (block.z + 1) + " " + (block.x + 1) + " " + (block.y + 3) + " " + (block.z - 1) + " air replace #technicresources:bedrock_remover")
-    event.player.server.runCommandSilent("fill " + (block.x + 2) + " " + (block.y - 1) + " " + (block.z + 1) + " " + (block.x + 2) + " " + (block.y + 3) + " " + (block.z - 1) + " air replace #technicresources:bedrock_remover")
-    event.player.server.runCommandSilent("fill " + (block.x + 3) + " " + (block.y - 1) + " " + (block.z + 1) + " " + (block.x + 3) + " " + (block.y + 3) + " " + (block.z - 1) + " air replace #technicresources:bedrock_remover")
+    let item = event.getItem()
+    if (item.id == 'technicresources:endstone_pebble' && block.id == 'compactmachines:machine_small') {
+        if (block.getDown().id == 'minecraft:bedrock' && !player.stages.has('use_bedrock_remover')) {
+            event.getItem().count -= 1
+            player.stages.add('use_bedrock_remover')
+            server.runCommandSilent("fill " + (block.x - 1) + " " + (block.y + 3) + " " + (block.z + 1) + " " + (block.x + 3) + " " + (block.y + 3) + " " + (block.z - 1) + " air replace #technicresources:bedrock_remover")
+            server.runCommandSilent("playsound minecraft:block.anvil.land master @a " + block.x + " " + block.y + " " + block.z + " 0.25")
+            server.scheduleInTicks(1 * 20, callback => {
+                server.runCommandSilent("fill " + (block.x - 1) + " " + (block.y + 2) + " " + (block.z + 1) + " " + (block.x + 3) + " " + (block.y + 2) + " " + (block.z - 1) + " air replace #technicresources:bedrock_remover")
+                server.runCommandSilent("playsound minecraft:block.anvil.land master @a " + block.x + " " + block.y + " " + block.z + " 0.25")
+            });
+            server.scheduleInTicks(2 * 20, callback => {
+                server.runCommandSilent("fill " + (block.x - 1) + " " + (block.y + 1) + " " + (block.z + 1) + " " + (block.x + 3) + " " + (block.y + 1) + " " + (block.z - 1) + " air replace #technicresources:bedrock_remover")
+                server.runCommandSilent("playsound minecraft:block.anvil.land master @a " + block.x + " " + block.y + " " + block.z + " 0.25")
+            });
+            server.scheduleInTicks(3 * 20, callback => {
+                server.runCommandSilent("fill " + (block.x - 1) + " " + (block.y) + " " + (block.z + 1) + " " + (block.x + 3) + " " + (block.y - 1) + " " + (block.z - 1) + " air replace #technicresources:bedrock_remover")
+                server.runCommandSilent("playsound minecraft:block.anvil.land master @a " + block.x + " " + block.y + " " + block.z + " 0.25")
+            });
+        } else if (player.stages.has('use_bedrock_remover')) {
+            player.displayClientMessage(Text.red('You already used a bedrock remover'),true)
+        }
+    }
+    if (item.id == 'technicresources:compact_upgrader' && block.id == 'compactmachines:machine_tiny' ) {
+        block.set('compactmachines:machine_small') 
+        item.setCount(item.count - 1)
+    }
 });

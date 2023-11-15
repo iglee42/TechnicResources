@@ -13,10 +13,12 @@ StartupEvents.registry('item',e =>{
     });
 
 
-    registerTool('stone_hammer','Stone Hammer','pickaxe','stone')
+    registerTool('stone_hammer', 'Stone Hammer', 'pickaxe', 'stone')
+    register('deepslate_stick','Deepslate Stick')
 
 
-    register('compact_upgrader','Compact Upgrader').unstackable()
+    register('compact_upgrader', 'Compact Upgrader').unstackable()
+    
 
     registerIcon('tr','TR')
     registerIcon('technic_resources','Technic Resources')

@@ -11,3 +11,10 @@
     //     e.create('technicresources:'+unlocname).material(type).hardness(hardness).displayName(displayname).harvestTool(tool,harvestLevel)
     // }
 // })
+
+const $CreateCasingUtilsJS = Java.loadClass("fr.iglee42.createcasing.compat.kubejs.CreateCasingUtilsJS")
+
+CreateCasingEvents.casing(event => {
+    event.create('stone').connectedTexture($CreateCasingUtilsJS.omni('kubejs:block/stone_casing')).build()
+    console.log("Stone Casing Registered")
+})

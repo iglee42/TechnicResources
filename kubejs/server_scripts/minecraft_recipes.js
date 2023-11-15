@@ -11,6 +11,7 @@ ServerEvents.recipes(event => {
         event.shapeless(Item.of('technicresources:wall_spoon'),['technicresources:wall_spoon_handle','technicresources:spoon_piece'])
 
 
+        //-----------Chapter 0.5----------------//
         //Pebbles
         event.shaped(Item.of('minecraft:cobblestone'),['PP','PP'],{'P': 'technicresources:stone_pebble'})
         event.shaped(Item.of('minecraft:cobbled_deepslate'),['PP','PP'],{'P': 'technicresources:deepslate_pebble'})
@@ -22,6 +23,21 @@ ServerEvents.recipes(event => {
         event.shaped(Item.of('minecraft:netherrack'),['PP','PP'],{'P': 'technicresources:netherrack_pebble'})
         event.shaped(Item.of('minecraft:blackstone'),['PP','PP'],{'P': 'technicresources:blackstone_pebble'})
         event.shaped(Item.of('minecraft:basalt'),['PP','PP'],{'P': 'technicresources:basalt_pebble'})
-        event.shaped(Item.of('minecraft:end_stone'),['PP','PP'],{'P': 'technicresources:endstone_pebble'})
+        event.shaped(Item.of('minecraft:end_stone'), ['PP', 'PP'], { 'P': 'technicresources:endstone_pebble' })
+        
+        event.shapeless(Item.of('create:andesite_alloy', 2), ['technicresources:andesite_pebble', 'technicresources:tuff_pebble'])
+        
+        event.shapeless(Item.of('create:cogwheel'),['create:shaft','minecraft:cobblestone'])
+        event.shapeless(Item.of('create:large_cogwheel'),['create:cogwheel','minecraft:cobblestone'])
+        event.shapeless(Item.of('create:large_cogwheel'), ['create:shaft', 'minecraft:cobblestone', 'minecraft:cobblestone'])
+        
+        event.shaped(Item.of('technicresources:stone_hammer'),[' C ',' SC','S  '],{'C': 'minecraft:cobblestone','S': "technicresources:deepslate_stick"})
+        event.shaped(Item.of('technicresources:deepslate_stick'), ['D', 'D'], { 'D': 'minecraft:cobbled_deepslate' })
+        
+        event.shaped(Item.of('technicresources:compact_upgrader'), ['WWW', 'WIW', 'WWW'], { 'W': 'compactmachines:wall', 'I': 'minecraft:iron_ingot' })
+        
+        //-----------Chapter 1----------------//
+
+
 
 })

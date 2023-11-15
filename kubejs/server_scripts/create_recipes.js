@@ -1,5 +1,34 @@
 ServerEvents.recipes(event => {
 
+  //Cogwheel
+  deploying('create:cogwheel',['create:shaft','minecraft:cobblestone'],false,1)
+  deploying('create:large_cogwheel', ['create:cogwheel', 'minecraft:cobblestone'], false, 1)
+  
+  itemApplication('minecraft:cobblestone', 'technicresources:calcite_pebble', 'createcasing-kubejs:stone_casing')
+  
+  event.custom({
+    "type": "create:milling",
+    "ingredients": [
+      {
+        "item": "minecraft:gravel"
+      }
+    ],
+    "results": [
+      {
+        "chance": 0.6,
+        "item": "minecraft:iron_nugget"
+      },
+      {
+        "chance": 0.6,
+        "item": "minecraft:iron_nugget"
+      },
+      {
+        "chance": 0.6,
+        "item": "minecraft:iron_nugget"
+      }
+    ]
+  })
+
     function saw(input,output,count){
       event.custom({
         "type": "create:cutting",
@@ -71,6 +100,24 @@ ServerEvents.recipes(event => {
           }
         ]
       });
+  }
+  function itemApplication(input,item,output) {
+    event.custom({
+      "type": "create:item_application",
+      "ingredients": [
+        {
+          "item": input
+        },
+        {
+          "item": item
+        }
+      ],
+      "results": [
+        {
+          "item": output
+        }
+      ]
+    })
     }
     function pressingSequenced(transitionalItem){
      return {
