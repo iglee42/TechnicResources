@@ -132,7 +132,18 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["28916B2EDE8204BA"]
+			id: "177E0BCDB7831B2E"
+			tasks: [{
+				id: "2C045FB7AAF39F46"
+				item: "minecraft:cobbled_deepslate"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.5d
 		}
 	]
 	subtitle: ["A compact start"]
