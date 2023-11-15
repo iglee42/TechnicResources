@@ -36,7 +36,13 @@ ServerEvents.recipes(event => {
 
         event.shaped(Item.of('technicresources:compact_upgrader'), ['WWW', 'WIW', 'WWW'], { 'W': 'compactmachines:wall', 'I': 'minecraft:iron_ingot' })
 
-        //-----------Chapter 1----------------//
+        //-------------Chapter 1----------------//
+
+        event.shaped(Item.of('technicresources:compressed_wall1'), ['WWW', 'WWW', 'WWW'], { 'W': 'compactmachines:wall' })
+        event.shaped(Item.of('technicresources:compressed_wall2'), ['WWW', 'WWW', 'WWW'], { 'W': 'technicresources:compressed_wall1' })
+
+
+        event.shaped(Item.of('technicresources:bedrock_breaker'), ['WWW', 'WIW', 'WWW'], { 'W': 'technicresources:compressed_wall2', 'I': 'minecraft:diamond_pickaxe' })
 
 
 

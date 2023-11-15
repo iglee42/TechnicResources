@@ -4,6 +4,8 @@ global.pebbles = ['stone','granite','diorite','andesite','calcite','tuff','deeps
 
 StartupEvents.registry('item',e =>{
     /************************************Normal Item************************************/
+
+    /**************Chapter 0.5**************/
     register('wall_fragment', 'Compact Machine Wall Fragment')
     register('wall_spoon', 'Compact Machine Spoon').unstackable().maxDamage(50)
     register('spoon_piece','Compact Machine Spoon Piece')
@@ -11,21 +13,15 @@ StartupEvents.registry('item',e =>{
     global.pebbles.forEach((p)=>{
         registerWithTexture(p+'_pebble',ModsUtils.getUpperName(p,' ')+ ' Pebble','technicresources:item/pebbles/' + p)
     });
-
-
     registerTool('stone_hammer', 'Stone Hammer', 'pickaxe', 'stone')
     register('deepslate_stick','Deepslate Stick')
-
-
     register('compact_upgrader', 'Compact Upgrader').unstackable()
-    
 
-    registerIcon('tr','TR')
-    registerIcon('technic_resources','Technic Resources')
-    registerIcon('discord','Discord')
-    registerIcon('github','Github')
-    registerIcon('website','Website')
-    registerIcon('bisect_hosting','Bisect Hosting')
+    /**************Chapter 1**************/
+
+    register('bedrock_breaker', 'Bedrock Breaker').unstackable()
+
+
     // register('platinum_ingot','Platinum Ingot')
     // register('minecraft_ore_ingot','Minecraft Ores Ingot')
     // register('platinum_nugget','Platinum Nugget')
@@ -49,15 +45,25 @@ StartupEvents.registry('item',e =>{
     //register('advanced_component','Advanced Component')
     //register('elite_component','Elite Component')
     //register('ultimate_component','Ultimate Component')
+
+    /************************************Create Sequenced Assembly************************************/
+    //registerType('incomplete_spirited_crystal','Incomplete Spirited Crystal','create:sequenced_assembly')
+    //registerType('incomplete_basic_circuit','Incomplete Basic Circuit','create:sequenced_assembly')
+    //registerType('incomplete_infused_alloy','Incomplete Infused Alloy','create:sequenced_assembly')
     //register('incomplete_tier_installer','Incomplete Tier Installer')
     //register('incomplete_basic_component','Incomplete Basic Component')
     //register('incomplete_advanced_component','Incomplete Advanced Component')
     //register('incomplete_elite_component','Incomplete Elite Component')
     //register('incomplete_ultimate_component','Incomplete Ultimate Component')
-    /************************************Create Sequenced Assembly************************************/
-    //registerType('incomplete_spirited_crystal','Incomplete Spirited Crystal','create:sequenced_assembly')
-    //registerType('incomplete_basic_circuit','Incomplete Basic Circuit','create:sequenced_assembly')
-    //registerType('incomplete_infused_alloy','Incomplete Infused Alloy','create:sequenced_assembly')
+
+    /************************************Icons************************************/
+    registerIcon('tr','TR')
+    registerIcon('technic_resources','Technic Resources')
+    registerIcon('discord','Discord')
+    registerIcon('github','Github')
+    registerIcon('website','Website')
+    registerIcon('bisect_hosting','Bisect Hosting')
+
     
     /************************************Function************************************/
     function register(unlocname,displayname){

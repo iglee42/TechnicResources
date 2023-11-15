@@ -9,4 +9,16 @@ ItemEvents.tooltip(event => {
 	event.add('technicresources:compact_upgrader', [
 		Text.red('Please clear your compact machine before upgrade it !')
 	])
+
+	event.add('technicresources:bedrock_breaker', [
+		Text.yellow('Warning : Can be used only one time !')
+	])
+
+	event.add('minecraft:ender_eye', [
+		Text.yellow('Warning : End can\'t be accessed with the portal')
+	])
+
+	event.add('minecraft:obsidian', [
+		Text.yellow('Warning : Nether can\'t be accessed with the portal')
+	])
 })

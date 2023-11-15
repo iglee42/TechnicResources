@@ -1,5 +1,5 @@
 //priority 0
-REIEvents.hide('item',event => {
+JEIEvents.hideItems(event => {
     var hided = [
       /*/mekanism:creative_chemical_tank/,
       /mekanism:creative_fluid_tank/,
@@ -16,7 +16,7 @@ REIEvents.hide('item',event => {
         event.hide(machine);
     });*/
 });
-REIEvents.add('item',event => {
+JEIEvents.addItems(event => {
 	
 	event.add([
     //Item.of('mekanism:creative_fluid_tank'),
@@ -25,7 +25,7 @@ REIEvents.add('item',event => {
   
 });
 
-REIEvents.removeCategories(event=>{
-  event.remove('twilightforest:uncrafting_table')
-  event.remove('minecraft:plugins/tag')
+JEIEvents.removeCategories(event=>{
+  /*event.remove('twilightforest:uncrafting_table')
+  event.remove('minecraft:plugins/tag')*/
 });
