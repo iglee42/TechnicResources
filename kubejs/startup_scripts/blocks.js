@@ -1,4 +1,6 @@
-StartupEvents.registry('block' ,e=> {
+
+console.info("Hello Blocks 👋")
+StartupEvents.registry('block', e => {
     /************************************Normal Block************************************/
     //register('platinum_block','Block of Platinum','iron',1,'pickaxe',2)
     //register('fluxdust_block','Block of Fluxdust','sand',0.5,'shovel',0)
@@ -20,7 +22,11 @@ StartupEvents.registry('block' ,e=> {
 
 const $CreateCasingUtilsJS = Java.loadClass("fr.iglee42.createcasing.compat.kubejs.CreateCasingUtilsJS")
 
+console.info('Casing event added')
 CreateCasingEvents.casing(event => {
+    console.info('Casing event fired')
     event.create('stone').connectedTexture($CreateCasingUtilsJS.omni('kubejs:block/stone_casing')).build()
-    console.log("Stone Casing Registered")
+    console.info("Stone Casing Registered")
+    event.create('iron').connectedTexture($CreateCasingUtilsJS.omni('kubejs:block/iron_casing')).build()
+    console.info("Iron Casing Registered")
 })
