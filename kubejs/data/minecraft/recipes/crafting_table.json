@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "CC",
+        "CC"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:cobblestone"
+        }
+    },
+    "result": {
+        "item": "minecraft:crafting_table"
+    }
+}

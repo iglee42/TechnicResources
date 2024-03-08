@@ -10,7 +10,7 @@
 	emergency_items: [{ Count: 1b, id: "compactmachines:personal_shrinking_device" }]
 	emergency_items_cooldown: 30
 	grid_scale: 0.5d
-	icon: "icons:technic_resources"
+	icon: "icons:tr"
 	lock_message: ""
 	loot_crate_no_drop: {
 		boss: 0
