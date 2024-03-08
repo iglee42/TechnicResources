@@ -94,6 +94,8 @@
 	manual_compressor_hunger_drain_per_cycle_step = 0.1
 	#Whether to allow fake players to use the manual compressor
 	manual_compressor_allow_fake_players = false
+	#ID's of dimensions in which the Aerial Interface is not allowed to operate. You can use wildcarded dimensions here, e.g. 'somemod:*'.
+	aerial_interface_dimension_blacklist = []
 
 ["Pneumatic Armor"]
 	#Jetboots air usage in mL/tick (per Jet Boots Upgrade)
