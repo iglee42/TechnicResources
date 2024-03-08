@@ -3,7 +3,7 @@ BlockEvents.rightClicked(event => {
     let player = event.getEntity()
     let block = event.getBlock()
     let item = event.getItem()
-    if (item.id == 'technicresources:bedrock_breaker' && block.id == 'compactmachines:machine_small') {
+    if (item.id == 'technicresources:bedrock_breaker' && block.id == 'compactmachines:machine_normal') {
         if (!player.isFake()) {
             if (block.getDown().id == 'minecraft:bedrock' && !player.stages.has('use_bedrock_breaker')) {
                 event.getItem().count -= 1
@@ -29,6 +29,12 @@ BlockEvents.rightClicked(event => {
     }
     if (item.id == 'technicresources:compact_upgrader' && block.id == 'compactmachines:machine_tiny') {
         block.set('compactmachines:machine_small')
+        item.setCount(item.count - 1)
+        server.runCommandSilent("playsound minecraft:block.anvil.use master @a " + block.x + " " + block.y + " " + block.z + " 0.25")
+        player.stages.add('chapter_0.5')
+    }
+    if (item.id == 'technicresources:compact_upgrader2' && block.id == 'compactmachines:machine_small') {
+        block.set('compactmachines:machine_normal')
         item.setCount(item.count - 1)
         server.runCommandSilent("playsound minecraft:block.anvil.use master @a " + block.x + " " + block.y + " " + block.z + " 0.25")
     }

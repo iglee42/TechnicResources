@@ -1,0 +1,26 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+        {
+            "item": "minecraft:gravel"
+        }
+    ],
+    "processingTime": 250,
+    "results": [
+        {
+            "item": "minecraft:flint"
+        },
+        {
+            "chance": 0.6,
+            "item": "minecraft:iron_nugget"
+        },
+        {
+            "chance": 0.6,
+            "item": "minecraft:iron_nugget"
+        },
+        {
+            "chance": 0.6,
+            "item": "minecraft:iron_nugget"
+        }
+    ]
+}

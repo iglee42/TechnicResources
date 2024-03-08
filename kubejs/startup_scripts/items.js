@@ -21,6 +21,9 @@ StartupEvents.registry('item',e =>{
 
     register('bedrock_breaker', 'Bedrock Breaker').unstackable()
 
+    register('compact_upgrader2', 'Compact Upgrader Tier 2').unstackable()
+
+
 
     // register('platinum_ingot','Platinum Ingot')
     // register('minecraft_ore_ingot','Minecraft Ores Ingot')
@@ -73,10 +76,10 @@ StartupEvents.registry('item',e =>{
         return e.create('technicresources:'+unlocname).displayName(displayname).texture(texture)
     }
     function registerType(unlocname,displayname,type){
-        e.create('technicresources:'+unlocname,type).displayName(displayname)
+        return e.create('technicresources:'+unlocname,type).displayName(displayname).tag('forge:tools').tag('forge:'+type+'s').tag('forge:tools/'+type+'s')
     }
     function registerTool(unlocname,displayname,type,tier){
-        e.create('technicresources:'+unlocname,type).displayName(displayname).tier(tier)
+        return e.create('technicresources:' + unlocname, type).displayName(displayname).tier(tier).tag('forge:tools').tag('forge:' + type + 's').tag('forge:tools/' + type + 's').tag('forge:tools/' + tier )
     }
 
     function registerIcon(unlocname,displayName) {

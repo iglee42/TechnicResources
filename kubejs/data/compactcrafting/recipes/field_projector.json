@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " D ",
+    " I ",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "compactmachines:wall"
+    },
+    "D": {
+      "item": "compactcrafting:projector_dish"
+    },
+    "I": {
+      "item": "createcasing-kubejs:iron_casing"
+    }
+  },
+  "result": {
+    "item": "compactcrafting:field_projector",
+    "count": 4
+  }
+}

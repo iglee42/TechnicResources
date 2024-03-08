@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "E": {
+      "item": "extendedcrafting:redstone_ingot"
+    },
+    "G": {
+      "tag": "forge:glass_panes"
+    },
+    "I": {
+      "tag": "forge:ingots/iron"
+    }
+  },
+  "pattern": [
+    "GI ",
+    "GEI",
+    "GI "
+  ],
+  "result": {
+    "count": 4,
+    "item": "compactcrafting:projector_dish"
+  }
+}

@@ -23,10 +23,16 @@ StartupEvents.registry('block', e => {
 const $CreateCasingUtilsJS = Java.loadClass("fr.iglee42.createcasing.compat.kubejs.CreateCasingUtilsJS")
 
 console.info('Casing event added')
-CreateCasingEvents.casing(event => {
+/*CreateCasingEvents.casing(event => {
     console.info('Casing event fired')
     event.create('stone').connectedTexture($CreateCasingUtilsJS.omni('kubejs:block/stone_casing')).build()
     console.info("Stone Casing Registered")
     event.create('iron').connectedTexture($CreateCasingUtilsJS.omni('kubejs:block/iron_casing')).build()
     console.info("Iron Casing Registered")
+})*/
+
+BlockEvents.modification(e => {
+    e.modify('minecraft:crafting_table', block => {
+        block.requiresTool = true
+    })
 })

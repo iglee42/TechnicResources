@@ -10,7 +10,7 @@
             "type": "custommachinery:contraption",
             "config": {
                 "default": "none",
-                "top": "both"
+                "top": "input"
             },
             "stress_impact": 2
         },

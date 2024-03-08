@@ -9,6 +9,9 @@ ItemEvents.tooltip(event => {
 	event.add('technicresources:compact_upgrader', [
 		Text.red('Please clear your compact machine before upgrade it !')
 	])
+	event.add('technicresources:compact_upgrader2', [
+		Text.red('Please clear your compact machine before upgrade it !')
+	])
 
 	event.add('technicresources:bedrock_breaker', [
 		Text.yellow('Warning : Can be used only one time !')

@@ -8,6 +8,7 @@ JEIEvents.hideItems(event => {
       'technicresources:incomplete_elite_component',
       'technicresources:incomplete_tier_installer',
       'technicresources:incomplete_ultimate_component'*/
+      /icons:*/
     ]
     event.hide(hided.sort());
     

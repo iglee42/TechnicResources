@@ -16,7 +16,7 @@ BlockEvents.leftClicked(event => {
             player.give('technicresources:granite_pebble')
         if (random.nextInt(20) === 0)
             player.give('technicresources:diorite_pebble')
-        if (random.nextInt(35) === 0)
+        if (random.nextInt(30) === 0)
             player.give('technicresources:deepslate_pebble')
         if (random.nextInt(35) === 0)
             player.give('technicresources:tuff_pebble')
@@ -25,12 +25,14 @@ BlockEvents.leftClicked(event => {
         player.damageHeldItem()
     } else if (event.getItem().id == 'minecraft:iron_pickaxe') {
         let random = new $Random();
-        if (random.nextInt(30) === 0)
+        if (random.nextInt(20) === 0)
             player.give('compactmachines:wall')
-        if (random.nextInt(20) === 0)
-            player.give('minecraft:coal')
-        if (random.nextInt(20) === 0)
-            player.give('minecraft:redstone')
+        if (player.stages.has('chapter_0.5')) {
+            if (random.nextInt(20) === 0)
+                player.give('minecraft:coal')
+            if (random.nextInt(20) === 0)
+                player.give('minecraft:redstone')
+        }
         player.damageHeldItem()
     }
 });

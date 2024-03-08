@@ -2,6 +2,7 @@
 ServerEvents.recipes(event => {
         //---------------Removes---------------//
 
+
         //---------------Changing Ingrdient---------------//
 
         //---------------Adding Recipes---------------//
@@ -32,7 +33,7 @@ ServerEvents.recipes(event => {
         event.shapeless(Item.of('create:large_cogwheel'), ['create:shaft', 'minecraft:cobblestone', 'minecraft:cobblestone'])
 
         event.shaped(Item.of('technicresources:stone_hammer'), [' C ', ' SC', 'S  '], { 'C': 'minecraft:cobblestone', 'S': "technicresources:deepslate_stick" })
-        event.shaped(Item.of('technicresources:deepslate_stick'), ['D', 'D'], { 'D': 'minecraft:cobbled_deepslate' })
+        event.shaped(Item.of('technicresources:deepslate_stick',2), ['D', 'D'], { 'D': 'minecraft:cobbled_deepslate' })
 
         event.shaped(Item.of('technicresources:compact_upgrader'), ['WWW', 'WIW', 'WWW'], { 'W': 'compactmachines:wall', 'I': 'minecraft:iron_ingot' })
 
@@ -41,8 +42,12 @@ ServerEvents.recipes(event => {
         event.shaped(Item.of('technicresources:compressed_wall1'), ['WWW', 'WWW', 'WWW'], { 'W': 'compactmachines:wall' })
         event.shaped(Item.of('technicresources:compressed_wall2'), ['WWW', 'WWW', 'WWW'], { 'W': 'technicresources:compressed_wall1' })
 
+        event.shaped(Item.of('technicresources:compact_upgrader2'), ['WWW', 'WIW', 'WWW'], { 'W': 'technicresources:compressed_wall1', 'I': 'minecraft:redstone_block' })
+
 
         event.shaped(Item.of('technicresources:bedrock_breaker'), ['WWW', 'WIW', 'WWW'], { 'W': 'technicresources:compressed_wall2', 'I': 'minecraft:diamond_pickaxe' })
+
+
 
 
 

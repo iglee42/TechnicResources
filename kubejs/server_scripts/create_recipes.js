@@ -6,7 +6,7 @@ ServerEvents.recipes(event => {
   
   itemApplication('minecraft:cobblestone', 'technicresources:calcite_pebble', 'createcasing-kubejs:stone_casing')
   
-  event.custom({
+  /*event.custom({
     "type": "create:milling",
     "ingredients": [
       {
@@ -25,9 +25,12 @@ ServerEvents.recipes(event => {
       {
         "chance": 0.6,
         "item": "minecraft:iron_nugget"
+      },
+      {
+        "item":"minecraft:flint"
       }
     ]
-  })
+  })*/
 
     function saw(input,output,count){
       event.custom({
