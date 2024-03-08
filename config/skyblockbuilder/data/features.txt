@@ -1,14 +1,9 @@
 minecraft:acacia
 minecraft:amethyst_geode
-naturesaura:ancient_tree
-naturesaura:aura_bloom
-naturesaura:aura_cactus
-naturesaura:aura_mushroom
 minecraft:azalea_tree
 minecraft:bamboo_no_podzol
 minecraft:bamboo_some_podzol
 minecraft:bamboo_vegetation
-supplementaries:basalt_ash
 minecraft:basalt_blobs
 minecraft:basalt_pillar
 minecraft:birch
@@ -19,13 +14,11 @@ minecraft:birch_tall
 minecraft:blackstone_blobs
 minecraft:blue_ice
 minecraft:bonus_chest
-supplementaries:cave_urns
 minecraft:cave_vine
 minecraft:cave_vine_in_moss
 minecraft:chorus_plant
 minecraft:clay_pool_with_dripleaves
 minecraft:clay_with_dripleaves
-naturesaura:crimson_aura_mushroom
 minecraft:crimson_forest_vegetation
 minecraft:crimson_forest_vegetation_bonemeal
 minecraft:crimson_fungus
@@ -91,7 +84,6 @@ minecraft:moss_vegetation
 minecraft:mushroom_island_vegetation
 minecraft:nether_sprouts
 minecraft:nether_sprouts_bonemeal
-naturesaura:nether_wart_mushroom
 minecraft:oak
 minecraft:oak_bees_0002
 minecraft:oak_bees_002
@@ -172,7 +164,6 @@ minecraft:pile_pumpkin
 minecraft:pile_snow
 minecraft:pine
 minecraft:pointed_dripstone
-supplementaries:road_sign
 minecraft:rooted_azalea_tree
 mekanism:salt
 mekanism:salt_retrogen
@@ -223,11 +214,9 @@ powah:uraninite_ore_poor
 minecraft:vines
 minecraft:void_start_platform
 minecraft:warm_ocean_vegetation
-naturesaura:warped_aura_mushroom
 minecraft:warped_forest_vegetation
 minecraft:warped_forest_vegetation_bonemeal
 minecraft:warped_fungus
 minecraft:warped_fungus_planted
 minecraft:weeping_vines
-supplementaries:wild_flax
 create:zinc_ore
