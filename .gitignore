@@ -36,3 +36,5 @@ imgui.ini
 eula.txt
 knownkeys.txt
 reauth.toml
+config/powah.json5
+.vscode/settings.json
