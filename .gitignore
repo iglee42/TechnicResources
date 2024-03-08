@@ -40,4 +40,9 @@ knownkeys.txt
 =======
 knownkeys.txt
 reauth.toml
+<<<<<<< HEAD
 >>>>>>> main
+=======
+config/powah.json5
+.vscode/settings.json
+>>>>>>> 77caf16 (Update GitIgnore)
