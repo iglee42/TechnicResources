@@ -36,7 +36,7 @@ ServerEvents.recipes(event => {
         },
         'D': {
             "type": "compactcrafting:block",
-            "block": "minecraft:iron_block"
+            "block": "createcasing:iron_casing"
         },
         'E': {
             "type": "compactcrafting:block",
