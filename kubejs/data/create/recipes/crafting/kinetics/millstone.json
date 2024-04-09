@@ -8,7 +8,7 @@
       "tag": "forge:stone"
     },
     "S": {
-      "item": "createcasing-kubejs:stone_casing"
+      "item": "createcasing:stone_casing"
     }
   },
   "pattern": [

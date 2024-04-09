@@ -4,7 +4,7 @@ ServerEvents.recipes(event => {
   deploying('create:cogwheel',['create:shaft','minecraft:cobblestone'],false,1)
   deploying('create:large_cogwheel', ['create:cogwheel', 'minecraft:cobblestone'], false, 1)
   
-  itemApplication('minecraft:cobblestone', 'technicresources:calcite_pebble', 'createcasing-kubejs:stone_casing')
+  itemApplication('minecraft:cobblestone', 'technicresources:calcite_pebble', 'createcasing:stone_casing')
   
   /*event.custom({
     "type": "create:milling",
