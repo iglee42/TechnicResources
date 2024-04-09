@@ -132,7 +132,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["28916B2EDE8204BA"]
@@ -142,8 +142,183 @@
 				item: "minecraft:cobbled_deepslate"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 9.5d
 			y: -1.5d
+		}
+		{
+			dependencies: ["6FA4AD2C0C318D48"]
+			id: "6CEB44E7B0302583"
+			tasks: [{
+				id: "014B5BE1A907ADD6"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["28916B2EDE8204BA"]
+			id: "5005F19D57530B1C"
+			tasks: [{
+				id: "2F324F464EC41375"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6CEB44E7B0302583"]
+			id: "6021B43C2E6F6E8A"
+			tasks: [{
+				id: "483B51E097283132"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"5005F19D57530B1C"
+				"6CEB44E7B0302583"
+			]
+			id: "17E78B3C8FFB68B4"
+			tasks: [{
+				id: "7D5DE00B21F02288"
+				item: "create:large_cogwheel"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"6021B43C2E6F6E8A"
+				"17E78B3C8FFB68B4"
+			]
+			id: "243F5DEE66ABD38A"
+			tasks: [{
+				id: "41E069D5F2ED42C0"
+				item: "create:millstone"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["177E0BCDB7831B2E"]
+			id: "71AA0EE41F0358E4"
+			tasks: [{
+				id: "3C647AAFC23E027A"
+				item: "technicresources:deepslate_stick"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"6CEB44E7B0302583"
+				"71AA0EE41F0358E4"
+			]
+			id: "2CA5F5DCF0C21303"
+			tasks: [{
+				id: "696B1D25108362EE"
+				item: {
+					Count: 1b
+					id: "technicresources:stone_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2CA5F5DCF0C21303"]
+			id: "45CA44F83334BB3B"
+			tasks: [{
+				block: "minecraft:cobblestone"
+				block_type: 0
+				checkItem: false
+				icon: "minecraft:cobblestone"
+				id: "6865784CCA6C2574"
+				type: "questsadditions:break"
+				value: 1L
+			}]
+			x: 16.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"45CA44F83334BB3B"
+				"243F5DEE66ABD38A"
+			]
+			id: "4D85FE19767F4F82"
+			tasks: [{
+				id: "38699D644A4277C0"
+				item: "minecraft:iron_nugget"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4D85FE19767F4F82"]
+			id: "5344EA2AB08BBFBB"
+			tasks: [{
+				id: "57B616FDE7E1D6F7"
+				item: {
+					Count: 1b
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 20.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5344EA2AB08BBFBB"]
+			id: "6123291E98100AA9"
+			tasks: [{
+				id: "75E87B1FB5A95560"
+				item: "compactmachines:wall"
+				type: "item"
+			}]
+			x: 22.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"6123291E98100AA9"
+				"4D85FE19767F4F82"
+			]
+			id: "71F9001FF7DC7F6E"
+			tasks: [{
+				id: "28CA8FF332493A0A"
+				item: "technicresources:compact_upgrader"
+				type: "item"
+			}]
+			x: 20.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["71F9001FF7DC7F6E"]
+			id: "68D3A64C507D1BD6"
+			tasks: [{
+				icon: "compactmachines:machine_tiny"
+				id: "1DBCBB99775354C2"
+				title: "Upgrade compact machine"
+				type: "custom"
+			}]
+			x: 21.5d
+			y: -4.0d
 		}
 	]
 	subtitle: ["A compact start"]

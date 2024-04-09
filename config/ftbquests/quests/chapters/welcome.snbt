@@ -106,31 +106,6 @@
 					}
 					type: "item"
 				}
-				{
-					id: "7F8A43C68F1B28F3"
-					item: {
-						Count: 1b
-						id: "minecraft:player_head"
-						tag: {
-							SkullOwner: {
-								Id: [I;
-									-1649567398
-									2127842119
-									-1938813689
-									1493491300
-								]
-								Name: "Fieldo_"
-								Properties: {
-									textures: [{
-										Signature: "Rgm9sfXcWa0vkR6fCpq/WEqkzZKBWbccDMSUmIihJ9AWLNPbfN1NIgCyaX1++bPnBgkMwUcekDIqGFfeir52WbcLDEi3NFtCAqrUIn6n003UWyDAqjw0FGv6U66ucOetxGy2wdO6eglyFFpx07pXMY0P7pTNF/NB5mOqGkY7p3MwicTcGGG+BqmBd9J5WbNuJo6U1ox6IPeMAtDKEUUirRkNAXwSkYvD9/qxANUsC+4KuyfMnCrANP03ig9FCdTsrL23lYL+i2YBacSEHTtCfqyUgC1EVQ8yNg1/bIskxfXKkbo9eUVt3PNh6Wb+mFdhQUit4dsOZjAx49hAdJpT4O62zVAZ/ckh9PQYi8NR7k3hxDEcVNedyc0EcwT3uEqPB6MRkCwUOeif/rwrq3V1w7w0ggK6V8QDF58MAi+dKe6NoDXxE5Ljx6uqQ0OcwspLu+sEWqKObmWxzNLOdAd9cACQ42erdalt/LjZCfzT9ceDYwXm5jFBId+JesFtRBUOatq9TSbfUWSJo72HS4HJVB0/6FDQROnf7jVTV0e3BAuKDUtpDHsuFFHO5TtYFHhEdkQOUzKUY9dj3N2MImKnpsH7We3sDTT1oOh5TArXapIQ/+QDiHjKwdJbGa5tlm6luSgIDK6xYAdAFmD3oADlFqEM3MIfs+bK9TWpBy8rTXA="
-										Value: "ewogICJ0aW1lc3RhbXAiIDogMTY5ODgwNTIwNzU1NSwKICAicHJvZmlsZUlkIiA6ICI5ZGFkOTk1YTdlZDQ0YjQ3OGM3MDBkMDc1OTA0ZGU2NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJGaWVsZG9fIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzI5MWU2NzllZWFkMmY2NzE2YjJmYzVjM2JhMzNlZTdlY2Q5NGI2Yzc3NGM3Y2Q0OTZmOTA0MTZlMjBlMDYxODYiCiAgICB9CiAgfQp9"
-									}]
-								}
-							}
-						}
-					}
-					type: "item"
-				}
 			]
 			subtitle: "Thank's for playing the modpack"
 			tasks: [{
