@@ -1,5 +1,7 @@
 minecraft:overworld
 minecraft:the_nether
+<<<<<<< HEAD
+=======
 ad_astra:venus_orbit
 ad_astra:mars_orbit
 ad_astra:glacio
@@ -12,5 +14,6 @@ ad_astra:earth_orbit
 ad_astra:moon_orbit
 ad_astra:moon
 ad_astra:venus
+>>>>>>> acd0c393800ff08e9d00a2b37a691ce0f0de60d2
 minecraft:the_end
 ae2:spatial_storage
