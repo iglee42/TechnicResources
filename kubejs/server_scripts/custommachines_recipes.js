@@ -11,11 +11,6 @@ ServerEvents.recipes(event => {
             "time": time,
             "requirements": [
                 {
-                    "type": "custommachinery:contraption",
-                    "mode": "input",
-                    "speed": 32
-                },
-                {
                     "type": "custommachinery:item",
                     "mode": "input",
                     "item": input,

@@ -1,0 +1,114 @@
+{
+    "providers": [
+        {
+         "type": "bitmap",
+         "file": "icons:splash/caelesti.png",
+         "ascent": 12,
+         "height": 21,
+         "chars": [
+            "\uDB80\uDDD8",
+			"\uDB80\uDDD9"			
+            ]
+        },
+        {
+         "type": "bitmap",
+         "file": "icons:splash/splash.png",
+         "ascent": 13,
+         "height": 16,
+         "chars": [
+            "\uDB80\uDDDA"
+            ]
+        },
+        {
+         "type": "bitmap",
+         "file": "icons:splash/sus.png",
+         "ascent": 13,
+         "height": 16,
+         "chars": [
+            "\uDB80\uDDDB"
+            ]
+        },
+        {
+         "type": "bitmap",
+         "file": "icons:splash/pride.png",
+         "ascent": 12,
+         "height": 12,
+         "chars": [
+            "\uDB80\uDDDC\uDB80\uDDDD\uDB80\uDDDE\uDB80\uDDDF\uDB80\uDDE0",
+            "\uDB80\uDDE1\uDB80\uDDE2\uDB80\uDDE3\uDB80\uDDE4\uDB80\uDDE5"	
+            ]
+        },
+        {
+         "type": "bitmap",
+         "file": "icons:splash/king.png",
+         "ascent": 16,
+         "height": 16,
+         "chars": [
+            "\uDB80\uDDE6"	
+            ]
+        },
+        {
+         "type": "bitmap",
+         "file": "icons:splash/blockstates.png",
+         "ascent": 16,
+         "height": 36,
+         "chars": [
+            "\uDB81\uDC05"
+			]
+		},
+        {
+         "type": "bitmap",
+         "file": "icons:splash/flowerpots.png",
+         "ascent": 16,
+         "height": 30,
+         "chars": [		
+            "\uDB81\uDC06"
+			]
+		},
+        {
+         "type": "bitmap",
+         "file": "icons:splash/icons.png",
+         "ascent": 16,
+         "height": 24,
+         "chars": [			
+            "\uDB81\uDC07"
+			]
+		},			
+        {
+         "type": "bitmap",
+         "file": "icons:splash/iconsdarkmode.png",
+         "ascent": 16,
+         "height": 45,
+         "chars": [				
+            "\uDB81\uDC08"
+			]
+		},			
+        {
+         "type": "bitmap",
+         "file": "icons:splash/guides.png",
+         "ascent": 16,
+         "height": 18,
+         "chars": [				
+            "\uDB81\uDC09"
+			]
+		},			
+        {
+         "type": "bitmap",
+         "file": "icons:splash/guidesdarkmode.png",
+         "ascent": 16,
+         "height": 42,
+         "chars": [				
+            "\uDB81\uDC0A"
+			]
+		},			
+        {
+         "type": "bitmap",
+         "file": "icons:splash/particles.png",
+         "ascent": 16,
+         "height": 18,
+         "chars": [				
+			"\uDB81\uDC0B"		
+            ]
+        }
+    ]
+}

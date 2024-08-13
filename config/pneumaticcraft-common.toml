@@ -96,6 +96,12 @@
 	manual_compressor_allow_fake_players = false
 	#ID's of dimensions in which the Aerial Interface is not allowed to operate. You can use wildcarded dimensions here, e.g. 'somemod:*'.
 	aerial_interface_dimension_blacklist = []
+	#Minimum pressure required for the Pressurized Spawner to run
+	#Range: 1.0 ~ 20.0
+	pressurized_spawner_min_pressure = 10.0
+	#Minimum interval in ticks which the player can use the Vortex Cannon to boost their own speed
+	#Range: > 1
+	vortex_cannon_player_boost_rate = 10
 
 ["Pneumatic Armor"]
 	#Jetboots air usage in mL/tick (per Jet Boots Upgrade)
@@ -138,7 +144,7 @@
 	#Base explosion damage (modified by missile setup)
 	#Range: 0.0 ~ 1.7976931348623157E308
 	base_explosion_damage = 1.0
-	#Do micromissile explosions cause terrain damage?
+	#Do micromissile explosions cause terrain damage? Note: when set to true, the 'tntExplosionDropDecay' gamerule is used to determine block drops.
 	damage_terrain = false
 	#Cooldown for missile firing in ticks
 	#Range: > 0
@@ -152,6 +158,8 @@
 	#Number of micromissiles per pod
 	#Range: > 0
 	missile_pod_size = 100
+	#Do micromissile explosions start fires?
+	start_fires = false
 
 ["Minigun Properties"]
 	#Armor Piercing Ammo damage multiplier (relative to standard ammo)

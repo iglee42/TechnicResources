@@ -1,9 +1,8 @@
 {
     "name": "Compressor",
     "appearance": {
-        "lightmode": "running",
-        "lightlevel": 7,
-        "block": "technicresources:block/machine/compressor"
+        "block": "technicresources:machine/compressor",
+        "item": "technicresources:machine/compressor"
     },
     "components": [
         {

@@ -73,18 +73,6 @@
 		#Range: 20 ~ 1000
 		energyPerRecipeTick = 25
 
-	#Recipes options
-	[common.recipes]
-		#If set, charcoal will be smeltable into graphite bars.
-		#Disable this if other mods need to smelt charcoal into their own products.
-		registerCharcoalForSmelting = true
-		#If set, coal will be smeltable into graphite bars.
-		#Disable this if other mods need to smelt coal into their own products.
-		registerCoalForSmelting = true
-		#If set, coal blocks will be smeltable into graphite blocks.
-		#Disable this if other mods need to smelt coal blocks into their own products.
-		registerCoalBlockForSmelting = true
-
 	#Define how ores generates in the world
 	[common.worldgen]
 		#If false, disables all world gen from Extreme Reactors;
@@ -124,4 +112,15 @@
 		#Maximum number of Benitoite Ores to generate in each cluster.
 		#Range: 1 ~ 16
 		benitoiteOrePerCluster = 5
+
+	#Define how Energizer works
+	[common.energizer]
+		#The maximum valid size of a Energizer in the Y dimension, in blocks.
+		#Lower this if your server's players are building ginormous Energizer.
+		#Range: 3 ~ 32
+		maxEnergizerHeight = 32
+		#The maximum valid size of a Energizer in the X/Z plane, in blocks.
+		#Lower this if your server's players are building ginormous Energizer.
+		#Range: 3 ~ 32
+		maxEnergizerSize = 32
 

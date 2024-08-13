@@ -1,6 +1,6 @@
 ServerEvents.recipes(event => {
 
-    compact(3, 'custommachinery:custom_machine_item', { machine: "technicresources:compressor" }, 1, 'minecraft:coal_block', [
+    /*compact(3, 'custommachinery:custom_machine_item', { machine: "technicresources:compressor" }, 1, 'minecraft:coal_block', [
         {
             "type": "compactcrafting:mixed",
             "pattern": [
@@ -45,7 +45,7 @@ ServerEvents.recipes(event => {
                 "axis": ["y"]
             }
         },
-    })
+    })*/
 
 
     function compact(size,output,nbt,count,catalyst,layers,keys) {
