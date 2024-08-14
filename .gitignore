@@ -26,6 +26,7 @@
 /profileImage/
 /usercache.json
 /mods/
+/skyblockbuilder/
 run.sh
 user_jvm_args.txt
 *.log
