@@ -1,0 +1,30 @@
+{
+    "type": "left_click",
+    "hand": {
+        "hand": "main_hand",
+        "item": {
+            "item": "minecraft:iron_pickaxe"
+        },
+        "damageable": true
+    },
+    "block": {
+        "block": "minecraft:bedrock"
+    },
+    "pool": [
+        {
+            "item": "minecraft:coal",
+            "chance": 20,
+            "count": 1
+        },
+        {
+            "item": "minecraft:redstone",
+            "chance": 20,
+            "count": 1
+        },
+        {
+            "item": "minecraft:air",
+            "chance": 60,
+            "count": 0
+        }
+    ]
+}

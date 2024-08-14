@@ -1,0 +1,7 @@
+{
+	"parent": "create:block/large_cogwheel",
+	"textures": {
+		"4": "kubejs:block/stone_large_cogwheel",
+		"particle": "block/stone"
+	}
+}

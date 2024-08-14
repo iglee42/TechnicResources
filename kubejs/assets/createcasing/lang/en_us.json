@@ -1,4 +1,6 @@
 {
     "block.createcasing.stone_casing": "Stone Casing",
-    "block.createcasing.iron_casing": "Iron Casing"
+    "block.createcasing.iron_casing": "Iron Casing",
+    "block.createcasing.stone_cogwheel": "Stone Cogwheel",
+    "block.createcasing.stone_large_cogwheel": "Stone Large Cogwheel"
 }

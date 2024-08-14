@@ -6,16 +6,16 @@ StartupEvents.registry('item',e =>{
     /************************************Normal Item************************************/
 
     /**************Chapter 0.5**************/
-    register('wall_fragment', 'Compact Machine Wall Fragment')
-    register('wall_spoon', 'Compact Machine Spoon').unstackable().maxDamage(50)
-    register('spoon_piece','Compact Machine Spoon Piece')
-    register('wall_spoon_handle','Compact Machine Spoon Handle')
+    register('bedrock_shard', 'Bedrock Shard')
+    register('bedrock_scraper', 'Bedrock Scraper').unstackable().maxDamage(64)
+    register('bedrock_stick','Bedrock Stick')
+    register('bedrock_scraper_head','Bedrock Scraper Head')
     global.pebbles.forEach((p)=>{
         registerWithTexture(p+'_pebble',ModsUtils.getUpperName(p,' ')+ ' Pebble','technicresources:item/pebbles/' + p)
     });
     registerTool('stone_hammer', 'Stone Hammer', 'pickaxe', 'stone')
     register('deepslate_stick','Deepslate Stick')
-    register('compact_upgrader', 'Compact Upgrader').unstackable()
+    register('piece_upgrader', 'Piece Upgrader').unstackable()
 
     /**************Chapter 1**************/
 

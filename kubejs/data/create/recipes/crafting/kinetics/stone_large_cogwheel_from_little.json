@@ -2,13 +2,13 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "create:cogwheel"
+      "item": "createcasing:stone_cogwheel"
     },
     {
       "tag": "forge:stone"
     }
   ],
   "result": {
-    "item": "create:large_cogwheel"
+    "item": "createcasing:stone_large_cogwheel"
   }
 }

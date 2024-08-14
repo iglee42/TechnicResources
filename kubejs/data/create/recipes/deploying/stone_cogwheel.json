@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "create:deploying",
   "ingredients": [
     {
       "item": "create:shaft"
@@ -8,7 +8,9 @@
       "tag": "forge:stone"
     }
   ],
-  "result": {
-    "item": "create:cogwheel"
-  }
+  "results": [
+    {
+      "item": "createcasing:stone_cogwheel"
+    }
+  ]
 }

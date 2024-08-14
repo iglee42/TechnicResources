@@ -1,0 +1,55 @@
+{
+    "type": "left_click",
+    "hand": {
+        "hand": "main_hand",
+        "item": {
+            "item": "technicresources:bedrock_scraper"
+        },
+        "damageable": true
+    },
+    "block": {
+        "block": "minecraft:bedrock"
+    },
+    "pool": [
+        {
+            "item": "technicresources:stone_pebble",
+            "chance": 35,
+            "count": 1
+        },
+        {
+            "item": "technicresources:andesite_pebble",
+            "chance": 35,
+            "count": 1
+        },
+        {
+            "item": "technicresources:diorite_pebble",
+            "chance": 35,
+            "count": 1
+        },
+        {
+            "item": "technicresources:granite_pebble",
+            "chance": 35,
+            "count": 1
+        },
+        {
+            "item": "technicresources:deepslate_pebble",
+            "chance": 20,
+            "count": 1
+        },
+        {
+            "item": "technicresources:tuff_pebble",
+            "chance": 20,
+            "count": 1
+        },
+        {
+            "item": "technicresources:calcite_pebble",
+            "chance": 20,
+            "count": 1
+        },
+        {
+            "item": "minecraft:air",
+            "chance": 0,
+            "count": 0
+        }
+    ]
+}

@@ -2,7 +2,7 @@
   "type": "create:deploying",
   "ingredients": [
     {
-      "item": "create:shaft"
+      "item": "createcasing:stone_cogwheel"
     },
     {
       "tag": "forge:stone"
@@ -10,7 +10,7 @@
   ],
   "results": [
     {
-      "item": "create:cogwheel"
+      "item": "createcasing:stone_large_cogwheel"
     }
   ]
 }

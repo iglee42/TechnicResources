@@ -8,6 +8,10 @@ StartupEvents.registry('block', e => {
     //register('computer_block','Computer','iron',235,'pickaxe',2)
     //e.create('immersiveengineering:sheetmetal_osmium').material('iron').hardness(2).displayName('Osmium Sheetmetal').harvestTool('pickaxe',2)
 
+    registerUnbreakable('bedrock_piece_manager', 'Bedrock Piece Manager', 'stone')
+    register('small_bedrock', 'Small Bedrock', 'stone', 4, 128, 'pickaxe', 'stone', true).defaultCutout().textureAll('minecraft:block/bedrock').model('technicresources:block/small_bedrock').waterlogged().fullBlock(false).notSolid().opaque(false).box(4, 4, 4, 12, 12, 12)
+
+
     /**************Chapter 1**************/
 
     register('compressed_wall1', 'Compressed Compact Machine Wall','metal',4,128,'pickaxe','iron',true)
@@ -15,8 +19,11 @@ StartupEvents.registry('block', e => {
 
 
     /************************************Function************************************/
+    function registerUnbreakable(unlocname, displayname, type) {
+        return e.create('technicresources:' + unlocname).mapColor(type).soundType(type).unbreakable().displayName(displayname)
+    }
     function register(unlocname, displayname, type, hardness, resistance, tool, toolLevel,requires){
-         return e.create('technicresources:' + unlocname).material(type).hardness(hardness).resistance(resistance).displayName(displayname).tagBlock('minecraft:mineable/' + tool).tagBlock('minecraft:needs_' + toolLevel+'_tool').requiresTool(requires)
+         return e.create('technicresources:' + unlocname).mapColor(type).soundType(type).hardness(hardness).resistance(resistance).displayName(displayname).tagBlock('minecraft:mineable/' + tool).tagBlock('minecraft:needs_' + toolLevel+'_tool').requiresTool(requires)
      }
 })
 
