@@ -4,7 +4,7 @@
 	filename: "welcomece"
 	group: ""
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "ftbquests:custom_icon"
 		tag: {
 			Icon: "chroma:textures/quests/logo.png"
@@ -28,7 +28,7 @@
 				"The Chroma Team has taken possession of endless, you must rescue it. Through the different ages of the story, learn from it more and more in order to save it!"
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "chroma:textures/quests/logo.png"
@@ -86,7 +86,7 @@
 				"→ The other packs developped by the Chroma Team."
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "chroma:textures/quests/website.png"
@@ -96,7 +96,7 @@
 			rewards: [{
 				command: "/tellraw @p [\"\",{\"text\":\"Chroma Team's website: \",\"color\":\"aqua\"},{\"text\":\"https://chromatech.fr/\",\"underlined\":true,\"color\":\"aqua\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://chromatech.fr/\"}}]"
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "ftbquests:custom_icon"
 					tag: {
 						Icon: "chroma:textures/quests/website.png"
@@ -130,7 +130,7 @@
 				"Your friends just have to accept, and you are now in a team."
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "ftbteams:textures/teams.png"
@@ -176,7 +176,7 @@
 				"This &c&lUltimine Zone&r can be changed. In fact you can see that, if you keep pressing the ² key, you can change the shape of this zone and find the one that suits you best."
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "ftbultimine:textures/item/ultiminer.png"
@@ -197,7 +197,7 @@
 			dependencies: ["1416718F40ED7569"]
 			description: ["At the end of your adventure on the Chroma Endless modpack you will be able to create various creative items !"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "modularrouters:creative_module"
 				tag: {
 					modularrouters: {
@@ -227,7 +227,7 @@
 				"Click on &1Claimed Chunks button&r, then left or &6right-click&r on map to select chunks that will belong to you. &6Shift-left&r or &6right-click&r on claimed chunks to toggle forceloading."
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "ftblibrary:textures/icons/map.png"
@@ -270,7 +270,7 @@
 				"Will you succeed?"
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "chroma:textures/quests/challenges.png"
@@ -316,7 +316,7 @@
 				"It's a french community server, but you can also speak english, the community and staff will most certainly try to help you."
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "chroma:textures/quests/discord.png"
@@ -326,7 +326,7 @@
 			rewards: [{
 				command: "/tellraw @p [\"\",{\"text\":\"Gogo08's Discord server: \",\"color\":\"gray\"},{\"text\":\"https://discord.gg/cVEMguY\",\"underlined\":true,\"color\":\"gray\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://discord.gg/cVEMguY\"}}]"
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "ftbquests:custom_icon"
 					tag: {
 						Icon: "chroma:textures/quests/discord.png"
@@ -349,7 +349,7 @@
 			dependencies: ["1416718F40ED7569"]
 			description: ["&4JEI&r is an item and recipe viewer that helps the player throughout his adventure. "]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "pneumaticcraft:textures/gui/icon/jei_logo.png"
@@ -372,7 +372,7 @@
 				"Use the code \"&l&bCHROMATECH&r\" to get 25% off your first month as a new customer for one of their game servers."
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "bhmenu:textures/gui/serverlistbanner/icon.png"

@@ -6,11 +6,7 @@
 	icon: "icons:tr"
 	id: "237AB2138BA1378C"
 	images: [{
-		click: ""
-		corner: false
-		dev: false
 		height: 2.0d
-		hover: [ ]
 		image: "icons:item/technic_resources"
 		rotation: 0.0d
 		width: 7.5d
@@ -33,7 +29,7 @@
 			id: "3FCBA1147733405D"
 			shape: "gear"
 			size: 3.0d
-			subtitle: "&k&4technic&r Welcome to &l&n&aTechnic Resources&r! &4&ktechnic&r"
+			subtitle: "&k&4technic&r Welcome ! &4&ktechnic&r"
 			tasks: [{
 				id: "621EA61DCB9BE6E1"
 				title: "Welcome"
@@ -60,7 +56,7 @@
 				{
 					id: "3024D13124E0AA94"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:player_head"
 						tag: {
 							SkullOwner: {
@@ -85,7 +81,7 @@
 				{
 					id: "680242F4F5CD6DB3"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:player_head"
 						tag: {
 							SkullOwner: {
@@ -115,7 +111,7 @@
 			}]
 			title: "Developpers"
 			x: -1.5d
-			y: -5.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["3FCBA1147733405D"]
@@ -153,13 +149,13 @@
 				type: "checkmark"
 			}]
 			title: "Get a server!"
-			x: 0.0d
-			y: 0.5d
+			x: -4.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["3FCBA1147733405D"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:player_head"
 				tag: {
 					SkullOwner: {
@@ -182,7 +178,7 @@
 			rewards: [{
 				command: "/tellraw @p [\"\",{\"text\":\"Niouf's Github :\",\"color\":\"gray\"},{\"text\":\" https://github.com/Niouf07\",\"color\":\"gray\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://github.com/Niouf07\"}}]"
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:player_head"
 					tag: {
 						SkullOwner: {
@@ -210,7 +206,7 @@
 				title: "Niouf_"
 				type: "checkmark"
 			}]
-			x: -4.0d
+			x: -4.5d
 			y: -3.5d
 		}
 		{
@@ -265,7 +261,7 @@
 				"Your friends just have to accept, and you are now in a team."
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "ftbteams:textures/teams.png"
@@ -278,41 +274,66 @@
 				title: "FTB teams"
 				type: "checkmark"
 			}]
-			x: 1.0d
+			x: 1.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["3FCBA1147733405D"]
-			description: ["&aSpice of Life: Carrot Edition&r keeps track of how many unique foods a player has eaten. As they pass certain milestone amounts of unique foods, they permanently gain new hearts, increasing their max health! In order to max out their HP bars, players will have to quest for and craft exotic foods."]
+			description: [
+				"&6Spice of Life: Carrot Edition&r remembers how many unique foods a player has eaten."
+				""
+				"When you pass certain milestone of unique foods eaten, it gives you a permenant new heart."
+				""
+				"As you gain new hearts, your health bar will change color."
+			]
 			icon: "solcarrot:food_book"
 			id: "46F0C06511D00040"
+			rewards: [{
+				id: "703FBEDCB49532D2"
+				item: "solcarrot:food_book"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5F01068943229220"
 				title: "Feeding"
 				type: "checkmark"
 			}]
-			x: 1.0d
+			x: 1.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["3FCBA1147733405D"]
 			description: [
-				"FTB Chunks allows you to &4claim chunks&r to &4protect&r your blocks. It also has a &9minimap and large map&r ! You can find it in the top left corner of your inventory."
+				"FTB Chunks allows you to &cclaim chunks&r in order to &aprotect&r your blocks."
 				""
-				"&6Right-click&r anywhere in map to create a waypoint."
+				"This claims also protects your chunks from &cexplosions &rand from &dPVP&r."
 				""
-				"&6Right-click&r on waypoints and death points to edit or delete them."
+				"&7&oThis parameters can be modified in team parameters. You can find them in the top left corner of your inventory. My Team > Parameters > FTB Chunks Properties"
 				""
-				"Click on &1Claimed Chunks button&r, then left or &6right-click&r on map to select chunks that will belong to you. &6Shift-left&r or &6right-click&r on claimed chunks to toggle forceloading."
+				"FTB Chunks also has a &9minimap and large map&r ! You can find it in the top left corner of your inventory."
+				""
+				"&bRight-click&r anywhere on map to create a waypoint."
+				""
+				"&bRight-click&r on waypoints and death points to edit or delete them."
+				""
+				"Click on &9Claimed Chunks button&r, then &bleft-click&r on map to select chunks that you can to claim."
+				""
+				"&bRight-click&r on a claimed chunk to unclaim it."
+				""
+				"&bShift-left-click&r on claimed chunks to forceload it."
+				""
+				"&bShift-right-click&r on forceloaded chunks to unforceload it."
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "ftblibrary:textures/icons/map.png"
 				}
 			}
 			id: "33DFBD6ADA6339F1"
+			min_width: 400
+			subtitle: "Explaination for FTB Chunks"
 			tasks: [{
 				id: "7531DAFD16223DC7"
 				title: "FTB Chunk"
