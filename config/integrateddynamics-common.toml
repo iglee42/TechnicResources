@@ -43,7 +43,7 @@
 		#How deep the recursion stack on an operator can become. This is to avoid game crashes when building things like the omega operator.
 		operatorRecursionLimit = 256
 		#If the version checker should be enabled.
-		versionChecker = true
+		versionChecker = false
 
 [general]
 
@@ -173,7 +173,7 @@
 
 	[item.on_the_dynamics_of_integration]
 		#If the info book should automatically obtained when the player first spawns.
-		obtainOnSpawn = true
+		obtainOnSpawn = false
 		#If the info book can give item rewards for tutorial completion.
-		bookRewards = true
+		bookRewards = false
 
