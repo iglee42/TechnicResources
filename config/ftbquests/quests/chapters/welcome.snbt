@@ -118,9 +118,11 @@
 			icon: "icons:discord"
 			id: "560E28E8C2FA86AB"
 			rewards: [{
+				auto: "no_toast"
 				command: "/tellraw @p [\"\",{\"text\":\"Iglee's Discord :\",\"color\":\"blue\"},{\"text\":\" https://discord.iglee.fr\",\"color\":\"dark_aqua\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://discord.iglee.fr\"}}]"
 				icon: "icons:discord"
 				id: "076E7CF00810FCA3"
+				team_reward: false
 				type: "command"
 			}]
 			subtitle: "&aIglee42&r's discord server"
@@ -137,9 +139,11 @@
 			icon: "icons:bisect_hosting"
 			id: "6D9666C0C7A9B260"
 			rewards: [{
+				auto: "no_toast"
 				command: "/tellraw @p [\"\",{\"text\":\"Bisect Hosting Code : \",\"color\":\"gray\"},{\"text\":\"https://bisecthosting.com/iglee\",\"color\":\"blue\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://bisecthosting.com/iglee\"}}]"
 				icon: "icons:bisect_hosting"
 				id: "5224CD3948C156C2"
+				team_reward: false
 				type: "command"
 			}]
 			subtitle: "Promo code: &n&aIglee&r&r"
@@ -176,6 +180,7 @@
 			}
 			id: "44EA9A64451D42ED"
 			rewards: [{
+				auto: "no_toast"
 				command: "/tellraw @p [\"\",{\"text\":\"Niouf's Github :\",\"color\":\"gray\"},{\"text\":\" https://github.com/Niouf07\",\"color\":\"gray\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://github.com/Niouf07\"}}]"
 				icon: {
 					Count: 1
@@ -198,6 +203,7 @@
 					}
 				}
 				id: "1297EF81513923EA"
+				team_reward: false
 				type: "command"
 			}]
 			subtitle: "&5Niouf_&r's Github"
@@ -214,9 +220,11 @@
 			icon: "icons:github"
 			id: "01854E4661D0ECC3"
 			rewards: [{
+				auto: "no_toast"
 				command: "/tellraw @p [\"\",{\"text\":\"Modpack Github :\",\"color\":\"gray\"},{\"text\":\"https://github.com/iglee42/TechnicResources\",\"color\":\"gray\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://github.com/iglee42/TechnicResources\"}}]"
 				icon: "icons:github"
 				id: "5135417F58D03AC4"
+				team_reward: false
 				type: "command"
 			}]
 			subtitle: "The modpack Github"
@@ -233,9 +241,11 @@
 			icon: "icons:website"
 			id: "3CC29AE46F90E8F8"
 			rewards: [{
+				auto: "no_toast"
 				command: "/tellraw @p [\"\",{\"text\":\"Iglee's Website :\",\"color\":\"dark_green\"},{\"text\":\" http://iglee.fr\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"http://iglee.fr\"}}]"
 				icon: "icons:website"
 				id: "25B33A31DDDDC3BA"
+				team_reward: false
 				type: "command"
 			}]
 			subtitle: "&aIglee&r's Website"
@@ -291,6 +301,7 @@
 			rewards: [{
 				id: "703FBEDCB49532D2"
 				item: "solcarrot:food_book"
+				team_reward: false
 				type: "item"
 			}]
 			tasks: [{
@@ -341,6 +352,38 @@
 			}]
 			x: 1.5d
 			y: -2.0d
+		}
+		{
+			dependencies: ["3FCBA1147733405D"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "icons:textures/quests/icons_portal.png"
+				}
+			}
+			id: "3A85E71F97D2CE59"
+			rewards: [{
+				auto: "no_toast"
+				command: "/tellraw @p [\"\",{\"text\":\"Icons Resource Pack : \",\"color\":\"dark_purple\"},{\"text\":\"https://www.curseforge.com/minecraft/texture-packs/icons\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.curseforge.com/minecraft/texture-packs/icons\"}}]"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "icons:textures/quests/icons_portal.png"
+					}
+				}
+				id: "7EB6777D469C2AA6"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "3686B19C1AF02878"
+				title: "Icons"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 1.0d
 		}
 	]
 	title: "&bWelcome"

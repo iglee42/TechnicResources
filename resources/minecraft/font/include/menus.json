@@ -187,7 +187,7 @@
 			"type": "bitmap",
 			"file": "icons:menu/gamemenulogo.png",
 				"ascent": 0,
-				"height": 24,
+				"height": 301,
 				"chars": [
 				"\uDB80\uDC25"
 			]
