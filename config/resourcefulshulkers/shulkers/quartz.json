@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:quartz",
+  "item": "minecraft:quartz",
+  "color": "white",
+  "shellItemColor": "F2EFED",
+  "texture": "resourcefulshulkers:entity/mod_base/quartz.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/quartz.png",
+  "type": "resourcefulshulkers:nether"
+}

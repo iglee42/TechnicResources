@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:brass",
+  "item": "#forge:ingots/brass",
+  "color": "orange",
+  "shellItemColor": "E4B763",
+  "texture": "resourcefulshulkers:entity/mod_base/brass.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/brass.png",
+  "type": "resourcefulshulkers:sky"
+}

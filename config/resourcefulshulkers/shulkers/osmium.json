@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:osmium",
+  "item": "#forge:ingots/osmium",
+  "color": "light_gray",
+  "shellItemColor": "A5B1BA",
+  "texture": "resourcefulshulkers:entity/mod_base/osmium.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/osmium.png",
+  "type": "resourcefulshulkers:overworld"
+}

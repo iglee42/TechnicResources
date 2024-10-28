@@ -14,7 +14,7 @@
         {pos: [1, 0, 4], state: "minecraft:air"},
         {pos: [2, 0, 0], state: "minecraft:air"},
         {pos: [2, 0, 1], state: "minecraft:bedrock"},
-        {pos: [2, 0, 2], state: "technicresources:bedrock_piece_manager"},
+        {pos: [2, 0, 2], state: "technicresources:bedrock_room_manager"},
         {pos: [2, 0, 3], state: "minecraft:bedrock"},
         {pos: [2, 0, 4], state: "minecraft:air"},
         {pos: [3, 0, 0], state: "minecraft:air"},
@@ -131,7 +131,7 @@
     entities: [],
     palette: [
         "minecraft:bedrock",
-        "technicresources:bedrock_piece_manager",
+        "technicresources:bedrock_room_manager",
         "minecraft:air",
         "minecraft:wall_torch{facing:south}",
         "ftbquests:barrier{open:false}",

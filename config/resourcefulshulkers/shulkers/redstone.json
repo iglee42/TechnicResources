@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:redstone",
+  "item": "minecraft:redstone",
+  "color": "red",
+  "shellItemColor": "7E0F00",
+  "texture": "resourcefulshulkers:entity/mod_base/redstone.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/redstone.png",
+  "type": "resourcefulshulkers:sky"
+}

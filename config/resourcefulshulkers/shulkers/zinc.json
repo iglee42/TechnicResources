@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:zinc",
+  "item": "#forge:ingots/zinc",
+  "color": "light_gray",
+  "shellItemColor": "AAB59D",
+  "texture": "resourcefulshulkers:entity/mod_base/zinc.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/zinc.png",
+  "type": "resourcefulshulkers:overworld"
+}

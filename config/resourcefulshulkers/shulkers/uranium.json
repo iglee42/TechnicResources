@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:uranium",
+  "item": "#forge:ingots/uranium",
+  "color": "lime",
+  "shellItemColor": "9FC3A1",
+  "texture": "resourcefulshulkers:entity/mod_base/uranium.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/uranium.png",
+  "type": "resourcefulshulkers:overworld"
+}

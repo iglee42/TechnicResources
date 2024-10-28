@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:iron",
+  "item": "minecraft:iron_ingot",
+  "color": "white",
+  "shellItemColor": "E6E6E6",
+  "texture": "resourcefulshulkers:entity/mod_base/iron.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/iron.png",
+  "type": "resourcefulshulkers:overworld"
+}

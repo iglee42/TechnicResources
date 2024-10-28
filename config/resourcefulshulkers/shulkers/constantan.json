@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:constantan",
+  "item": "#forge:ingots/constantan",
+  "color": "orange",
+  "shellItemColor": "AA7030",
+  "texture": "resourcefulshulkers:entity/mod_base/constantan.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/constantan.png",
+  "type": "resourcefulshulkers:sky"
+}

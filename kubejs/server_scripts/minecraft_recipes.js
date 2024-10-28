@@ -9,11 +9,11 @@ ServerEvents.recipes(event => {
 
 
 
-        //-----------Chapter 0.5----------------//
+        //-----------Chapter 0----------------//
 
         event.shaped(Item.of('technicresources:bedrock_stick'), ['F ', 'F '], { 'F': 'technicresources:bedrock_shard' })
         event.shaped(Item.of('technicresources:bedrock_scraper_head'), ['F ', ' F'], { 'F': 'technicresources:bedrock_shard' })
-        event.shaped(Item.of('technicresources:bedrock_scraper'),[' H','S '], {'S': 'technicresources:bedrock_stick', 'H':'technicresources:bedrock_scraper_head'})
+        event.shaped(Item.of('technicresources:bedrock_scraper'), [' H', 'S '], { 'S': 'technicresources:bedrock_stick', 'H': 'technicresources:bedrock_scraper_head' })
         //Pebbles
         event.shaped(Item.of('minecraft:cobblestone'), ['PP', 'PP'], { 'P': 'technicresources:stone_pebble' })
         event.shaped(Item.of('minecraft:cobbled_deepslate'), ['PP', 'PP'], { 'P': 'technicresources:deepslate_pebble' })
@@ -34,21 +34,20 @@ ServerEvents.recipes(event => {
         event.shapeless(Item.of('createcasing:stone_large_cogwheel'), ['create:shaft', 'minecraft:cobblestone', 'minecraft:cobblestone'])
 
         event.shaped(Item.of('technicresources:stone_hammer'), [' C ', ' SC', 'S  '], { 'C': 'minecraft:cobblestone', 'S': "technicresources:deepslate_stick" })
-        event.shaped(Item.of('technicresources:deepslate_stick',2), ['D', 'D'], { 'D': 'minecraft:cobbled_deepslate' })
+        event.shaped(Item.of('technicresources:deepslate_stick', 2), ['D', 'D'], { 'D': 'minecraft:cobbled_deepslate' })
 
-        event.shaped(Item.of('technicresources:small_bedrock'), ['SS','SS'], { 'S' : 'technicresources:bedrock_shard' })
+        event.shaped(Item.of('technicresources:small_bedrock'), ['SS', 'SS'], { 'S': 'technicresources:bedrock_shard' })
 
-        event.shaped(Item.of('technicresources:piece_upgrader'), ['WWW', 'WIW', 'WWW'], { 'W': 'technicresources:small_bedrock', 'I': 'minecraft:iron_pickaxe' })
+        event.shaped(Item.of('technicresources:room_upgrader'), ['WWW', 'WIW', 'WWW'], { 'W': 'technicresources:small_bedrock', 'I': 'minecraft:iron_pickaxe' })
 
         //-------------Chapter 1----------------//
 
-        event.shaped(Item.of('technicresources:compressed_wall1'), ['WWW', 'WWW', 'WWW'], { 'W': 'compactmachines:wall' })
-        event.shaped(Item.of('technicresources:compressed_wall2'), ['WWW', 'WWW', 'WWW'], { 'W': 'technicresources:compressed_wall1' })
+        //event.shaped(Item.of('technicresources:compressed_wall1'), ['WWW', 'WWW', 'WWW'], { 'W': 'compactmachines:wall' })
+        //event.shaped(Item.of('technicresources:compressed_wall2'), ['WWW', 'WWW', 'WWW'], { 'W': 'technicresources:compressed_wall1' })
 
-        event.shaped(Item.of('technicresources:compact_upgrader2'), ['WWW', 'WIW', 'WWW'], { 'W': 'technicresources:compressed_wall1', 'I': 'minecraft:redstone_block' })
+        //event.shaped(Item.of('technicresources:compact_upgrader2'), ['WWW', 'WIW', 'WWW'], { 'W': 'technicresources:compressed_wall1', 'I': 'minecraft:redstone_block' })
 
-
-        event.shaped(Item.of('technicresources:bedrock_breaker'), ['WWW', 'WIW', 'WWW'], { 'W': 'technicresources:compressed_wall2', 'I': 'minecraft:diamond_pickaxe' })
+        //event.shaped(Item.of('technicresources:bedrock_breaker'), ['WWW', 'WIW', 'WWW'], { 'W': 'technicresources:compressed_wall2', 'I': 'minecraft:diamond_pickaxe' })
 
 
 

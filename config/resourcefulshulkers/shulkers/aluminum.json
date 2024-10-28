@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:aluminum",
+  "item": "#forge:ingots/aluminum",
+  "color": "light_gray",
+  "shellItemColor": "C2AEA0",
+  "texture": "resourcefulshulkers:entity/mod_base/aluminum.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/aluminum.png",
+  "type": "resourcefulshulkers:overworld"
+}

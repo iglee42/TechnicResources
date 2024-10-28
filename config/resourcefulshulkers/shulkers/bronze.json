@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:bronze",
+  "item": "#forge:ingots/bronze",
+  "color": "orange",
+  "shellItemColor": "CE6E26",
+  "texture": "resourcefulshulkers:entity/mod_base/bronze.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/bronze.png",
+  "type": "resourcefulshulkers:sky"
+}

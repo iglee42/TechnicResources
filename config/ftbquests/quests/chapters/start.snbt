@@ -2,14 +2,26 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "start"
-	group: ""
-	icon: "technicresources:bedrock_piece_manager"
+	group: "1624E617A68B85BD"
+	hide_quest_details_until_startable: true
+	icon: "technicresources:bedrock_room_manager"
 	id: "3A690EAA4DF5F972"
-	order_index: 2
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
-			icon: "minecraft:grass_block"
+			dependencies: [
+				"01854E4661D0ECC3"
+				"3A85E71F97D2CE59"
+				"46F0C06511D00040"
+				"560E28E8C2FA86AB"
+				"33DFBD6ADA6339F1"
+				"033315243A54DDEA"
+				"312D1D5130F5F613"
+				"3CC29AE46F90E8F8"
+				"6D9666C0C7A9B260"
+			]
+			icon: "technicresources:bedrock_room_manager"
 			id: "67F21B17C1FE14A4"
 			rewards: [{
 				auto: "invisible"
@@ -19,6 +31,7 @@
 				team_reward: false
 				type: "command"
 			}]
+			size: 1.5d
 			subtitle: "&6This &amodpack &6start in a &abedrock box"
 			tasks: [{
 				id: "51C196571CAD83EB"
@@ -26,7 +39,7 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["67F21B17C1FE14A4"]
@@ -38,7 +51,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["2148C47C03622790"]
@@ -57,7 +70,7 @@
 			]
 			title: "Scraper Parts"
 			x: 4.0d
-			y: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["6CC407BE9AE118B6"]
@@ -74,7 +87,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["12BC9E7E282A98C0"]
@@ -119,12 +132,13 @@
 						]
 					}
 				}
+				match_nbt: true
 				title: "Pebbles"
 				type: "item"
 			}]
 			title: "Pebbles"
 			x: 8.0d
-			y: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["28916B2EDE8204BA"]
@@ -179,7 +193,7 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: 0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -193,13 +207,14 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: 2.5d
+			y: 1.0d
 		}
 		{
 			dependencies: [
 				"6021B43C2E6F6E8A"
 				"17E78B3C8FFB68B4"
 				"6CEB44E7B0302583"
+				"21624EA3DFC3A5C8"
 			]
 			id: "243F5DEE66ABD38A"
 			tasks: [{
@@ -239,7 +254,7 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2CA5F5DCF0C21303"]
@@ -306,13 +321,35 @@
 			size: 2.5d
 			tasks: [{
 				id: "28CA8FF332493A0A"
-				item: "technicresources:piece_upgrader"
+				item: "technicresources:room_upgrader"
 				type: "item"
 			}]
 			x: 22.5d
 			y: -1.5d
 		}
+		{
+			dependencies: ["5AFC0BF995FEBF12"]
+			id: "21624EA3DFC3A5C8"
+			tasks: [{
+				id: "2755BF9883CB9F2A"
+				item: "create:hand_crank"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["28916B2EDE8204BA"]
+			id: "5AFC0BF995FEBF12"
+			tasks: [{
+				id: "540F678314B9D13D"
+				item: "minecraft:calcite"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.0d
+		}
 	]
 	subtitle: ["&7&oRemember Something..."]
-	title: "&6Start in a box"
+	title: "&eChapter 0 - &6Start in a box"
 }

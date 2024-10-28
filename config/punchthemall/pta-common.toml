@@ -1,0 +1,18 @@
+
+#PunchThemAll Common Configs
+[PunchThemAll]
+
+	[PunchThemAll.Interaction_Delay]
+		#Define the minimum interval of time (in tick) between two Interactions.
+		#Range: 1 ~ 10000
+		min_interaction_delay = 5
+
+	[PunchThemAll.Fake_Players]
+		#Define whether Fake Players are allowed to perform the Interactions.
+		allowFakePlayers = true
+
+	[PunchThemAll.Drop_or_Place_in_Inventory]
+		#Define whether the result items obtained from the Interactions should be directly placed in the player (machine) inventory or be dropped like vanilla Minecraft. 
+		#(When this option is activated if there is no place in the player (machine) inventory the items will still be dropped in the world)
+		place_in_inventory = true
+

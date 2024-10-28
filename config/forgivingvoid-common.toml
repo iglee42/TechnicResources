@@ -8,7 +8,7 @@ damageOnFall = 19
 #Range: > -2147483648
 fallingHeight = 300
 #Prevent death on void fall (limits damage to leave at least 0.5 hearts)
-preventDeath = false
+preventDeath = true
 #Set to false to make Forgiving Void not trigger in the overworld void (dimension 0).
 triggerInOverworld = true
 #Set to false to make Forgiving Void not trigger in the nether void (dimension -1).

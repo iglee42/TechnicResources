@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:dye",
+  "item": "resourcefulshulkers:omni_dye",
+  "color": "black",
+  "shellItemColor": "FFFFFF",
+  "texture": "resourcefulshulkers:entity/mod_base/dye.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/dye.png",
+  "type": "resourcefulshulkers:sky"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:tin",
+  "item": "#forge:ingots/tin",
+  "color": "light_blue",
+  "shellItemColor": "476F81",
+  "texture": "resourcefulshulkers:entity/mod_base/tin.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/tin.png",
+  "type": "resourcefulshulkers:overworld"
+}

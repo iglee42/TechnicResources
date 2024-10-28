@@ -1,3 +1,4 @@
+actuallyadditions:ore_black_quartz
 ad_astra:glacio_coal_ore
 ad_astra:glacio_copper_ore
 ad_astra:glacio_deepslate_coal_ore
@@ -278,18 +279,6 @@ supplementaries:basalt_ash
 supplementaries:cave_urns
 supplementaries:road_sign
 supplementaries:wild_flax
-thermal:apatite_ore
-thermal:cinnabar_ore
-thermal:lead_ore
-thermal:mega_rubberwood_tree
-thermal:nickel_ore
-thermal:niter_ore
-thermal:oil_sand
-thermal:rubberwood_tree
-thermal:silver_ore
-thermal:sulfur_ore
-thermal:tin_ore
-thermal:trees_rubberwood
 waystones:mossy_waystone
 waystones:sandy_waystone
 waystones:waystone

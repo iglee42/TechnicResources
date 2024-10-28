@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:nickel",
+  "item": "#forge:ingots/nickel",
+  "color": "yellow",
+  "shellItemColor": "BCAD7E",
+  "texture": "resourcefulshulkers:entity/mod_base/nickel.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/nickel.png",
+  "type": "resourcefulshulkers:overworld"
+}

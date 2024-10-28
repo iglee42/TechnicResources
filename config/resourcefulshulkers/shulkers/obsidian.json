@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:obsidian",
+  "item": "minecraft:obsidian",
+  "color": "purple",
+  "shellItemColor": "271E3D",
+  "texture": "resourcefulshulkers:entity/mod_base/obsidian.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/obsidian.png",
+  "type": "resourcefulshulkers:nether"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:stone",
+  "item": "minecraft:stone",
+  "color": "light_gray",
+  "shellItemColor": "7F7F7F",
+  "texture": "resourcefulshulkers:entity/mod_base/stone.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/stone.png",
+  "type": "resourcefulshulkers:overworld"
+}

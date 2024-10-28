@@ -4,6 +4,12 @@
         "chance": 1.0,
         "count": 1
     },
+    "hand": {
+        "hand": "main_hand",
+        "item": {
+            "item": "minecraft:air"
+        }
+    },
     "block": {
         "block": "minecraft:bedrock"
     },

@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:creeper",
+  "item": "minecraft:gunpowder",
+  "color": "lime",
+  "shellItemColor": "4AC63A",
+  "texture": "resourcefulshulkers:entity/mod_base/creeper.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/creeper.png",
+  "type": "resourcefulshulkers:overworld"
+}

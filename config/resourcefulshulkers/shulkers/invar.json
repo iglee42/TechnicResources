@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:invar",
+  "item": "#forge:ingots/invar",
+  "color": "light_gray",
+  "shellItemColor": "A3B1A8",
+  "texture": "resourcefulshulkers:entity/mod_base/invar.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/invar.png",
+  "type": "resourcefulshulkers:sky"
+}

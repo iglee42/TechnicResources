@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:refined_obsidian",
+  "item": "#forge:ingots/refined_obsidian",
+  "color": "purple",
+  "shellItemColor": "4A3C64",
+  "texture": "resourcefulshulkers:entity/mod_base/refined_obsidian.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/refined_obsidian.png",
+  "type": "resourcefulshulkers:end"
+}

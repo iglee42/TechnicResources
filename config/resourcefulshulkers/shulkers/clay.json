@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:clay",
+  "item": "minecraft:clay_ball",
+  "color": "light_gray",
+  "shellItemColor": "A1A7B1",
+  "texture": "resourcefulshulkers:entity/mod_base/clay.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/clay.png",
+  "type": "resourcefulshulkers:overworld"
+}

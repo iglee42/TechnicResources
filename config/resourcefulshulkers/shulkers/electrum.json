@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:electrum",
+  "item": "#forge:ingots/electrum",
+  "color": "yellow",
+  "shellItemColor": "C9B255",
+  "texture": "resourcefulshulkers:entity/mod_base/electrum.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/electrum.png",
+  "type": "resourcefulshulkers:sky"
+}

@@ -13,7 +13,7 @@
     "pool": [
         {
             "item": "technicresources:stone_pebble",
-            "chance": 35,
+            "chance": 65,
             "count": 1
         },
         {

@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:netherite",
+  "item": "minecraft:netherite_scrap",
+  "color": "brown",
+  "shellItemColor": "4D494D",
+  "texture": "resourcefulshulkers:entity/mod_base/netherite.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/netherite.png",
+  "type": "resourcefulshulkers:nether"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:coal",
+  "item": "minecraft:coal",
+  "color": "black",
+  "shellItemColor": "151515",
+  "texture": "resourcefulshulkers:entity/mod_base/coal.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/coal.png",
+  "type": "resourcefulshulkers:overworld"
+}

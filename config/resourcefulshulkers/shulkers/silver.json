@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:silver",
+  "item": "#forge:ingots/silver",
+  "color": "light_gray",
+  "shellItemColor": "758392",
+  "texture": "resourcefulshulkers:entity/mod_base/silver.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/silver.png",
+  "type": "resourcefulshulkers:overworld"
+}

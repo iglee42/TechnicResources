@@ -1,0 +1,7 @@
+
+["ResourcefulShulker Config"]
+	#The total of aura given by absorber with one shulker. Prefer to have a multiple of 32
+	absorber_aura = 4096
+	#Enable the protection of Generating Box against time in a bottle
+	tiab_protection = true
+

@@ -9,7 +9,7 @@ const $PartialModel = Java.loadClass('com.jozufozu.flywheel.core.PartialModel')
 
 StartupEvents.init(event => {
     $CreateCasingApi.createCasing($CreateCasing.REGISTRATE, 'stone', $CTSpriteShifter.getCT($AllCTTypes.RECTANGLE, new $ResourceLocation("kubejs", "block/stone_casing"), new $ResourceLocation("kubejs", "block/stone_casing_connected")))
-    $CreateCasingApi.createCasing($CreateCasing.REGISTRATE, 'iron', $CTSpriteShifter.getCT($AllCTTypes.RECTANGLE, new $ResourceLocation("kubejs", "block/iron_casing"), new $ResourceLocation("kubejs", "block/iron_casing_connected")))
+    $CreateCasingApi.createCasing($CreateCasing.REGISTRATE, 'iron', $CTSpriteShifter.getCT($AllCTTypes.OMNIDIRECTIONAL, new $ResourceLocation("kubejs", "block/iron_casing"), new $ResourceLocation("kubejs", "block/iron_casing_connected")))
 
     $CreateCasingApi.createSmallCogwheel($CreateCasing.REGISTRATE, 'stone')
     $CreateCasingApi.createLargeCogwheel($CreateCasing.REGISTRATE, 'stone',

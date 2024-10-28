@@ -1,27 +1,27 @@
 const ModsUtils = Java.loadClass('fr.iglee42.igleelib.api.utils.ModsUtils')
 
-global.pebbles = ['stone','granite','diorite','andesite','calcite','tuff','deepslate','netherrack','blackstone','basalt','endstone']
+global.pebbles = ['stone', 'granite', 'diorite', 'andesite', 'calcite', 'tuff', 'deepslate', 'netherrack', 'blackstone', 'basalt', 'endstone']
 
-StartupEvents.registry('item',e =>{
+StartupEvents.registry('item', e => {
     /************************************Normal Item************************************/
 
-    /**************Chapter 0.5**************/
+    /**************Chapter 0**************/
     register('bedrock_shard', 'Bedrock Shard')
     register('bedrock_scraper', 'Bedrock Scraper').unstackable().maxDamage(64)
-    register('bedrock_stick','Bedrock Stick')
-    register('bedrock_scraper_head','Bedrock Scraper Head')
-    global.pebbles.forEach((p)=>{
-        registerWithTexture(p+'_pebble',ModsUtils.getUpperName(p,' ')+ ' Pebble','technicresources:item/pebbles/' + p)
+    register('bedrock_stick', 'Bedrock Stick')
+    register('bedrock_scraper_head', 'Bedrock Scraper Head')
+    global.pebbles.forEach((p) => {
+        registerWithTexture(p + '_pebble', ModsUtils.getUpperName(p, ' ') + ' Pebble', 'technicresources:item/pebbles/' + p)
     });
     registerTool('stone_hammer', 'Stone Hammer', 'pickaxe', 'stone')
-    register('deepslate_stick','Deepslate Stick')
-    register('piece_upgrader', 'Piece Upgrader').unstackable()
+    register('deepslate_stick', 'Deepslate Stick')
+    register('room_upgrader', 'Room Upgrader').unstackable()
 
     /**************Chapter 1**************/
 
     register('bedrock_breaker', 'Bedrock Breaker').unstackable()
 
-    register('compact_upgrader2', 'Compact Upgrader Tier 2').unstackable()
+    register('room_upgrader_2', 'Room Upgrader Tier 2').unstackable()
 
 
 
@@ -60,29 +60,29 @@ StartupEvents.registry('item',e =>{
     //register('incomplete_ultimate_component','Incomplete Ultimate Component')
 
     /************************************Icons************************************/
-    registerIcon('tr','TR')
-    registerIcon('technic_resources','Technic Resources')
-    registerIcon('discord','Discord')
-    registerIcon('github','Github')
-    registerIcon('website','Website')
-    registerIcon('bisect_hosting','Bisect Hosting')
+    registerIcon('tr', 'TR')
+    registerIcon('technic_resources', 'Technic Resources')
+    registerIcon('discord', 'Discord')
+    registerIcon('github', 'Github')
+    registerIcon('website', 'Website')
+    registerIcon('bisect_hosting', 'Bisect Hosting')
 
-    
+
     /************************************Function************************************/
-    function register(unlocname,displayname){
-        return e.create('technicresources:'+unlocname).displayName(displayname).texture('technicresources:item/'+unlocname)
+    function register(unlocname, displayname) {
+        return e.create('technicresources:' + unlocname).displayName(displayname).texture('technicresources:item/' + unlocname)
     }
-    function registerWithTexture(unlocname,displayname,texture){
-        return e.create('technicresources:'+unlocname).displayName(displayname).texture(texture)
+    function registerWithTexture(unlocname, displayname, texture) {
+        return e.create('technicresources:' + unlocname).displayName(displayname).texture(texture)
     }
-    function registerType(unlocname,displayname,type){
-        return e.create('technicresources:'+unlocname,type).displayName(displayname).tag('forge:tools').tag('forge:'+type+'s').tag('forge:tools/'+type+'s')
+    function registerType(unlocname, displayname, type) {
+        return e.create('technicresources:' + unlocname, type).displayName(displayname).tag('forge:tools').tag('forge:' + type + 's').tag('forge:tools/' + type + 's')
     }
-    function registerTool(unlocname,displayname,type,tier){
-        return e.create('technicresources:' + unlocname, type).displayName(displayname).tier(tier).tag('forge:tools').tag('forge:' + type + 's').tag('forge:tools/' + type + 's').tag('forge:tools/' + tier )
+    function registerTool(unlocname, displayname, type, tier) {
+        return e.create('technicresources:' + unlocname, type).displayName(displayname).tier(tier).tag('forge:tools').tag('forge:' + type + 's').tag('forge:tools/' + type + 's').tag('forge:tools/' + tier)
     }
 
-    function registerIcon(unlocname,displayName) {
+    function registerIcon(unlocname, displayName) {
         return e.create('icons:' + unlocname).displayName(displayName).texture('icons:item/' + unlocname)
     }
 })

@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:gold",
+  "item": "minecraft:gold_ingot",
+  "color": "yellow",
+  "shellItemColor": "FEE048",
+  "texture": "resourcefulshulkers:entity/mod_base/gold.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/gold.png",
+  "type": "resourcefulshulkers:nether"
+}

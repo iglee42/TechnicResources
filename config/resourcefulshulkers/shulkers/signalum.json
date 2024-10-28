@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:signalum",
+  "item": "#forge:ingots/signalum",
+  "color": "red",
+  "shellItemColor": "ED3706",
+  "texture": "resourcefulshulkers:entity/mod_base/signalum.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/signalum.png",
+  "type": "resourcefulshulkers:nether"
+}

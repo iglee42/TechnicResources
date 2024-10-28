@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:wood",
+  "item": "minecraft:oak_log",
+  "color": "brown",
+  "shellItemColor": "745A36",
+  "texture": "resourcefulshulkers:entity/mod_base/wood.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/wood.png",
+  "type": "resourcefulshulkers:overworld"
+}

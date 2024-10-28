@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:zombie",
+  "item": "minecraft:rotten_flesh",
+  "color": "green",
+  "shellItemColor": "497135",
+  "texture": "resourcefulshulkers:entity/mod_base/zombie.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/zombie.png",
+  "type": "resourcefulshulkers:overworld"
+}

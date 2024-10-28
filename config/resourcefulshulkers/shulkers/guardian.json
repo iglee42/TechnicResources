@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:guardian",
+  "item": "minecraft:prismarine_shard",
+  "color": "cyan",
+  "shellItemColor": "4E7966",
+  "texture": "resourcefulshulkers:entity/mod_base/guardian.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/guardian.png",
+  "type": "resourcefulshulkers:sky"
+}
