@@ -16,7 +16,6 @@ StartupEvents.registry('block', e => {
     })
     register('small_bedrock', 'Small Bedrock', 'stone', 4, 128, 'pickaxe', 'stone', true).defaultCutout().model('technicresources:block/small_bedrock').waterlogged().fullBlock(false).notSolid().opaque(false).box(4, 4, 4, 12, 12, 12)
 
-
     /**************Chapter 1**************/
 
     register('compressed_wall1', 'Compressed Compact Machine Wall', 'metal', 4, 128, 'pickaxe', 'iron', true)
@@ -30,6 +29,12 @@ StartupEvents.registry('block', e => {
     function register(unlocname, displayname, type, hardness, resistance, tool, toolLevel, requires) {
         return e.create('technicresources:' + unlocname).mapColor(type).soundType(type).hardness(hardness).resistance(resistance).displayName(displayname).tagBlock('minecraft:mineable/' + tool).tagBlock('minecraft:needs_' + toolLevel + '_tool').requiresTool(requires)
     }
+    function registerOtherMod(mod, unlocname, displayname, type, hardness, resistance, tool, toolLevel, requires) {
+        return e.create(mod + ':' + unlocname).mapColor(type).soundType(type).hardness(hardness).resistance(resistance).displayName(displayname).tagBlock('minecraft:mineable/' + tool).tagBlock('minecraft:needs_' + toolLevel + '_tool').requiresTool(requires)
+    }
+
+    /***********************************Other****************************************/
+    registerOtherMod('createaddition', 'electrum_block', 'Electrum Block', 'metal', 5, 6, 'pickaxe', 'iron', true)
 })
 
 BlockEvents.modification(e => {

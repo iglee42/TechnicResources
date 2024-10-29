@@ -1,5 +1,8 @@
 ServerEvents.recipes(event => {
 
+  event.shapeless('createaddition:electrum_block', '9x createaddition:electrum_ingot')
+  event.shapeless('9x createaddition:electrum_ingot', 'createaddition:electrum_block')
+
   //Cogwheel
   deploying('create:cogwheel',['create:shaft','minecraft:cobblestone'],false,1)
   deploying('create:large_cogwheel', ['create:cogwheel', 'minecraft:cobblestone'], false, 1)
