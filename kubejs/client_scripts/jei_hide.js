@@ -31,6 +31,17 @@ JEIEvents.hideItems(event => {
     'ad_astra:calorite_plate',
     'hammerlib:test_machine',
     'hammerlib:wrench',
+    'createaddition:iron_rod',
+    'createaddition:copper_rod',
+    'createaddition:gold_rod',
+    'createaddition:electrum_rod',
+    'createaddition:brass_rod',
+    'ad_astra:iron_rod',
+    'ad_astra:steel_rod',
+    'createaddition:copper_wire',
+    'createaddition:iron_wire',
+    'createaddition:gold_wire',
+    'createaddition:electrum_wire',
 
   ]
   event.hide(hided);
