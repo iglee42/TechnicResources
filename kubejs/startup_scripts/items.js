@@ -22,7 +22,7 @@ StartupEvents.registry('item', e => {
     register('bedrock_breaker', 'Bedrock Breaker').unstackable()
 
     register('room_upgrader_2', 'Room Upgrader Tier 2').unstackable()
-    
+
     /**************Gears**************/
     registerTag('gears', 'compressed_iron_gear', 'Compressed Iron Gear').tag('forge:gears').tag('forge:gears/compressed_iron')
     registerTag('gears', 'uraninite_gear', 'Uraninite Gear').tag('forge:gears').tag('forge:gears/uraninite')
@@ -53,7 +53,7 @@ StartupEvents.registry('item', e => {
     registerTag('gears', 'fluorite_gear', 'Fluorite Gear').tag('forge:gears').tag('forge:gears/fluorite')
     registerTag('gears', 'black_quartz_gear', 'Black Quartz Gear').tag('forge:gears').tag('forge:gears/black_quartz')
     registerTag('gears', 'industrial_iron_gear', 'Industrial Iron Gear').tag('forge:gears').tag('forge:gears/industrial_iron')
-    
+
     /**************Plates**************/
     registerTag('plates', 'copper_plate', 'Copper Plate').tag('forge:plates').tag('forge:plates/copper')
     registerTag('plates', 'diamond_plate', 'Diamond Plate').tag('forge:plates').tag('forge:plates/diamond')
@@ -91,7 +91,7 @@ StartupEvents.registry('item', e => {
     registerTag('plates', 'fluorite_plate', 'Fluorite Plate').tag('forge:plates').tag('forge:plates/fluorite')
     registerTag('plates', 'black_quartz_plate', 'Black Quartz Plate').tag('forge:plates').tag('forge:plates/black_quartz')
     registerTag('plates', 'industrial_iron_plate', 'Industrial Iron Plate').tag('forge:plates').tag('forge:plates/industrial_iron')
-    
+
     /**************Molds**************/
     register('mold_gear', 'Gear Mold')
     register('mold_plate', 'Plate Mold')
@@ -157,10 +157,20 @@ StartupEvents.registry('item', e => {
         return e.create('technicresources:' + unlocname, type).displayName(displayname).tier(tier).tag('forge:tools').tag('forge:' + type + 's').tag('forge:tools/' + type + 's').tag('forge:tools/' + tier)
     }
     function registerTag(tag, unlocname, displayname) {
-        return e.create('technicresources:' + unlocname).displayName(displayname).texture('technicresources:item/'+tag+'/'+unlocname)
+        return e.create('technicresources:' + unlocname).displayName(displayname).texture('technicresources:item/' + tag + '/' + unlocname)
     }
 
     function registerIcon(unlocname, displayName) {
         return e.create('icons:' + unlocname).displayName(displayName).texture('icons:item/' + unlocname)
     }
+})
+
+const plates = ["technicresources:amethyst_plate", "technicresources:andesite_alloy_plate", "technicresources:black_quartz_plate", "technicresources:brass_plate", "technicresources:bronze_plate", "technicresources:calorite_plate", "technicresources:certus_quartz_plate", "technicresources:compressed_iron_plate", "technicresources:copper_plate", "technicresources:crystalized_chorus_plate", "technicresources:crystalized_menril_plate", "technicresources:desh_plate", "technicresources:diamond_plate", "technicresources:electrum_plate", "technicresources:emerald_plate", "technicresources:fluix_plate", "technicresources:fluorite_plate", "technicresources:gold_plate", "technicresources:industrial_iron_plate", "technicresources:iron_plate", "technicresources:lapis_lazuli_plate", "technicresources:lead_plate", "technicresources:netherite_plate", "technicresources:osmium_plate", "technicresources:ostrum_plate", "technicresources:quartz_plate", "technicresources:redstone_plate", "technicresources:refined_glowstone_plate", "technicresources:refined_obsidian_plate", "technicresources:steel_plate", "technicresources:stone_plate", "technicresources:tin_plate", "technicresources:uraninite_plate", "technicresources:uranium_plate", "technicresources:wooden_plate", "technicresources:zinc_plate"]
+
+ItemEvents.modelProperties(e => {
+    plates.forEach(plate =>
+        e.register(Item.of(plate), "count", (stack, world, living, seed) => {
+            return stack.getCount() / stack.getMaxStackSize()
+        })
+    )
 })

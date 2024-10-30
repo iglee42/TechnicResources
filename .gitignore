@@ -40,3 +40,4 @@ knownkeys.txt
 config/powah.json5
 .vscode/settings.json
 *.bak
+/scripts

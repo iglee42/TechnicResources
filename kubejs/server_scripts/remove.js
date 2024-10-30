@@ -7,5 +7,4 @@ ServerEvents.recipes(event => {
         'createaddition:pressing/zinc_ingot',
         'pneumaticcraft:compressed_iron_gear'
     ])
-    event.remove({ mod : 'hammerlib' })
 })
