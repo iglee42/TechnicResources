@@ -53,6 +53,7 @@ StartupEvents.registry('item', e => {
     registerTag('gears', 'fluorite_gear', 'Fluorite Gear').tag('forge:gears').tag('forge:gears/fluorite')
     registerTag('gears', 'black_quartz_gear', 'Black Quartz Gear').tag('forge:gears').tag('forge:gears/black_quartz')
     registerTag('gears', 'industrial_iron_gear', 'Industrial Iron Gear').tag('forge:gears').tag('forge:gears/industrial_iron')
+    registerTag('gears', 'the_ultimate_gear', '§cThe Ultimate Gear').tag('forge:gears').tag('forge:gears/the_ultimate')
 
     /**************Plates**************/
     registerTag('plates', 'copper_plate', 'Copper Plate').tag('forge:plates').tag('forge:plates/copper')
@@ -91,6 +92,7 @@ StartupEvents.registry('item', e => {
     registerTag('plates', 'fluorite_plate', 'Fluorite Plate').tag('forge:plates').tag('forge:plates/fluorite')
     registerTag('plates', 'black_quartz_plate', 'Black Quartz Plate').tag('forge:plates').tag('forge:plates/black_quartz')
     registerTag('plates', 'industrial_iron_plate', 'Industrial Iron Plate').tag('forge:plates').tag('forge:plates/industrial_iron')
+    registerTag('plates', 'the_ultimate_plate', '§cThe Ultimate Plate').tag('forge:plates').tag('forge:plates/the_ultimate')
 
     /**************Rods**************/
     registerTag('rods', 'copper_rod', 'Copper Rod').tag('forge:rods').tag('forge:rods/copper').tag('forge:rods/all_metal')
@@ -129,6 +131,7 @@ StartupEvents.registry('item', e => {
     registerTag('rods', 'fluorite_rod', 'Fluorite Rod').tag('forge:rods').tag('forge:rods/fluorite').tag('forge:rods/all_metal')
     registerTag('rods', 'black_quartz_rod', 'Black Quartz Rod').tag('forge:rods').tag('forge:rods/black_quartz').tag('forge:rods/all_metal')
     registerTag('rods', 'industrial_iron_rod', 'Industrial Iron Rod').tag('forge:rods').tag('forge:rods/industrial_iron').tag('forge:rods/all_metal')
+    registerTag('rods', 'the_ultimate_rod', '§cThe Ultimate Rod').tag('forge:rods').tag('forge:rods/the_ultimate').tag('forge:rods/all_metal')
 
     /**************Wires**************/
     registerTag('wires', 'copper_wire', 'Copper Wire').tag('forge:wires').tag('forge:wires/copper').tag('forge:wires/all_metal')
@@ -167,6 +170,7 @@ StartupEvents.registry('item', e => {
     registerTag('wires', 'fluorite_wire', 'Fluorite Wire').tag('forge:wires').tag('forge:wires/fluorite').tag('forge:wires/all_metal')
     registerTag('wires', 'black_quartz_wire', 'Black Quartz Wire').tag('forge:wires').tag('forge:wires/black_quartz').tag('forge:wires/all_metal')
     registerTag('wires', 'industrial_iron_wire', 'Industrial Iron Wire').tag('forge:wires').tag('forge:wires/industrial_iron').tag('forge:wires/all_metal')
+    registerTag('wires', 'the_ultimate_wire', '§cThe Ultimate Wire').tag('forge:wires').tag('forge:wires/the_ultimate').tag('forge:wires/all_metal')
 
     /**************Molds**************/
     register('mold_gear', 'Gear Mold')
