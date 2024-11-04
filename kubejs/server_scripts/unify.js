@@ -82,7 +82,7 @@ ServerEvents.recipes(e => {
         e.custom({ 'type': 'ad_astra:compressing', 'cookingtime': 800, 'energy': 20, 'ingredient': { 'tag': 'forge:storage_blocks/' + material }, 'result': { 'count': 9, 'id': 'technicresources:' + material + '_plate' } }).id('technicresources:compressing/plates/' + material + '_9')
         e.custom({ "type": "createaddition:rolling", "input": { "tag": base }, "result": { "item": 'technicresources:' + material + '_rod', "count": 2 } }).id('technicresources:rolling/rods/' + material)
         e.shaped('4x #forge:rods/' + material, ['A', 'A'], { A: '#forge:plates/' + material }).id('technicresources:shaped/rods/' + material)
-        // e.custom({ "type": "createaddition:rolling", "input": { "tag": '#forge:plates/' + material }, "result": { "item": 'technicresources:' + material + '_wire', "count": 2 } }).id('technicresources:rolling/wires/' + material)
+        e.custom({ "type": "createaddition:rolling", "input": { "tag": 'forge:plates/' + material }, "result": { "item": 'technicresources:' + material + '_wire', "count": 2 } }).id('technicresources:rolling/wires/' + material)
     }
 
     plateGearRodWire('compressed_iron', 'forge:ingots/compressed_iron')
