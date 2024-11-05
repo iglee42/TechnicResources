@@ -41,5 +41,6 @@ config/powah.json5
 .vscode/settings.json
 *.bak
 /scripts
+kubejs/assets/technicresources/textures/item/order
 /config/nec/pack/
 /config/resourcefulshulkers/pack/
