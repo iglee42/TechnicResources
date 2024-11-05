@@ -7,12 +7,7 @@
 	icon: "technicresources:bedrock_room_manager"
 	id: "3A690EAA4DF5F972"
 	order_index: 0
-	quest_links: [{
-		id: "20B9DBC175165AEB"
-		linked_quest: "2148C47C03622790"
-		x: 22.0d
-		y: -0.5d
-	}]
+	quest_links: [ ]
 	quests: [
 		{
 			dependencies: [
@@ -305,14 +300,15 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["2148C47C03622790"]
 			id: "6123291E98100AA9"
 			tasks: [{
 				id: "75E87B1FB5A95560"
 				item: "technicresources:small_bedrock"
 				type: "item"
 			}]
-			x: 23.5d
-			y: -0.5d
+			x: 11.5d
+			y: 3.5d
 		}
 		{
 			dependencies: [
