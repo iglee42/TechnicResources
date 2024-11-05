@@ -18,8 +18,8 @@ StartupEvents.registry('block', e => {
 
     /**************Chapter 1**************/
 
-    register('compressed_wall1', 'Compressed Compact Machine Wall', 'metal', 4, 128, 'pickaxe', 'iron', true)
-    register('compressed_wall2', 'Double Compressed Compact Machine Wall', 'metal', 5, 128, 'pickaxe', 'iron', true)
+    register('breakable_bedrock', 'Breakable Bedrock', 'stone', 8, 256, 'pickaxe', 'stone', true).model('minecraft:block/bedrock')
+    register('compressed_breakable_bedrock', 'Compressed Breakable Bedrock', 'stone', 9, 210000, 'pickaxe', 'stone', true)
 
 
     /************************************Function************************************/
