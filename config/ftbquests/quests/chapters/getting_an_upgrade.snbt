@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "getting_an_upgrade"
+	group: "1624E617A68B85BD"
+	icon: "minecraft:diamond"
+	id: "7CF45575D43EBA3A"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "&eChapter 1 - &6Getting An Upgrade"
+}
