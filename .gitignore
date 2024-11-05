@@ -42,3 +42,4 @@ config/powah.json5
 *.bak
 /scripts
 /config/nec/pack/
+/config/resourcefulshulkers/pack/
