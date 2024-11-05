@@ -6,7 +6,159 @@
 	icon: "minecraft:diamond"
 	id: "7CF45575D43EBA3A"
 	order_index: 1
-	quest_links: [ ]
-	quests: [ ]
+	quest_links: [
+		{
+			disable_toast: true
+			id: "0A56B05037C96540"
+			linked_quest: "6123291E98100AA9"
+			size: 1.5d
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			id: "130AB1C94474310D"
+			linked_quest: "5344EA2AB08BBFBB"
+			size: 1.5d
+			x: 0.0d
+			y: -3.75d
+		}
+		{
+			disable_toast: true
+			id: "1B9975C50ED7833E"
+			linked_quest: "4DB77B63B43D10F6"
+			x: 6.0d
+			y: -6.5d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["6123291E98100AA9"]
+			id: "40977621C01A923A"
+			tasks: [{
+				id: "05F82E1DAF32A0BC"
+				item: "technicresources:breakable_bedrock"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["40977621C01A923A"]
+			id: "1B14FFBAC2FB251C"
+			tasks: [{
+				id: "0C377537A6347561"
+				item: "technicresources:compressed_breakable_bedrock"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5344EA2AB08BBFBB"]
+			id: "1804239D20D9F619"
+			tasks: [{
+				id: "2D12B60336171F0D"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5344EA2AB08BBFBB"]
+			id: "036021DC599B557D"
+			tasks: [{
+				id: "622820BBA627C0B9"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1804239D20D9F619"]
+			id: "2426119EFE67E83F"
+			tasks: [{
+				id: "53DF1A0C502CD991"
+				item: "createcasing:iron_casing"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2426119EFE67E83F"]
+			id: "6A5579B7BB13916A"
+			tasks: [{
+				id: "0B15EEA79A17A31E"
+				item: "technicresources:compressor"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.75d
+		}
+		{
+			dependencies: [
+				"036021DC599B557D"
+				"6A5579B7BB13916A"
+			]
+			id: "64C48A6EA879FDB5"
+			tasks: [{
+				id: "51C7867A92935A5A"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"1B14FFBAC2FB251C"
+				"4DF0E97C636A7CBD"
+			]
+			id: "29936F3B72C49C21"
+			shape: "diamond"
+			size: 2.5d
+			tasks: [{
+				id: "2917EAFA0E7F2C7A"
+				item: "technicresources:room_upgrader"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"64C48A6EA879FDB5"
+				"4DB77B63B43D10F6"
+			]
+			id: "65AB407A463EAAFD"
+			tasks: [{
+				id: "0EB086DF50CF4559"
+				item: "technicresources:diamond_plate"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["65AB407A463EAAFD"]
+			id: "4DF0E97C636A7CBD"
+			tasks: [{
+				id: "4FD9D177FE8CFF3F"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.75d
+		}
+	]
 	title: "&eChapter 1 - &6Getting An Upgrade"
 }
