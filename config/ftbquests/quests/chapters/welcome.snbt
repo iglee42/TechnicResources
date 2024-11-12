@@ -319,6 +319,36 @@
 			x: -3.0d
 			y: 1.0d
 		}
+		{
+			dependencies: ["3FCBA1147733405D"]
+			description: [
+				"The modpack can be customized with some &aresources packs&r"
+				""
+				""
+				"{image:icons:textures/quests/dark_mode.png width:35 height:35 align:center}"
+				""
+				"&aDark Mode &rResource Pack : &aAll GUIs and buttons &rfrom the modpack in &adark mode"
+				""
+				"{image:icons:textures/quests/meka_fusion.png width:35 height:35 align:center}"
+				""
+				"&aMekanism-CTM-Fusion &rResource Pack : &aMekanism multiblock &rwith &aconnected textures &r(thanks to the Fusion mod)"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "icons:textures/quests/resource_pack.png"
+				}
+			}
+			id: "7EE344EBE45D28B3"
+			tasks: [{
+				id: "4BF1B0AAE3AEC930"
+				title: "Modpack Customization"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
 	]
 	title: "&bWelcome"
 }
