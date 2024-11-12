@@ -25,6 +25,17 @@ ad_astra:venus_calorite_ore
 ad_astra:venus_coal_ore
 ad_astra:venus_diamond_ore
 ad_astra:venus_gold_ore
+ars_nouveau:blazing_tree
+ars_nouveau:cascading_tree
+ars_nouveau:flourishing_tree
+ars_nouveau:lights
+ars_nouveau:mixed_archwoods
+ars_nouveau:natural_blazing_tree
+ars_nouveau:natural_cascading_tree
+ars_nouveau:natural_flourishing_tree
+ars_nouveau:natural_vexing_tree
+ars_nouveau:patch_berry
+ars_nouveau:vexing_tree
 bigreactors:anglesite_ore
 bigreactors:benitoite_ore
 bigreactors:yellorite_deepslate_ore

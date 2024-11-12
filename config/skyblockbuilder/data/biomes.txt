@@ -9,6 +9,7 @@ ad_astra:mercury_deltas
 ad_astra:orbit
 ad_astra:venus_wastelands
 ae2:spatial_storage
+ars_nouveau:archwood_forest
 integrateddynamics:meneglin
 minecraft:badlands
 minecraft:bamboo_jungle
