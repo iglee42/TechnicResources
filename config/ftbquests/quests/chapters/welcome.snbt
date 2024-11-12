@@ -341,6 +341,20 @@
 				}
 			}
 			id: "7EE344EBE45D28B3"
+			rewards: [{
+				id: "08A8FE860C60F134"
+				item: {
+					Count: 1
+					id: "minecraft:black_dye"
+					tag: {
+						HideFlags: 32
+						display: {
+							Name: "[\"\",{\"text\":\"Dark Mode\",\"italic\":false,\"bold\":true,\"color\":\"dark_gray\"}]"
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4BF1B0AAE3AEC930"
 				title: "Modpack Customization"
