@@ -4,6 +4,9 @@
 	filename: "start"
 	group: "1624E617A68B85BD"
 	hide_quest_details_until_startable: true
+	icon: {
+		id: "technicresources:bedrock_room_manager"
+	}
 	id: "3A690EAA4DF5F972"
 	order_index: 0
 	quest_links: [ ]
@@ -82,8 +85,8 @@
 			dependencies: ["12BC9E7E282A98C0"]
 			id: "28916B2EDE8204BA"
 			tasks: [{
-				id: "54BF2AE1C63CFA69"
-				item: { components: { "ftbquests:missing_item": "itemfilters:or" }, count: 1, id: "ftbquests:missing_item" }
+				id: "0D978EE8AB1F9712"
+				item: { components: { "ftbfiltersystem:filter": "or(item(technicresources:stone_pebble)item(technicresources:granite_pebble)item(technicresources:diorite_pebble)item(technicresources:andesite_pebble)item(technicresources:calcite_pebble)item(technicresources:tuff_pebble)item(technicresources:deepslate_pebble))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 8.0d

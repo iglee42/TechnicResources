@@ -2,10 +2,9 @@
 	chapter.237AB2138BA1378C.title: "&bWelcome"
 	chapter.3A690EAA4DF5F972.chapter_subtitle: ["&7&oRemember Something..."]
 	chapter.3A690EAA4DF5F972.title: "&eChapter 0 - &6Start in a box"
-	chapter.5A9FE570423F4524.chapter_subtitle: ["&l&fWelcome to &n&bChroma Endless&r&f!      "]
-	chapter.5A9FE570423F4524.title: "&l&bWelcome!&r"
 	chapter.7CF45575D43EBA3A.title: "&eChapter 1 - &6Getting An Upgrade"
 	chapter_group.1624E617A68B85BD.title: "Escape The Box"
+	file.0000000000000001.title: "Technic Resources"
 	quest.01854E4661D0ECC3.quest_subtitle: "The modpack Github"
 	quest.033315243A54DDEA.quest_desc: [
 		"Hi!"
@@ -202,6 +201,7 @@
 	task.0A24A552ED32FFB7.title: "Quests"
 	task.0A5A73AB42F7DDF6.title: "Chunk Claim / Loading"
 	task.0D7199FC6BBA55C7.title: "Discord"
+	task.0D978EE8AB1F9712.title: "Pebbles"
 	task.1163F24811543437.title: "Developper's"
 	task.19D8B5A02C30CFB0.title: "Creative"
 	task.21DBD2460463B992.title: "FTB teams"
@@ -214,7 +214,6 @@
 	task.41FEC8C7FD6401D3.title: "Mute sound"
 	task.4BF1B0AAE3AEC930.title: "Modpack Customization"
 	task.51C196571CAD83EB.title: "Start of the Game"
-	task.54BF2AE1C63CFA69.title: "Pebbles"
 	task.5CD4D421813019F6.title: "Get a server !"
 	task.5F01068943229220.title: "Feeding"
 	task.621EA61DCB9BE6E1.title: "Welcome"

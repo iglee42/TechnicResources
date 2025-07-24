@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "getting_an_upgrade"
 	group: "1624E617A68B85BD"
+	icon: {
+		id: "minecraft:diamond"
+	}
 	id: "7CF45575D43EBA3A"
 	order_index: 1
 	quest_links: [
@@ -166,6 +169,9 @@
 			dependencies: ["29936F3B72C49C21"]
 			id: "5ECCA818F5A4AF4E"
 			tasks: [{
+				icon: {
+					id: "minecraft:dirt"
+				}
 				id: "6BF05D66E82274FB"
 				observe_type: 0
 				timer: 0L

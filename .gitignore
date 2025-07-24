@@ -52,3 +52,4 @@ banned-ips.json
 banned-players.json
 whitelist.json
 /world/
+command_history.txt

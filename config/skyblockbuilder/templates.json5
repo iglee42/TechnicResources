@@ -20,11 +20,11 @@
   // You may also directly use these in the template config, or use a reference created here.
   "spawnPointReferences": {
     "default": {
-      "south": [
-        [ 6, 3, 5 ]
-      ],
+      "south": [],
       "west": [],
-      "north": [],
+      "north": [
+        [ 2, 1, 2 ]
+      ],
       "east": []
     }
   },
@@ -49,17 +49,24 @@
   // A list of blocks which can be used to surround islands/caves.
   // You may also directly use these in the template config, or use a reference created here.
   "surroundingBlockReferences": {
-    "default": {}
+    "default": {
+      "margin": 1
+    }
   },
   
   // The list of templates being available. The first entry is the default template.
   "templateList": [
     {
       "name": "default",
-      "file": "default.nbt",
-      "spawns": "default",
-      "surroundingBlocks": "default",
-      "spreads": "default"
+      "file": "default.snbt",
+      "spawns": {
+        "south": [],
+        "west": [],
+        "north": [
+          [ 2, 1, 2 ]
+        ],
+        "east": []
+      }
     }
   ]
 }
