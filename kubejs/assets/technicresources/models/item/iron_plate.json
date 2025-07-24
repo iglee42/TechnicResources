@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "technicresources:item/plates/iron/0"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "kubejs:count": 0.0
+            },
+            "model": "technicresources:item/iron_plate/iron_plate_0"
+        },
+        {
+            "predicate": {
+                "kubejs:count": 0.25
+            },
+            "model": "technicresources:item/iron_plate/iron_plate_1"
+        },
+        {
+            "predicate": {
+                "kubejs:count": 0.5
+            },
+            "model": "technicresources:item/iron_plate/iron_plate_2"
+        },
+        {
+            "predicate": {
+                "kubejs:count": 1.0
+            },
+            "model": "technicresources:item/iron_plate/iron_plate_3"
+        }
+    ]
+}

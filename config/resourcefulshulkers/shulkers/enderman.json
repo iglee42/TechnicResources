@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:enderman",
+  "item": "minecraft:ender_pearl",
+  "color": "black",
+  "shellItemColor": "161616",
+  "texture": "resourcefulshulkers:entity/mod_base/enderman.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/enderman.png",
+  "type": "resourcefulshulkers:end"
+}

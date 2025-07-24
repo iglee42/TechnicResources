@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:blaze",
+  "item": "minecraft:blaze_rod",
+  "color": "yellow",
+  "shellItemColor": "FFD528",
+  "texture": "resourcefulshulkers:entity/mod_base/blaze.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/blaze.png",
+  "type": "resourcefulshulkers:nether"
+}

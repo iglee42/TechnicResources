@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "createcasing:stone_cogwheel"
+    },
+    {
+      "tag": "forge:stone"
+    }
+  ],
+  "results": [
+    {
+      "item": "createcasing:stone_large_cogwheel"
+    }
+  ]
+}

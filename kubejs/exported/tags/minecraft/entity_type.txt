@@ -1,0 +1,210 @@
+To refresh this file, delete it and run /reload command again! Last updated: Nov 18, 2022, 2:17:08 PM
+
+#minecraft:axolotl_always_hostiles
+- minecraft:drowned (from Default)
+- minecraft:guardian (from Default)
+- minecraft:elder_guardian (from Default)
+
+#minecraft:freeze_immune_entity_types
+- minecraft:stray (from Default)
+- minecraft:polar_bear (from Default)
+- minecraft:snow_golem (from Default)
+- minecraft:wither (from Default)
+- twilightforest:penguin (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:stable_ice_core (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:unstable_ice_core (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:snow_guardian (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:ice_crystal (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:wraith (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:knight_phantom (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:winter_wolf (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:yeti (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- #twilightforest:bosses (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- mekanism:robit (from Mekanism-1.19.2-10.3.5.473.jar)
+- mekanismadditions:baby_stray (from MekanismAdditions-1.19.2-10.3.5.473.jar)
+
+#twilightforest:bosses
+- twilightforest:naga (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:lich (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:minoshroom (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:hydra (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:knight_phantom (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:ur_ghast (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:alpha_yeti (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:snow_queen (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:plateau_boss (from twilightforest-1.19.2-4.2.1468-universal.jar)
+
+#immersiveengineering:shaderbag/blacklist
+- minecraft:wither (from ImmersiveEngineering-1.19.2-9.0.0-153.jar)
+- minecraft:iron_golem (from ImmersiveEngineering-1.19.2-9.0.0-153.jar)
+
+#forge:endermen
+- minecraft:enderman (from MekanismAdditions-1.19.2-10.3.5.473.jar)
+- mekanismadditions:baby_enderman (from MekanismAdditions-1.19.2-10.3.5.473.jar)
+
+#twilightforest:lich_poppables
+- #minecraft:skeletons (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- minecraft:zombie (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- minecraft:enderman (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- minecraft:spider (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- minecraft:creeper (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:swarm_spider (from twilightforest-1.19.2-4.2.1468-universal.jar)
+
+#mob_grinding_utils:no_spawn
+
+#minecraft:frog_food
+- minecraft:slime (from Default)
+- minecraft:magma_cube (from Default)
+- twilightforest:maze_slime (from twilightforest-1.19.2-4.2.1468-universal.jar)
+
+#industrialforegoing:mob_duplicator_blacklist
+
+#minecraft:raiders
+- minecraft:evoker (from Default)
+- minecraft:pillager (from Default)
+- minecraft:ravager (from Default)
+- minecraft:vindicator (from Default)
+- minecraft:illusioner (from Default)
+- minecraft:witch (from Default)
+
+#pneumaticcraft:vacuum_trap_blacklisted
+
+#minecraft:powder_snow_walkable_mobs
+- minecraft:rabbit (from Default)
+- minecraft:endermite (from Default)
+- minecraft:silverfish (from Default)
+- minecraft:fox (from Default)
+- twilightforest:penguin (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:stable_ice_core (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:unstable_ice_core (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:snow_guardian (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:ice_crystal (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:raven (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:squirrel (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:dwarf_rabbit (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:tiny_bird (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:kobold (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:death_tome (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:mosquito_swarm (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:towerwood_borer (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- mekanism:robit (from Mekanism-1.19.2-10.3.5.473.jar)
+
+#industrialforegoing:mob_imprisonment_tool_blacklist
+
+#minecraft:axolotl_hunt_targets
+- minecraft:tropical_fish (from Default)
+- minecraft:pufferfish (from Default)
+- minecraft:salmon (from Default)
+- minecraft:cod (from Default)
+- minecraft:squid (from Default)
+- minecraft:glow_squid (from Default)
+- minecraft:tadpole (from Default)
+
+#per-viam-invenire:replace_vanilla_navigator
+- mekanism:robit (from Mekanism-1.19.2-10.3.5.473.jar)
+- mekanismadditions:baby_creeper (from MekanismAdditions-1.19.2-10.3.5.473.jar)
+- mekanismadditions:baby_enderman (from MekanismAdditions-1.19.2-10.3.5.473.jar)
+- mekanismadditions:baby_skeleton (from MekanismAdditions-1.19.2-10.3.5.473.jar)
+- mekanismadditions:baby_stray (from MekanismAdditions-1.19.2-10.3.5.473.jar)
+- mekanismadditions:baby_wither_skeleton (from MekanismAdditions-1.19.2-10.3.5.473.jar)
+
+#industrialforegoing:mob_crusher_blacklist
+- minecraft:ender_dragon (from industrial-foregoing-1.19.2-3.3.2.0-2.jar)
+
+#minecraft:impact_projectiles
+- #minecraft:arrows (from Default)
+- minecraft:snowball (from Default)
+- minecraft:fireball (from Default)
+- minecraft:small_fireball (from Default)
+- minecraft:egg (from Default)
+- minecraft:trident (from Default)
+- minecraft:dragon_fireball (from Default)
+- minecraft:wither_skull (from Default)
+- twilightforest:nature_bolt (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:lich_bolt (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:wand_bolt (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:lich_bomb (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:moonworm_shot (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:slime_blob (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:thrown_wep (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:thrown_ice (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:falling_ice (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:ice_snowball (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- mekanism:flame (from Mekanism-1.19.2-10.3.5.473.jar)
+
+#minecraft:beehive_inhabitors
+- minecraft:bee (from Default)
+
+#forge:creepers
+- minecraft:creeper (from MekanismAdditions-1.19.2-10.3.5.473.jar)
+- mekanismadditions:baby_creeper (from MekanismAdditions-1.19.2-10.3.5.473.jar)
+
+#minecraft:skeletons
+- minecraft:skeleton (from Default)
+- minecraft:stray (from Default)
+- minecraft:wither_skeleton (from Default)
+- twilightforest:skeleton_druid (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- mekanismadditions:baby_skeleton (from MekanismAdditions-1.19.2-10.3.5.473.jar)
+- mekanismadditions:baby_stray (from MekanismAdditions-1.19.2-10.3.5.473.jar)
+- mekanismadditions:baby_wither_skeleton (from MekanismAdditions-1.19.2-10.3.5.473.jar)
+
+#twilightforest:sortable_entities
+- minecraft:chest_minecart (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- minecraft:hopper_minecart (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- minecraft:llama (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- minecraft:trader_llama (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- minecraft:donkey (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- minecraft:mule (from twilightforest-1.19.2-4.2.1468-universal.jar)
+
+#ftbquests:no_loot_crates
+
+#minecraft:arrows
+- minecraft:arrow (from Default)
+- minecraft:spectral_arrow (from Default)
+- twilightforest:ice_arrow (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:seeker_arrow (from twilightforest-1.19.2-4.2.1468-universal.jar)
+
+#minecraft:freeze_hurts_extra_types
+- minecraft:strider (from Default)
+- minecraft:blaze (from Default)
+- minecraft:magma_cube (from Default)
+- twilightforest:fire_beetle (from twilightforest-1.19.2-4.2.1468-universal.jar)
+
+#twilightforest:dont_kill_bugs
+- twilightforest:moonworm_shot (from twilightforest-1.19.2-4.2.1468-universal.jar)
+
+#pneumaticcraft:omnihopper_blacklisted
+- minecraft:villager (from pneumaticcraft-repressurized-1.19.2-4.1.2-9.jar)
+
+#forge:bosses
+- #twilightforest:bosses (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- minecraft:ender_dragon (from forge-1.19.2-43.1.52-universal.jar)
+- minecraft:wither (from forge-1.19.2-43.1.52-universal.jar)
+
+#twilightforest:rides_obstruct_snatching
+- twilightforest:pinch_beetle (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:yeti (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:alpha_yeti (from twilightforest-1.19.2-4.2.1468-universal.jar)
+
+#mob_grinding_utils:noswab
+- minecraft:wither (from mob_grinding_utils-1.19.2-0.4.46.jar)
+- minecraft:ender_dragon (from mob_grinding_utils-1.19.2-0.4.46.jar)
+
+#twilightforest:lifedrain_drops_no_flesh
+- #minecraft:skeletons (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- minecraft:iron_golem (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- minecraft:shulker (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- minecraft:skeleton_horse (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- minecraft:slime (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- minecraft:snow_golem (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:carminite_golem (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:death_tome (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:ice_crystal (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:knight_phantom (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:lich (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:maze_slime (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:mosquito_swarm (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:snow_guardian (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:stable_ice_core (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:unstable_ice_core (from twilightforest-1.19.2-4.2.1468-universal.jar)
+- twilightforest:wraith (from twilightforest-1.19.2-4.2.1468-universal.jar)

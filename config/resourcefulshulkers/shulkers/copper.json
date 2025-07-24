@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:copper",
+  "item": "minecraft:copper_ingot",
+  "color": "orange",
+  "shellItemColor": "C26B4C",
+  "texture": "resourcefulshulkers:entity/mod_base/copper.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/copper.png",
+  "type": "resourcefulshulkers:overworld"
+}

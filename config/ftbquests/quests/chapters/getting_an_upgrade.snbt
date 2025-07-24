@@ -1,0 +1,228 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "getting_an_upgrade"
+	group: "1624E617A68B85BD"
+	icon: "minecraft:diamond"
+	id: "7CF45575D43EBA3A"
+	order_index: 1
+	quest_links: [
+		{
+			disable_toast: true
+			id: "0A56B05037C96540"
+			linked_quest: "6123291E98100AA9"
+			size: 1.5d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			id: "130AB1C94474310D"
+			linked_quest: "5344EA2AB08BBFBB"
+			size: 1.5d
+			x: 0.0d
+			y: -3.75d
+		}
+		{
+			disable_toast: true
+			id: "1B9975C50ED7833E"
+			linked_quest: "4DB77B63B43D10F6"
+			x: 13.5d
+			y: -8.0d
+		}
+		{
+			id: "1806EB8C95896726"
+			linked_quest: "12BC9E7E282A98C0"
+			size: 1.5d
+			x: 11.0d
+			y: 0.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["6123291E98100AA9"]
+			id: "40977621C01A923A"
+			tasks: [{
+				id: "05F82E1DAF32A0BC"
+				item: "technicresources:breakable_bedrock"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["40977621C01A923A"]
+			id: "1B14FFBAC2FB251C"
+			tasks: [{
+				id: "0C377537A6347561"
+				item: "technicresources:compressed_breakable_bedrock"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5344EA2AB08BBFBB"]
+			id: "1804239D20D9F619"
+			tasks: [{
+				id: "2D12B60336171F0D"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5344EA2AB08BBFBB"]
+			id: "036021DC599B557D"
+			tasks: [{
+				id: "622820BBA627C0B9"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1804239D20D9F619"]
+			id: "2426119EFE67E83F"
+			tasks: [{
+				id: "53DF1A0C502CD991"
+				item: "createcasing:iron_casing"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2426119EFE67E83F"]
+			id: "6A5579B7BB13916A"
+			tasks: [{
+				id: "0B15EEA79A17A31E"
+				item: "technicresources:compressor"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"036021DC599B557D"
+				"6A5579B7BB13916A"
+			]
+			id: "64C48A6EA879FDB5"
+			tasks: [{
+				id: "51C7867A92935A5A"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"1B14FFBAC2FB251C"
+				"1804239D20D9F619"
+			]
+			id: "29936F3B72C49C21"
+			shape: "diamond"
+			size: 2.5d
+			tasks: [{
+				id: "2917EAFA0E7F2C7A"
+				item: "technicresources:room_upgrader_2"
+				type: "item"
+			}]
+			x: 6.25d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"64C48A6EA879FDB5"
+				"4DB77B63B43D10F6"
+			]
+			id: "65AB407A463EAAFD"
+			tasks: [{
+				id: "0EB086DF50CF4559"
+				item: "technicresources:diamond_plate"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"65AB407A463EAAFD"
+				"61C749C67F95B046"
+			]
+			id: "4DF0E97C636A7CBD"
+			tasks: [{
+				id: "4FD9D177FE8CFF3F"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["29936F3B72C49C21"]
+			description: ["The room manager can be restored with a sneak right click on the dirt"]
+			id: "5ECCA818F5A4AF4E"
+			subtitle: "&6You can &achange&6 your &aroom manager &6into &adirt &6with a &aright click &6on it"
+			tasks: [{
+				icon: "technicresources:dirt"
+				id: "6BF05D66E82274FB"
+				observe_type: 0
+				timer: 0L
+				title: "Look at Dirt"
+				to_observe: "technicresources:dirt"
+				type: "observation"
+			}]
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"5ECCA818F5A4AF4E"
+				"12BC9E7E282A98C0"
+			]
+			id: "7665B84DCEFA079D"
+			subtitle: "&aObtain &6when left click on &adirt &6with a &ascraper"
+			tasks: [{
+				id: "6020791C4BA4A40A"
+				item: "technicresources:oak_sprout"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7665B84DCEFA079D"]
+			id: "0D960C4654342761"
+			tasks: [{
+				id: "1E7FBD44BE986E77"
+				item: "minecraft:oak_sapling"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7665B84DCEFA079D"]
+			id: "61C749C67F95B046"
+			tasks: [{
+				id: "1A80226B462716EC"
+				item: "minecraft:stick"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -3.5d
+		}
+	]
+	title: "&eChapter 1 - &6Getting An Upgrade"
+}

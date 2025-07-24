@@ -1,0 +1,213 @@
+#Vector Things Configuration
+[vector_plates]
+	#Speed of the Slow Vector Plate
+	# Default: 0.1
+	# Range: 0.0 ~ 100.0
+	000_slowVectorSpeed = 0.1
+	#Speed of the Moderate Vector Plate
+	# Default: 0.5
+	# Range: 0.0 ~ 100.0
+	001_moderateVectorSpeed = 0.5
+	#Speed of the Fast Vector Plate
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	002_fastVectorSpeed = 1.0
+	#Speed of the Extreme Vector Plate
+	# Default: 5.0
+	# Range: 0.0 ~ 100.0
+	003_extremeVectorSpeed = 5.0
+	#Speed of the Ultra Vector Plate
+	# Default: 15.0
+	# Range: 0.0 ~ 100.0
+	004_ultraVectorSpeed = 15.0
+	#Vertical boost factor for players on vertical vector plates
+	# Default: 0.5
+	# Range: -100.0 ~ 100.0
+	005_verticalBoostPlayer = 0.5
+	#Vertical boost factor for mobs/entities on vertical vector plates (higher values help heavier mobs overcome gravity)
+	# Default: 1.2
+	# Range: -100.0 ~ 100.0
+	006_verticalBoostEntity = 1.2
+	#Enable vertical conveyor belts
+	007_verticalConveyorEnabled = true
+	#Enable vertical vector charm
+	100_verticalCharmEnabled = true
+	#Enable horizontal vector charm
+	101_horizontalCharmEnabled = true
+	#Energy capacity of the Vector Charm in RF/FE
+	#Recommended value: 1000000, but set to 0 to disable energy consumption
+	# Default: 0
+	# Range: > 0
+	102_vectorCharmEnergyCapacity = 0
+	#Energy consumed per tick by the Vector Charm when active in RF/FE
+	#Array with 7 values for: [none, slow, moderate, fast, extreme, ultra, hover]
+	#Recommended values: [0, 5, 15, 30, 50, 100, 3], but set to 0 to disable energy consumption
+	103_vectorCharmEnergyConsume = [0, 0, 0, 0, 0, 0, 0]
+
+#General Utilities Configuration
+[general_utilities]
+	#Amount of energy consumed by the Hellfire Igniter
+	#Recommended value: 10, but set to 0 to disable energy consumption
+	# Default: 0
+	# Range: > 0
+	000_hellfireIgniterConsume = 0
+	#Quantity of energy the Hellfire Igniter can be stored
+	#Recommended value: 1000, but set to 0 to disable energy consumption
+	# Default: 0
+	# Range: > 0
+	001_hellfireIgniterBuffer = 0
+	#Energy capacity of the Portable Dislocator in RF/FE
+	#Recommended value: 5000, but set to 0 to disable energy consumption
+	# Default: 5000
+	# Range: > 0
+	100_portableDislocatorEnergyCapacity = 5000
+	#Energy consumed per teleportation by the Portable Dislocator in RF/FE
+	#Recommended value: 1000 or 100, but set to 0 to disable energy consumption
+	# Default: 100
+	# Range: > 0
+	100_portableDislocatorEnergyConsume = 100
+	#Experience points consumed per teleportation by the Portable Dislocator when energy is not available
+	#Set to 0 to disable experience consumption
+	# Default: 10
+	# Range: > 0
+	101_portableDislocatorXpConsume = 10
+	#Energy capacity of the Weather Alterer in RF/FE
+	#Recommended value: 100000, but set to 0 to disable energy consumption
+	# Default: 0
+	# Range: > 0
+	200_weatherAltererEnergyBuffer = 0
+	#Energy consumed per tick by the Weather Alterer in RF/FE
+	#Recommended value: 5000, but set to 0 to disable energy consumption
+	# Default: 0
+	# Range: > 0
+	201_weatherAltererEnergyConsume = 0
+	#Energy capacity of the Time Alterer in RF/FE
+	#Recommended value: 100000, but set to 0 to disable energy consumption
+	# Default: 0
+	# Range: > 0
+	202_timeAltererEnergyBuffer = 0
+	#Energy consumed per tick by the Time Alterer in RF/FE
+	#Recommended value: 5000, but set to 0 to disable energy consumption
+	# Default: 0
+	# Range: > 0
+	203_timeAltererEnergyConsume = 0
+	#If true, energy will be consumed before XP when both are available
+	#If both this and prioritizeXp are true, both resources will be consumed
+	102_portableDislocatorPrioritizeEnergy = true
+	#If true, XP will be consumed before energy when both are available
+	#If both this and prioritizeEnergy are true, both resources will be consumed
+	103_portableDislocatorPrioritizeXp = false
+	#Speed of the Rubber Sap Extractor in ticks (lower is faster)
+	# Default: 10
+	# Range: > 1
+	200_rubberSapExtractorSpeed = 10
+	#Energy consumed per block placed by the Structure Placer Machine in RF/FE
+	# Default: 50
+	# Range: > 0
+	300_structurePlacerMachineEnergyConsume = 50
+	#Energy capacity of the Structure Placer Machine in RF/FE
+	# Default: 10000
+	# Range: > 0
+	301_structurePlacerMachineEnergyBuffer = 10000
+
+#Rubber Tree Configuration
+[rubber_tree]
+	#Minimum time in ticks for a rubber log to refill with sap (1 tick = 1/20 second)
+	# Default: 600
+	# Range: > 0
+	000_minSapRefillTime = 600
+	#Maximum time in ticks for a rubber log to refill with sap (1 tick = 1/20 second)
+	# Default: 1800
+	# Range: > 0
+	001_maxSapRefillTime = 1800
+	#Amount of energy consumed by the Electric Treetap
+	# Default: 10
+	# Range: > 0
+	002_electricTreetapEnergyConsume = 10
+	#Amount of energy the Electric Treetap can be stored
+	# Default: 1000
+	# Range: > 0
+	003_electricTreetapEnergyBuffer = 1000
+	#Amount of energy consumed by the Rubber Sap Extractor per operation
+	# Default: 10
+	# Range: > 0
+	004_rubberSapExtractorEnergyConsume = 10
+	#Amount of energy the Rubber Sap Extractor can store
+	# Default: 10000
+	# Range: > 0
+	005_rubberSapExtractorEnergyBuffer = 10000
+
+#Tweaks Configuration
+[tweaks]
+	#List of fluids that should be sticky
+	000_sticky_fluids = ["#c:oil"]
+	#List of fluids that should be crude oil
+	001_crude_oils = ["#c:oil"]
+
+#Scanner Configuration
+[scanner]
+	#Maximum scan range in blocks
+	# Default: 64
+	# Range: > 1
+	000_scannerScanRange = 64
+	#Duration in ticks needed to hold the scanner for scanning (1 second = 20 ticks)
+	# Default: 60
+	# Range: 1 ~ 200
+	001_scannerScanDuration = 60
+	#Maximum number of blocks that can be scanned at once
+	# Default: 8192
+	# Range: > 1
+	002_scannerMaxBlocks = 8192
+	#Amount of energy consumed per scan operation by the Scanner
+	# Default: 50
+	# Range: > 0
+	003_scannerEnergyConsume = 50
+	#Energy capacity of the Scanner in RF/FE
+	# Default: 10000
+	# Range: > 0
+	004_scannerEnergyBuffer = 10000
+	#Time to live for the scanner markers in ticks (1 second = 20 ticks)
+	# Default: 600
+	# Range: > 1
+	005_scannerMarkerTTL = 600
+	#Default alpha value for scanner markers (in hexadecimal)
+	006_scannerDefaultAlpha = "80"
+	#Default color for ore markers (in hexadecimal RGB)
+	007_scannerDefaultOreColor = "00BFFF"
+	#Default color for mob markers (in hexadecimal RGB)
+	008_scannerDefaultMobColor = "EB3480"
+	#List of ore entries that can be scanned with their colors
+	#Format: 'ore_name;RRGGBB' where:
+	#- ore_name is a special prefix that will match all blocks containing this name
+	#- RRGGBB is the hexadecimal RGB color
+	#Example: 'gold;FFD700' will match all gold ores with gold color
+	100_scanner_ore_entries = ["gold;FFD700", "iron;C0C0C0", "diamond;00FFFF", "emerald;00FF00", "coal;333333", "lapis;0000FF", "redstone;FF0000", "copper;D2691E", "quartz;FFFAFA", "netherite;4B0082", "ancient_debris;4B0082", "amethyst;9966CC", "certus;BCF7F7", "uraninite;00FF00", "uranium;365226", "fluorite;FC79CF", "tin;BCF7F7", "lead;381C80", "silver;B6B6B8", "platinum;A1D1CC", "osmium;A1D1CC", "nickel;CED1A1", "aluminum;B6B6B8", "zinc;00FF00", "allthemodium;C78938", "vibranium;40BBBF", "unubtanium;993BAC"]
+	#List of mob entries that can be scanned with their colors
+	#Format: '$mob_name;RRGGBB' for prefix matching or 'modid:exact_mob;RRGGBB' for exact match
+	#- $mob_name will match all entities containing this name
+	#- RRGGBB is the hexadecimal RGB color
+	#Example: '$zombie;00AA00' will match all zombie variants
+	101_scanner_mob_entries = ["$creeper;00FF00", "$zombie;00AA00", "$skeleton;CCCCCC", "$spider;222222", "$enderman;AA00AA", "$slime;55FF55", "$witch;AA00FF", "$blaze;FF6600", "$ghast;FFFFFF", "$wither;333333", "$dragon;AA00AA", "minecraft:evoker;0000FF", "$villager;AA8866", "$golem;CCCCCC", "$axolotl;FF99FF", "$allay;99CCFF", "$cow;AA5522", "$sheep;FFFFFF", "$chicken;FFFF00", "$mimic;4A2150"]
+	#List of ore tags that should be scanned when using the ore scanner chip
+	#These tags will be used to identify blocks as ores
+	#You can use * as a wildcard at the end of a tag name
+	102_scanner_ore_tags = ["c:ores", "c:raw_materials", "c:storage_blocks", "c:budding_blocks"]
+
+#Development and Advanced Configuration
+[dev]
+	#Path to the external scripts directory for custom potion plates and stage items
+	#Default: 'kubejs/external_scripts'
+	#The system will look for any scripts of this mod: <path>/potion_plates/
+	000_external_scripts_path = "kubejs/external_scripts"
+	#Path to the external scripts directory for custom structures
+	#Default: 'iska_utils_client/structures'
+	#The system will look for any scripts of this mod: <path>/iska_utils_structures/
+	001_client_structure_path = "iska_utils_client/structures"
+	#If true, the client will be able to use the structures saved by the server
+	#Default: true
+	002_accept_client_structure = true
+	#If true, the client structure are placed like players
+	#Default: true
+	003_allow_client_structure_player_like = true
+	#If false not desplay where obtain the artifacts or mod dependecy required for obtain it (only for lootable artifacts)
+	100_artifacts_info = true

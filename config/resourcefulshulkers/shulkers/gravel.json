@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:gravel",
+  "item": "minecraft:gravel",
+  "color": "light_gray",
+  "shellItemColor": "817F7F",
+  "texture": "resourcefulshulkers:entity/mod_base/gravel.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/gravel.png",
+  "type": "resourcefulshulkers:overworld"
+}

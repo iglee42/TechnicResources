@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:skeleton",
+  "item": "minecraft:bone",
+  "color": "white",
+  "shellItemColor": "BCBCBC",
+  "texture": "resourcefulshulkers:entity/mod_base/skeleton.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/skeleton.png",
+  "type": "resourcefulshulkers:overworld"
+}

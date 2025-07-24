@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/cube_all",
+    "textures": {
+        "all": "technicresources:block/bedrock_room_manager",
+        "particle": "technicresources:block/bedrock_room_manager"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:block/cube",
+    "textures": {
+        "down": "technicresources:block/compressor_side",
+        "east": "technicresources:block/compressor_side",
+        "north": "technicresources:block/compressor_front",
+        "particle": "technicresources:block/compressor_side",
+        "south": "technicresources:block/compressor_side",
+        "up": "technicresources:block/compressor_top",
+        "west": "technicresources:block/compressor_side"
+    }
+}

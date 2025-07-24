@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "technicresources:item/plates/refined_glowstone/0"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "kubejs:count": 0.0
+            },
+            "model": "technicresources:item/refined_glowstone_plate/refined_glowstone_plate_0"
+        },
+        {
+            "predicate": {
+                "kubejs:count": 0.25
+            },
+            "model": "technicresources:item/refined_glowstone_plate/refined_glowstone_plate_1"
+        },
+        {
+            "predicate": {
+                "kubejs:count": 0.5
+            },
+            "model": "technicresources:item/refined_glowstone_plate/refined_glowstone_plate_2"
+        },
+        {
+            "predicate": {
+                "kubejs:count": 1.0
+            },
+            "model": "technicresources:item/refined_glowstone_plate/refined_glowstone_plate_3"
+        }
+    ]
+}

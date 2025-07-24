@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:emerald",
+  "item": "minecraft:emerald",
+  "color": "lime",
+  "shellItemColor": "17DD62",
+  "texture": "resourcefulshulkers:entity/mod_base/emerald.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/emerald.png",
+  "type": "resourcefulshulkers:end"
+}
