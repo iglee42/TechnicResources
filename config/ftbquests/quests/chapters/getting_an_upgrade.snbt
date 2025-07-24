@@ -3,7 +3,6 @@
 	default_quest_shape: ""
 	filename: "getting_an_upgrade"
 	group: "1624E617A68B85BD"
-	icon: "minecraft:diamond"
 	id: "7CF45575D43EBA3A"
 	order_index: 1
 	quest_links: [
@@ -44,7 +43,7 @@
 			id: "40977621C01A923A"
 			tasks: [{
 				id: "05F82E1DAF32A0BC"
-				item: "technicresources:breakable_bedrock"
+				item: { count: 1, id: "technicresources:breakable_bedrock" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -55,7 +54,7 @@
 			id: "1B14FFBAC2FB251C"
 			tasks: [{
 				id: "0C377537A6347561"
-				item: "technicresources:compressed_breakable_bedrock"
+				item: { count: 1, id: "technicresources:compressed_breakable_bedrock" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -66,7 +65,7 @@
 			id: "1804239D20D9F619"
 			tasks: [{
 				id: "2D12B60336171F0D"
-				item: "minecraft:redstone"
+				item: { count: 1, id: "minecraft:redstone" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -77,7 +76,7 @@
 			id: "036021DC599B557D"
 			tasks: [{
 				id: "622820BBA627C0B9"
-				item: "minecraft:coal"
+				item: { count: 1, id: "minecraft:coal" }
 				type: "item"
 			}]
 			x: 2.5d
@@ -88,7 +87,7 @@
 			id: "2426119EFE67E83F"
 			tasks: [{
 				id: "53DF1A0C502CD991"
-				item: "createcasing:iron_casing"
+				item: { components: { "ftbquests:missing_item": "createcasing:iron_casing" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 3.5d
@@ -99,7 +98,7 @@
 			id: "6A5579B7BB13916A"
 			tasks: [{
 				id: "0B15EEA79A17A31E"
-				item: "technicresources:compressor"
+				item: { components: { "ftbquests:missing_item": "technicresources:compressor" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 6.0d
@@ -113,7 +112,7 @@
 			id: "64C48A6EA879FDB5"
 			tasks: [{
 				id: "51C7867A92935A5A"
-				item: "minecraft:diamond"
+				item: { count: 1, id: "minecraft:diamond" }
 				type: "item"
 			}]
 			x: 8.0d
@@ -129,7 +128,7 @@
 			size: 2.5d
 			tasks: [{
 				id: "2917EAFA0E7F2C7A"
-				item: "technicresources:room_upgrader_2"
+				item: { count: 1, id: "technicresources:room_upgrader_2" }
 				type: "item"
 			}]
 			x: 6.25d
@@ -143,7 +142,7 @@
 			id: "65AB407A463EAAFD"
 			tasks: [{
 				id: "0EB086DF50CF4559"
-				item: "technicresources:diamond_plate"
+				item: { count: 1, id: "technicresources:diamond_plate" }
 				type: "item"
 			}]
 			x: 13.5d
@@ -157,13 +156,7 @@
 			id: "4DF0E97C636A7CBD"
 			tasks: [{
 				id: "4FD9D177FE8CFF3F"
-				item: {
-					Count: 1
-					id: "minecraft:diamond_pickaxe"
-					tag: {
-						Damage: 0
-					}
-				}
+				item: { count: 1, id: "minecraft:diamond_pickaxe" }
 				type: "item"
 			}]
 			x: 16.5d
@@ -171,15 +164,11 @@
 		}
 		{
 			dependencies: ["29936F3B72C49C21"]
-			description: ["The room manager can be restored with a sneak right click on the dirt"]
 			id: "5ECCA818F5A4AF4E"
-			subtitle: "&6You can &achange&6 your &aroom manager &6into &adirt &6with a &aright click &6on it"
 			tasks: [{
-				icon: "technicresources:dirt"
 				id: "6BF05D66E82274FB"
 				observe_type: 0
 				timer: 0L
-				title: "Look at Dirt"
 				to_observe: "technicresources:dirt"
 				type: "observation"
 			}]
@@ -192,10 +181,9 @@
 				"12BC9E7E282A98C0"
 			]
 			id: "7665B84DCEFA079D"
-			subtitle: "&aObtain &6when left click on &adirt &6with a &ascraper"
 			tasks: [{
 				id: "6020791C4BA4A40A"
-				item: "technicresources:oak_sprout"
+				item: { count: 1, id: "technicresources:oak_sprout" }
 				type: "item"
 			}]
 			x: 11.0d
@@ -206,7 +194,7 @@
 			id: "0D960C4654342761"
 			tasks: [{
 				id: "1E7FBD44BE986E77"
-				item: "minecraft:oak_sapling"
+				item: { count: 1, id: "minecraft:oak_sapling" }
 				type: "item"
 			}]
 			x: 13.5d
@@ -217,12 +205,11 @@
 			id: "61C749C67F95B046"
 			tasks: [{
 				id: "1A80226B462716EC"
-				item: "minecraft:stick"
+				item: { count: 1, id: "minecraft:stick" }
 				type: "item"
 			}]
 			x: 13.5d
 			y: -3.5d
 		}
 	]
-	title: "&eChapter 1 - &6Getting An Upgrade"
 }

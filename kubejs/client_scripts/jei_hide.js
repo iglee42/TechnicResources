@@ -1,5 +1,5 @@
 //priority 0
-JEIEvents.hideItems(event => {
+RecipeViewerEvents.removeEntries("item",event => {
   var hided = [
     /mekanism:creative_chemical_tank/,
     /mekanism:creative_fluid_tank/,
@@ -58,7 +58,7 @@ JEIEvents.hideItems(event => {
       event.hide(machine);
   });*/
 });
-JEIEvents.addItems(event => {
+RecipeViewerEvents.addEntries('item',event => {
 
   event.add([
     Item.of('ae2:facade', '{item:"minecraft:bedrock"}'),
@@ -68,7 +68,7 @@ JEIEvents.addItems(event => {
 
 });
 
-JEIEvents.removeCategories(event => {
+RecipeViewerEvents.removeCategories(event => {
   /*event.remove('twilightforest:uncrafting_table')
   event.remove('minecraft:plugins/tag')*/
 });

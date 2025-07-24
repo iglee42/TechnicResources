@@ -4,7 +4,6 @@
 	filename: "start"
 	group: "1624E617A68B85BD"
 	hide_quest_details_until_startable: true
-	icon: "technicresources:bedrock_room_manager"
 	id: "3A690EAA4DF5F972"
 	order_index: 0
 	quest_links: [ ]
@@ -22,21 +21,18 @@
 				"6D9666C0C7A9B260"
 				"7EE344EBE45D28B3"
 			]
-			icon: "technicresources:bedrock_room_manager"
 			id: "67F21B17C1FE14A4"
 			rewards: [{
 				auto: "invisible"
 				command: "/fill ~-1 ~ ~-1 ~1 ~2 ~1 air replace #technicresources:start_break"
-				elevate_perms: true
 				id: "45D345ED56CBAE42"
+				permission_level: 2
 				team_reward: false
 				type: "command"
 			}]
 			size: 1.5d
-			subtitle: "&6This &amodpack &6start in a &abedrock box"
 			tasks: [{
 				id: "51C196571CAD83EB"
-				title: "Start of the Game"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -45,10 +41,9 @@
 		{
 			dependencies: ["67F21B17C1FE14A4"]
 			id: "2148C47C03622790"
-			subtitle: "&6Obtain when &aleft click &6on &abedrock"
 			tasks: [{
 				id: "2F05A53FECD3A84F"
-				item: "technicresources:bedrock_shard"
+				item: { count: 1, id: "technicresources:bedrock_shard" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -60,16 +55,15 @@
 			tasks: [
 				{
 					id: "55F7FA46E8C8BB45"
-					item: "technicresources:bedrock_stick"
+					item: { count: 1, id: "technicresources:bedrock_stick" }
 					type: "item"
 				}
 				{
 					id: "4C17974F3CD44ED8"
-					item: "technicresources:bedrock_scraper_head"
+					item: { count: 1, id: "technicresources:bedrock_scraper_head" }
 					type: "item"
 				}
 			]
-			title: "Scraper Parts"
 			x: 4.0d
 			y: 0.5d
 		}
@@ -78,13 +72,7 @@
 			id: "12BC9E7E282A98C0"
 			tasks: [{
 				id: "547DC6042A189CE9"
-				item: {
-					Count: 1
-					id: "technicresources:bedrock_scraper"
-					tag: {
-						Damage: 0
-					}
-				}
+				item: { count: 1, id: "technicresources:bedrock_scraper" }
 				type: "item"
 			}]
 			x: 6.0d
@@ -93,51 +81,11 @@
 		{
 			dependencies: ["12BC9E7E282A98C0"]
 			id: "28916B2EDE8204BA"
-			subtitle: "&aObtain &6when left click on &abedrock &6with a &ascraper"
 			tasks: [{
-				icon: "technicresources:stone_pebble"
 				id: "54BF2AE1C63CFA69"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "technicresources:stone_pebble"
-							}
-							{
-								Count: 1b
-								id: "technicresources:andesite_pebble"
-							}
-							{
-								Count: 1b
-								id: "technicresources:granite_pebble"
-							}
-							{
-								Count: 1b
-								id: "technicresources:diorite_pebble"
-							}
-							{
-								Count: 1b
-								id: "technicresources:deepslate_pebble"
-							}
-							{
-								Count: 1b
-								id: "technicresources:calcite_pebble"
-							}
-							{
-								Count: 1b
-								id: "technicresources:tuff_pebble"
-							}
-						]
-					}
-				}
-				match_nbt: true
-				title: "Pebbles"
+				item: { components: { "ftbquests:missing_item": "itemfilters:or" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
-			title: "Pebbles"
 			x: 8.0d
 			y: 0.5d
 		}
@@ -146,7 +94,7 @@
 			id: "6FA4AD2C0C318D48"
 			tasks: [{
 				id: "42BF8013A7FDF3C6"
-				item: "minecraft:cobblestone"
+				item: { count: 1, id: "minecraft:cobblestone" }
 				type: "item"
 			}]
 			x: 9.5d
@@ -157,7 +105,7 @@
 			id: "177E0BCDB7831B2E"
 			tasks: [{
 				id: "2C045FB7AAF39F46"
-				item: "minecraft:cobbled_deepslate"
+				item: { count: 1, id: "minecraft:cobbled_deepslate" }
 				type: "item"
 			}]
 			x: 9.5d
@@ -168,7 +116,7 @@
 			id: "6CEB44E7B0302583"
 			tasks: [{
 				id: "014B5BE1A907ADD6"
-				item: "minecraft:crafting_table"
+				item: { count: 1, id: "minecraft:crafting_table" }
 				type: "item"
 			}]
 			x: 13.0d
@@ -179,7 +127,7 @@
 			id: "5005F19D57530B1C"
 			tasks: [{
 				id: "2F324F464EC41375"
-				item: "create:andesite_alloy"
+				item: { count: 1, id: "create:andesite_alloy" }
 				type: "item"
 			}]
 			x: 9.5d
@@ -190,7 +138,7 @@
 			id: "6021B43C2E6F6E8A"
 			tasks: [{
 				id: "483B51E097283132"
-				item: "createcasing:stone_casing"
+				item: { components: { "ftbquests:missing_item": "createcasing:stone_casing" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 13.0d
@@ -204,7 +152,7 @@
 			id: "17E78B3C8FFB68B4"
 			tasks: [{
 				id: "7D5DE00B21F02288"
-				item: "createcasing:stone_cogwheel"
+				item: { components: { "ftbquests:missing_item": "createcasing:stone_cogwheel" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 13.0d
@@ -220,7 +168,7 @@
 			id: "243F5DEE66ABD38A"
 			tasks: [{
 				id: "41E069D5F2ED42C0"
-				item: "create:millstone"
+				item: { count: 1, id: "create:millstone" }
 				type: "item"
 			}]
 			x: 15.0d
@@ -231,7 +179,7 @@
 			id: "71AA0EE41F0358E4"
 			tasks: [{
 				id: "3C647AAFC23E027A"
-				item: "technicresources:deepslate_stick"
+				item: { count: 1, id: "technicresources:deepslate_stick" }
 				type: "item"
 			}]
 			x: 11.0d
@@ -245,13 +193,7 @@
 			id: "2CA5F5DCF0C21303"
 			tasks: [{
 				id: "696B1D25108362EE"
-				item: {
-					Count: 1
-					id: "technicresources:stone_hammer"
-					tag: {
-						Damage: 0
-					}
-				}
+				item: { count: 1, id: "technicresources:stone_hammer" }
 				type: "item"
 			}]
 			x: 13.0d
@@ -259,11 +201,10 @@
 		}
 		{
 			dependencies: ["2CA5F5DCF0C21303"]
-			icon: "minecraft:gravel"
 			id: "45CA44F83334BB3B"
 			tasks: [{
 				id: "44C3FA7982EABC58"
-				item: "minecraft:gravel"
+				item: { count: 1, id: "minecraft:gravel" }
 				type: "item"
 			}]
 			x: 15.0d
@@ -277,7 +218,7 @@
 			id: "4D85FE19767F4F82"
 			tasks: [{
 				id: "38699D644A4277C0"
-				item: "minecraft:iron_nugget"
+				item: { count: 1, id: "minecraft:iron_nugget" }
 				type: "item"
 			}]
 			x: 17.0d
@@ -288,13 +229,7 @@
 			id: "5344EA2AB08BBFBB"
 			tasks: [{
 				id: "57B616FDE7E1D6F7"
-				item: {
-					Count: 1
-					id: "minecraft:iron_pickaxe"
-					tag: {
-						Damage: 0
-					}
-				}
+				item: { count: 1, id: "minecraft:iron_pickaxe" }
 				type: "item"
 			}]
 			x: 23.5d
@@ -305,7 +240,7 @@
 			id: "6123291E98100AA9"
 			tasks: [{
 				id: "75E87B1FB5A95560"
-				item: "technicresources:small_bedrock"
+				item: { count: 1, id: "technicresources:small_bedrock" }
 				type: "item"
 			}]
 			x: 11.5d
@@ -321,7 +256,7 @@
 			size: 2.5d
 			tasks: [{
 				id: "28CA8FF332493A0A"
-				item: "technicresources:room_upgrader"
+				item: { count: 1, id: "technicresources:room_upgrader" }
 				type: "item"
 			}]
 			x: 25.5d
@@ -332,7 +267,7 @@
 			id: "21624EA3DFC3A5C8"
 			tasks: [{
 				id: "2755BF9883CB9F2A"
-				item: "create:hand_crank"
+				item: { count: 1, id: "create:hand_crank" }
 				type: "item"
 			}]
 			x: 13.0d
@@ -343,7 +278,7 @@
 			id: "5AFC0BF995FEBF12"
 			tasks: [{
 				id: "540F678314B9D13D"
-				item: "minecraft:calcite"
+				item: { count: 1, id: "minecraft:calcite" }
 				type: "item"
 			}]
 			x: 9.5d
@@ -354,13 +289,7 @@
 			id: "4DB77B63B43D10F6"
 			tasks: [{
 				id: "73FAB8584740A15D"
-				item: {
-					Count: 1
-					id: "technicresources:metal_hammer"
-					tag: {
-						Damage: 0
-					}
-				}
+				item: { count: 1, id: "technicresources:metal_hammer" }
 				type: "item"
 			}]
 			x: 18.5d
@@ -371,13 +300,11 @@
 			id: "274A5FF5C5E785AE"
 			tasks: [{
 				id: "5B0F5369EB55C425"
-				item: "technicresources:iron_plate"
+				item: { count: 1, id: "technicresources:iron_plate" }
 				type: "item"
 			}]
 			x: 21.0d
 			y: -2.5d
 		}
 	]
-	subtitle: ["&7&oRemember Something..."]
-	title: "&eChapter 0 - &6Start in a box"
 }

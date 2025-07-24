@@ -1,8 +1,6 @@
 {
-	icon: "compactmachines:personal_shrinking_device"
 	id: "0E120EE8C2865D91"
 	loot_size: 1
 	order_index: 0
-	rewards: [{ item: "compactmachines:personal_shrinking_device" }]
-	title: "Personal Shriking Device"
+	rewards: [{ id: "0EE24170850CCA79", item: { components: { "ftbquests:missing_item": "compactmachines:personal_shrinking_device" }, count: 1, id: "ftbquests:missing_item" } }]
 }
