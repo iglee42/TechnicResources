@@ -37,7 +37,6 @@ farmersdelight:patch_wild_rice
 farmersdelight:patch_wild_tomatoes
 integrateddynamics:flowers_meneglin
 integrateddynamics:tree_menril
-iska_utils:rubber
 mekanism:ore_fluorite_buried
 mekanism:ore_fluorite_buried_retrogen
 mekanism:ore_fluorite_normal

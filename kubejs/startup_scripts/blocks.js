@@ -14,14 +14,14 @@ StartupEvents.registry('block', e => {
     registerUnbreakable('bedrock_room_manager', 'Bedrock Room Manager', 'stone').property(global.STAGE).defaultState(c => {
         c.set(global.STAGE, 0)
     })
-    registerUnbreakable('dirt', 'Dirt', 'grass').model('minecraft:block/dirt').tagBlock('minecraft:dirt').property(global.STAGE).defaultState(c => {
+    registerUnbreakable('dirt', 'Dirt', 'grass').tagBlock('minecraft:dirt').property(global.STAGE).defaultState(c => {
         c.set(global.STAGE, 0)
     })
-    register('small_bedrock', 'Small Bedrock', 'stone', 4, 128, 'pickaxe', 'stone', true).defaultCutout().model('technicresources:block/small_bedrock').waterlogged().fullBlock(false).notSolid().opaque(false).box(4, 4, 4, 12, 12, 12)
+    register('small_bedrock', 'Small Bedrock', 'stone', 4, 128, 'pickaxe', 'stone', true).defaultCutout().waterlogged().fullBlock(false).notSolid().opaque(false).box(4, 4, 4, 12, 12, 12)
 
     /**************Chapter 1**************/
 
-    register('breakable_bedrock', 'Breakable Bedrock', 'stone', 8, 256, 'pickaxe', 'stone', true).model('minecraft:block/bedrock')
+    register('breakable_bedrock', 'Breakable Bedrock', 'stone', 8, 256, 'pickaxe', 'stone', true)
     register('compressed_breakable_bedrock', 'Compressed Breakable Bedrock', 'stone', 9, 210000, 'pickaxe', 'stone', true)
 
 
