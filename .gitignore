@@ -53,3 +53,5 @@ banned-players.json
 whitelist.json
 /world/
 command_history.txt
+/config/ars_nouveau/search_index/
+/config/skyblockbuilder/data/
