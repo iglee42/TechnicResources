@@ -24,6 +24,9 @@
 				"6D9666C0C7A9B260"
 				"7EE344EBE45D28B3"
 			]
+			icon: {
+				id: "technicresources:bedrock_room_manager"
+			}
 			id: "67F21B17C1FE14A4"
 			rewards: [{
 				auto: "invisible"

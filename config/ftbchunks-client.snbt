@@ -133,10 +133,10 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"minecraft:shulker": true
-			"mekanismadditions:baby_wither_skeleton": true
 			"mekanismadditions:baby_bogged": true
 			"minecraft:skeleton": true
+			"minecraft:shulker": true
+			"mekanismadditions:baby_wither_skeleton": true
 			"artifacts:mimic": true
 		}
 		
