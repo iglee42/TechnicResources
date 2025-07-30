@@ -1,0 +1,8 @@
+{
+	"parent": "block/cube_bottom_top",
+	"textures": {
+		"side": "packagedauto:block/packaged_machine_casing_side",
+		"top": "packagedauto:block/packaged_machine_casing_top",
+		"bottom": "packagedauto:block/machine_bottom"
+	}
+}

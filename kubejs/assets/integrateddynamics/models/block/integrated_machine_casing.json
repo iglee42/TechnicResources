@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "integrateddynamics:block/integrated_machine_casing_top",
+        "down": "integrateddynamics:block/integrated_machine_casing_top",
+        "up": "integrateddynamics:block/integrated_machine_casing_top",
+        "north": "integrateddynamics:block/integrated_machine_casing_front",
+        "east": "integrateddynamics:block/integrated_machine_casing_side",
+        "south": "integrateddynamics:block/integrated_machine_casing_back",
+        "west": "integrateddynamics:block/integrated_machine_casing_side"
+    }
+}

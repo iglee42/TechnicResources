@@ -38,6 +38,22 @@ StartupEvents.registry('block', e => {
 
     /***********************************Other****************************************/
     registerOtherMod('createaddition', 'electrum_block', 'Electrum Block', 'metal', 5, 6, 'pickaxe', 'iron', true)
+
+    /***************************Custom Machine Casings*******************************/
+    registerOtherMod('hostilenetworks', 'hostile_machine_casing', 'Hostile Machine Casing', 'metal', 5, 6, 'pickaxe', 'iron', true)
+    registerOtherMod('actuallyadditions', 'actually_machine_casing', 'Actually Machine Casing', 'metal', 5, 6, 'pickaxe', 'iron', true)
+    registerOtherMod('integrateddynamics', 'integrated_machine_casing', 'Integrated Machine Casing', 'metal', 5, 6, 'pickaxe', 'iron', true)
+    registerOtherMod('packagedauto', 'packaged_machine_casing', 'Packaged Machine Casing', 'metal', 5, 6, 'pickaxe', 'iron', true)
+    registerOtherMod('powah', 'machine_casing_starter', 'Machine Casing (Starter)', 'metal', 5, 6, 'pickaxe', 'iron', true)
+    registerOtherMod('powah', 'machine_casing_basic', 'Machine Casing (Basic)', 'metal', 5, 6, 'pickaxe', 'iron', true)
+    registerOtherMod('powah', 'machine_casing_hardened', 'Machine Casing (Hardened)', 'metal', 5, 6, 'pickaxe', 'iron', true)
+    registerOtherMod('powah', 'machine_casing_blazing', 'Machine Casing (Blazing)', 'metal', 5, 6, 'pickaxe', 'iron', true)
+    registerOtherMod('powah', 'machine_casing_niotic', 'Machine Casing (Niotic)', 'metal', 5, 6, 'pickaxe', 'iron', true)
+    registerOtherMod('powah', 'machine_casing_spirited', 'Machine Casing (Spirited)', 'metal', 5, 6, 'pickaxe', 'iron', true)
+    registerOtherMod('powah', 'machine_casing_nitro', 'Machine Casing (Nitro)', 'metal', 5, 6, 'pickaxe', 'iron', true)
+    registerOtherMod('rftoolsbase', 'infused_machine_casing', 'Infused Machine Casing', 'metal', 5, 6, 'pickaxe', 'iron', true)
+    registerOtherMod('rftoolsbase', 'infused_machine_base', 'Infused Machine Base', 'metal', 5, 6, 'pickaxe', 'iron', true).box(0, 0, 0, 16, 3, 16, true)
+    registerOtherMod('avaritia', 'matrix_machine_casing', 'Matrix Machine Casing', 'metal', 5, 6, 'pickaxe', 'iron', true)
 })
 
 BlockEvents.modification(e => {
