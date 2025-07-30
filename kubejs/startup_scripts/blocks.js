@@ -54,6 +54,20 @@ StartupEvents.registry('block', e => {
     registerOtherMod('rftoolsbase', 'infused_machine_casing', 'Infused Machine Casing', 'metal', 5, 6, 'pickaxe', 'iron', true)
     registerOtherMod('rftoolsbase', 'infused_machine_base', 'Infused Machine Base', 'metal', 5, 6, 'pickaxe', 'iron', true).box(0, 0, 0, 16, 3, 16, true)
     registerOtherMod('avaritia', 'matrix_machine_casing', 'Matrix Machine Casing', 'metal', 5, 6, 'pickaxe', 'iron', true)
+    
+    /********************************Alloy Blocks************************************/
+    registerOtherMod('create', 'basalt_alloy_block', 'Block of Basalt Alloy', 'stone', 2, 3, 'pickaxe', 'stone', true).tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/basalt_alloy')
+    registerOtherMod('create', 'blackstone_alloy_block', 'Block of Blackstone Alloy', 'stone', 2, 3, 'pickaxe', 'stone', true).tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/blackstone_alloy')
+    registerOtherMod('create', 'brass_alloy_block', 'Block of Brass Alloy', 'stone', 2, 3, 'pickaxe', 'stone', true).tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/brass_alloy')
+    registerOtherMod('create', 'chorus_alloy_block', 'Block of Chorus Alloy', 'stone', 2, 3, 'pickaxe', 'stone', true).tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/chorus_alloy')
+    registerOtherMod('create', 'copper_alloy_block', 'Block of Copper Alloy', 'stone', 2, 3, 'pickaxe', 'stone', true).tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/copper_alloy')
+    registerOtherMod('create', 'deepslate_alloy_block', 'Block of Deepslate Alloy', 'stone', 2, 3, 'pickaxe', 'stone', true).tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/deepslate_alloy')
+    registerOtherMod('create', 'diorite_alloy_block', 'Block of Diorite Alloy', 'stone', 2, 3, 'pickaxe', 'stone', true).tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/diorite_alloy')
+    registerOtherMod('create', 'granite_alloy_block', 'Block of Granite Alloy', 'stone', 2, 3, 'pickaxe', 'stone', true).tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/granite_alloy')
+    registerOtherMod('create', 'source_alloy_block', 'Block of Source Alloy', 'stone', 2, 3, 'pickaxe', 'stone', true).tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/source_alloy')
+    registerOtherMod('create', 'stone_alloy_block', 'Block of Stone Alloy', 'stone', 2, 3, 'pickaxe', 'stone', true).tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/stone_alloy')
+    registerOtherMod('create', 'tuff_alloy_block', 'Block of Tuff Alloy', 'stone', 2, 3, 'pickaxe', 'stone', true).tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/tuff_alloy')
+    registerOtherMod('create', 'red_iron_alloy_block', 'Block of Red Iron Alloy', 'stone', 2, 3, 'pickaxe', 'stone', true).tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/red_iron_alloy')
 })
 
 BlockEvents.modification(e => {

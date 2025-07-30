@@ -2,16 +2,20 @@
 
 ServerEvents.recipes(event => {
     event.remove([
-        'ad_astra:steel_nugget',
-        'ad_astra:steel_ingot',
-        'ad_astra:steel_ingot_from_steel_block',
-        'ad_astra:steel_block',
         'hammerlib:gears/stone',
         'hammerlib:gears/wooden',
         'hammerlib:gears/copper',
         'hammerlib:gears/iron',
         'hammerlib:gears/gold',
         'hammerlib:gears/diamond',
-        'hammerlib:gears/netherite'
+        'hammerlib:gears/netherite',
+        'create:item_application/andesite_casing_from_wood',
+        'create:item_application/andesite_casing_from_log',
+        'create:item_application/brass_casing_from_wood',
+        'create:item_application/brass_casing_from_log',
+        'create:item_application/copper_casing_from_wood',
+        'create:item_application/copper_casing_from_log',
+        'createqol:item_application/shadow_steel_casing',
+        'createqol:item_application/refined_radiance_casing',
     ])
 })

@@ -1,0 +1,53 @@
+{
+    // The namespace is only for the textures, models and blockstates, the blocks will always be registered in the `createcasing` namespace
+    "namespace": "createcasing",
+
+    // These variables are used if the casing or cogwheel does not specify its own value
+    // For Casings : 
+    "encasedShaft": true,
+    "encasedCogwheel": true,
+    "encasedLargeCogwheel": true,
+    "encasedPipe": true,
+    "gearbox": true,
+    "depot": true,
+    "press": true,
+    "mixer": true,
+    //For Cogwheels :
+    "cogwheel": true,
+    "largeCogwheel": true,
+
+    // The models, blockstates and langs are automatically generated
+    // The textures are situated in `kubejs/assets/<namespace>/block/<type>/<casing>.png`
+    // The <type> are the values in the `textureFolders` object
+    // For the connected textures, a texture file named `<casing>_connected.png` in the same folder of the texture is required
+    // If you want the textures to be in the blocks folder just leave the strings empty
+    "textureFolders":{
+        "casing": "casings",
+        "cogwheels": "cogwheels",
+        "largeCogwheels": "large_cogwheels",
+        "encasedCogwheels": "encased_cogwheels",
+        "gearboxes": "gearboxes",
+        "mixerSides": "mixer_sides",
+        "pressTops": "press_tops",
+        "pressBottoms": "press_bottoms",
+        "pressSides": "press_sides",
+        "depotTops": "depot_tops",
+        "depotSides": "depot_sides"
+    },
+
+    // Defines your casings here, the values present upper in the file can be overridden in each casing
+    "casings":[
+        { "name": "stone" },
+        { "name": "granite" },
+        { "name": "diorite" },
+        { "name": "tuff" },
+        { "name": "deepslate" },
+        { "name": "blackstone" },
+        { "name": "basalt" },
+        { "name": "source" },
+        { "name": "chorus" }
+    ],
+
+    // Defines your cogwheels here, the values present upper in the file can be overridden in each cogwheel
+    "cogwheels":[]
+}

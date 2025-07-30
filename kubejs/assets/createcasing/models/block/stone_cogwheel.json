@@ -1,7 +1,0 @@
-{
-	"parent": "create:block/cogwheel",
-	"textures": {
-		"1_2": "kubejs:block/stone_cogwheel",
-		"particle": "block/stone"
-	}
-}

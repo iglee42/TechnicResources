@@ -6,7 +6,30 @@ ServerEvents.recipes(event => {
         //---------------Changing Ingrdient---------------//
 
         //---------------Adding Recipes---------------//
-
+        event.shaped(Item.of('create:stone_alloy_block'), ['AAA', 'AAA', 'AAA'], { 'A': 'create:stone_alloy' })
+        event.shapeless('9x create:stone_alloy', ['create:stone_alloy_block'])
+        event.shaped(Item.of('create:brass_alloy_block'), ['AAA', 'AAA', 'AAA'], { 'A': 'create:brass_alloy' })
+        event.shapeless('9x create:brass_alloy', ['create:brass_alloy_block'])
+        event.shaped(Item.of('create:copper_alloy_block'), ['AAA', 'AAA', 'AAA'], { 'A': 'create:copper_alloy' })
+        event.shapeless('9x create:copper_alloy', ['create:copper_alloy_block'])
+        event.shaped(Item.of('create:granite_alloy_block'), ['AAA', 'AAA', 'AAA'], { 'A': 'create:granite_alloy' })
+        event.shapeless('9x create:granite_alloy', ['create:granite_alloy_block'])
+        event.shaped(Item.of('create:diorite_alloy_block'), ['AAA', 'AAA', 'AAA'], { 'A': 'create:diorite_alloy' })
+        event.shapeless('9x create:diorite_alloy', ['create:diorite_alloy_block'])
+        event.shaped(Item.of('create:tuff_alloy_block'), ['AAA', 'AAA', 'AAA'], { 'A': 'create:tuff_alloy' })
+        event.shapeless('9x create:tuff_alloy', ['create:tuff_alloy_block'])
+        event.shaped(Item.of('create:deepslate_alloy_block'), ['AAA', 'AAA', 'AAA'], { 'A': 'create:deepslate_alloy' })
+        event.shapeless('9x create:deepslate_alloy', ['create:deepslate_alloy_block'])
+        event.shaped(Item.of('create:blackstone_alloy_block'), ['AAA', 'AAA', 'AAA'], { 'A': 'create:blackstone_alloy' })
+        event.shapeless('9x create:blackstone_alloy', ['create:blackstone_alloy_block'])
+        event.shaped(Item.of('create:basalt_alloy_block'), ['AAA', 'AAA', 'AAA'], { 'A': 'create:basalt_alloy' })
+        event.shapeless('9x create:basalt_alloy', ['create:basalt_alloy_block'])
+        event.shaped(Item.of('create:source_alloy_block'), ['AAA', 'AAA', 'AAA'], { 'A': 'create:source_alloy' })
+        event.shapeless('9x create:source_alloy', ['create:source_alloy_block'])
+        event.shaped(Item.of('create:chorus_alloy_block'), ['AAA', 'AAA', 'AAA'], { 'A': 'create:chorus_alloy' })
+        event.shapeless('9x create:chorus_alloy', ['create:chorus_alloy_block'])
+        event.shaped(Item.of('create:red_iron_alloy_block'), ['AAA', 'AAA', 'AAA'], { 'A': 'create:red_iron_alloy' })
+        event.shapeless('9x create:red_iron_alloy', ['create:red_iron_alloy_block'])
 
 
         //-----------Chapter 0----------------//

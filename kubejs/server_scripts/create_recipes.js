@@ -7,7 +7,23 @@ ServerEvents.recipes(event => {
   deploying('create:cogwheel',['create:shaft','minecraft:cobblestone'],false,1)
   deploying('create:large_cogwheel', ['create:cogwheel', 'minecraft:cobblestone'], false, 1)
   
-  itemApplication('minecraft:cobblestone', 'technicresources:calcite_pebble', 'createcasing:stone_casing')
+  itemApplication('minecraft:stripped_oak_wood', 'create:stone_alloy', 'createcasing:stone_casing')
+  itemApplication('minecraft:stripped_spruce_wood', 'create:andesite_alloy', 'create:andesite_casing')
+  itemApplication('minecraft:stripped_dark_oak_wood', 'create:brass_alloy', 'create:brass_casing')
+  itemApplication('minecraft:stripped_acacia_wood', 'create:copper_alloy', 'create:copper_casing')
+  itemApplication('minecraft:stripped_birch_wood', 'create:granite_alloy', 'createcasing:granite_casing')
+  itemApplication('minecraft:stripped_jungle_wood', 'create:diorite_alloy', 'createcasing:diorite_casing')
+  itemApplication('minecraft:stripped_mangrove_wood', 'create:tuff_alloy', 'createcasing:tuff_casing')
+  itemApplication('minecraft:stripped_cherry_wood', 'create:deepslate_alloy', 'createcasing:deepslate_casing')
+  itemApplication('minecraft:stripped_crimson_hyphae', 'create:blackstone_alloy', 'createcasing:blackstone_casing')
+  itemApplication('minecraft:stripped_warped_hyphae', 'create:basalt_alloy', 'createcasing:basalt_casing')
+  itemApplication('ars_nouveau:stripped_blue_archwood_wood', 'create:source_alloy', 'createcasing:source_casing')
+  itemApplication('ars_nouveau:stripped_green_archwood_wood', 'create:source_alloy', 'createcasing:source_casing')
+  itemApplication('ars_nouveau:stripped_red_archwood_wood', 'create:source_alloy', 'createcasing:source_casing')
+  itemApplication('ars_nouveau:stripped_purple_archwood_wood', 'create:source_alloy', 'createcasing:source_casing')
+  itemApplication('integrateddynamics:menril_wood_stripped', 'create:chorus_alloy', 'createcasing:chorus_casing')
+  itemApplication('createcasing:source_casing', 'create:shadow_steel', 'create:shadow_steel_casing')
+  itemApplication('createcasing:source_casing', 'create:refined_radiance', 'create:refined_radiance_casing')
 
   milling('technicresources:oak_sprout', [
     {
@@ -130,7 +146,7 @@ ServerEvents.recipes(event => {
       ],
       "results": [
         {
-          "item": output
+          "id": output
         }
       ]
     })

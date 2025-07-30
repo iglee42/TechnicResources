@@ -63,7 +63,19 @@ StartupEvents.registry('item', e => {
     register('metal_hammer', 'Metal Hammer').maxDamage(250)
     register('metal_scissors', 'Metal Scissors').maxDamage(250)
 
-
+    /**************Alloys*************/
+    registerOtherMod('create', 'basalt_alloy', 'Basalt Alloy').tag('c:ingots').tag('c:ingots/basalt_alloy')
+    registerOtherMod('create', 'blackstone_alloy', 'Blackstone Alloy').tag('c:ingots').tag('c:ingots/blackstone_alloy')
+    registerOtherMod('create', 'brass_alloy', 'Brass Alloy').tag('c:ingots').tag('c:ingots/brass_alloy')
+    registerOtherMod('create', 'chorus_alloy', 'Chorus Alloy').tag('c:ingots').tag('c:ingots/chorus_alloy')
+    registerOtherMod('create', 'copper_alloy', 'Copper Alloy').tag('c:ingots').tag('c:ingots/copper_alloy')
+    registerOtherMod('create', 'deepslate_alloy', 'Deepslate Alloy').tag('c:ingots').tag('c:ingots/deepslate_alloy')
+    registerOtherMod('create', 'diorite_alloy', 'Diorite Alloy').tag('c:ingots').tag('c:ingots/diorite_alloy')
+    registerOtherMod('create', 'granite_alloy', 'Granite Alloy').tag('c:ingots').tag('c:ingots/granite_alloy')
+    registerOtherMod('create', 'source_alloy', 'Source Alloy').tag('c:ingots').tag('c:ingots/source_alloy')
+    registerOtherMod('create', 'stone_alloy', 'Stone Alloy').tag('c:ingots').tag('c:ingots/stone_alloy')
+    registerOtherMod('create', 'tuff_alloy', 'Tuff Alloy').tag('c:ingots').tag('c:ingots/tuff_alloy')
+    registerOtherMod('create', 'red_iron_alloy', 'Red Iron Alloy').tag('c:ingots').tag('c:ingots/red_iron_alloy')
 
     // register('platinum_ingot','Platinum Ingot')
     // register('minecraft_ore_ingot','Minecraft Ores Ingot')
@@ -127,6 +139,9 @@ StartupEvents.registry('item', e => {
 
     function registerIcon(unlocname, displayName) {
         return e.create('icons:' + unlocname).displayName(displayName).texture('icons:item/' + unlocname)
+    }
+    function registerOtherMod(mod, unlocname, displayname) {
+        return e.create(mod + ':' + unlocname).displayName(displayname).texture(mod + ':item/' + unlocname)
     }
 })
 
