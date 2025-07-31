@@ -4,13 +4,13 @@
 	#.
 	#.
 	#If Bulk Coloring should be enabled
-	enableBulkColoring = true
+	enableBulkColoring = false
 	#.
 	#If Bulk Freezing should be enabled
-	enableBulkFreezing = true
+	enableBulkFreezing = false
 	#.
 	#If Bulk Sanding should be enabled
-	enableBulkSanding = true
+	enableBulkSanding = false
 	#.
 	#If Bulk Ending should be enabled
-	enableBulkEnding = true
+	enableBulkEnding = false
