@@ -77,6 +77,17 @@ StartupEvents.registry('item', e => {
     registerOtherMod('create', 'source_alloy', 'Source Alloy').tag('c:ingots').tag('c:ingots/source_alloy')
     registerOtherMod('create', 'stone_alloy', 'Stone Alloy').tag('c:ingots').tag('c:ingots/stone_alloy')
     registerOtherMod('create', 'tuff_alloy', 'Tuff Alloy').tag('c:ingots').tag('c:ingots/tuff_alloy')
+
+    registerOtherMod('create', 'iron_alloy', 'Iron Alloy').tag('c:ingots').tag('c:ingots/iron_alloy')
+    registerOtherMod('create', 'zinc_alloy', 'Zinc Alloy').tag('c:ingots').tag('c:ingots/zinc_alloy')
+    registerOtherMod('create', 'gold_alloy', 'Gold Alloy').tag('c:ingots').tag('c:ingots/gold_alloy')
+    registerOtherMod('create', 'tin_alloy', 'Tin Alloy').tag('c:ingots').tag('c:ingots/tin_alloy')
+    registerOtherMod('create', 'lead_alloy', 'Lead Alloy').tag('c:ingots').tag('c:ingots/lead_alloy')
+    registerOtherMod('create', 'osmium_alloy', 'Osmium Alloy').tag('c:ingots').tag('c:ingots/osmium_alloy')
+    registerOtherMod('create', 'electrum_alloy', 'Electrum Alloy').tag('c:ingots').tag('c:ingots/electrum_alloy')
+    registerOtherMod('create', 'uranium_alloy', 'Uranium Alloy').tag('c:ingots').tag('c:ingots/uranium_alloy')
+    registerOtherMod('create', 'netherite_alloy', 'Netherite Alloy').tag('c:ingots').tag('c:ingots/netherite_alloy')
+
     registerOtherMod('create', 'red_iron_alloy', 'Red Iron Alloy').tag('c:ingots').tag('c:ingots/red_iron_alloy')
     
     registerOtherMod('minecraft', 'copper_nugget', 'Copper Nugget').tag('c:nuggets').tag('c:nuggets/copper')
