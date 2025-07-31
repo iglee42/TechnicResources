@@ -27,7 +27,7 @@ ServerEvents.recipes(e => {
                 "L": { "tag": "c:" + type + "s/andesite_alloy" },
                 "M": { "tag": "c:" + type + "s/steel" },
                 "N": { "tag": "c:" + type + "s/compressed_iron" },
-                "O": { "tag": "c:" + type + "s/industrial_iron" },
+                "O": { "tag": "c:" + type + "s/neutron" },
                 "P": { "tag": "c:" + type + "s/netherite" },
                 "Q": { "tag": "c:" + type + "s/black_quartz" },
                 "R": { "tag": "c:" + type + "s/fluix" },
@@ -57,4 +57,28 @@ ServerEvents.recipes(e => {
     theUltimate("plate")
     theUltimate("rod")
     theUltimate("wire")
+    
+    function shaped(pattern,keys,result,count) {
+        event.custom({
+            "type": "extendedcrafting:shaped_table",
+            "pattern": pattern,
+            "key": keys,
+            "result":{
+                "item": result,
+                "count": count
+            }
+        })
+    }
+    function shapedTier(pattern,keys,result,count,tier) {
+        event.custom({
+            "type": "extendedcrafting:shaped_table",
+            "tier": tier,
+            "pattern": pattern,
+            "key": keys,
+            "result":{
+                "item": result,
+                "count": count
+            }
+        })
+    }
 })

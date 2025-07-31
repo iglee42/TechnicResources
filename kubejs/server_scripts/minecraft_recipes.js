@@ -136,6 +136,20 @@ ServerEvents.recipes(event => {
         event.shaped(Item.of('technicresources:room_upgrader_2'), ['WWW', 'WIW', 'WWW'], { 'W': 'technicresources:compressed_breakable_bedrock', 'I': 'minecraft:redstone_block' })
 
         event.shaped(Item.of('minecraft:oak_sapling'), ['WWW', 'WWW', 'WWW'], { 'W': 'technicresources:oak_sprout' })
+        event.shaped(Item.of('minecraft:spruce_sapling'), ['WWW', 'WWW', 'WWW'], { 'W': 'technicresources:spruce_sprout' })
+        event.shaped(Item.of('minecraft:dark_oak_sapling'), ['WWW', 'WWW', 'WWW'], { 'W': 'technicresources:dark_oak_sprout' })
+        event.shaped(Item.of('minecraft:birch_sapling'), ['WWW', 'WWW', 'WWW'], { 'W': 'technicresources:birch_sprout' })
+        event.shaped(Item.of('minecraft:jungle_sapling'), ['WWW', 'WWW', 'WWW'], { 'W': 'technicresources:jungle_sprout' })
+        event.shaped(Item.of('minecraft:acacia_sapling'), ['WWW', 'WWW', 'WWW'], { 'W': 'technicresources:acacia_sprout' })
+        event.shaped(Item.of('minecraft:cherry_sapling'), ['WWW', 'WWW', 'WWW'], { 'W': 'technicresources:cherry_sprout' })
+        event.shaped(Item.of('minecraft:mangrove_propagule'), ['WWW', 'WWW', 'WWW'], { 'W': 'technicresources:mangrove_sprout' })
+        event.shaped(Item.of('ars_nouveau:green_archwood_sapling'), ['WWW', 'WWW', 'WWW'], { 'W': 'technicresources:green_archwood_sprout' })
+        event.shaped(Item.of('ars_nouveau:red_archwood_sapling'), ['WWW', 'WWW', 'WWW'], { 'W': 'technicresources:red_archwood_sprout' })
+        event.shaped(Item.of('ars_nouveau:purple_archwood_sapling'), ['WWW', 'WWW', 'WWW'], { 'W': 'technicresources:purple_archwood_sprout' })
+        event.shaped(Item.of('ars_nouveau:blue_archwood_sapling'), ['WWW', 'WWW', 'WWW'], { 'W': 'technicresources:blue_archwood_sprout' })
+        event.shaped(Item.of('integrateddynamics:menril_sapling'), ['WWW', 'WWW', 'WWW'], { 'W': 'technicresources:menril_sprout' })
+        event.shaped(Item.of('naturesaura:ancient_sapling'), ['WWW', 'WWW', 'WWW'], { 'W': 'technicresources:ancient_sprout' })
+        event.shaped(Item.of('iska_utils:rubber_sapling'), ['WWW', 'WWW', 'WWW'], { 'W': 'technicresources:rubber_sprout' })
 
 
         //event.shaped(Item.of('technicresources:bedrock_breaker'), ['WWW', 'WIW', 'WWW'], { 'W': 'technicresources:compressed_wall2', 'I': 'minecraft:diamond_pickaxe' })

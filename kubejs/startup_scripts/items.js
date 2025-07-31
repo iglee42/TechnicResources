@@ -1,7 +1,7 @@
 const ModsUtils = Java.loadClass('fr.iglee42.igleelib.api.utils.ModsUtils')
 
 global.pebbles = ['stone', 'granite', 'diorite', 'andesite', 'calcite', 'tuff', 'deepslate', 'netherrack', 'blackstone', 'basalt', 'endstone']
-global.materials = ['wooden','stone','diamond','gold','iron','netherite','copper','compressed_iron','uraninite','redstone','emerald','lapis_lazuli','quartz','amethyst','zinc','andesite_alloy','brass','electrum','certus_quartz','fluix','crystalized_menril','crystalized_chorus','desh','ostrum','calorite','bronze','steel','refined_obsidian','refined_glowstone','osmium','tin','lead','uranium','fluorite','black_quartz','industrial_iron','the_ultimate']
+global.materials = ['wooden','stone','diamond','gold','iron','netherite','copper','compressed_iron','uraninite','redstone','emerald','lapis_lazuli','quartz','amethyst','zinc','andesite_alloy','brass','electrum','certus_quartz','fluix','crystalized_menril','crystalized_chorus','desh','ostrum','calorite','bronze','steel','refined_obsidian','refined_glowstone','osmium','tin','lead','uranium','fluorite','black_quartz','neutron','the_ultimate']
 global.colors = ['white', 'orange', 'magenta', 'light_blue', 'yellow', 'lime', 'pink', 'gray', 'light_gray', 'cyan', 'purple', 'blue', 'brown', 'green', 'red', 'black'];
 
 
@@ -21,13 +21,10 @@ StartupEvents.registry('item', e => {
     register('room_upgrader', 'Room Upgrader').unstackable()
 
     /**************Chapter 1**************/
-
     register('bedrock_breaker', 'Bedrock Breaker').unstackable()
-
     register('room_upgrader_2', 'Room Upgrader Tier 2').unstackable()
-
     register('oak_sprout', 'Oak Sprout')
-register('spruce_sprout', 'Spruce Sprout')
+    register('spruce_sprout', 'Spruce Sprout')
     register('birch_sprout', 'Birch Sprout')
     register('jungle_sprout', 'Jungle Sprout')
     register('acacia_sprout', 'Acacia Sprout')
@@ -52,15 +49,11 @@ register('spruce_sprout', 'Spruce Sprout')
     register('room_upgrader_5', 'Room Upgrader Tier 5').unstackable()
 
     /**************Gears**************/
-
     global.materials.forEach((m) => {
         registerTag('gears', m + '_gear', (m.equals('the_ultimate') ? '§c' : '') + ModsUtils.getUpperName(m, '_') + ' Gear').tag('c:gears/'+m)
     })
 
-
-
     /**************Plates**************/
-
     global.materials.forEach((m) => {
         registerTag('plates', m + '_plate', (m.equals('the_ultimate') ? '§c' : '' )+  ModsUtils.getUpperName(m, '_') + ' Plate').tag('c:plates/' + m)
     })
@@ -72,11 +65,9 @@ register('spruce_sprout', 'Spruce Sprout')
 
 
     /**************Wires**************/
-
     global.materials.forEach((m) => {
         registerTag('wires', m + '_wire', (m.equals('the_ultimate') ? '§c' : '') + ModsUtils.getUpperName(m, '_') + ' Wire').tag('c:wires/' + m).tag('c:wires/all_metal')
     })
-
 
     /**************Molds**************/
     register('mold_gear', 'Gear Mold')
@@ -87,6 +78,7 @@ register('spruce_sprout', 'Spruce Sprout')
     /**************Tools**************/
     register('metal_hammer', 'Metal Hammer').tag('c:tools').maxDamage(250)
     register('metal_scissors', 'Metal Scissors').tag('c:tools').maxDamage(250)
+    registerOtherMod('minecraft', 'dye_primer', 'Dye Primer').tag('c:tools').maxDamage(128)
 
     /**************Alloys*************/
     registerOtherMod('create', 'basalt_alloy', 'Basalt Alloy').tag('c:ingots').tag('c:ingots/basalt_alloy')
@@ -100,7 +92,6 @@ register('spruce_sprout', 'Spruce Sprout')
     registerOtherMod('create', 'source_alloy', 'Source Alloy').tag('c:ingots').tag('c:ingots/source_alloy')
     registerOtherMod('create', 'stone_alloy', 'Stone Alloy').tag('c:ingots').tag('c:ingots/stone_alloy')
     registerOtherMod('create', 'tuff_alloy', 'Tuff Alloy').tag('c:ingots').tag('c:ingots/tuff_alloy')
-
     registerOtherMod('create', 'iron_alloy', 'Iron Alloy').tag('c:ingots').tag('c:ingots/iron_alloy')
     registerOtherMod('create', 'zinc_alloy', 'Zinc Alloy').tag('c:ingots').tag('c:ingots/zinc_alloy')
     registerOtherMod('create', 'gold_alloy', 'Gold Alloy').tag('c:ingots').tag('c:ingots/gold_alloy')
@@ -110,11 +101,10 @@ register('spruce_sprout', 'Spruce Sprout')
     registerOtherMod('create', 'electrum_alloy', 'Electrum Alloy').tag('c:ingots').tag('c:ingots/electrum_alloy')
     registerOtherMod('create', 'uranium_alloy', 'Uranium Alloy').tag('c:ingots').tag('c:ingots/uranium_alloy')
     registerOtherMod('create', 'netherite_alloy', 'Netherite Alloy').tag('c:ingots').tag('c:ingots/netherite_alloy')
-
     registerOtherMod('create', 'red_iron_alloy', 'Red Iron Alloy').tag('c:ingots').tag('c:ingots/red_iron_alloy')
     
+    /**************Other**************/
     registerOtherMod('minecraft', 'copper_nugget', 'Copper Nugget').tag('c:nuggets').tag('c:nuggets/copper')
-    registerOtherMod('minecraft', 'dye_primer', 'Dye Primer').tag('c:tools').maxDamage(128)
     // register('platinum_ingot','Platinum Ingot')
     // register('minecraft_ore_ingot','Minecraft Ores Ingot')
     // register('platinum_nugget','Platinum Nugget')
@@ -152,10 +142,7 @@ register('spruce_sprout', 'Spruce Sprout')
     /************************************Icons************************************/
     registerIcon('tr', 'TR')
     registerIcon('technic_resources', 'Technic Resources')
-    registerIcon('discord', 'Discord')
-    registerIcon('github', 'Github')
     registerIcon('website', 'Website')
-    registerIcon('bisect_hosting', 'Bisect Hosting')
 
 
     /************************************Function************************************/
