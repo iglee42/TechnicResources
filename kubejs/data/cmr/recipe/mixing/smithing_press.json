@@ -1,0 +1,25 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "frozen",
+  "ingredients": [
+    {
+      "item": "minecraft:smithing_table"
+    },
+    {
+      "item": "create:mechanical_press"
+    },
+    {
+      "tag": "c:plates/iron"
+    },
+    {
+      "tag": "c:plates/iron"
+    }
+  ],
+  "results": [
+    {
+      "item":{
+        "id": "cmr:smithing_press"
+      }
+    }
+  ]
+}
