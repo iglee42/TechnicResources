@@ -4,8 +4,8 @@ ServerEvents.recipes(event => {
   event.shapeless('9x createaddition:electrum_ingot', 'createaddition:electrum_block')
 
   // Cogwheels
-  deploying('create:cogwheel', ['create:shaft', 'minecraft:cobblestone'], false, 1)
-  deploying('create:large_cogwheel', ['create:cogwheel', 'minecraft:cobblestone'], false, 1)
+  deploying('createcasing:stone_cogwheel', ['create:shaft', 'minecraft:cobblestone'], false, 1)
+  deploying('createcasing:stone_large_cogwheel', ['createcasing:stone_cogwheel', 'minecraft:cobblestone'], false, 1)
 
   // Casings
   itemApplication('minecraft:stripped_oak_wood', 'create:stone_alloy', 'createcasing:stone_casing')
@@ -37,41 +37,9 @@ ServerEvents.recipes(event => {
   mixing(['c:dyes/blue', 'c:dyes/green'], 'minecraft:cyan_dye', 2)
   mixing(['c:dyes/white', 'c:dyes/green'], 'minecraft:lime_dye', 2)
 
-  milling('technicresources:oak_sprout', [
-    {
-      "item": "minecraft:stick"
-    },
-    {
-      "chance": 0.25,
-      "item": "minecraft:stick"
-    }
-  ])
+  milling('technicresources:oak_sprout', [{ "id": "minecraft:stick" }, { "chance": 0.25, "id": "minecraft:stick" }])
 
-  /*event.custom({
-    "type": "create:milling",
-    "ingredients": [
-      {
-        "item": "minecraft:gravel"
-      }
-    ],
-    "results": [
-      {
-        "chance": 0.6,
-        "item": "minecraft:iron_nugget"
-      },
-      {
-        "chance": 0.6,
-        "item": "minecraft:iron_nugget"
-      },
-      {
-        "chance": 0.6,
-        "item": "minecraft:iron_nugget"
-      },
-      {
-        "item":"minecraft:flint"
-      }
-    ]
-  })*/
+  milling('minecraft:gravel', [{ "chance": 0.6, "id": "minecraft:iron_nugget" }, { "chance": 0.6, "id": "minecraft:iron_nugget" }, { "chance": 0.6, "id": "minecraft:iron_nugget" }, { "id": "minecraft:flint" }])
 
   function mixing(ingredients, result, count) {
     event.custom({
@@ -79,7 +47,7 @@ ServerEvents.recipes(event => {
       "ingredients": [
         {
           "tag": ingredients[0]
-        },,
+        },
         {
           "tag": ingredients[1]
         }
@@ -158,7 +126,7 @@ ServerEvents.recipes(event => {
       "keepHeldItem": keepHeldItem,
       "results": [
         {
-          "item": result,
+          "id": result,
           "count": count
         }
       ]
@@ -190,7 +158,7 @@ ServerEvents.recipes(event => {
       }],
       "results": [
         {
-          "item": transitionalItem
+          "id": transitionalItem
         }
       ]
     }
@@ -209,7 +177,7 @@ ServerEvents.recipes(event => {
       "keepHeldItem": false,
       "results": [
         {
-          "item": transitionalItem
+          "id": transitionalItem
         }
       ]
     }
@@ -222,7 +190,7 @@ ServerEvents.recipes(event => {
       }],
       "results": [
         {
-          "item": transitionalItem
+          "id": transitionalItem
         }
       ],
       "processingTime": 50
@@ -237,7 +205,7 @@ ServerEvents.recipes(event => {
       "loops": loops,
       "results": [
         {
-          "item": result,
+          "id": result,
           "count": count
         }
       ],

@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "up": "rftoolsbase:block/machinetop",
-    "side": "rftoolsbase:block/machineside",
-    "bottom": "rftoolsbase:block/machinebottom"
-  }
-}
