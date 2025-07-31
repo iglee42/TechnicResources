@@ -3,7 +3,7 @@ const $IntegerProperty = Java.loadClass('net.minecraft.world.level.block.state.p
 
 console.info("Hello Blocks 👋")
 StartupEvents.registry('block', e => {
-    global.STAGE = $IntegerProperty.create("stage", 0, 4)
+    global.STAGE = $IntegerProperty.create("stage", 0, 5)
     /************************************Normal Block************************************/
     //register('platinum_block','Block of Platinum','iron',1,'pickaxe',2)
     //register('fluxdust_block','Block of Fluxdust','sand',0,'shovel',0)
