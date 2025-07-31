@@ -3,7 +3,7 @@ const $IntegerProperty = Java.loadClass('net.minecraft.world.level.block.state.p
 
 console.info("Hello Blocks 👋")
 StartupEvents.registry('block', e => {
-    global.STAGE = $IntegerProperty.create("stage", 0, 2)
+    global.STAGE = $IntegerProperty.create("stage", 0, 4)
     /************************************Normal Block************************************/
     //register('platinum_block','Block of Platinum','iron',1,'pickaxe',2)
     //register('fluxdust_block','Block of Fluxdust','sand',0,'shovel',0)
@@ -18,6 +18,7 @@ StartupEvents.registry('block', e => {
         c.set(global.STAGE, 0)
     })
     register('small_bedrock', 'Small Bedrock', 'stone', 4, 128, 'pickaxe', 'stone', true).defaultCutout().waterlogged().fullBlock(false).notSolid().opaque(false).box(4, 4, 4, 12, 12, 12)
+    registerUnbreakable('glowrock', 'Glowrock', 'glass').lightLevel(1)
 
     /**************Chapter 1**************/
 

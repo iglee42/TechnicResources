@@ -27,6 +27,29 @@ StartupEvents.registry('item', e => {
     register('room_upgrader_2', 'Room Upgrader Tier 2').unstackable()
 
     register('oak_sprout', 'Oak Sprout')
+register('spruce_sprout', 'Spruce Sprout')
+    register('birch_sprout', 'Birch Sprout')
+    register('jungle_sprout', 'Jungle Sprout')
+    register('acacia_sprout', 'Acacia Sprout')
+    register('dark_oak_sprout', 'Dark Oak Sprout')
+    register('cherry_sprout', 'Cherry Sprout')
+    register('mangrove_sprout', 'Mangrove Sprout')
+    register('blue_archwood_sprout', 'Blue Archwood Sprout')
+    register('red_archwood_sprout', 'Red Archwood Sprout')
+    register('purple_archwood_sprout', 'Purple Archwood Sprout')
+    register('green_archwood_sprout', 'Green Archwood Sprout')
+    register('menril_sprout', 'Menril Sprout')
+    register('ancient_sprout', 'Ancient Sprout')
+    register('rubber_sprout', 'Rubber Sprout')
+    
+    /**************Chapter 2**************/
+    register('room_upgrader_3', 'Room Upgrader Tier 3').unstackable()
+    
+    /**************Chapter 3**************/
+    register('room_upgrader_4', 'Room Upgrader Tier 4').unstackable()
+    
+    /**************Chapter 4**************/
+    register('room_upgrader_5', 'Room Upgrader Tier 5').unstackable()
 
     /**************Gears**************/
 
