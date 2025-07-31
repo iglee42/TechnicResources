@@ -46,7 +46,16 @@
         { "name": "basalt" },
         { "name": "source" },
         { "name": "chorus" },
-        { "name": "red_iron" }
+        { "name": "red_iron" },
+        { "name": "iron" },
+        { "name": "zinc" },
+        { "name": "gold" },
+        { "name": "tin" },
+        { "name": "lead" },
+        { "name": "osmium" },
+        { "name": "electrum" },
+        { "name": "uranium" },
+        { "name": "netherite" }
     ],
 
     // Defines your cogwheels here, the values present upper in the file can be overridden in each cogwheel

@@ -23,8 +23,22 @@ ServerEvents.recipes(event => {
   itemApplication('ars_nouveau:stripped_red_archwood_wood', 'create:source_alloy', 'createcasing:source_casing')
   itemApplication('ars_nouveau:stripped_purple_archwood_wood', 'create:source_alloy', 'createcasing:source_casing')
   itemApplication('integrateddynamics:menril_wood_stripped', 'create:chorus_alloy', 'createcasing:chorus_casing')
-  itemApplication('createcasing:source_casing', 'create:shadow_steel', 'create:shadow_steel_casing')
-  itemApplication('createcasing:source_casing', 'create:refined_radiance', 'create:refined_radiance_casing')
+  
+  itemApplication('create:copper_casing', 'create:iron_alloy', 'createcasing:iron_casing')
+  itemApplication('createcasing:iron_casing', 'create:red_iron_alloy', 'createcasing:red_iron_casing')
+  itemApplication('createcasing:iron_casing', 'create:zinc_alloy', 'createcasing:zinc_casing')
+  itemApplication('createcasing:zinc_casing', 'create:gold_alloy', 'createcasing:gold_casing')
+  itemApplication('createcasing:gold_casing', 'create:tin_alloy', 'createcasing:tin_casing')
+  itemApplication('createcasing:gold_casing', 'create:lead_alloy', 'createcasing:lead_casing')
+  itemApplication('createcasing:tin_casing', 'create:osmium_alloy', 'createcasing:osmium_casing')
+  itemApplication('createcasing:lead_casing', 'create:osmium_alloy', 'createcasing:osmium_casing')
+  itemApplication('createcasing:osmium_casing', 'create:electrum_alloy', 'createcasing:electrum_casing')
+  itemApplication('createcasing:osmium_casing', 'create:uranium_alloy', 'createcasing:uranium_casing')
+  itemApplication('createcasing:electrum_casing', 'create:netherite_alloy', 'createcasing:netherite_casing')
+  itemApplication('createcasing:uranium_casing', 'create:netherite_alloy', 'createcasing:netherite_casing')
+
+  itemApplication('createcasing:netherite_casing', 'create:shadow_steel', 'create:shadow_steel_casing')
+  itemApplication('createcasing:netherite_casing', 'create:refined_radiance', 'create:refined_radiance_casing')
 
   // Dyes
   mixing(['c:dyes/black', 'c:dyes/white'], 'minecraft:gray_dye', 2)

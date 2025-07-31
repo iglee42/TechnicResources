@@ -67,7 +67,22 @@ StartupEvents.registry('block', e => {
     registerOtherMod('create', 'source_alloy_block', 'Block of Source Alloy', 'stone', 2, 3, 'pickaxe', 'stone', true).tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/source_alloy')
     registerOtherMod('create', 'stone_alloy_block', 'Block of Stone Alloy', 'stone', 2, 3, 'pickaxe', 'stone', true).tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/stone_alloy')
     registerOtherMod('create', 'tuff_alloy_block', 'Block of Tuff Alloy', 'stone', 2, 3, 'pickaxe', 'stone', true).tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/tuff_alloy')
+    
+    registerOtherMod('create', 'iron_alloy_block', 'Block of Iron Alloy', 'stone', 2, 3, 'pickaxe', 'stone', true).tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/iron_alloy')
+    registerOtherMod('create', 'zinc_alloy_block', 'Block of Zinc Alloy', 'stone', 2, 3, 'pickaxe', 'stone', true).tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/zinc_alloy')
+    registerOtherMod('create', 'gold_alloy_block', 'Block of Gold Alloy', 'stone', 2, 3, 'pickaxe', 'stone', true).tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/gold_alloy')
+    registerOtherMod('create', 'tin_alloy_block', 'Block of Tin Alloy', 'stone', 2, 3, 'pickaxe', 'stone', true).tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/tin_alloy')
+    registerOtherMod('create', 'lead_alloy_block', 'Block of Lead Alloy', 'stone', 2, 3, 'pickaxe', 'stone', true).tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/lead_alloy')
+    registerOtherMod('create', 'osmium_alloy_block', 'Block of Osmium Alloy', 'stone', 2, 3, 'pickaxe', 'stone', true).tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/osmium_alloy')
+    registerOtherMod('create', 'electrum_alloy_block', 'Block of Electrum Alloy', 'stone', 2, 3, 'pickaxe', 'stone', true).tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/electrum_alloy')
+    registerOtherMod('create', 'uranium_alloy_block', 'Block of Uranium Alloy', 'stone', 2, 3, 'pickaxe', 'stone', true).tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/uranium_alloy')
+    registerOtherMod('create', 'netherite_alloy_block', 'Block of Netherite Alloy', 'stone', 2, 3, 'pickaxe', 'stone', true).tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/netherite_alloy')
+    
     registerOtherMod('create', 'red_iron_alloy_block', 'Block of Red Iron Alloy', 'stone', 2, 3, 'pickaxe', 'stone', true).tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/red_iron_alloy')
+    
+    registerOtherMod('create', 'chromatic_compound_block', 'Block of Chromatic Compound', 'stone', 2, 3, 'pickaxe', 'stone', true).tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/chromatic_compound')
+    registerOtherMod('create', 'refined_radiance_block', 'Block of Refined Radiance', 'stone', 2, 3, 'pickaxe', 'stone', true).tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/refined_radiance')
+    registerOtherMod('create', 'shadow_steel_block', 'Block of Shadow Steel', 'stone', 2, 3, 'pickaxe', 'stone', true).tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/shadow_steel')
 })
 
 BlockEvents.modification(e => {
