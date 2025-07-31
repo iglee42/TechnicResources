@@ -6,6 +6,8 @@ ServerEvents.recipes(event => {
         //---------------Changing Ingrdient---------------//
 
         //---------------Adding Recipes---------------//
+
+        // Alloys
         event.shaped(Item.of('create:stone_alloy_block'), ['AAA', 'AAA', 'AAA'], { 'A': 'create:stone_alloy' })
         event.shapeless('9x create:stone_alloy', ['create:stone_alloy_block'])
         event.shaped(Item.of('create:brass_alloy_block'), ['AAA', 'AAA', 'AAA'], { 'A': 'create:brass_alloy' })
@@ -30,8 +32,46 @@ ServerEvents.recipes(event => {
         event.shapeless('9x create:chorus_alloy', ['create:chorus_alloy_block'])
         event.shaped(Item.of('create:red_iron_alloy_block'), ['AAA', 'AAA', 'AAA'], { 'A': 'create:red_iron_alloy' })
         event.shapeless('9x create:red_iron_alloy', ['create:red_iron_alloy_block'])
-
-
+        
+        // Dyes
+        event.shaped('minecraft:dye_primer', ['A A', ' B '], { 'A': '#c:rods/wooden', 'B': '#minecraft:wooden_slabs' })
+        event.shapeless('minecraft:white_dye', ['minecraft:dye_primer', 'minecraft:bone_meal', 'minecraft:bone_meal']).damageIngredient('minecraft:dye_primer')
+        event.shapeless('minecraft:white_dye', ['minecraft:dye_primer', 'minecraft:lily_of_the_valley']).damageIngredient('minecraft:dye_primer')
+        event.shapeless('minecraft:light_gray_dye', ['minecraft:dye_primer', 'minecraft:azure_bluet']).damageIngredient('minecraft:dye_primer')
+        event.shapeless('minecraft:light_gray_dye', ['minecraft:dye_primer', 'minecraft:oxeye_daisy']).damageIngredient('minecraft:dye_primer')
+        event.shapeless('minecraft:light_gray_dye', ['minecraft:dye_primer', 'minecraft:white_tulip']).damageIngredient('minecraft:dye_primer')
+        event.shapeless('minecraft:gray_dye', ['minecraft:dye_primer', 'minecraft:charcoal', 'minecraft:charcoal']).damageIngredient('minecraft:dye_primer')
+        event.shapeless('minecraft:black_dye', ['minecraft:dye_primer', 'minecraft:ink_sac', 'minecraft:ink_sac']).damageIngredient('minecraft:dye_primer')
+        event.shapeless('minecraft:black_dye', ['minecraft:dye_primer', 'minecraft:wither_rose']).damageIngredient('minecraft:dye_primer')
+        event.shapeless('minecraft:brown_dye', ['minecraft:dye_primer', 'minecraft:cocoa_beans', 'minecraft:cocoa_beans']).damageIngredient('minecraft:dye_primer')
+        event.shapeless('minecraft:red_dye', ['minecraft:dye_primer', 'minecraft:beetroot', 'minecraft:beetroot']).damageIngredient('minecraft:dye_primer')
+        event.shapeless('minecraft:red_dye', ['minecraft:dye_primer', 'minecraft:poppy']).damageIngredient('minecraft:dye_primer')
+        event.shapeless('minecraft:red_dye', ['minecraft:dye_primer', 'minecraft:red_tulip']).damageIngredient('minecraft:dye_primer')
+        event.shapeless('2x minecraft:red_dye', ['minecraft:dye_primer', 'minecraft:rose_bush']).damageIngredient('minecraft:dye_primer')
+        event.shapeless('minecraft:orange_dye', ['minecraft:dye_primer', 'ars_nouveau:bombegranate_pod', 'ars_nouveau:bombegranate_pod']).damageIngredient('minecraft:dye_primer')
+        event.shapeless('minecraft:orange_dye', ['minecraft:dye_primer', 'ars_nouveau:wilden_spike', 'ars_nouveau:wilden_spike']).damageIngredient('minecraft:dye_primer')
+        event.shapeless('minecraft:orange_dye', ['minecraft:dye_primer', 'minecraft:orange_tulip']).damageIngredient('minecraft:dye_primer')
+        event.shapeless('minecraft:orange_dye', ['minecraft:dye_primer', 'minecraft:torchflower']).damageIngredient('minecraft:dye_primer')
+        event.shapeless('minecraft:yellow_dye', ['minecraft:dye_primer', '#c:dusts/sulfur', '#c:dusts/sulfur']).damageIngredient('minecraft:dye_primer')
+        event.shapeless('minecraft:yellow_dye', ['minecraft:dye_primer', 'minecraft:dandelion']).damageIngredient('minecraft:dye_primer')
+        event.shapeless('2x minecraft:yellow_dye', ['minecraft:dye_primer', 'minecraft:sunflower']).damageIngredient('minecraft:dye_primer')
+        event.shapeless('minecraft:pink_dye', ['minecraft:dye_primer', 'ars_nouveau:magebloom', 'ars_nouveau:magebloom']).damageIngredient('minecraft:dye_primer')
+        event.shapeless('minecraft:pink_dye', ['minecraft:dye_primer', 'minecraft:pink_tulip']).damageIngredient('minecraft:dye_primer')
+        event.shapeless('minecraft:pink_dye', ['minecraft:dye_primer', 'minecraft:pink_petals']).damageIngredient('minecraft:dye_primer')
+        event.shapeless('2x minecraft:pink_dye', ['minecraft:dye_primer', 'minecraft:peony']).damageIngredient('minecraft:dye_primer')
+        event.shapeless('minecraft:magenta_dye', ['minecraft:dye_primer', 'minecraft:allium']).damageIngredient('minecraft:dye_primer')
+        event.shapeless('2x minecraft:magenta_dye', ['minecraft:dye_primer', 'minecraft:lilac']).damageIngredient('minecraft:dye_primer')
+        event.shapeless('minecraft:purple_dye', ['minecraft:dye_primer', 'ars_nouveau:sourceberry_bush', 'ars_nouveau:sourceberry_bush']).damageIngredient('minecraft:dye_primer')
+        event.shapeless('minecraft:purple_dye', ['minecraft:dye_primer', 'ars_nouveau:bastion_pod', 'ars_nouveau:bastion_pod']).damageIngredient('minecraft:dye_primer')
+        event.shapeless('minecraft:blue_dye', ['minecraft:dye_primer', 'minecraft:lapis_lazuli', 'minecraft:lapis_lazuli']).damageIngredient('minecraft:dye_primer')
+        event.shapeless('minecraft:blue_dye', ['minecraft:dye_primer', 'minecraft:cornflower']).damageIngredient('minecraft:dye_primer')
+        event.shapeless('minecraft:light_blue_dye', ['minecraft:dye_primer', 'ars_nouveau:frostaya_pod', 'ars_nouveau:frostaya_pod']).damageIngredient('minecraft:dye_primer')
+        event.shapeless('minecraft:light_blue_dye', ['minecraft:dye_primer', 'minecraft:blue_orchid']).damageIngredient('minecraft:dye_primer')
+        event.shapeless('2x minecraft:cyan_dye', ['minecraft:dye_primer', 'minecraft:pitcher_plant']).damageIngredient('minecraft:dye_primer')
+        event.shapeless('minecraft:green_dye', ['minecraft:dye_primer', 'minecraft:cactus', 'minecraft:cactus']).damageIngredient('minecraft:dye_primer')
+        event.shapeless('minecraft:lime_dye', ['minecraft:dye_primer', 'ars_nouveau:mendosteen_pod', 'ars_nouveau:mendosteen_pod']).damageIngredient('minecraft:dye_primer')
+        event.shapeless('minecraft:lime_dye', ['minecraft:dye_primer', 'minecraft:sea_pickle', 'minecraft:sea_pickle']).damageIngredient('minecraft:dye_primer')
+        
         //-----------Chapter 0----------------//
 
         event.shaped(Item.of('technicresources:bedrock_stick'), ['F ', 'F '], { 'F': 'technicresources:bedrock_shard' })

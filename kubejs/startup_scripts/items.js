@@ -60,8 +60,8 @@ StartupEvents.registry('item', e => {
     register('mold_wire', 'Wire Mold')
 
     /**************Tools**************/
-    register('metal_hammer', 'Metal Hammer').maxDamage(250)
-    register('metal_scissors', 'Metal Scissors').maxDamage(250)
+    register('metal_hammer', 'Metal Hammer').tag('c:tools').maxDamage(250)
+    register('metal_scissors', 'Metal Scissors').tag('c:tools').maxDamage(250)
 
     /**************Alloys*************/
     registerOtherMod('create', 'basalt_alloy', 'Basalt Alloy').tag('c:ingots').tag('c:ingots/basalt_alloy')
@@ -76,7 +76,9 @@ StartupEvents.registry('item', e => {
     registerOtherMod('create', 'stone_alloy', 'Stone Alloy').tag('c:ingots').tag('c:ingots/stone_alloy')
     registerOtherMod('create', 'tuff_alloy', 'Tuff Alloy').tag('c:ingots').tag('c:ingots/tuff_alloy')
     registerOtherMod('create', 'red_iron_alloy', 'Red Iron Alloy').tag('c:ingots').tag('c:ingots/red_iron_alloy')
-
+    
+    registerOtherMod('minecraft', 'copper_nugget', 'Copper Nugget').tag('c:nuggets').tag('c:nuggets/copper')
+    registerOtherMod('minecraft', 'dye_primer', 'Dye Primer').tag('c:tools').maxDamage(128)
     // register('platinum_ingot','Platinum Ingot')
     // register('minecraft_ore_ingot','Minecraft Ores Ingot')
     // register('platinum_nugget','Platinum Nugget')
