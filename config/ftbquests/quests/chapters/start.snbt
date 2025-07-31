@@ -125,7 +125,7 @@
 				item: { count: 1, id: "minecraft:crafting_table" }
 				type: "item"
 			}]
-			x: 13.0d
+			x: 11.5d
 			y: -1.0d
 		}
 		{
@@ -140,20 +140,9 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["6FA4AD2C0C318D48"]
-			id: "6021B43C2E6F6E8A"
-			tasks: [{
-				id: "483B51E097283132"
-				item: { components: { "ftbquests:missing_item": "createcasing:stone_casing" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 13.0d
-			y: 0.0d
-		}
-		{
 			dependencies: [
 				"5005F19D57530B1C"
-				"6CEB44E7B0302583"
+				"6FA4AD2C0C318D48"
 			]
 			id: "17E78B3C8FFB68B4"
 			tasks: [{
@@ -161,12 +150,11 @@
 				item: { count: 1, id: "createcasing:stone_cogwheel" }
 				type: "item"
 			}]
-			x: 13.0d
+			x: 11.5d
 			y: 1.0d
 		}
 		{
 			dependencies: [
-				"6021B43C2E6F6E8A"
 				"17E78B3C8FFB68B4"
 				"6CEB44E7B0302583"
 				"21624EA3DFC3A5C8"
@@ -178,7 +166,7 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["177E0BCDB7831B2E"]
@@ -188,7 +176,7 @@
 				item: { count: 1, id: "technicresources:deepslate_stick" }
 				type: "item"
 			}]
-			x: 11.0d
+			x: 11.5d
 			y: -2.0d
 		}
 		{
@@ -276,7 +264,7 @@
 				item: { count: 1, id: "create:hand_crank" }
 				type: "item"
 			}]
-			x: 13.0d
+			x: 11.5d
 			y: 2.0d
 		}
 		{
@@ -311,6 +299,17 @@
 			}]
 			x: 21.0d
 			y: -2.5d
+		}
+		{
+			dependencies: ["6FA4AD2C0C318D48"]
+			id: "252D39AB3F28438A"
+			tasks: [{
+				id: "2084A0FF1B40B8CB"
+				item: { count: 1, id: "minecraft:furnace" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
 		}
 	]
 }
