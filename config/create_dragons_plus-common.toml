@@ -10,10 +10,10 @@
 	[features.fluid]
 		#.
 		#If Dye Fluids should be enabled
-		"fluid/dye" = true
+		"fluid/dye" = false
 		#.
 		#If Dragon's Breath Fluid should be enabled
-		"fluid/dragon_breath" = true
+		"fluid/dragon_breath" = false
 
 	#.
 	#Block Feature Elements
@@ -34,13 +34,13 @@
 	[features.recipe]
 		#.
 		#If Automated Brewing Recipes for Dragon's Breath Fluid should be generated
-		"recipe/automatic_brewing/dragon_breath" = true
+		"recipe/automatic_brewing/dragon_breath" = false
 		#.
 		#If Sand Paper Polishing Recipes for Polished Blocks should be generated
-		"recipe/sand_paper_polishing/polished_blocks" = true
+		"recipe/sand_paper_polishing/polished_blocks" = false
 		#.
 		#If Sand Paper Polishing Recipes for Oxidized Blocks should be generated
-		"recipe/sand_paper_polishing/oxidized_blocks" = true
+		"recipe/sand_paper_polishing/oxidized_blocks" = false
 		#.
 		#If Sand Paper Polishing Recipes for Waxed Blocks should be generated
-		"recipe/sand_paper_polishing/waxed_blocks" = true
+		"recipe/sand_paper_polishing/waxed_blocks" = false

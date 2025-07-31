@@ -157,8 +157,8 @@
 			]
 			id: "17E78B3C8FFB68B4"
 			tasks: [{
-				id: "7D5DE00B21F02288"
-				item: { components: { "ftbquests:missing_item": "createcasing:stone_cogwheel" }, count: 1, id: "ftbquests:missing_item" }
+				id: "562AD75230AFA133"
+				item: { count: 1, id: "createcasing:stone_cogwheel" }
 				type: "item"
 			}]
 			x: 13.0d

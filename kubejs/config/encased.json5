@@ -50,5 +50,9 @@
     ],
 
     // Defines your cogwheels here, the values present upper in the file can be overridden in each cogwheel
-    "cogwheels":[]
+    "cogwheels":[
+        {
+            "name": "stone"
+        }
+    ]
 }

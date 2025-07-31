@@ -90,7 +90,7 @@
 			id: "2426119EFE67E83F"
 			tasks: [{
 				id: "53DF1A0C502CD991"
-				item: { components: { "ftbquests:missing_item": "createcasing:iron_casing" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "createcasing:red_iron_casing" }
 				type: "item"
 			}]
 			x: 3.5d
@@ -101,7 +101,7 @@
 			id: "6A5579B7BB13916A"
 			tasks: [{
 				id: "0B15EEA79A17A31E"
-				item: { components: { "ftbquests:missing_item": "technicresources:compressor" }, count: 1, id: "ftbquests:missing_item" }
+				item: { components: { "custommachinery:machine": "technicresources:compressor" }, count: 1, id: "custommachinery:custom_machine_item" }
 				type: "item"
 			}]
 			x: 6.0d

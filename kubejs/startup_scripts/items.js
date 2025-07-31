@@ -2,6 +2,8 @@ const ModsUtils = Java.loadClass('fr.iglee42.igleelib.api.utils.ModsUtils')
 
 global.pebbles = ['stone', 'granite', 'diorite', 'andesite', 'calcite', 'tuff', 'deepslate', 'netherrack', 'blackstone', 'basalt', 'endstone']
 global.materials = ['wooden','stone','diamond','gold','iron','netherite','copper','compressed_iron','uraninite','redstone','emerald','lapis_lazuli','quartz','amethyst','zinc','andesite_alloy','brass','electrum','certus_quartz','fluix','crystalized_menril','crystalized_chorus','desh','ostrum','calorite','bronze','steel','refined_obsidian','refined_glowstone','osmium','tin','lead','uranium','fluorite','black_quartz','industrial_iron','the_ultimate']
+global.colors = ['white', 'orange', 'magenta', 'light_blue', 'yellow', 'lime', 'pink', 'gray', 'light_gray', 'cyan', 'purple', 'blue', 'brown', 'green', 'red', 'black'];
+
 
 StartupEvents.registry('item', e => {
     /************************************Normal Item************************************/

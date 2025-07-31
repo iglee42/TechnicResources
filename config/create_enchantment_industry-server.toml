@@ -69,7 +69,7 @@
 		#.
 		#If the printing of Written Books function of Printers should be enabled.
 		#[@cui:RequiresReload:server]
-		enableWrittenBookPrinting = true
+		enableWrittenBookPrinting = false
 		#.
 		#If the printing of Enchanted Books function of Printers should be enabled.
 		#[@cui:RequiresReload:server]
@@ -81,15 +81,15 @@
 		#.
 		#If the changing package patterns function of Printers should be enabled.
 		#[@cui:RequiresReload:server]
-		enablePackagePatternPrinting = true
+		enablePackagePatternPrinting = false
 		#.
 		#If the assigning package addresses function of Printers should be enabled.
 		#[@cui:RequiresReload:server]
-		enablePackageAddressPrinting = true
+		enablePackageAddressPrinting = false
 		#.
 		#If the assigning custom names function of Printers should be enabled.
 		#[@cui:RequiresReload:server]
-		enableCustomNamePrinting = true
+		enableCustomNamePrinting = false
 		#.
 		#Whether printing custom names (displayed in italics) should instead print as as item names (displayed in non-italics).
 		printingCustomNameAsItemName = false

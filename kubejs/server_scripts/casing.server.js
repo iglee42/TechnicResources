@@ -1,5 +1,5 @@
 //priority: 9002
-ServerEvents.blockLootTables(l => {
+LootJS.lootTables(event => {
     for (let c in global.casings) {
         let casing = global.casings[c]
         addDrop(casing.casing.get(), casing.casing.asItem());
@@ -18,14 +18,12 @@ ServerEvents.blockLootTables(l => {
         if (cogwheel.largeCogwheel !== null) addDrop(cogwheel.largeCogwheel.get(), cogwheel.largeCogwheel.asItem());
     }
     function addDrop(block, item) {
-        l.addBlock(block, b =>
-            b.addPool(p => {
-                p.rolls = 1;
-                p.bonusRolls = 0;
-                p.survivesExplosion();
-                p.addItem(item)
-            })
-        )
+        let blockId = block.getId();
+        let idSplit = blockId.split(':');
+        event.create(idSplit[0] + ":blocks/" + idSplit[1]).createPool( p =>{
+            p.when(cond => cond.survivesExplosion());
+            p.addEntry(item)
+        })
     }
 })
 
