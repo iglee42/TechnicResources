@@ -52,7 +52,7 @@ StartupEvents.registry('block', e => {
     registerOtherMod('powah', 'machine_casing_spirited', 'Machine Casing (Spirited)', 'metal', 5, 6, 'pickaxe', 'iron', true)
     registerOtherMod('powah', 'machine_casing_nitro', 'Machine Casing (Nitro)', 'metal', 5, 6, 'pickaxe', 'iron', true)
     registerOtherMod('rftoolsbase', 'infused_machine_casing', 'Infused Machine Casing', 'metal', 5, 6, 'pickaxe', 'iron', true)
-    registerOtherMod('rftoolsbase', 'infused_machine_base', 'Infused Machine Base', 'metal', 5, 6, 'pickaxe', 'iron', true).box(0, 0, 0, 16, 3, 16, true)
+    registerOtherMod('rftoolsbase', 'infused_machine_base', 'Infused Machine Base', 'metal', 5, 6, 'pickaxe', 'iron', true).box(0, 0, 0, 16, 5, 16, true)
     registerOtherMod('avaritia', 'matrix_machine_casing', 'Matrix Machine Casing', 'metal', 5, 6, 'pickaxe', 'iron', true)
     
     /********************************Alloy Blocks************************************/
