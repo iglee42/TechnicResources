@@ -71,6 +71,7 @@
 					type: "item"
 				}
 				{
+					auto: "no_toast"
 					id: "7CF1ABA50281D04D"
 					item: {
 						components: {
