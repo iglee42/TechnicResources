@@ -114,9 +114,9 @@ ServerEvents.recipes(event => {
 
         event.shapeless(Item.of('create:andesite_alloy', 2), ['technicresources:andesite_pebble', 'technicresources:tuff_pebble'])
 
-        //event.shapeless(Item.of('createcasing:stone_cogwheel'), ['create:shaft', 'minecraft:cobblestone'])
-        //event.shapeless(Item.of('createcasing:stone_large_cogwheel'), ['createcasing:stone_cogwheel', 'minecraft:cobblestone'])
-        //event.shapeless(Item.of('createcasing:stone_large_cogwheel'), ['create:shaft', 'minecraft:cobblestone', 'minecraft:cobblestone'])
+        event.shapeless(Item.of('createcasing:stone_cogwheel'), ['create:shaft', 'minecraft:cobblestone'])
+        event.shapeless(Item.of('createcasing:stone_large_cogwheel'), ['createcasing:stone_cogwheel', 'minecraft:cobblestone'])
+        event.shapeless(Item.of('createcasing:stone_large_cogwheel'), ['create:shaft', 'minecraft:cobblestone', 'minecraft:cobblestone'])
 
         event.shaped(Item.of('technicresources:stone_hammer'), [' C ', ' SC', 'S  '], { 'C': 'minecraft:cobblestone', 'S': "technicresources:deepslate_stick" })
         event.shaped(Item.of('technicresources:metal_hammer'), [' C ', ' SC', 'S  '], { 'C': 'minecraft:iron_ingot', 'S': "technicresources:deepslate_stick" })

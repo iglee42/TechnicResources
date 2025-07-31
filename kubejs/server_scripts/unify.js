@@ -81,10 +81,10 @@ ServerEvents.recipes(e => {
         //e.custom({ 'type': 'ad_astra:compressing', 'cookingtime': 100, 'energy': 20, 'ingredient': { 'tag': base }, 'result': { 'count': 1, 'id': 'technicresources:' + material + '_plate' } }).id('technicresources:compressing/plates/' + material + '_1')
         //if (material !== 'wooden' && material !== 'stone') e.custom({ 'type': 'ad_astra:compressing', 'cookingtime': 800, 'energy': 20, 'ingredient': { 'tag': 'c:storage_blocks/' + material }, 'result': { 'count': 9, 'id': 'technicresources:' + material + '_plate' } }).id('technicresources:compressing/plates/' + material + '_9')
         if (material !== 'wooden') {
-            e.custom({ "type": "createaddition:rolling", "input": { "tag": base }, "result": { "id": 'technicresources:' + material + '_rod', "count": 2 } }).id('technicresources:rolling/rods/' + material)
+            e.custom({ "type": "createaddition:rolling", "ingredients": [{ "tag": base }], "results": [{ "id": 'technicresources:' + material + '_rod', "count": 2 }] }).id('technicresources:rolling/rods/' + material)
             e.shaped(Item.of('technicresources:' + material+'_rod',4), ['A', 'A'], { A: '#c:plates/' + material }).id('technicresources:shaped/rods/' + material)
         }
-        e.custom({ "type": "createaddition:rolling", "input": { "tag": 'c:plates/' + material }, "result": { "id": 'technicresources:' + material + '_wire', "count": 2 } }).id('technicresources:rolling/wires/' + material)
+        e.custom({ "type": "createaddition:rolling", "ingredients": [{ "tag": 'c:plates/' + material }], "results": [{ "id": 'technicresources:' + material + '_wire', "count": 2 }] }).id('technicresources:rolling/wires/' + material)
     }
 
     plateGearRodWire('compressed_iron', 'c:ingots/compressed_iron')
