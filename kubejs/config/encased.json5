@@ -45,7 +45,8 @@
         { "name": "blackstone" },
         { "name": "basalt" },
         { "name": "source" },
-        { "name": "chorus" }
+        { "name": "chorus" },
+        { "name": "red_iron" }
     ],
 
     // Defines your cogwheels here, the values present upper in the file can be overridden in each cogwheel
