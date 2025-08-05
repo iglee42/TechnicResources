@@ -6,6 +6,20 @@ ServerEvents.recipes(event => {
   // Cogwheels
   deploying('createcasing:stone_cogwheel', ['create:shaft', 'minecraft:cobblestone'], false, 1)
   deploying('createcasing:stone_large_cogwheel', ['createcasing:stone_cogwheel', 'minecraft:cobblestone'], false, 1)
+  deploying('createcasing:andesite_cogwheel', ['create:shaft', 'minecraft:andesite'], false, 1)
+  deploying('createcasing:andesite_large_cogwheel', ['createcasing:andesite_cogwheel', 'minecraft:andesite'], false, 1)
+  deploying('createcasing:granite_cogwheel', ['create:shaft', 'minecraft:granite'], false, 1)
+  deploying('createcasing:granite_large_cogwheel', ['createcasing:granite_cogwheel', 'minecraft:granite'], false, 1)
+  deploying('createcasing:diorite_cogwheel', ['create:shaft', 'minecraft:diorite'], false, 1)
+  deploying('createcasing:diorite_large_cogwheel', ['createcasing:diorite_cogwheel', 'minecraft:diorite'], false, 1)
+  deploying('createcasing:tuff_cogwheel', ['create:shaft', 'minecraft:tuff'], false, 1)
+  deploying('createcasing:tuff_large_cogwheel', ['createcasing:tuff_cogwheel', 'minecraft:tuff'], false, 1)
+  deploying('createcasing:deepslate_cogwheel', ['create:shaft', 'minecraft:deepslate'], false, 1)
+  deploying('createcasing:deepslate_large_cogwheel', ['createcasing:deepslate_cogwheel', 'minecraft:deepslate'], false, 1)
+  deploying('createcasing:blackstone_cogwheel', ['create:shaft', 'minecraft:blackstone'], false, 1)
+  deploying('createcasing:blackstone_large_cogwheel', ['createcasing:blackstone_cogwheel', 'minecraft:blackstone'], false, 1)
+  deploying('createcasing:basalt_cogwheel', ['create:shaft', 'minecraft:basalt'], false, 1)
+  deploying('createcasing:basalt_large_cogwheel', ['createcasing:basalt_cogwheel', 'minecraft:basalt'], false, 1)
 
   // Casings
   itemApplication('minecraft:stripped_oak_wood', 'create:stone_alloy', 'createcasing:stone_casing')
