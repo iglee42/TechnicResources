@@ -1,0 +1,76 @@
+{
+  "name": {
+    "text": "Chorus Furnace"
+  },
+  "appearance": {
+    "custommachinery:block": "ironfurnaces:chorus_furnace",
+    "custommachinery:item": "ironfurnaces:chorus_furnace"
+  },
+  "parent": "technicresources:zinc_furnace",
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "texture": {
+        "texture": "minecraft:textures/gui/container/furnace_scaled.png"
+      },
+      "width": 176,
+      "height": 166
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 8,
+      "y": 84
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "result",
+      "x": 116,
+      "y": 35
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input",
+      "x": 55,
+      "y": 16
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "fuel",
+      "x": 55,
+      "y": 52
+    },
+    {
+      "type": "custommachinery:fuel",
+      "tooltips": {
+        "text": ""
+      },
+      "x": 57,
+      "y": 37
+    },
+    {
+      "type": "custommachinery:progress",
+      "tooltips": {
+        "text": ""
+      },
+      "x": 79,
+      "y": 35
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 66,
+      "y": 6,
+      "text": {
+        "text": "Chorus Furnace"
+      }
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 7,
+      "y": 72,
+      "text": {
+        "text": "Inventory"
+      }
+    }
+  ],
+  "allow_parent_recipes": false
+}

@@ -148,7 +148,8 @@ ServerEvents.recipes(event => {
         'farmersdelight:cutting/wild_tomatoes',
         'mekanism:enriching/dye/green',
         'mekanism:combining/dye/lime',
-        /create_dragons_plus/
+        /create_dragons_plus/,
+        'create:crafting/kinetics/millstone'
     ])
 
     event.remove({type: 'integrateddynamics:squeezer'})

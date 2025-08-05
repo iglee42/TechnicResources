@@ -54,6 +54,8 @@ ServerEvents.recipes(event => {
         event.shapeless('9x create:refined_radiance', ['create:refined_radiance_block'])
         event.shaped(Item.of('create:red_iron_alloy_block'), ['AAA', 'AAA', 'AAA'], { 'A': 'create:red_iron_alloy' })
         event.shapeless('9x create:red_iron_alloy', ['create:red_iron_alloy_block'])
+
+        event.shaped('create:millstone', ['A','B','C'],{'A': 'createcasing:stone_cogwheel', 'B': 'create:stone_alloy_block', 'C': '#c:stones'})
         
         // Dyes
         event.shaped('minecraft:dye_primer', ['A A', ' B '], { 'A': '#c:rods/wooden', 'B': '#minecraft:wooden_slabs' })
