@@ -144,7 +144,7 @@
 			id: "6021B43C2E6F6E8A"
 			tasks: [{
 				id: "483B51E097283132"
-				item: { components: { "ftbquests:missing_item": "createcasing:stone_casing" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "createcasing:stone_casing" }
 				type: "item"
 			}]
 			x: 13.0d
@@ -157,7 +157,7 @@
 			]
 			id: "17E78B3C8FFB68B4"
 			tasks: [{
-				id: "562AD75230AFA133"
+				id: "7D5DE00B21F02288"
 				item: { count: 1, id: "createcasing:stone_cogwheel" }
 				type: "item"
 			}]
