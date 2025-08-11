@@ -133,13 +133,13 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"mekanismadditions:baby_wither_skeleton": true
-			"minecraft:villager": true
-			"minecraft:horse": true
-			"minecraft:shulker": true
-			"artifacts:mimic": true
-			"mekanismadditions:baby_bogged": true
 			"minecraft:skeleton": true
+			"minecraft:shulker": true
+			"minecraft:villager": true
+			"mekanismadditions:baby_wither_skeleton": true
+			"mekanismadditions:baby_bogged": true
+			"artifacts:mimic": true
+			"minecraft:horse": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)

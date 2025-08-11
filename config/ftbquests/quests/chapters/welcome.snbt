@@ -44,58 +44,15 @@
 				id: "mekanism:configurator"
 			}
 			id: "033315243A54DDEA"
-			rewards: [
-				{
-					auto: "no_toast"
-					id: "3024D13124E0AA94"
-					item: {
-						components: {
-							"minecraft:profile": {
-								id: [I;
-									-1759120075
-									-963558474
-									-1314262031
-									2104090645
-								]
-								name: "iglee42"
-								properties: [{
-									name: "textures"
-									signature: "PF7HPk9agZ/OuX5raZ1gJxfExKiLCNGsj/WuI/xNUZUhfu111vDpUo2G215jaJyFryRLaVzGKoGQawZVLbJmqIlSu7+CC7Svvr1E4bN2Om9o8tfqn6FLaa0K+DQ1gphSM/iU+3KmXXEExq6PDAGjt5kQ4ROj0daA6Ab6hoOCqIexH6F3JyJR+Tpsm1NYc++NZ2BYK9eLfq5rXY+Z/gkw/db3Msk8prAiJG1HKHrWLr3CJ3W2gxYYgDPcy0Hk/fs1V4XSZshshBgvDbTTQ3MwQ1aZjvl6FWePn85hmbzCITK4A1BFxLcn6ahkMDYQ1nCw4xgT680IJrnEj4cOLQ9H2rVUOk7Vt3ftUs4TRaIsPmcDSaLAn8r8puJjpCZPrgzzERfbOYmA/IYX/LTlxqkW9DIUvu1t8F6R03Lkx6A9RSXr3XETMhVlISjajXVuF3k2walKpp11MkjzrzYSA75yy2jm6RrWMxyMJ8+DcH22vWm60M4xq9MKOPNoKBLzRE9kiTlDLexpbvh5bUvQWCl2+kqIUsOVyxh08VpAYk+lSX6oECxwgjkeWoAeqNaTzKf4Av7vzPU6dWFCWyCGbSradLjIZU/Iu0LQUq4oEdjtRgnuuB47wNEzKG0JH2OVGUix5ppJ3lYu6SmD3rUb5Gbt7gy/9CK6N7sCJ7+LnStpZ8U="
-									value: "ewogICJ0aW1lc3RhbXAiIDogMTc1Mzk2NTQ1MDgzOSwKICAicHJvZmlsZUlkIiA6ICI5NzI1ZjUzNWM2OTE0M2I2YjFhOWYzZjE3ZDY5ZTAxNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJpZ2xlZTQyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2UzNDQ2ZWQ5ODUxMGNiY2ZiM2EyZGExOGJmODY5ZmU3Nzg1M2U3MDFmNjQxZmYyNmQ4OGFjZTU3MWM5ZGE4NDMiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzk5YWJhMDJlZjA1ZWM2YWE0ZDQyZGI4ZWU0Mzc5NmQ2Y2Q1MGU0YjI5NTRhYjI5ZjBjYWViODVmOTZiZjUyYTEiCiAgICB9CiAgfQp9"
-								}]
-							}
-						}
-						count: 1
-						id: "minecraft:player_head"
-					}
-					type: "item"
+			rewards: [{
+				auto: "no_toast"
+				id: "3024D13124E0AA94"
+				item: {
+					count: 1
+					id: "minecraft:player_head"
 				}
-				{
-					auto: "no_toast"
-					id: "7CF1ABA50281D04D"
-					item: {
-						components: {
-							"minecraft:profile": {
-								id: [I;
-									-667251268
-									208619698
-									-1696102601
-									1465717064
-								]
-								name: "WoXayZ"
-								properties: [{
-									name: "textures"
-									signature: "bOVoq4BgioebgY4qhPxFxK6yGKyQBmss4VjK8CZXjC8OkhBiLFtt1/f4dttJTPygy4zP6evMrESSHhLW5cweJXMTRQjAgWiryJWFoNObMo6+SSy8ar2ErvGrtB5sgXNgOTYxrBRGA2tGokZQERbHVzVgfuheP5svZbdAECE104cYOHllPETyoDyaj/MOWlvQnLtoKxOBxkw/MqCwvkf7gFnCJXCTVh5avgpISeSMFyndqXUqmU8rEx22ZHhvB2ywGFrQu5LjTbi/SCHOKqqUGdtQimvd5wnp9zWsAOOdZIvQJWKjWn8wFUU+UBX4h6UbYvmGh8fgj+Hr/1+Bys1GTQrBEjsnUJ4Bwlh+Jip4ULtiJRk9Ih1bUa7sZq+ggYqtrnzfZNjgQvwBvyBulew3S1nGzr8atJBrtwImk5nKYmFD5FkPtrmFtsS3TlF3axcsnVXKaLr7AchO8Dy9Mb1c96DH7JYMHe5URN0z4qDZ6zqvd7svalhNxvNDo3M6ZEFZujTgc6PLZ5iPHVxdMXsi9w7cBR9bsBzzEc8LLuZj3tmMebBZwI64WtRDkreZPsgHHtAQ/mpOTu2ulmszwr42NiJg7yw472fjoFOGuva5rpchlbFUjLH0/FxNiYii8IsrQraGmBmWIKdFQcIbB57ShYNtva8AUq5tL+PMKehJEPI="
-									value: "ewogICJ0aW1lc3RhbXAiIDogMTc1Mzk2NTQ1NTY3NiwKICAicHJvZmlsZUlkIiA6ICJkODNhOGRiYzBjNmY0OGIyOWFlNzg3Mzc1NzVkMTE0OCIsCiAgInByb2ZpbGVOYW1lIiA6ICJXb1hheVoiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzIzZTA2M2M2OWJhYTc0YTUzYjlhZjVkMzAwZjJmYjhjZDQzMWZkOTIxNGI1MWE5ZTVkOWJmMmVmMGQ2MDU5MyIKICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2I0MGE5MmUzMmI1N2ZkNzMyYTAwZmMzMjVlN2FmYjAwYTdjYTc0OTM2YWQ1MGQ4ZTg2MDE1MmU0ODJjZmJkZSIKICAgIH0KICB9Cn0="
-								}]
-							}
-						}
-						count: 1
-						id: "minecraft:player_head"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "1163F24811543437"
 				type: "checkmark"
@@ -130,10 +87,16 @@
 		}
 		{
 			dependencies: ["3FCBA1147733405D"]
+			icon: {
+				components: {
+					"ftbquests:icon": "icons:item/sparked"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "6D9666C0C7A9B260"
 			rewards: [{
 				auto: "no_toast"
-				command: "/tellraw @p [\"\",{\"text\":\"Sparked Host : \",\"color\":\"yellow\"},{\"text\":\"https://billing.sparkedhost.com/aff.php?aff=2723\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://billing.sparkedhost.com/aff.php?aff=2723\"}}]"
+				command: "/tellraw @p [\"\",{\"text\":\"Bisect Hosting Code : \",\"color\":\"gray\"},{\"text\":\"https://bisecthosting.com/iglee\",\"color\":\"blue\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://bisecthosting.com/iglee\"}}]"
 				id: "5224CD3948C156C2"
 				permission_level: 2
 				silent: true
@@ -293,9 +256,6 @@
 			rewards: [{
 				id: "08A8FE860C60F134"
 				item: {
-					components: {
-						"minecraft:custom_name": "{\"extra\":[{\"bold\":true,\"color\":\"dark_gray\",\"italic\":false,\"text\":\"Dark Mode\"}],\"text\":\"\"}"
-					}
 					count: 1
 					id: "minecraft:black_dye"
 				}
