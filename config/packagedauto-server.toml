@@ -73,46 +73,46 @@
 	# Range: 1 ~ 40
 	refresh_interval = 4
 
-	[distributor.crafting_proxy]
-		#How large the range of the Package Crafting Machine Proxy should be.
-		# Default: 8
-		# Range: > 1
-		range = 8
+[crafting_proxy]
+	#How large the range of the Package Crafting Machine Proxy should be.
+	# Default: 8
+	# Range: > 1
+	range = 8
 
-		[distributor.crafting_proxy.crafter]
-			#How much FE the Package Crafter should hold.
-			# Default: 5000
-			# Range: > 0
-			energy_capacity = 5000
-			#How much total FE the Package Crafter should use per operation.
-			# Default: 500
-			# Range: > 0
-			energy_req = 500
-			#How much FE/t maximum the Package Crafter can use.
-			# Default: 100
-			# Range: > 0
-			energy_usage = 100
-			#How many ticks should the Package Crafter wait between each refresh.
-			# Default: 4
-			# Range: 1 ~ 40
-			refresh_interval = 4
-			#Should the Package Crafter draw energy from ME systems.
-			draw_me_energy = true
+[crafter]
+	#How much FE the Package Crafter should hold.
+	# Default: 5000
+	# Range: > 0
+	energy_capacity = 5000
+	#How much total FE the Package Crafter should use per operation.
+	# Default: 500
+	# Range: > 0
+	energy_req = 500
+	#How much FE/t maximum the Package Crafter can use.
+	# Default: 100
+	# Range: > 0
+	energy_usage = 100
+	#How many ticks should the Package Crafter wait between each refresh.
+	# Default: 4
+	# Range: 1 ~ 40
+	refresh_interval = 4
+	#Should the Package Crafter draw energy from ME systems.
+	draw_me_energy = true
 
-		[distributor.crafting_proxy.fluid_package_filler]
-			#How much FE the Fluid Package Filler should hold.
-			# Default: 5000
-			# Range: > 0
-			energy_capacity = 5000
-			#How much total FE the Fluid Package Filler should use per operation.
-			# Default: 500
-			# Range: > 0
-			energy_req = 500
-			#How many ticks should the Fluid Package Filler wait between each refresh.
-			# Default: 4
-			# Range: 1 ~ 40
-			refresh_interval = 4
-			#How much FE/t maximum the Fluid Package Filler can use.
-			# Default: 100
-			# Range: > 0
-			energy_usage = 100
+[fluid_package_filler]
+	#How much FE the Fluid Package Filler should hold.
+	# Default: 5000
+	# Range: > 0
+	energy_capacity = 5000
+	#How much total FE the Fluid Package Filler should use per operation.
+	# Default: 500
+	# Range: > 0
+	energy_req = 500
+	#How many ticks should the Fluid Package Filler wait between each refresh.
+	# Default: 4
+	# Range: 1 ~ 40
+	refresh_interval = 4
+	#How much FE/t maximum the Fluid Package Filler can use.
+	# Default: 100
+	# Range: > 0
+	energy_usage = 100
