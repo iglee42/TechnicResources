@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:block/cube",
+    "textures": {
+        "north": "technicresources:block/furnaces/infinity/running_front",
+        "east": "technicresources:block/furnaces/infinity/side",
+        "particle": "technicresources:block/furnaces/infinity/side",
+        "south": "technicresources:block/furnaces/infinity/side",
+        "west": "technicresources:block/furnaces/infinity/side",
+        "up": "technicresources:block/furnaces/infinity/top",
+        "down": "technicresources:block/furnaces/infinity/bottom"
+    }
+}

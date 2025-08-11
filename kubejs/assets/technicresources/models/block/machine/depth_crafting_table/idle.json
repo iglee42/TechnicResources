@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:block/cube",
+    "textures": {
+        "north": "technicresources:block/crafting_tables/depth/idle_front",
+        "east": "technicresources:block/crafting_tables/depth/side",
+        "particle": "technicresources:block/crafting_tables/depth/idle_front",
+        "south": "technicresources:block/crafting_tables/depth/side",
+        "west": "technicresources:block/crafting_tables/depth/idle_front",
+        "up": "technicresources:block/crafting_tables/depth/top",
+        "down": "naturesaura:block/depth_ingot_block"
+    }
+}

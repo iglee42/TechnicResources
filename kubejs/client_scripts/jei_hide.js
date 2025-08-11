@@ -1,5 +1,5 @@
 //priority 0
-RecipeViewerEvents.removeEntries("item",event => {
+RecipeViewerEvents.removeEntries("item", event => {
   var hided = [
     /mekanism:creative_chemical_tank/,
     /mekanism:creative_fluid_tank/,
@@ -30,6 +30,18 @@ RecipeViewerEvents.removeEntries("item",event => {
     'createaddition:electrum_wire',
     'createaddition:gold_wire',
     'createaddition:copper_wire',
+    'extendedcrafting:basic_table',
+    'extendedcrafting:advanced_table',
+    'extendedcrafting:elite_table',
+    'extendedcrafting:ultimate_table',
+    'extendedcrafting:basic_auto_table',
+    'extendedcrafting:advanced_auto_table',
+    'extendedcrafting:elite_auto_table',
+    'extendedcrafting:ultimate_auto_table',
+    'packagedexcrafting:basic_crafter',
+    'packagedexcrafting:advanced_crafter',
+    'packagedexcrafting:elite_crafter',
+    'packagedexcrafting:ultimate_crafter',
 
   ]
   event.remove(hided);
@@ -43,7 +55,7 @@ RecipeViewerEvents.removeEntries("fluid", event => {
   })
   event.remove(Fluid.of('create_dragons_plus:dragon_breath'));
 })
-RecipeViewerEvents.addEntries('item',event => {
+RecipeViewerEvents.addEntries('item', event => {
 
   event.add([
     Item.of('ae2:facade[ae2:facade_item="minecraft:stone"]'),

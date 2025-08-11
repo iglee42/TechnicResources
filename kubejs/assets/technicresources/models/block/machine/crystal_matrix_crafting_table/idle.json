@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:block/cube",
+    "textures": {
+        "north": "technicresources:block/crafting_tables/crystal_matrix/idle_front",
+        "east": "technicresources:block/crafting_tables/crystal_matrix/side",
+        "particle": "technicresources:block/crafting_tables/crystal_matrix/idle_front",
+        "south": "technicresources:block/crafting_tables/crystal_matrix/side",
+        "west": "technicresources:block/crafting_tables/crystal_matrix/idle_front",
+        "up": "technicresources:block/crafting_tables/crystal_matrix/top",
+        "down": "avaritia:block/resource/crystal_matrix"
+    }
+}

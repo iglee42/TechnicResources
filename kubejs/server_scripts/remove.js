@@ -149,9 +149,22 @@ ServerEvents.recipes(event => {
         'mekanism:enriching/dye/green',
         'mekanism:combining/dye/lime',
         /create_dragons_plus/,
-        'create:crafting/kinetics/millstone'
+        'create:crafting/kinetics/millstone',
+        'extendedcrafting:basic_table',
+        'extendedcrafting:advanced_table',
+        'extendedcrafting:elite_table',
+        'extendedcrafting:ultimate_table',
+        'extendedcrafting:basic_auto_table',
+        'extendedcrafting:advanced_auto_table',
+        'extendedcrafting:elite_auto_table',
+        'extendedcrafting:ultimate_auto_table',
+        'packagedexcrafting:basic_crafter_ae',
+        'packagedexcrafting:advanced_crafter_ae',
+        'packagedexcrafting:elite_crafter_ae',
+        'packagedexcrafting:ultimate_crafter_ae',
+
     ])
 
-    event.remove({type: 'integrateddynamics:squeezer'})
-    event.remove({type: 'integrateddynamics:mechanical_squeezer'})
+    event.remove({ type: 'integrateddynamics:squeezer' })
+    event.remove({ type: 'integrateddynamics:mechanical_squeezer' })
 })

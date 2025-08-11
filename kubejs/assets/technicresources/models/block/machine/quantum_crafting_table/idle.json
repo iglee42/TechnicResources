@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:block/cube",
+    "textures": {
+        "north": "technicresources:block/crafting_tables/quantum/idle_front",
+        "east": "technicresources:block/crafting_tables/quantum/side",
+        "particle": "technicresources:block/crafting_tables/quantum/idle_front",
+        "south": "technicresources:block/crafting_tables/quantum/side",
+        "west": "technicresources:block/crafting_tables/quantum/idle_front",
+        "up": "technicresources:block/crafting_tables/quantum/top",
+        "down": "extendedae:block/assembler_matrix/frame_block_on"
+    }
+}

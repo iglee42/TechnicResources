@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:block/cube",
+    "textures": {
+        "north": "technicresources:block/crafting_tables/zinc/idle_front",
+        "east": "technicresources:block/crafting_tables/zinc/side",
+        "particle": "technicresources:block/crafting_tables/zinc/idle_front",
+        "south": "technicresources:block/crafting_tables/zinc/side",
+        "west": "technicresources:block/crafting_tables/zinc/idle_front",
+        "up": "technicresources:block/crafting_tables/zinc/top",
+        "down": "create:block/zinc_block"
+    }
+}

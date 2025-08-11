@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:block/cube",
+    "textures": {
+        "north": "technicresources:block/crafting_tables/infinity/idle_front",
+        "east": "technicresources:block/crafting_tables/infinity/side",
+        "particle": "technicresources:block/crafting_tables/infinity/idle_front",
+        "south": "technicresources:block/crafting_tables/infinity/side",
+        "west": "technicresources:block/crafting_tables/infinity/idle_front",
+        "up": "technicresources:block/crafting_tables/infinity/top",
+        "down": "avaritia:block/resource/infinity_block"
+    }
+}

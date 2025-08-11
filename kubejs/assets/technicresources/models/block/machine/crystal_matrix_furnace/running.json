@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:block/cube",
+    "textures": {
+        "north": "technicresources:block/furnaces/crystal_matrix/running_front",
+        "east": "technicresources:block/furnaces/crystal_matrix/side",
+        "particle": "technicresources:block/furnaces/crystal_matrix/side",
+        "south": "technicresources:block/furnaces/crystal_matrix/side",
+        "west": "technicresources:block/furnaces/crystal_matrix/side",
+        "up": "technicresources:block/furnaces/crystal_matrix/top",
+        "down": "technicresources:block/furnaces/crystal_matrix/bottom"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:block/cube",
+    "textures": {
+        "north": "technicresources:block/crafting_tables/source/idle_front",
+        "east": "technicresources:block/crafting_tables/source/side",
+        "particle": "technicresources:block/crafting_tables/source/idle_front",
+        "south": "technicresources:block/crafting_tables/source/side",
+        "west": "technicresources:block/crafting_tables/source/idle_front",
+        "up": "technicresources:block/crafting_tables/source/top",
+        "down": "ars_nouveau:block/source_gem_block"
+    }
+}
