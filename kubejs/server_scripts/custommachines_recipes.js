@@ -103,4 +103,40 @@ ServerEvents.recipes(event => {
         'I': 'integrateddynamics:variable_transformer_output',
         'J': 'powah:machine_casing_niotic',
     })
+
+    function mekanismMachine(output, pattern, keys,table) {
+        
+
+        let requirements = [];
+        
+        for (const patternIndex in pattern) {
+            if (Object.prototype.hasOwnProperty.call(pattern, patternIndex)) {
+                const line = pattern[patternIndex];
+                const chars = line.split('')
+                for (const charIndex in chars) {
+                    if (Object.prototype.hasOwnProperty.call(chars, charIndex)) {
+                        const char = chars[charIndex];
+                        requirements.push({
+                            "type": "custommachinery:item",
+                            "slot": "slot_" + patternIndex * pattern.length + charIndex,
+                            "ingredient": {
+                                "item": keys[char]
+                            },
+                            "mode": "input"
+                        })
+                    }
+                }
+            }
+        }
+
+        recipe = {
+            "type": "custommachinery:custom_craft",
+            "machine": "technicresources:" + table + "_crafting_table",
+            "requirements": requirements,
+            "output": output
+        }
+
+        console.log(recipe)
+        event.custom(recipe)
+    }
 })
