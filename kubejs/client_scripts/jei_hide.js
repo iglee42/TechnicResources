@@ -1,8 +1,6 @@
 //priority 0
 RecipeViewerEvents.removeEntries("item", event => {
   var hided = [
-    /mekanism:creative_chemical_tank/,
-    /mekanism:creative_fluid_tank/,
     /icons:/,
     'create:iron_sheet',
     'createaddition:electrum_sheet',
@@ -42,6 +40,10 @@ RecipeViewerEvents.removeEntries("item", event => {
     'packagedexcrafting:advanced_crafter',
     'packagedexcrafting:elite_crafter',
     'packagedexcrafting:ultimate_crafter',
+    /mekanism:basic_.*_factory/,
+    /mekanism:advanced_.*_factory/,
+    /mekanism:elite_.*_factory/,
+    /mekanism:ultimate_.*_factory/,
 
   ]
   event.remove(hided);

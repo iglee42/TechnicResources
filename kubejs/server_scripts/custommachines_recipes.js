@@ -83,11 +83,34 @@ ServerEvents.recipes(event => {
     }
 
     // Mekanism Machines
-    mekanismMachine('mekanism:enrichment_chamber', [
+    // Chorus Table
+    customTables('mekanism:metallurgic_infuser', 'chorus', [
         'ABCDCBA',
         'BEEFEEB',
         'CEGGGEC',
-        'HIGJGIH',
+        'HIGJGKL',
+        'CEGGGEC',
+        'BEEFEEB',
+        'ABCDCBA'
+    ], {
+        'A': 'actuallyadditions:empowered_enori_crystal_block',
+        'B': 'create:osmium_alloy',
+        'C': 'rftoolsbase:infused_diamond',
+        'D': 'ars_nouveau:glyph_infuse',
+        'E': 'pneumaticcraft:smooth_plastic_brick_gray',
+        'F': 'pneumaticcraft:module_expansion_card',
+        'G': 'mekanism:steel_casing',
+        'H': 'ae2:formation_core',
+        'I': 'integrateddynamics:variable_transformer_output',
+        'J': 'powah:machine_casing_niotic',
+        'K': 'integrateddynamics:variable_transformer_input',
+        'L': 'ae2:annihilation_core'
+    })
+    customTables('mekanism:enrichment_chamber', 'chorus', [
+        'ABCDCBA',
+        'BEEFEEB',
+        'CEGGGEC',
+        'HIGJGKL',
         'CEGGGEC',
         'BEEFEEB',
         'ABCDCBA'
@@ -102,23 +125,857 @@ ServerEvents.recipes(event => {
         'H': 'ae2:formation_core',
         'I': 'integrateddynamics:variable_transformer_output',
         'J': 'powah:machine_casing_niotic',
+        'K': 'integrateddynamics:variable_transformer_input',
+        'L': 'ae2:annihilation_core'
+    })
+    customTables('mekanism:osmium_compressor', 'chorus', [
+        'ABCDCBA',
+        'BEEFEEB',
+        'CEGGGEC',
+        'HIGJGKL',
+        'CEGGGEC',
+        'BEEFEEB',
+        'ABCDCBA'
+    ], {
+        'A': 'actuallyadditions:empowered_enori_crystal_block',
+        'B': 'mekanism:advanced_control_circuit',
+        'C': 'cmr:smithing_press',
+        'D': 'pneumaticcraft:advanced_air_compressor',
+        'E': 'pneumaticcraft:smooth_plastic_brick_gray',
+        'F': 'pneumaticcraft:module_expansion_card',
+        'G': 'mekanism:steel_casing',
+        'H': 'ae2:formation_core',
+        'I': 'integrateddynamics:variable_transformer_output',
+        'J': 'powah:machine_casing_niotic',
+        'K': 'integrateddynamics:variable_transformer_input',
+        'L': 'ae2:annihilation_core'
+    })
+    customTables('mekanism:combiner', 'chorus', [
+        'ABCDCBA',
+        'BEEFEEB',
+        'CEGGGEC',
+        'HIGJGKL',
+        'CEGGGEC',
+        'BEEFEEB',
+        'ABCDCBA'
+    ], {
+        'A': 'actuallyadditions:empowered_enori_crystal_block',
+        'B': 'mekanism:elite_control_circuit',
+        'C': 'createcasing:chorus_mixer',
+        'D': 'ars_nouveau:glyph_exchange',
+        'E': 'pneumaticcraft:smooth_plastic_brick_gray',
+        'F': 'pneumaticcraft:module_expansion_card',
+        'G': 'mekanism:steel_casing',
+        'H': 'ae2:formation_core',
+        'I': 'integrateddynamics:variable_transformer_output',
+        'J': 'powah:machine_casing_niotic',
+        'K': 'integrateddynamics:variable_transformer_input',
+        'L': 'ae2:annihilation_core'
+    })
+    customTables('mekanism:crusher', 'chorus', [
+        'ABCDCBA',
+        'BEEFEEB',
+        'CEGGGEC',
+        'HIGJGKL',
+        'CEGGGEC',
+        'BEEFEEB',
+        'ABCDCBA'
+    ], {
+        'A': 'actuallyadditions:empowered_enori_crystal_block',
+        'B': 'mekanism:basic_control_circuit',
+        'C': 'actuallyadditions:crusher_double',
+        'D': 'ars_nouveau:glyph_crush',
+        'E': 'pneumaticcraft:smooth_plastic_brick_gray',
+        'F': 'pneumaticcraft:module_expansion_card',
+        'G': 'mekanism:steel_casing',
+        'H': 'ae2:formation_core',
+        'I': 'integrateddynamics:variable_transformer_output',
+        'J': 'powah:machine_casing_niotic',
+        'K': 'integrateddynamics:variable_transformer_input',
+        'L': 'ae2:annihilation_core'
+    })
+    customTables('mekanism:energized_smelter', 'chorus', [
+        'ABCDCBA',
+        'BEEFEEB',
+        'CEGGGEC',
+        'HIGJGKL',
+        'CEGGGEC',
+        'BEEFEEB',
+        'ABCDCBA'
+    ], {
+        'A': 'actuallyadditions:empowered_enori_crystal_block',
+        'B': 'mekanism:basic_control_circuit',
+        'C': 'minecraft:furnace',
+        'D': 'ars_nouveau:glyph_smelt',
+        'E': 'pneumaticcraft:smooth_plastic_brick_gray',
+        'F': 'pneumaticcraft:module_expansion_card',
+        'G': 'mekanism:steel_casing',
+        'H': 'ae2:formation_core',
+        'I': 'integrateddynamics:variable_transformer_output',
+        'J': 'powah:machine_casing_niotic',
+        'K': 'integrateddynamics:variable_transformer_input',
+        'L': 'ae2:annihilation_core'
+    })
+    customTables('mekanism:electric_pump', 'chorus', [
+        'ABCDCBA',
+        'BEEFEEB',
+        'CEGGGEC',
+        'HIGJGKL',
+        'CEGGGEC',
+        'BEEFEEB',
+        'ABCDCBA'
+    ], {
+        'A': 'actuallyadditions:empowered_enori_crystal_block',
+        'B': 'mekanism:basic_control_circuit',
+        'C': 'actuallyadditions:fluid_collector',
+        'D': 'pneumaticcraft:vacuum_pump',
+        'E': 'pneumaticcraft:smooth_plastic_brick_gray',
+        'F': 'pneumaticcraft:module_expansion_card',
+        'G': 'mekanism:steel_casing',
+        'H': 'ae2:formation_core',
+        'I': 'integrateddynamics:variable_transformer_output',
+        'J': 'powah:machine_casing_niotic',
+        'K': 'integrateddynamics:variable_transformer_input',
+        'L': 'ae2:annihilation_core'
+    })
+    customTables('mekanism:rotary_condensentrator', 'chorus', [
+        'ABCDCBA',
+        'BEEFEEB',
+        'CEGGGEC',
+        'HIGJGKL',
+        'CEGGGEC',
+        'BEEFEEB',
+        'ABCMCBA'
+    ], {
+        'A': 'actuallyadditions:empowered_enori_crystal_block',
+        'B': 'mekanism:basic_control_circuit',
+        'C': 'create:rotation_speed_controller',
+        'D': 'mekanism:basic_chemical_tank',
+        'E': 'pneumaticcraft:smooth_plastic_brick_gray',
+        'F': 'pneumaticcraft:module_expansion_card',
+        'G': 'mekanism:steel_casing',
+        'H': 'ae2:formation_core',
+        'I': 'integrateddynamics:variable_transformer_output',
+        'J': 'powah:machine_casing_niotic',
+        'K': 'integrateddynamics:variable_transformer_input',
+        'L': 'ae2:annihilation_core',
+        'M': 'mekanism:basic_fluid_tank'
+    })
+    customTables('mekanism:electrolytic_separator', 'chorus', [
+        'ABCDCBA',
+        'BEEFEEB',
+        'CEGGGEC',
+        'HIGJGKL',
+        'CEGGGEC',
+        'BEEFEEB',
+        'ABCDCBA'
+    ], {
+        'A': 'actuallyadditions:empowered_enori_crystal_block',
+        'B': 'mekanism:basic_control_circuit',
+        'C': 'mekanism:electrolytic_core',
+        'D': 'mekanism:advanced_chemical_tank',
+        'E': 'pneumaticcraft:smooth_plastic_brick_gray',
+        'F': 'pneumaticcraft:module_expansion_card',
+        'G': 'mekanism:steel_casing',
+        'H': 'ae2:formation_core',
+        'I': 'integrateddynamics:variable_transformer_output',
+        'J': 'powah:machine_casing_niotic',
+        'K': 'integrateddynamics:variable_transformer_input',
+        'L': 'ae2:annihilation_core'
+    })
+    customTables('mekanism:precision_sawmill', 'chorus', [
+        'ABCDCBA',
+        'BEEFEEB',
+        'CEGGGEC',
+        'HIGJGKL',
+        'CEGGGEC',
+        'BEEFEEB',
+        'ABCDCBA'
+    ], {
+        'A': 'actuallyadditions:empowered_enori_crystal_block',
+        'B': 'mekanism:basic_control_circuit',
+        'C': 'create:precision_mechanism',
+        'D': 'chipped:saw',
+        'E': 'pneumaticcraft:smooth_plastic_brick_gray',
+        'F': 'pneumaticcraft:module_expansion_card',
+        'G': 'mekanism:steel_casing',
+        'H': 'ae2:formation_core',
+        'I': 'integrateddynamics:variable_transformer_output',
+        'J': 'powah:machine_casing_niotic',
+        'K': 'integrateddynamics:variable_transformer_input',
+        'L': 'ae2:annihilation_core'
+    })
+    customTables('mekanism:seismic_vibrator', 'chorus', [
+        'ABCDCBA',
+        'BEEFEEB',
+        'CEGGGEC',
+        'HIGJGKL',
+        'CEGGGEC',
+        'BEEFEEB',
+        'ABCDCBA'
+    ], {
+        'A': 'actuallyadditions:empowered_enori_crystal_block',
+        'B': 'mekanism:basic_control_circuit',
+        'C': 'ae2:quartz_vibrant_glass',
+        'D': 'pneumaticcraft:drill_bit_diamond',
+        'E': 'pneumaticcraft:smooth_plastic_brick_gray',
+        'F': 'pneumaticcraft:module_expansion_card',
+        'G': 'mekanism:steel_casing',
+        'H': 'ae2:formation_core',
+        'I': 'integrateddynamics:variable_transformer_output',
+        'J': 'powah:machine_casing_niotic',
+        'K': 'integrateddynamics:variable_transformer_input',
+        'L': 'ae2:annihilation_core'
+    })
+    customTables('mekanism:pressurized_reaction_chamber', 'chorus', [
+        'ABCDCBA',
+        'BEEFEEB',
+        'CEGGGEC',
+        'HIGJGKL',
+        'CEGGGEC',
+        'BEEFEEB',
+        'ABCDCBA'
+    ], {
+        'A': 'actuallyadditions:empowered_enori_crystal_block',
+        'B': 'mekanism:basic_control_circuit',
+        'C': 'mekanism:dynamic_tank',
+        'D': 'mekanism:basic_chemical_tank',
+        'E': 'pneumaticcraft:smooth_plastic_brick_gray',
+        'F': 'pneumaticcraft:module_expansion_card',
+        'G': 'mekanism:steel_casing',
+        'H': 'ae2:formation_core',
+        'I': 'integrateddynamics:variable_transformer_output',
+        'J': 'mekanism:enrichment_chamber',
+        'K': 'integrateddynamics:variable_transformer_input',
+        'L': 'ae2:annihilation_core'
+    })
+    customTables('mekanism:nutritional_liquifier', 'chorus', [
+        'ABCDCBA',
+        'BEEFEEB',
+        'CEGGGEC',
+        'HIGJGKL',
+        'CEGGGEC',
+        'BEEFEEB',
+        'ABCDCBA'
+    ], {
+        'A': 'actuallyadditions:empowered_enori_crystal_block',
+        'B': 'mekanism:basic_control_circuit',
+        'C': 'minecraft:golden_carrot',
+        'D': 'mob_grinding_utils:nutritious_chicken_feed',
+        'E': 'pneumaticcraft:smooth_plastic_brick_gray',
+        'F': 'pneumaticcraft:module_expansion_card',
+        'G': 'mekanism:steel_casing',
+        'H': 'ae2:formation_core',
+        'I': 'integrateddynamics:variable_transformer_output',
+        'J': 'powah:machine_casing_niotic',
+        'K': 'integrateddynamics:variable_transformer_input',
+        'L': 'ae2:annihilation_core'
+    })
+    customTables('mekanism:fluidic_plenisher', 'chorus', [
+        'ABCDCBA',
+        'BEEFEEB',
+        'CEGGGEC',
+        'HIGJGKL',
+        'CEGGGEC',
+        'BEEFEEB',
+        'ABCDCBA'
+    ], {
+        'A': 'actuallyadditions:empowered_enori_crystal_block',
+        'B': 'mekanism:basic_control_circuit',
+        'C': 'rftoolsutility:fluid_module',
+        'D': 'cookingforblockheads:cyan_sink',
+        'E': 'pneumaticcraft:smooth_plastic_brick_gray',
+        'F': 'pneumaticcraft:module_expansion_card',
+        'G': 'mekanism:steel_casing',
+        'H': 'ae2:formation_core',
+        'I': 'integrateddynamics:variable_transformer_output',
+        'J': 'mekanism:electric_pump',
+        'K': 'integrateddynamics:variable_transformer_input',
+        'L': 'ae2:annihilation_core'
+    })
+    customTables('mekanism:resistive_heater', 'chorus', [
+        'ABCDCBA',
+        'BEEFEEB',
+        'CEGGGEC',
+        'HIGJGKL',
+        'CEGGGEC',
+        'BEEFEEB',
+        'ABCDCBA'
+    ], {
+        'A': 'actuallyadditions:empowered_enori_crystal_block',
+        'B': 'mekanism:basic_control_circuit',
+        'C': 'actuallyadditions:heat_collector',
+        'D': 'mekanism:energy_tablet',
+        'E': 'pneumaticcraft:smooth_plastic_brick_gray',
+        'F': 'pneumaticcraft:module_expansion_card',
+        'G': 'mekanism:steel_casing',
+        'H': 'ae2:formation_core',
+        'I': 'integrateddynamics:variable_transformer_output',
+        'J': 'powah:machine_casing_niotic',
+        'K': 'integrateddynamics:variable_transformer_input',
+        'L': 'ae2:annihilation_core'
+    })
+    customTables('mekanism:formulaic_assemblicator', 'chorus', [
+        'ABCDCBA',
+        'BEEFEEB',
+        'CEGGGEC',
+        'HIGJGKL',
+        'CEGGGEC',
+        'BEEFEEB',
+        'ABCDCBA'
+    ], {
+        'A': 'actuallyadditions:empowered_enori_crystal_block',
+        'B': 'mekanism:basic_control_circuit',
+        'C': 'create:cart_assembler',
+        'D': 'rftoolsutility:crafter3',
+        'E': 'pneumaticcraft:smooth_plastic_brick_gray',
+        'F': 'pneumaticcraft:module_expansion_card',
+        'G': 'mekanism:steel_casing',
+        'H': 'ae2:formation_core',
+        'I': 'integrateddynamics:variable_transformer_output',
+        'J': 'powah:machine_casing_niotic',
+        'K': 'integrateddynamics:variable_transformer_input',
+        'L': 'ae2:annihilation_core'
+    })
+    customTables('mekanism:pigment_extractor', 'chorus', [
+        'ABCDCBA',
+        'BEEFEEB',
+        'CEGGGEC',
+        'HIGJGKL',
+        'CEGGGEC',
+        'BEEFEEB',
+        'ABCDCBA'
+    ], {
+        'A': 'actuallyadditions:empowered_enori_crystal_block',
+        'B': 'mekanism:basic_control_circuit',
+        'C': 'minecraft:dye_primer',
+        'D': 'ars_nouveau:glyph_extract',
+        'E': 'pneumaticcraft:smooth_plastic_brick_gray',
+        'F': 'pneumaticcraft:module_expansion_card',
+        'G': 'mekanism:steel_casing',
+        'H': 'ae2:formation_core',
+        'I': 'integrateddynamics:variable_transformer_output',
+        'J': 'powah:machine_casing_niotic',
+        'K': 'integrateddynamics:variable_transformer_input',
+        'L': 'ae2:annihilation_core'
+    })
+    customTables('mekanism:pigment_mixer', 'chorus', [
+        'ABCDCBA',
+        'BEEFEEB',
+        'CEGGGEC',
+        'HIGJGKL',
+        'CEGGGEC',
+        'BEEFEEB',
+        'ABCDCBA'
+    ], {
+        'A': 'actuallyadditions:empowered_enori_crystal_block',
+        'B': 'mekanism:elite_control_circuit',
+        'C': 'minecraft:dye_primer',
+        'D': 'mekanism:hdpe_rod',
+        'E': 'pneumaticcraft:smooth_plastic_brick_gray',
+        'F': 'pneumaticcraft:module_expansion_card',
+        'G': 'mekanism:steel_casing',
+        'H': 'ae2:formation_core',
+        'I': 'integrateddynamics:variable_transformer_output',
+        'J': 'powah:machine_casing_niotic',
+        'K': 'integrateddynamics:variable_transformer_input',
+        'L': 'ae2:annihilation_core'
+    })
+    customTables('mekanism:painting_machine', 'chorus', [
+        'ABCDCBA',
+        'BEEFEEB',
+        'CEGGGEC',
+        'HIGJGKL',
+        'CEGGGEC',
+        'BEEFEEB',
+        'ABCDCBA'
+    ], {
+        'A': 'actuallyadditions:empowered_enori_crystal_block',
+        'B': 'mekanism:advanced_control_circuit',
+        'C': 'minecraft:dye_primer',
+        'D': 'sophisticatedstorage:paintbrush',
+        'E': 'pneumaticcraft:smooth_plastic_brick_gray',
+        'F': 'pneumaticcraft:module_expansion_card',
+        'G': 'mekanism:steel_casing',
+        'H': 'ae2:formation_core',
+        'I': 'integrateddynamics:variable_transformer_output',
+        'J': 'powah:machine_casing_niotic',
+        'K': 'integrateddynamics:variable_transformer_input',
+        'L': 'ae2:annihilation_core'
+    })
+    customTables('mekanism:dimensional_stabilizer', 'chorus', [
+        'ABCDCBA',
+        'BEEFEEB',
+        'CEGGGEC',
+        'HIGJGKL',
+        'CEGGGEC',
+        'BEEFEEB',
+        'ABCDCBA'
+    ], {
+        'A': 'actuallyadditions:empowered_enori_crystal_block',
+        'B': 'mekanism:ultimate_control_circuit',
+        'C': 'chickenchunks:spot_loader',
+        'D': 'powah:binding_card_dim',
+        'E': 'pneumaticcraft:smooth_plastic_brick_gray',
+        'F': 'pneumaticcraft:module_expansion_card',
+        'G': 'mekanism:steel_casing',
+        'H': 'ae2:formation_core',
+        'I': 'integrateddynamics:variable_transformer_output',
+        'J': 'powah:machine_casing_niotic',
+        'K': 'integrateddynamics:variable_transformer_input',
+        'L': 'ae2:annihilation_core'
+    })
+    customTables('mekanism:security_desk', 'chorus', [
+        'ABCDCBA',
+        'BEEFEEB',
+        'CEGGGEC',
+        'HIGJGKL',
+        'CEGGGEC',
+        'BEEFEEB',
+        'ABCDCBA'
+    ], {
+        'A': 'actuallyadditions:empowered_enori_crystal_block',
+        'B': 'mekanism:elite_control_circuit',
+        'C': 'minecraft:redstone',//'evolvedmekanism:ingot_refined_redstone',
+        'D': 'pneumaticcraft:security_station',
+        'E': 'pneumaticcraft:smooth_plastic_brick_gray',
+        'F': 'pneumaticcraft:module_expansion_card',
+        'G': 'mekanism:steel_casing',
+        'H': 'ae2:formation_core',
+        'I': 'integrateddynamics:variable_transformer_output',
+        'J': 'powah:machine_casing_niotic',
+        'K': 'integrateddynamics:variable_transformer_input',
+        'L': 'ae2:annihilation_core'
+    })
+    customTables('mekanism:fuelwood_heater', 'chorus', [
+        'ABCDCBA',
+        'BEEFEEB',
+        'CEGGGEC',
+        'HIGJGKL',
+        'CEGGGEC',
+        'BEEFEEB',
+        'ABCDCBA'
+    ], {
+        'A': 'actuallyadditions:empowered_enori_crystal_block',
+        'B': 'mekanism:basic_control_circuit',
+        'C': 'minecraft:furnace',
+        'D': 'actuallyadditions:wood_casing',
+        'E': 'pneumaticcraft:smooth_plastic_brick_gray',
+        'F': 'pneumaticcraft:module_expansion_card',
+        'G': 'mekanism:steel_casing',
+        'H': 'ae2:formation_core',
+        'I': 'integrateddynamics:variable_transformer_output',
+        'J': 'powah:machine_casing_niotic',
+        'K': 'integrateddynamics:variable_transformer_input',
+        'L': 'ae2:annihilation_core'
+    })
+    // 'mekanism:metallurgic_infuser', ['create:osmium_alloy', 'rftoolsbase:infused_diamond', 'ars_nouveau:glyph_infuse']
+    // 'mekanism:enrichment_chamber', ['mekanism:basic_control_circuit', 'technicresources:redstone_gear', 'reliquary:fortune_coin']
+    // 'mekanism:osmium_compressor', ['mekanism:advanced_control_circuit', 'cmr:smithing_press', 'pneumaticcraft:advanced_air_compressor']
+    // 'mekanism:combiner', ['mekanism:elite_control_circuit', 'createcasing:chorus_mixer', 'ars_nouveau:glyph_exchange']
+    // 'mekanism:crusher', ['mekanism:basic_control_circuit', 'actuallyadditions:crusher_double', 'ars_nouveau:glyph_crush']
+    // 'mekanism:energized_smelter', ['mekanism:basic_control_circuit', 'custommachinery:custom_machine_item[custommachinery:machine="technicresources:chorus_furnace"]', 'ars_nouveau:glyph_smelt']
+    // 'mekanism:electric_pump', ['mekanism:basic_control_circuit', 'actuallyadditions:fluid_collector', 'pneumaticcraft:vacuum_pump']
+    // 'mekanism:rotary_condensentrator', ['mekanism:basic_control_circuit', 'create:rotation_speed_controller', 'mekanism:basic_chemical_tank']
+    // 'mekanism:electrolytic_separator', ['mekanism:basic_control_circuit', 'mekanism:electrolytic_core', 'mekanism:advanced_chemical_tank']
+    // 'mekanism:precision_sawmill', ['mekanism:basic_control_circuit', 'create:precision_mechanism', 'chipped:saw']
+    // 'mekanism:seismic_vibrator', ['mekanism:basic_control_circuit', 'ae2:quartz_vibrant_glass', 'pneumaticcraft:drill_bit_diamond']
+    // 'mekanism:pressurized_reaction_chamber', ['mekanism:basic_control_circuit', 'mekanism:dynamic_tank', 'mekanism:basic_chemical_tank', 'mekanism:enrichment_chamber'],
+    // 'mekanism:nutritional_liquifier', ['mekanism:basic_control_circuit', 'minecraft:golden_carrot', 'mob_grinding_utils:nutritious_chicken_feed']
+    // 'mekanism:fluidic_plenisher', ['mekanism:basic_control_circuit', 'rftoolsutility:fluid_module', 'cookingforblockheads:cyan_sink', 'mekanism:electric_pump']
+    // 'mekanism:resistive_heater', ['mekanism:basic_control_circuit', 'actuallyadditions:heat_collector', 'mekanism:energy_tablet']
+    // 'mekanism:formulaic_assemblicator', ['mekanism:basic_control_circuit', 'create:cart_assembler', 'rftoolsutility:crafter3']
+    // 'mekanism:pigment_extractor', ['mekanism:basic_control_circuit', 'minecraft:dye_primer', 'ars_nouveau:glyph_extract']
+    // 'mekanism:pigment_mixer', ['mekanism:elite_control_circuit', 'minecraft:dye_primer', 'mekanism:hdpe_rod']
+    // 'mekanism:painting_machine', ['mekanism:advanced_control_circuit', 'minecraft:dye_primer', 'sophisticatedstorage:paintbrush']
+    // 'mekanism:dimensional_stabilizer', ['mekanism:ultimate_control_circuit', 'chickenchunks:spot_loader', 'powah:binding_card_dim']
+    // 'mekanism:security_desk', ['mekanism:elite_control_circuit', 'evolvedmekanism:ingot_refined_redstone', 'pneumaticcraft:security_station']
+    // 'mekanism:fuelwood_heater', ['mekanism:basic_control_circuit', 'custommachinery:custom_machine_item[custommachinery:machine="technicresources:chorus_furnace"]', 'actuallyadditions:wood_casing']
+
+    // Netherite Table
+    customTables('mekanism:digital_miner', 'netherite', [
+        'AABCDCBAA',
+        'AEEEFEEEA',
+        'BEGHIHGEB',
+        'CEHJJJHEC',
+        'KFIJLJIFM',
+        'CEHJJJHEC',
+        'BEGHIHGEB',
+        'AEEEFEEEA',
+        'AABCDCBAA',
+    ], {
+        'A': 'createcasing:netherite_casing',
+        'B': 'mekanism:ingot_uranium',
+        'C': 'ae2:annihilation_plane',
+        'D': 'actuallyadditions:phantom_breaker',
+        'E': 'mekanismadditions:gray_reinforced_plastic',
+        'F': 'hostilenetworks:hostile_machine_casing',
+        'G': 'mekanism:teleportation_core',
+        'H': 'mekanism:ultimate_control_circuit',
+        'I': 'pneumaticcraft:module_expansion_card',
+        'J': 'mekanism:steel_casing',
+        'K': 'extendedcrafting:flux_star',
+        'L': 'powah:machine_casing_nitro',
+        'M': 'extendedcrafting:ender_star'
+    })
+    customTables('mekanism:purification_chamber', 'netherite', [
+        'AABCDCBAA',
+        'AEEEFEEEA',
+        'BEGHIHGEB',
+        'CEHJJJHEC',
+        'KFIJLJIFM',
+        'CEHJJJHEC',
+        'BEGHIHGEB',
+        'AEEEFEEEA',
+        'AABCDCBAA',
+    ], {
+        'A': 'createcasing:netherite_casing',
+        'B': 'mekanism:ingot_uranium',
+        'C': 'ars_nouveau:imbuement_chamber',
+        'D': 'supplementaries:soap',
+        'E': 'mekanismadditions:gray_reinforced_plastic',
+        'F': 'hostilenetworks:hostile_machine_casing',
+        'G': 'mekanism:teleportation_core',
+        'H': 'mekanism:ultimate_control_circuit',
+        'I': 'pneumaticcraft:module_expansion_card',
+        'J': 'mekanism:steel_casing',
+        'K': 'extendedcrafting:flux_star',
+        'L': 'mekanism:enrichment_chamber',
+        'M': 'extendedcrafting:ender_star'
+    })
+    customTables('mekanism:chemical_oxidizer', 'netherite', [
+        'AABCDCBAA',
+        'AEEEFEEEA',
+        'BEGHIHGEB',
+        'CEHJJJHEC',
+        'KFIJLJIFM',
+        'CEHJJJHEC',
+        'BEGHIHGEB',
+        'AEEEFEEEA',
+        'AABCNCBAA',
+    ], {
+        'A': 'createcasing:netherite_casing',
+        'B': 'mekanism:ingot_uranium',
+        'C': 'chipped:ancient_waxed_oxidized_copper',
+        'D': 'mekanism:basic_chemical_tank',
+        'E': 'mekanismadditions:gray_reinforced_plastic',
+        'F': 'hostilenetworks:hostile_machine_casing',
+        'G': 'mekanism:teleportation_core',
+        'H': 'mekanism:ultimate_control_circuit',
+        'I': 'pneumaticcraft:module_expansion_card',
+        'J': 'mekanism:steel_casing',
+        'K': 'extendedcrafting:flux_star',
+        'L': 'powah:machine_casing_nitro',
+        'M': 'extendedcrafting:ender_star',
+        'N': 'mekanism:personal_barrel'
+    })
+    customTables('mekanism:chemical_infuser', 'netherite', [
+        'AABCDCBAA',
+        'AEEEFEEEA',
+        'BEGHIHGEB',
+        'CEHJJJHEC',
+        'KFIJLJIFM',
+        'CEHJJJHEC',
+        'BEGHIHGEB',
+        'AEEEFEEEA',
+        'AABCDCBAA',
+    ], {
+        'A': 'createcasing:netherite_casing',
+        'B': 'mekanism:ingot_uranium',
+        'C': 'resourcefulshulkers:shulker_infuser',
+        'D': 'mekanism:basic_chemical_tank',
+        'E': 'mekanismadditions:gray_reinforced_plastic',
+        'F': 'hostilenetworks:hostile_machine_casing',
+        'G': 'mekanism:teleportation_core',
+        'H': 'mekanism:ultimate_control_circuit',
+        'I': 'pneumaticcraft:module_expansion_card',
+        'J': 'mekanism:steel_casing',
+        'K': 'extendedcrafting:flux_star',
+        'L': 'powah:machine_casing_nitro',
+        'M': 'extendedcrafting:ender_star'
+    })
+    customTables('mekanism:chemical_injection_chamber', 'netherite', [
+        'AABCDCBAA',
+        'AEEEFEEEA',
+        'BEGHIHGEB',
+        'CEHJJJHEC',
+        'KFIJLJIFM',
+        'CEHJJJHEC',
+        'BEGHIHGEB',
+        'AEEEFEEEA',
+        'AABCDCBAA',
+    ], {
+        'A': 'createcasing:netherite_casing',
+        'B': 'mekanism:ingot_uranium',
+        'C': 'pipez:gas_pipe',
+        'D': 'mekanism:ultimate_chemical_tank',
+        'E': 'mekanismadditions:gray_reinforced_plastic',
+        'F': 'hostilenetworks:hostile_machine_casing',
+        'G': 'mekanism:teleportation_core',
+        'H': 'mekanism:ultimate_control_circuit',
+        'I': 'pneumaticcraft:module_expansion_card',
+        'J': 'mekanism:steel_casing',
+        'K': 'extendedcrafting:flux_star',
+        'L': 'mekanism:purification_chamber',
+        'M': 'extendedcrafting:ender_star'
+    })
+    customTables('mekanism:chemical_dissolution_chamber', 'netherite', [
+        'AABCDCBAA',
+        'AEEEFEEEA',
+        'BEGHIHGEB',
+        'CEHJJJHEC',
+        'KFIJLJIFM',
+        'CEHJJJHEC',
+        'BEGHIHGEB',
+        'AEEEFEEEA',
+        'AABCDCBAA',
+    ], {
+        'A': 'createcasing:netherite_casing',
+        'B': 'mekanism:ingot_uranium',
+        'C': 'mekanism:ingot_refined_obsidian',
+        'D': 'reliquary:midas_touchstone',
+        'E': 'mekanismadditions:gray_reinforced_plastic',
+        'F': 'hostilenetworks:hostile_machine_casing',
+        'G': 'mekanism:teleportation_core',
+        'H': 'mekanism:ultimate_control_circuit',
+        'I': 'pneumaticcraft:module_expansion_card',
+        'J': 'mekanism:steel_casing',
+        'K': 'extendedcrafting:flux_star',
+        'L': 'mekanism:purification_chamber',
+        'M': 'extendedcrafting:ender_star'
+    })
+    customTables('mekanism:chemical_washer', 'netherite', [
+        'AABCDCBAA',
+        'AEEEFEEEA',
+        'BEGHIHGEB',
+        'CEHJJJHEC',
+        'KFIJLJIFM',
+        'CEHJJJHEC',
+        'BEGHIHGEB',
+        'AEEEFEEEA',
+        'AABCNCBAA',
+    ], {
+        'A': 'createcasing:netherite_casing',
+        'B': 'mekanism:ingot_uranium',
+        'C': 'reliquary:apothecary_cauldron',
+        'D': 'mekanism:basic_chemical_tank',
+        'E': 'mekanismadditions:gray_reinforced_plastic',
+        'F': 'hostilenetworks:hostile_machine_casing',
+        'G': 'mekanism:teleportation_core',
+        'H': 'mekanism:ultimate_control_circuit',
+        'I': 'pneumaticcraft:module_expansion_card',
+        'J': 'mekanism:steel_casing',
+        'K': 'extendedcrafting:flux_star',
+        'L': 'powah:machine_casing_nitro',
+        'M': 'extendedcrafting:ender_star',
+        'N': 'mekanism:basic_fluid_tank',
+    })
+    customTables('mekanism:chemical_crystallizer', 'netherite', [
+        'AABCDCBAA',
+        'AEEEFEEEA',
+        'BEGHIHGEB',
+        'CEHJJJHEC',
+        'KFIJLJIFM',
+        'CEHJJJHEC',
+        'BEGHIHGEB',
+        'AEEEFEEEA',
+        'AABCDCBAA',
+    ], {
+        'A': 'createcasing:netherite_casing',
+        'B': 'mekanism:ingot_uranium',
+        'C': 'technicresources:crystalized_chorus_plate',
+        'D': 'minecraft:end_crystal',
+        'E': 'mekanismadditions:gray_reinforced_plastic',
+        'F': 'hostilenetworks:hostile_machine_casing',
+        'G': 'mekanism:teleportation_core',
+        'H': 'mekanism:ultimate_control_circuit',
+        'I': 'pneumaticcraft:module_expansion_card',
+        'J': 'mekanism:steel_casing',
+        'K': 'extendedcrafting:flux_star',
+        'L': 'powah:machine_casing_nitro',
+        'M': 'extendedcrafting:ender_star'
+    })
+    customTables('mekanism:isotopic_centrifuge', 'netherite', [
+        'AABCDCBAA',
+        'AEEEFEEEA',
+        'BEGHIHGEB',
+        'CEHJJJHEC',
+        'KFIJLJIFM',
+        'CEHJJJHEC',
+        'BEGHIHGEB',
+        'AEEEFEEEA',
+        'AABCDCBAA',
+    ], {
+        'A': 'createcasing:netherite_casing',
+        'B': 'mekanism:ingot_uranium',
+        'C': 'technicresources:uranium_wire',
+        'D': 'createcasing:netherite_mixer',
+        'E': 'mekanismadditions:gray_reinforced_plastic',
+        'F': 'hostilenetworks:hostile_machine_casing',
+        'G': 'mekanism:teleportation_core',
+        'H': 'mekanism:ultimate_control_circuit',
+        'I': 'pneumaticcraft:module_expansion_card',
+        'J': 'mekanism:steel_casing',
+        'K': 'extendedcrafting:flux_star',
+        'L': 'powah:machine_casing_nitro',
+        'M': 'extendedcrafting:ender_star'
+    })
+    customTables('mekanism:solar_neutron_activator', 'netherite', [
+        'AABCDCBAA',
+        'AEEEFEEEA',
+        'BEGHIHGEB',
+        'CEHJJJHEC',
+        'KFIJLJIFM',
+        'CEHJJJHEC',
+        'BEGHIHGEB',
+        'AEEEFEEEA',
+        'AABCDCBAA',
+    ], {
+        'A': 'createcasing:netherite_casing',
+        'B': 'mekanism:ingot_uranium',
+        'C': 'mekanism:hdpe_sheet',
+        'D': 'mekanismgenerators:solar_generator',
+        'E': 'mekanismadditions:gray_reinforced_plastic',
+        'F': 'hostilenetworks:hostile_machine_casing',
+        'G': 'mekanism:teleportation_core',
+        'H': 'mekanism:ultimate_control_circuit',
+        'I': 'pneumaticcraft:module_expansion_card',
+        'J': 'mekanism:steel_casing',
+        'K': 'extendedcrafting:flux_star',
+        'L': 'powah:machine_casing_nitro',
+        'M': 'extendedcrafting:ender_star'
+    })
+    customTables('mekanism:quantum_entangloporter', 'netherite', [
+        'AABCDCBAA',
+        'AEEEFEEEA',
+        'BEGHIHGEB',
+        'CEHJJJHEC',
+        'KFIJLJIFM',
+        'CEHJJJHEC',
+        'BEGHIHGEB',
+        'AEEEFEEEA',
+        'AABCDCBAA',
+    ], {
+        'A': 'createcasing:netherite_casing',
+        'B': 'mekanism:ingot_uranium',
+        'C': 'integrateddynamics:part_extradimensional_reader',
+        'D': 'morefunctionalstorage:dimensional_refill_upgrade',
+        'E': 'mekanismadditions:gray_reinforced_plastic',
+        'F': 'hostilenetworks:hostile_machine_casing',
+        'G': 'mekanism:teleportation_core',
+        'H': 'mekanism:ultimate_control_circuit',
+        'I': 'pneumaticcraft:module_expansion_card',
+        'J': 'mekanism:steel_casing',
+        'K': 'extendedcrafting:flux_star',
+        'L': 'powah:machine_casing_nitro',
+        'M': 'extendedcrafting:ender_star'
+    })
+    customTables('mekanism:modification_station', 'netherite', [
+        'AABCDCBAA',
+        'AEEEFEEEA',
+        'BEGHIHGEB',
+        'CEHJJJHEC',
+        'KFIJLJIFM',
+        'CEHJJJHEC',
+        'BEGHIHGEB',
+        'AEEEFEEEA',
+        'AABCDCBAA',
+    ], {
+        'A': 'createcasing:netherite_casing',
+        'B': 'mekanism:ingot_uranium',
+        'C': 'mekanism:pellet_polonium',
+        'D': 'mekanism:hdpe_sheet',
+        'E': 'mekanismadditions:gray_reinforced_plastic',
+        'F': 'hostilenetworks:hostile_machine_casing',
+        'G': 'mekanism:teleportation_core',
+        'H': 'mekanism:ultimate_control_circuit',
+        'I': 'pneumaticcraft:module_expansion_card',
+        'J': 'mekanism:steel_casing',
+        'K': 'extendedcrafting:flux_star',
+        'L': 'powah:machine_casing_nitro',
+        'M': 'extendedcrafting:ender_star'
+    })
+    customTables('mekanism:qio_drive_array', 'netherite', [
+        'AABCDCBAA',
+        'AEEEFEEEA',
+        'BEGHIHGEB',
+        'CEHJJJHEC',
+        'KFIJLJIFM',
+        'CEHJJJHEC',
+        'BEGHIHGEB',
+        'AEEEFEEEA',
+        'AABCNCBAA',
+    ], {
+        'A': 'createcasing:netherite_casing',
+        'B': 'mekanism:ingot_uranium',
+        'C': 'ae2:cell_component_1k',
+        'D': 'mekanism:personal_barrel',
+        'E': 'mekanismadditions:gray_reinforced_plastic',
+        'F': 'hostilenetworks:hostile_machine_casing',
+        'G': 'mekanism:teleportation_core',
+        'H': 'mekanism:ultimate_control_circuit',
+        'I': 'pneumaticcraft:module_expansion_card',
+        'J': 'mekanism:steel_casing',
+        'K': 'extendedcrafting:flux_star',
+        'L': 'powah:machine_casing_nitro',
+        'M': 'extendedcrafting:ender_star',
+        'N': 'mekanism:personal_chest'
+    })
+    // 'mekanism:digital_miner', ['ae2:annihilation_plane', 'actuallyadditions:phantom_breaker']
+    // 'mekanism:purification_chamber', ['ars_nouveau:imbuement_chamber', 'supplementaries:soap', 'mekanism:enrichment_chamber']
+    // 'mekanism:chemical_oxidizer', ['chipped:ancient_waxed_oxidized_copper', 'mekanism:basic_chemical_tank', 'mekanism:personal_barrel']
+    // 'mekanism:chemical_infuser', ['resourcefulshulkers:shulker_infuser', 'mekanism:basic_chemical_tank']
+    // 'mekanism:chemical_injection_chamber', ['pipez:gas_pipe', 'mekanism:ultimate_chemical_tank', 'mekanism:purification_chamber']
+    // 'mekanism:chemical_dissolution_chamber', ['mekanism:ingot_refined_obsidian', 'reliquary:midas_touchstone', 'mekanism:purification_chamber']
+    // 'mekanism:chemical_washer', ['reliquary:apothecary_cauldron', 'mekanism:basic_chemical_tank']
+    // 'mekanism:chemical_crystallizer', ['technicresources:crystalized_chorus_plate', 'minecraft:end_crystal']
+    // 'mekanism:isotopic_centrifuge', ['technicresources:uranium_wire', 'createcasing:netherite_mixer']
+    // 'mekanism:solar_neutron_activator', ['mekanism:hdpe_sheet', 'mekanismgenerators:solar_generator']
+    // 'mekanism:quantum_entangloporter', ['integrateddynamics:part_extradimensional_reader', 'morefunctionalstorage:dimensional_refill_upgrade']
+    // 'mekanism:modification_station', ['mekanism:pellet_polonium', 'mekanism:hdpe_sheet']
+    // 'mekanism:qio_drive_array', ['ae2:cell_component_1k', 'mekanism:personal_barrel', , 'mekanism:personal_chest']
+
+    // Antimatter Table
+    customTables('mekanism:antiprotonic_nucleosynthesizer', 'netherite', [
+        'AABCCCCCBAA',
+        'ADBEEEEEBDA',
+        'BBFFFGFFFBB',
+        'CHFIIGIIFHC',
+        'CHFIJJJIFHC',
+        'CHGGJKJGGHC',
+        'CHFIJJJIFHC',
+        'CHFIIGIIFHC',
+        'BBFFFGFFFBB',
+        'ADBEEEEEBDA',
+        'AABCCCCCBAA',
+    ], {
+        'A': 'create_enchantment_industry:super_experience_block',
+        'B': 'mekanism:sps_casing',
+        'C': 'mekanism:structural_glass',
+        'D': 'ae2:quantum_entangled_singularity',
+        'E': 'mekanism:pellet_polonium',
+        'F': 'mekanismadditions:white_reinforced_plastic',
+        'G': 'mekanism:pellet_antimatter',
+        'H': 'mekanism:pellet_plutonium',
+        'I': 'createcasing:creative_casing',
+        'J': 'mekanism:steel_casing',
+        'K': 'ae2:controller'
     })
 
-    function mekanismMachine(output, pattern, keys,table) {
-        
-
+    function customTables(output, table, pattern, keys) {
         let requirements = [];
-        
         for (const patternIndex in pattern) {
             if (Object.prototype.hasOwnProperty.call(pattern, patternIndex)) {
-                const line = pattern[patternIndex];
-                const chars = line.split('')
+                let line = pattern[patternIndex];
+                let chars = line.split('')
                 for (const charIndex in chars) {
                     if (Object.prototype.hasOwnProperty.call(chars, charIndex)) {
-                        const char = chars[charIndex];
+                        let char = chars[charIndex];
+                        let slot = parseInt(patternIndex) * pattern.length + parseInt(charIndex);
+                        console.log("Slot: " + slot + " Char: " + char)
                         requirements.push({
                             "type": "custommachinery:item",
-                            "slot": "slot_" + patternIndex * pattern.length + charIndex,
+                            "slot": "slot_" + slot,
                             "ingredient": {
                                 "item": keys[char]
                             },
@@ -128,15 +985,12 @@ ServerEvents.recipes(event => {
                 }
             }
         }
-
-        recipe = {
+        let recipe = {
             "type": "custommachinery:custom_craft",
             "machine": "technicresources:" + table + "_crafting_table",
             "requirements": requirements,
-            "output": output
+            "output": { "id": output }
         }
-
-        console.log(recipe)
         event.custom(recipe)
     }
 })
