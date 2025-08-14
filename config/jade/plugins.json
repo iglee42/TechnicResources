@@ -65,6 +65,9 @@
   "entangled": {
     "entangled_block_component": true
   },
+  "ftbquests": {
+    "barrier": true
+  },
   "avaritia": {
     "extreme_smithing": true,
     "crafting_table": true,
