@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:block/cube",
+    "textures": {
+        "north": "technicresources:block/furnaces/antimatter/running_front",
+        "east": "technicresources:block/furnaces/antimatter/side",
+        "particle": "technicresources:block/furnaces/antimatter/side",
+        "south": "technicresources:block/furnaces/antimatter/side",
+        "west": "technicresources:block/furnaces/antimatter/side",
+        "up": "technicresources:block/furnaces/antimatter/top",
+        "down": "technicresources:block/furnaces/antimatter/top"
+    }
+}

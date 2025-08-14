@@ -1,0 +1,227 @@
+{
+  "name": {
+    "text": "Zinc Crafting Table"
+  },
+  "appearance": {
+    "custommachinery:keep_inventory": true,
+    "custommachinery:block": "technicresources:machine/zinc_crafting_table/idle",
+    "custommachinery:item": "technicresources:machine/zinc_crafting_table/idle"
+  },
+  "components": [
+    {
+      "type": "custommachinery:item",
+      "id": "slot_0",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "slot_1",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "slot_2",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "slot_3",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "slot_4",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "slot_5",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "slot_6",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "slot_7",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "slot_8",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "slot_9",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "slot_10",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "slot_11",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "slot_12",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "slot_13",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "slot_14",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "slot_15",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item_result",
+      "id": "output"
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "width": 200,
+      "height": 202
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "slot_0",
+      "x": 40,
+      "y": 18
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "slot_1",
+      "x": 58,
+      "y": 18
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "slot_2",
+      "x": 76,
+      "y": 18
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "slot_3",
+      "x": 94,
+      "y": 18
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "slot_4",
+      "x": 40,
+      "y": 36
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "slot_5",
+      "x": 58,
+      "y": 36
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "slot_6",
+      "x": 76,
+      "y": 36
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "slot_7",
+      "x": 94,
+      "y": 36
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "slot_8",
+      "x": 40,
+      "y": 54
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "slot_9",
+      "x": 58,
+      "y": 54
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "slot_10",
+      "x": 76,
+      "y": 54
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "slot_11",
+      "x": 94,
+      "y": 54
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "slot_12",
+      "x": 40,
+      "y": 72
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "slot_13",
+      "x": 58,
+      "y": 72
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "slot_14",
+      "x": 76,
+      "y": 72
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "slot_15",
+      "x": 94,
+      "y": 72
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output",
+      "x": 142,
+      "y": 45
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 19,
+      "y": 110
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 20,
+      "y": 7,
+      "text": {
+        "text": "Zinc Crafting Table"
+      }
+    },
+    {
+      "type": "custommachinery:texture",
+      "texture": "jei:textures/jei/atlas/gui/recipe_arrow.png",
+      "x": 114,
+      "y": 46
+    }
+  ],
+  "processor": {
+    "type": "custommachinery:craft"
+  }
+}

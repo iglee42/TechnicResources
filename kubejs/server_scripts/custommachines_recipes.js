@@ -72,6 +72,11 @@ ServerEvents.recipes(event => {
                        "count": amount,
                    },
                    "slot": "result"
+               },
+               {
+                   "type": "custommachinery:command",
+                   "command": "/function technicresources:furnace_particles",
+                   "phase": "crafting_tickable"
                }
            ]
        })

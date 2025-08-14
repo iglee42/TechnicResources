@@ -1,0 +1,447 @@
+{
+  "name": {
+    "text": "Source Crafting Table"
+  },
+  "appearance": {
+    "custommachinery:keep_inventory": true,
+    "custommachinery:block": "technicresources:machine/source_crafting_table/idle",
+    "custommachinery:item": "technicresources:machine/source_crafting_table/idle"
+  },
+  "components": [
+    {
+      "type": "custommachinery:item",
+      "id": "slot_0",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "slot_1",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "slot_2",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "slot_3",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "slot_4",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "slot_5",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "slot_6",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "slot_7",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "slot_8",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "slot_9",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "slot_10",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "slot_11",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "slot_12",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "slot_13",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "slot_14",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "slot_15",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "slot_16",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "slot_17",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "slot_18",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "slot_19",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "slot_20",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "slot_21",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "slot_22",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "slot_23",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "slot_24",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "slot_25",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "slot_26",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "slot_27",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "slot_28",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "slot_29",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "slot_30",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "slot_31",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "slot_32",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "slot_33",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "slot_34",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "slot_35",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item_result",
+      "id": "output"
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "width": 200,
+      "height": 238
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "slot_0",
+      "x": 22,
+      "y": 18
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "slot_1",
+      "x": 40,
+      "y": 18
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "slot_2",
+      "x": 58,
+      "y": 18
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "slot_3",
+      "x": 76,
+      "y": 18
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "slot_4",
+      "x": 94,
+      "y": 18
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "slot_5",
+      "x": 112,
+      "y": 18
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "slot_6",
+      "x": 22,
+      "y": 36
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "slot_7",
+      "x": 40,
+      "y": 36
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "slot_8",
+      "x": 58,
+      "y": 36
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "slot_9",
+      "x": 76,
+      "y": 36
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "slot_10",
+      "x": 94,
+      "y": 36
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "slot_11",
+      "x": 112,
+      "y": 36
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "slot_12",
+      "x": 22,
+      "y": 54
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "slot_13",
+      "x": 40,
+      "y": 54
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "slot_14",
+      "x": 58,
+      "y": 54
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "slot_15",
+      "x": 76,
+      "y": 54
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "slot_16",
+      "x": 94,
+      "y": 54
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "slot_17",
+      "x": 112,
+      "y": 54
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "slot_18",
+      "x": 22,
+      "y": 72
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "slot_19",
+      "x": 40,
+      "y": 72
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "slot_20",
+      "x": 58,
+      "y": 72
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "slot_21",
+      "x": 76,
+      "y": 72
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "slot_22",
+      "x": 94,
+      "y": 72
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "slot_23",
+      "x": 112,
+      "y": 72
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "slot_24",
+      "x": 22,
+      "y": 90
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "slot_25",
+      "x": 40,
+      "y": 90
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "slot_26",
+      "x": 58,
+      "y": 90
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "slot_27",
+      "x": 76,
+      "y": 90
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "slot_28",
+      "x": 94,
+      "y": 90
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "slot_29",
+      "x": 112,
+      "y": 90
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "slot_30",
+      "x": 22,
+      "y": 108
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "slot_31",
+      "x": 40,
+      "y": 108
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "slot_32",
+      "x": 58,
+      "y": 108
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "slot_33",
+      "x": 76,
+      "y": 108
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "slot_34",
+      "x": 94,
+      "y": 108
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "slot_35",
+      "x": 112,
+      "y": 108
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output",
+      "x": 160,
+      "y": 63
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 19,
+      "y": 146
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 20,
+      "y": 7,
+      "text": {
+        "text": "Source Crafting Table"
+      }
+    },
+    {
+      "type": "custommachinery:texture",
+      "texture": "jei:textures/jei/atlas/gui/recipe_arrow.png",
+      "x": 132,
+      "y": 64
+    }
+  ],
+  "processor": {
+    "type": "custommachinery:craft"
+  }
+}

@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:block/cube",
+    "textures": {
+        "north": "technicresources:block/furnaces/quantum/idle_front",
+        "east": "technicresources:block/furnaces/quantum/side",
+        "particle": "technicresources:block/furnaces/quantum/side",
+        "south": "technicresources:block/furnaces/quantum/side",
+        "west": "technicresources:block/furnaces/quantum/side",
+        "up": "technicresources:block/furnaces/quantum/top",
+        "down": "technicresources:block/furnaces/quantum/top"
+    }
+}
