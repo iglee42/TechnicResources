@@ -7,6 +7,6 @@
         "south": "technicresources:block/crafting_tables/antimatter/side",
         "west": "technicresources:block/crafting_tables/antimatter/idle_front",
         "up": "technicresources:block/crafting_tables/antimatter/top",
-        "down": "mekanism:block/antimatter_block"
+        "down": "mekanism:block/block_antimatter"
     }
 }
