@@ -175,6 +175,13 @@ ServerEvents.recipes(event => {
 
         //event.shaped(Item.of('technicresources:bedrock_breaker'), ['WWW', 'WIW', 'WWW'], { 'W': 'technicresources:compressed_wall2', 'I': 'minecraft:diamond_pickaxe' })
 
+        //-------------Mekanism----------------//
+        event.shapeless('mekanism:block_antimatter', ['9x mekanism:pellet_antimatter'])
+        event.shapeless('9x mekanism:pellet_antimatter', ['mekanism:block_antimatter'])
+        event.shapeless('mekanism:block_plutonium', ['9x mekanism:pellet_plutonium'])
+        event.shapeless('9x mekanism:pellet_plutonium', ['mekanism:block_plutonium'])
+        event.shapeless('mekanism:block_polonium', ['9x mekanism:pellet_polonium'])
+        event.shapeless('9x mekanism:pellet_polonium', ['mekanism:block_polonium'])
 
 
 

@@ -39,6 +39,9 @@ StartupEvents.registry('block', e => {
 
     /***********************************Other****************************************/
     registerOtherMod('createaddition', 'electrum_block', 'Electrum Block', 'metal', 5, 6, 'pickaxe', 'iron', true)
+    registerOtherMod('mekanism', 'block_plutonium', 'Block of Plutonium', 'metal', 8, 10, 'pickaxe', 'diamond', true)
+    registerOtherMod('mekanism', 'block_polonium', 'Block of Polonium', 'metal', 8, 10, 'pickaxe', 'diamond', true)
+    registerOtherMod('mekanism', 'block_antimatter', 'Block of Antimatter', 'metal', 10, 12, 'pickaxe', 'diamond', true)
 
     /***************************Custom Machine Casings*******************************/
     registerOtherMod('hostilenetworks', 'hostile_machine_casing', 'Hostile Machine Casing', 'metal', 5, 6, 'pickaxe', 'iron', true)
