@@ -1,8 +1,12 @@
 {
     "name": "Compressor",
     "appearance": {
-        "block": "technicresources:machine/compressor",
-        "item": "technicresources:machine/compressor"
+        "block": "technicresources:machine/compressor_idle",
+        "item": "technicresources:machine/compressor_idle",
+        "running": {
+            "custommachinery:block": "technicresources:machine/compressor_running",
+            "ambient_sound": "create:mechanical_press_activation"
+        }
     },
     "components": [
         {
@@ -16,7 +20,7 @@
         {
             "type": "custommachinery:item",
             "mode": "input",
-            "id" : "input"
+            "id": "input"
         },
         {
             "type": "custommachinery:item",
