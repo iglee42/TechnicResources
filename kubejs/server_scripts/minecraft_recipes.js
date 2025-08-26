@@ -115,7 +115,7 @@ ServerEvents.recipes(event => {
         event.shaped(Item.of('minecraft:end_stone'), ['PP', 'PP'], { 'P': 'technicresources:endstone_pebble' })
 
         event.shapeless(Item.of('create:andesite_alloy', 2), ['technicresources:andesite_pebble', 'technicresources:tuff_pebble'])
-        event.shapeless(Item.of('create:iron_alloy'), ['2x minecraft:iron_nugget', 'technicresources:bedrock_shard'])
+        event.shapeless(Item.of('create:iron_alloy'), ['technicresources:bedrock_shard', '2x minecraft:iron_nugget'])
         event.shaped(Item.of('create:copper_alloy'), ['WWW', 'WIW', 'WWW'], { 'W': 'technicresources:small_bedrock', 'I': 'minecraft:iron_pickaxe' })
 
 
