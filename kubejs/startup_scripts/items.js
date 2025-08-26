@@ -10,10 +10,10 @@ StartupEvents.registry('item', e => {
 
     /**************Start**************/
     registerFood('moss_ball', 'Moss Ball', food => {
-        food.hunger(1)
+        food.nutrition(1)
         food.saturation(10)
         food.fastToEat()
-        food.effect('minecraft:nausea', 40,0,1)
+        food.effect('minecraft:nausea', 60,0,1)
     })
 
     /**************Chapter 0**************/

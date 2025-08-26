@@ -1,31 +1,44 @@
 const $TickTemporalUnit = Java.loadClass('dev.latvian.mods.kubejs.util.TickTemporalUnit');
 ServerEvents.recipes(event => {
 
-    //compressor('minecraft:coal_block',8,'minecraft:diamond',1,400)
-    //
-    //
-    //
-    //function compressor(input,inputAmount,output,amount,time) {
-    //    event.custom({
-    //        "type": "custommachinery:custom_machine",
-    //        "machine": "technicresources:compressor",
-    //        "time": time,
-    //        "requirements": [
-    //            {
-    //                "type": "custommachinery:item",
-    //                "mode": "input",
-    //                "item": input,
-    //                "amount": inputAmount
-    //            },
-    //            {
-    //                "type": "custommachinery:item",
-    //                "mode": "output",
-    //                "item": output,
-    //                "amount": amount
-    //            }
-    //        ]
-    //    })
-    //}
+    compressor('minecraft:coal_block',8,'minecraft:diamond',1,100)
+    
+    
+    
+    function compressor(input,inputAmount,output,amount,time) {
+       event.custom({
+           "type": "custommachinery:custom_machine",
+           "machine": "technicresources:compressor",
+           "time": time,
+           "requirements": [
+               {
+                   "type": "custommachinery:item",
+                   "mode": "input",
+                   "ingredient": {
+                       "item": input,
+                       "count": inputAmount,
+                   },
+                   "slot": "input",
+                   "consume_on_end": true
+               },
+               {
+                   "type": "custommachinery:contraption",
+                   "mode": "input",
+                   "stress": 8,
+                   "speed": 32
+               },
+               {
+                   "type": "custommachinery:item",
+                   "mode": "output",
+                   "ingredient": {
+                       "item": output,
+                       "count": amount,
+                   },
+                   "slot": "output"
+               },
+           ]
+       })
+    }
     event.forEachRecipe({ type: 'minecraft:smelting' }, recipe => {
         const ingredient = recipe.get('ingredient')
         const result = recipe.get('result')
@@ -972,7 +985,6 @@ ServerEvents.recipes(event => {
                     if (Object.prototype.hasOwnProperty.call(chars, charIndex)) {
                         let char = chars[charIndex];
                         let slot = parseInt(patternIndex) * pattern.length + parseInt(charIndex);
-                        console.log("Slot: " + slot + " Char: " + char)
                         requirements.push({
                             "type": "custommachinery:item",
                             "slot": "slot_" + slot,
