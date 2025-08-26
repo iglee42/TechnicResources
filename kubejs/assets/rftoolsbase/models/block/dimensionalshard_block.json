@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/cube_column",
   "textures": {
-    "end": "create:block/dimensionalshard_block_top",
-    "side": "create:block/dimensionalshard_block_side"
+    "end": "rftoolsbase:block/dimensionalshard_block_top",
+    "side": "rftoolsbase:block/dimensionalshard_block_side"
   }
 }

@@ -1,15 +1,15 @@
 {
   "variants": {
     "axis=x": {
-      "model": "create:block/dimensionalshard_block_horizontal",
+      "model": "rftoolsbase:block/dimensionalshard_block_horizontal",
       "x": 90,
       "y": 90
     },
     "axis=y": {
-      "model": "create:block/dimensionalshard_block"
+      "model": "rftoolsbase:block/dimensionalshard_block"
     },
     "axis=z": {
-      "model": "create:block/dimensionalshard_block_horizontal",
+      "model": "rftoolsbase:block/dimensionalshard_block_horizontal",
       "x": 90
     }
   }
