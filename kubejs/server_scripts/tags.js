@@ -44,4 +44,6 @@ ServerEvents.tags('item', event => {
     event.add('c:ingots/chorium', ['createcasing:chorium_ingot'])
     event.add('c:storage_blocks', ['createcasing:chorium_block'])
     event.add('c:storage_blocks/chorium', ['createcasing:chorium_block'])
+
+    event.removeAllTagsFrom(['create:powdered_obsidian', 'createaddition:diamond_grit'])
 })

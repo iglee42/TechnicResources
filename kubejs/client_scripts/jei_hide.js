@@ -44,6 +44,8 @@ RecipeViewerEvents.removeEntries("item", event => {
     /mekanism:advanced_.*_factory/,
     /mekanism:elite_.*_factory/,
     /mekanism:ultimate_.*_factory/,
+    'create:powdered_obsidian',
+    'createaddition:diamond_grit',
   ]
   event.remove(/createcasing:.+_encased_.+/)
   event.remove(hided);
