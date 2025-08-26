@@ -55,7 +55,7 @@ ServerEvents.recipes(event => {
         event.shaped(Item.of('create:red_iron_alloy_block'), ['AAA', 'AAA', 'AAA'], { 'A': 'create:red_iron_alloy' })
         event.shapeless('9x create:red_iron_alloy', ['create:red_iron_alloy_block'])
 
-        event.shaped('create:millstone', ['A','B','C'],{'A': 'createcasing:stone_cogwheel', 'B': 'create:stone_alloy_block', 'C': 'minecraft:stone'})
+        event.shaped('create:millstone', ['A', 'B', 'C'], { 'A': 'createcasing:stone_cogwheel', 'B': 'create:stone_alloy_block', 'C': 'minecraft:stone' })
 
         // Dyes
         event.shaped('minecraft:dye_primer', ['A A', ' B '], { 'A': '#c:rods/wooden', 'B': '#minecraft:wooden_slabs' })
@@ -116,7 +116,7 @@ ServerEvents.recipes(event => {
 
         event.shapeless(Item.of('create:andesite_alloy', 2), ['technicresources:andesite_pebble', 'technicresources:tuff_pebble'])
         event.shapeless(Item.of('create:iron_alloy'), ['technicresources:bedrock_shard', '2x minecraft:iron_nugget'])
-        event.shaped(Item.of('create:copper_alloy'), ['WWW', 'WIW', 'WWW'], { 'W': 'technicresources:small_bedrock', 'I': 'minecraft:iron_pickaxe' })
+        event.shaped(Item.of('create:copper_alloy'), ['WWW', 'WIW', 'WWW'], { 'W': 'minecraft:copper_nugget', 'I': 'create:andesite_alloy' })
 
 
         event.shapeless(Item.of('createcasing:stone_cogwheel'), ['create:shaft', 'minecraft:cobblestone'])
