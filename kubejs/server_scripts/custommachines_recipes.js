@@ -1,43 +1,43 @@
 const $TickTemporalUnit = Java.loadClass('dev.latvian.mods.kubejs.util.TickTemporalUnit');
 ServerEvents.recipes(event => {
 
-    compressor('minecraft:coal_block',8,'minecraft:diamond',1,100)
-    
-    
-    
-    function compressor(input,inputAmount,output,amount,time) {
-       event.custom({
-           "type": "custommachinery:custom_machine",
-           "machine": "technicresources:compressor",
-           "time": time,
-           "requirements": [
-               {
-                   "type": "custommachinery:item",
-                   "mode": "input",
-                   "ingredient": {
-                       "item": input,
-                       "count": inputAmount,
-                   },
-                   "slot": "input",
-                   "consume_on_end": true
-               },
-               {
-                   "type": "custommachinery:contraption",
-                   "mode": "input",
-                   "stress": 8,
-                   "speed": 32
-               },
-               {
-                   "type": "custommachinery:item",
-                   "mode": "output",
-                   "ingredient": {
-                       "item": output,
-                       "count": amount,
-                   },
-                   "slot": "output"
-               },
-           ]
-       })
+    compressor('minecraft:coal_block', 8, 'minecraft:diamond', 1, 100)
+
+
+
+    function compressor(input, inputAmount, output, amount, time) {
+        event.custom({
+            "type": "custommachinery:custom_machine",
+            "machine": "technicresources:compressor",
+            "time": time,
+            "requirements": [
+                {
+                    "type": "custommachinery:item",
+                    "mode": "input",
+                    "ingredient": {
+                        "item": input,
+                        "count": inputAmount,
+                    },
+                    "slot": "input",
+                    "consume_on_end": true
+                },
+                {
+                    "type": "custommachinery:contraption",
+                    "mode": "input",
+                    "stress": 8,
+                    "speed": 32
+                },
+                {
+                    "type": "custommachinery:item",
+                    "mode": "output",
+                    "ingredient": {
+                        "item": output,
+                        "count": amount,
+                    },
+                    "slot": "output"
+                },
+            ]
+        })
     }
     event.forEachRecipe({ type: 'minecraft:smelting' }, recipe => {
         const ingredient = recipe.get('ingredient')
@@ -975,6 +975,60 @@ ServerEvents.recipes(event => {
         'K': 'ae2:controller'
     })
 
+    // The Ultimate Crafts
+    theUltimate('gear')
+    theUltimate('plate')
+    theUltimate('rod')
+    theUltimate('wire')
+    function theUltimate(type) {
+        customTables('technicresources:the_ultimate_' + type, 'chorus', [
+            '  ABC  ',
+            ' DEFGH ',
+            'IJKLMNO',
+            'PQR STU',
+            'VWXYZab',
+            ' cdefg ',
+            '  hij  '
+        ], {
+            'A': 'technicresources:tin_' + type,
+            'B': 'technicresources:quartz_' + type,
+            'C': 'technicresources:fluorite_' + type,
+            'D': 'technicresources:iron_' + type,
+            'E': 'technicresources:stone_' + type,
+            'F': 'technicresources:osmium_' + type,
+            'G': 'technicresources:certus_quartz_' + type,
+            'H': 'technicresources:diamond_' + type,
+            'I': 'technicresources:crystalized_menril_' + type,
+            'J': 'technicresources:lapis_lazuli_' + type,
+            'K': 'technicresources:sky_' + type,
+            'L': 'technicresources:lead_' + type,
+            'M': 'technicresources:andesite_alloy_' + type,
+            'N': 'technicresources:steel_' + type,
+            'O': 'technicresources:compressed_iron_' + type,
+            'P': 'technicresources:neutron_' + type,
+            'Q': 'technicresources:netherite_' + type,
+            'R': 'technicresources:black_quartz_' + type,
+            'S': 'technicresources:fluix_' + type,
+            'T': 'technicresources:refined_obsidian_' + type,
+            'U': 'technicresources:amethyst_' + type,
+            'V': 'technicresources:crystalized_chorus_' + type,
+            'W': 'technicresources:depth_' + type,
+            'X': 'technicresources:wooden_' + type,
+            'Y': 'technicresources:redstone_' + type,
+            'Z': 'technicresources:copper_' + type,
+            'a': 'technicresources:bronze_' + type,
+            'b': 'technicresources:electrum_' + type,
+            'c': 'technicresources:gold_' + type,
+            'd': 'technicresources:brass_' + type,
+            'e': 'technicresources:refined_glowstone_' + type,
+            'f': 'technicresources:uranium_' + type,
+            'g': 'technicresources:zinc_' + type,
+            'h': 'technicresources:emerald_' + type,
+            'i': 'technicresources:infused_iron_' + type,
+            'j': 'technicresources:uraninite_' + type
+        })
+    }
+
     function customTables(output, table, pattern, keys) {
         let requirements = [];
         for (const patternIndex in pattern) {
@@ -984,6 +1038,7 @@ ServerEvents.recipes(event => {
                 for (const charIndex in chars) {
                     if (Object.prototype.hasOwnProperty.call(chars, charIndex)) {
                         let char = chars[charIndex];
+                        if (char == ' ') continue; 
                         let slot = parseInt(patternIndex) * pattern.length + parseInt(charIndex);
                         requirements.push({
                             "type": "custommachinery:item",
