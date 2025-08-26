@@ -1,0 +1,10 @@
+{
+  "type": "ae2:charger",
+  "ingredient": {
+    "item": "extendedae:entro_crystal"
+  },
+  "result": {
+    "count": 1,
+    "id": "extendedae:charged_entro_crystal"
+  }
+}

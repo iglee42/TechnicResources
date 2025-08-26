@@ -169,20 +169,21 @@ StartupEvents.registry('item', e => {
     registerOtherMod('actuallyadditions', 'empowered_surcea_crystal', 'Empowered Surcea Crystal').glow(true).tag('actuallyadditions:empowered_crystals').tag('actuallyadditions:empowered_crystals/surcea')
     registerOtherMod('actuallyadditions', 'empowered_surcea_crystal_shard', 'Empowered Pink Crystal Shard').glow(true).tag('actuallyadditions:empowered_crystal_shards').tag('actuallyadditions:empowered_crystal_shards/surcea')
 
-    // quartz zartiq light_gray
-    // netherite inerthet gray
-    // skybronze zerbonkys brown
-    // bronze zerbon orange
-    // electrum lectruma yellow
-    // uranium uranima lime
-    // osmium mosium cyan
-    // chorium richoum purple
-    // amethyst mythase magenta
-    // source surcea pink
+    /**************AE2 Housings**************/
+    registerOtherMod('ae2', 'spatial_cell_housing', 'ME Spatial Cell Housing')
+    registerOtherMod('megacells', 'bulk_item_cell_housing', 'MEGA Bulk Item Cell Housing')
+    registerOtherMod('megacells', 'radioactive_chemical_cell_housing', 'MEGA Radioactive Chemical Cell Housing')
+    registerOtherMod('ae2', 'portable_item_cell_housing', 'Portable Item Cell Housing')
+    registerOtherMod('ae2', 'portable_fluid_cell_housing', 'Portable Fluid Cell Housing')
+    registerOtherMod('appmek', 'portable_chemical_cell_housing', 'Portable Chemical Cell Housing')
+    registerOtherMod('megacells', 'portable_item_cell_housing', 'Portable Item Cell Housing')
+    registerOtherMod('megacells', 'portable_fluid_cell_housing', 'Portable Fluid Cell Housing')
+    registerOtherMod('megacells', 'portable_chemical_cell_housing', 'Portable Chemical Cell Housing')
 
     /**************Other**************/
     registerOtherMod('minecraft', 'copper_nugget', 'Copper Nugget').tag('c:nuggets').tag('c:nuggets/copper')
     register('empty', "No Item")
+    registerOtherMod('extendedae', 'charged_entro_crystal', 'Charged Entro Crystal').tag('c:gems').tag('c:gems/charged_entro')
     // register('platinum_ingot','Platinum Ingot')
     // register('minecraft_ore_ingot','Minecraft Ores Ingot')
     // register('platinum_nugget','Platinum Nugget')
