@@ -1,0 +1,23 @@
+{
+    "type": "advanced_ae:reaction",
+    "input_energy": 1300000,
+    "input_fluid": {
+        "amount": 1000,
+        "ingredient": {
+            "fluid": "minecraft:water"
+        }
+    },
+    "input_items": [
+        {
+            "amount": 64,
+            "ingredient": {
+                "item": "extendedae:entro_crystal"
+            }
+        }
+    ],
+    "output": {
+        "#": 64,
+        "#t": "ae2:i",
+        "id": "extendedae:charged_entro_crystal"
+    }
+}

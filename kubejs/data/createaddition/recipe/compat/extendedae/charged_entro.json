@@ -1,0 +1,16 @@
+{
+	"type": "createaddition:charging",
+	"ingredients": [
+		{
+			"item": "extendedae:entro_crystal"
+		}
+	],
+	"results": [
+		{
+			"count": 1,
+			"id": "extendedae:charged_entro_crystal"
+		}
+	],
+	"energy": 10000,
+	"max_charge_rate": 200
+}

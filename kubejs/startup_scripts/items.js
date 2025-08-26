@@ -174,6 +174,7 @@ StartupEvents.registry('item', e => {
 
     /**************Other**************/
     registerOtherMod('minecraft', 'copper_nugget', 'Copper Nugget').tag('c:nuggets').tag('c:nuggets/copper')
+    registerOtherMod('extendedae', 'charged_entro_crystal', 'Charged Entro Crystal').tag('c:gems').tag('c:gems/charged_entro')
     // register('platinum_ingot','Platinum Ingot')
     // register('minecraft_ore_ingot','Minecraft Ores Ingot')
     // register('platinum_nugget','Platinum Nugget')
