@@ -101,7 +101,7 @@
 			id: "6A5579B7BB13916A"
 			tasks: [{
 				id: "0B15EEA79A17A31E"
-				item: { components: { "ftbquests:missing_item": "technicresources:compressor" }, count: 1, id: "ftbquests:missing_item" }
+				item: { components: { "custommachinery:machine": "technicresources:compressor" }, count: 1, id: "custommachinery:custom_machine_item" }
 				type: "item"
 			}]
 			x: 6.0d
