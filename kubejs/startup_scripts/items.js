@@ -171,6 +171,17 @@ StartupEvents.registry('item', e => {
     registerOtherMod('megacells', 'portable_item_cell_housing', 'Portable Item Cell Housing')
     registerOtherMod('megacells', 'portable_fluid_cell_housing', 'Portable Fluid Cell Housing')
     registerOtherMod('megacells', 'portable_chemical_cell_housing', 'Portable Chemical Cell Housing')
+    
+    /**************RFTools Infused**************/
+    registerOtherMod('rftoolsbase', 'infused_emerald', 'Infused Emerald ')
+    registerOtherMod('rftoolsbase', 'infused_quartz', 'Infused Quartz ')
+    registerOtherMod('rftoolsbase', 'infused_redstone', 'Infused Redstone ')
+    registerOtherMod('rftoolsbase', 'infused_lapis_lazuli', 'Infused Lapis Lazuli ')
+    registerOtherMod('rftoolsbase', 'infused_amethyst_shard', 'Infused Amethyst Shard ')
+    registerOtherMod('rftoolsbase', 'infused_iron_ingot', 'Infused Iron Ingot ')
+    registerOtherMod('rftoolsbase', 'infused_gold_ingot', 'Infused Gold Ingot ')
+    registerOtherMod('rftoolsbase', 'infused_copper_ingot', 'Infused Copper Ingot ')
+    registerOtherMod('rftoolsbase', 'infused_netherite_ingot', 'Infused Netherite Ingot ')
 
     /**************Other**************/
     registerOtherMod('minecraft', 'copper_nugget', 'Copper Nugget').tag('c:nuggets').tag('c:nuggets/copper')

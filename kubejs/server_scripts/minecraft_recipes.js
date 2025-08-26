@@ -186,6 +186,20 @@ ServerEvents.recipes(event => {
         event.shapeless('mekanism:block_polonium', ['9x mekanism:pellet_polonium'])
         event.shapeless('9x mekanism:pellet_polonium', ['mekanism:block_polonium'])
 
+        //--------RFTools Infused-----------//
+        event.shaped('rftoolsbase:dimensionalshard_block', ['AA', 'AA'], { 'A': 'rftoolsbase:dimensionalshard' })
+        event.shapeless('4x rftoolsbase:dimensionalshard', ['rftoolsbase:dimensionalshard_block'])
+        event.shaped('rftoolsbase:infused_enderpearl', ['ABA', 'BCB', 'ABA'], { 'A': 'rftoolsbase:dimensionalshard_block', 'B': 'naturesaura:infused_stone', 'C': 'minecraft:ender_pearl' })
+        event.shaped('rftoolsbase:infused_diamond', ['ABA', 'BCB', 'ABA'], { 'A': 'rftoolsbase:dimensionalshard_block', 'B': 'naturesaura:infused_stone', 'C': 'minecraft:diamond' })
+        event.shaped('rftoolsbase:infused_emerald', ['ABA', 'BCB', 'ABA'], { 'A': 'rftoolsbase:dimensionalshard_block', 'B': 'naturesaura:infused_stone', 'C': 'minecraft:emerald' })
+        event.shaped('rftoolsbase:infused_redstone', ['ABA', 'BCB', 'ABA'], { 'A': 'rftoolsbase:dimensionalshard_block', 'B': 'naturesaura:infused_stone', 'C': 'minecraft:redstone' })
+        event.shaped('rftoolsbase:infused_quartz', ['ABA', 'BCB', 'ABA'], { 'A': 'rftoolsbase:dimensionalshard_block', 'B': 'naturesaura:infused_stone', 'C': 'minecraft:quartz' })
+        event.shaped('rftoolsbase:infused_lapis_lazuli', ['ABA', 'BCB', 'ABA'], { 'A': 'rftoolsbase:dimensionalshard_block', 'B': 'naturesaura:infused_stone', 'C': 'minecraft:lapis_lazuli' })
+        event.shaped('rftoolsbase:infused_amethyst_shard', ['ABA', 'BCB', 'ABA'], { 'A': 'rftoolsbase:dimensionalshard_block', 'B': 'naturesaura:infused_stone', 'C': 'minecraft:amethyst_shard' })
+        event.shaped('rftoolsbase:infused_iron_ingot', ['ABA', 'BCB', 'ABA'], { 'A': 'rftoolsbase:dimensionalshard_block', 'B': 'naturesaura:infused_stone', 'C': 'minecraft:iron_ingot' })
+        event.shaped('rftoolsbase:infused_gold_ingot', ['ABA', 'BCB', 'ABA'], { 'A': 'rftoolsbase:dimensionalshard_block', 'B': 'naturesaura:infused_stone', 'C': 'minecraft:gold_ingot' })
+        event.shaped('rftoolsbase:infused_copper_ingot', ['ABA', 'BCB', 'ABA'], { 'A': 'rftoolsbase:dimensionalshard_block', 'B': 'naturesaura:infused_stone', 'C': 'minecraft:copper_ingot' })
+        event.shaped('rftoolsbase:infused_netherite_ingot', ['ABA', 'BCB', 'ABA'], { 'A': 'rftoolsbase:dimensionalshard_block', 'B': 'naturesaura:infused_stone', 'C': 'minecraft:netherite_ingot' })
 
         //--------Actually Additions-----------//
         event.shapeless('actuallyadditions:empowered_enori_crystal', ['9x actuallyadditions:empowered_enori_crystal_shard'])
@@ -332,7 +346,7 @@ ServerEvents.recipes(event => {
         event.shapeless('megacells:portable_cell_workbench', ['ae2:item_cell_housing', 'ae2:cell_workbench', 'ae2:singularity'])
 
         //--------Other-----------//
-        event.shapeless('createcasing:chorium_block', ['4x createcasing:chorium_ingot'])
+        event.shaped('createcasing:chorium_block', ['AA', 'AA'], { 'A': 'createcasing:chorium_ingot' })
         event.shapeless('4x createcasing:chorium_ingot', ['createcasing:chorium_block'])
 
 })

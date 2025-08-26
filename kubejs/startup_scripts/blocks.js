@@ -46,7 +46,8 @@ StartupEvents.registry('block', e => {
     registerOtherMod('mekanism', 'block_plutonium', 'Block of Plutonium', 'metal', 8, 10, 'pickaxe', 'diamond', true).tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/plutonium')
     registerOtherMod('mekanism', 'block_polonium', 'Block of Polonium', 'metal', 8, 10, 'pickaxe', 'diamond', true).tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/polonium')
     registerOtherMod('mekanism', 'block_antimatter', 'Block of Antimatter', 'metal', 10, 12, 'pickaxe', 'diamond', true).tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/antimatter')
-    registerOtherMod('createcasing', 'chorium_block', 'Chorium Block', 'metal', 5, 6, 'pickaxe', 'deepslate', true)
+    registerOtherMod('createcasing', 'chorium_block', 'Chorium Block', 'deepslate', 5, 6, 'pickaxe', 'iron', true)
+    registerOtherMod('rftools', 'dimensionalshard_block', 'Dimensional Shard Block', 'deepslate', 2, 3, 'pickaxe', 'iron', true)
 
     /***************************Custom Machine Casings*******************************/
     registerOtherMod('hostilenetworks', 'hostile_machine_casing', 'Hostile Machine Casing', 'metal', 5, 6, 'pickaxe', 'iron', true)

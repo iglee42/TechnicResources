@@ -235,6 +235,8 @@ ServerEvents.recipes(event => {
         /appmek:portable_chemical_cell_.*/,
         /megacells:cells\/portable\/portable_.*_cell_.*/,
         'megacells:network/portable_cell_workbench',
+        'rftoolsbase:infused_diamond',
+        'rftoolsbase:infused_enderpearl',
 
     ])
 
