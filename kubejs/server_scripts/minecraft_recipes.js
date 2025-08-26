@@ -288,6 +288,23 @@ ServerEvents.recipes(event => {
         event.shapeless('9x actuallyadditions:empowered_surcea_crystal_shard', ['actuallyadditions:empowered_surcea_crystal'])
         event.shapeless('actuallyadditions:empowered_surcea_crystal_block', ['9x actuallyadditions:empowered_surcea_crystal'])
         event.shapeless('9x actuallyadditions:empowered_surcea_crystal', ['actuallyadditions:empowered_surcea_crystal_block'])
+        
+        event.shaped('actuallyadditions:lamp_white', ['ABA', 'BCB', 'ABA'], { 'A': 'minecraft:glowstone', 'B': 'actuallyadditions:enori_crystal_shard', 'C': 'actuallyadditions:black_quartz' })
+        event.shaped('actuallyadditions:lamp_orange', ['ABA', 'BCB', 'ABA'], { 'A': 'minecraft:glowstone', 'B': 'actuallyadditions:zerbon_crystal_shard', 'C': 'actuallyadditions:black_quartz' })
+        event.shaped('actuallyadditions:lamp_magenta', ['ABA', 'BCB', 'ABA'], { 'A': 'minecraft:glowstone', 'B': 'actuallyadditions:mythase_crystal_shard', 'C': 'actuallyadditions:black_quartz' })
+        event.shaped('actuallyadditions:lamp_light_blue', ['ABA', 'BCB', 'ABA'], { 'A': 'minecraft:glowstone', 'B': 'actuallyadditions:diamatine_crystal_shard', 'C': 'actuallyadditions:black_quartz' })
+        event.shaped('actuallyadditions:lamp_yellow', ['ABA', 'BCB', 'ABA'], { 'A': 'minecraft:glowstone', 'B': 'actuallyadditions:lectruma_crystal_shard', 'C': 'actuallyadditions:black_quartz' })
+        event.shaped('actuallyadditions:lamp_lime', ['ABA', 'BCB', 'ABA'], { 'A': 'minecraft:glowstone', 'B': 'actuallyadditions:uranima_crystal_shard', 'C': 'actuallyadditions:black_quartz' })
+        event.shaped('actuallyadditions:lamp_pink', ['ABA', 'BCB', 'ABA'], { 'A': 'minecraft:glowstone', 'B': 'actuallyadditions:surcea_crystal_shard', 'C': 'actuallyadditions:black_quartz' })
+        event.shaped('actuallyadditions:lamp_gray', ['ABA', 'BCB', 'ABA'], { 'A': 'minecraft:glowstone', 'B': 'actuallyadditions:inerthet_crystal_shard', 'C': 'actuallyadditions:black_quartz' })
+        event.shaped('actuallyadditions:lamp_light_gray', ['ABA', 'BCB', 'ABA'], { 'A': 'minecraft:glowstone', 'B': 'actuallyadditions:zartiq_crystal_shard', 'C': 'actuallyadditions:black_quartz' })
+        event.shaped('actuallyadditions:lamp_cyan', ['ABA', 'BCB', 'ABA'], { 'A': 'minecraft:glowstone', 'B': 'actuallyadditions:mosium_crystal_shard', 'C': 'actuallyadditions:black_quartz' })
+        event.shaped('actuallyadditions:lamp_purple', ['ABA', 'BCB', 'ABA'], { 'A': 'minecraft:glowstone', 'B': 'actuallyadditions:richoum_crystal_shard', 'C': 'actuallyadditions:black_quartz' })
+        event.shaped('actuallyadditions:lamp_blue', ['ABA', 'BCB', 'ABA'], { 'A': 'minecraft:glowstone', 'B': 'actuallyadditions:palis_crystal_shard', 'C': 'actuallyadditions:black_quartz' })
+        event.shaped('actuallyadditions:lamp_brown', ['ABA', 'BCB', 'ABA'], { 'A': 'minecraft:glowstone', 'B': 'actuallyadditions:zerbonkys_crystal_shard', 'C': 'actuallyadditions:black_quartz' })
+        event.shaped('actuallyadditions:lamp_green', ['ABA', 'BCB', 'ABA'], { 'A': 'minecraft:glowstone', 'B': 'actuallyadditions:emeradic_crystal_shard', 'C': 'actuallyadditions:black_quartz' })
+        event.shaped('actuallyadditions:lamp_red', ['ABA', 'BCB', 'ABA'], { 'A': 'minecraft:glowstone', 'B': 'actuallyadditions:restonia_crystal_shard', 'C': 'actuallyadditions:black_quartz' })
+        event.shaped('actuallyadditions:lamp_black', ['ABA', 'BCB', 'ABA'], { 'A': 'minecraft:glowstone', 'B': 'actuallyadditions:void_crystal_shard', 'C': 'actuallyadditions:black_quartz' })
 
         //--------Other-----------//
         event.shapeless('createcasing:chorium_block', ['4x createcasing:chorium_ingot'])
