@@ -56,7 +56,7 @@ ServerEvents.recipes(event => {
         event.shapeless('9x create:red_iron_alloy', ['create:red_iron_alloy_block'])
 
         event.shaped('create:millstone', ['A','B','C'],{'A': 'createcasing:stone_cogwheel', 'B': 'create:stone_alloy_block', 'C': 'minecraft:stone'})
-        
+
         // Dyes
         event.shaped('minecraft:dye_primer', ['A A', ' B '], { 'A': '#c:rods/wooden', 'B': '#minecraft:wooden_slabs' })
         event.shapeless('minecraft:white_dye', ['minecraft:dye_primer', 'minecraft:bone_meal', 'minecraft:bone_meal']).damageIngredient('minecraft:dye_primer')
@@ -95,7 +95,7 @@ ServerEvents.recipes(event => {
         event.shapeless('minecraft:green_dye', ['minecraft:dye_primer', 'minecraft:cactus', 'minecraft:cactus']).damageIngredient('minecraft:dye_primer')
         event.shapeless('minecraft:lime_dye', ['minecraft:dye_primer', 'ars_nouveau:mendosteen_pod', 'ars_nouveau:mendosteen_pod']).damageIngredient('minecraft:dye_primer')
         event.shapeless('minecraft:lime_dye', ['minecraft:dye_primer', 'minecraft:sea_pickle', 'minecraft:sea_pickle']).damageIngredient('minecraft:dye_primer')
-        
+
         //-----------Chapter 0----------------//
 
         event.shaped(Item.of('technicresources:bedrock_stick'), ['F ', 'F '], { 'F': 'technicresources:bedrock_shard' })
@@ -186,7 +186,7 @@ ServerEvents.recipes(event => {
         event.shapeless('mekanism:block_polonium', ['9x mekanism:pellet_polonium'])
         event.shapeless('9x mekanism:pellet_polonium', ['mekanism:block_polonium'])
 
-        
+
         //--------Actually Additions-----------//
         event.shapeless('actuallyadditions:empowered_enori_crystal', ['9x actuallyadditions:empowered_enori_crystal_shard'])
         event.shapeless('9x actuallyadditions:empowered_enori_crystal_shard', ['actuallyadditions:empowered_enori_crystal'])
@@ -200,7 +200,7 @@ ServerEvents.recipes(event => {
         event.shapeless('9x actuallyadditions:empowered_palis_crystal_shard', ['actuallyadditions:empowered_palis_crystal'])
         event.shapeless('actuallyadditions:empowered_restonia_crystal', ['9x actuallyadditions:empowered_restonia_crystal_shard'])
         event.shapeless('9x actuallyadditions:empowered_restonia_crystal_shard', ['actuallyadditions:empowered_restonia_crystal'])
-        
+
         event.shapeless('actuallyadditions:zartiq_crystal', ['9x actuallyadditions:zartiq_crystal_shard'])
         event.shapeless('9x actuallyadditions:zartiq_crystal_shard', ['actuallyadditions:zartiq_crystal'])
         event.shapeless('actuallyadditions:zartiq_crystal_block', ['9x actuallyadditions:zartiq_crystal'])
@@ -218,7 +218,7 @@ ServerEvents.recipes(event => {
         event.shapeless('9x actuallyadditions:empowered_inerthet_crystal_shard', ['actuallyadditions:empowered_inerthet_crystal'])
         event.shapeless('actuallyadditions:empowered_inerthet_crystal_block', ['9x actuallyadditions:empowered_inerthet_crystal'])
         event.shapeless('9x actuallyadditions:empowered_inerthet_crystal', ['actuallyadditions:empowered_inerthet_crystal_block'])
-        
+
         event.shapeless('actuallyadditions:zerbonkys_crystal', ['9x actuallyadditions:zerbonkys_crystal_shard'])
         event.shapeless('9x actuallyadditions:zerbonkys_crystal_shard', ['actuallyadditions:zerbonkys_crystal'])
         event.shapeless('actuallyadditions:zerbonkys_crystal_block', ['9x actuallyadditions:zerbonkys_crystal'])
@@ -227,7 +227,7 @@ ServerEvents.recipes(event => {
         event.shapeless('9x actuallyadditions:empowered_zerbonkys_crystal_shard', ['actuallyadditions:empowered_zerbonkys_crystal'])
         event.shapeless('actuallyadditions:empowered_zerbonkys_crystal_block', ['9x actuallyadditions:empowered_zerbonkys_crystal'])
         event.shapeless('9x actuallyadditions:empowered_zerbonkys_crystal', ['actuallyadditions:empowered_zerbonkys_crystal_block'])
-        
+
         event.shapeless('actuallyadditions:zerbon_crystal', ['9x actuallyadditions:zerbon_crystal_shard'])
         event.shapeless('9x actuallyadditions:zerbon_crystal_shard', ['actuallyadditions:zerbon_crystal'])
         event.shapeless('actuallyadditions:zerbon_crystal_block', ['9x actuallyadditions:zerbon_crystal'])
@@ -236,7 +236,7 @@ ServerEvents.recipes(event => {
         event.shapeless('9x actuallyadditions:empowered_zerbon_crystal_shard', ['actuallyadditions:empowered_zerbon_crystal'])
         event.shapeless('actuallyadditions:empowered_zerbon_crystal_block', ['9x actuallyadditions:empowered_zerbon_crystal'])
         event.shapeless('9x actuallyadditions:empowered_zerbon_crystal', ['actuallyadditions:empowered_zerbon_crystal_block'])
-        
+
         event.shapeless('actuallyadditions:lectruma_crystal', ['9x actuallyadditions:lectruma_crystal_shard'])
         event.shapeless('9x actuallyadditions:lectruma_crystal_shard', ['actuallyadditions:lectruma_crystal'])
         event.shapeless('actuallyadditions:lectruma_crystal_block', ['9x actuallyadditions:lectruma_crystal'])
@@ -254,7 +254,7 @@ ServerEvents.recipes(event => {
         event.shapeless('9x actuallyadditions:empowered_uranima_crystal_shard', ['actuallyadditions:empowered_uranima_crystal'])
         event.shapeless('actuallyadditions:empowered_uranima_crystal_block', ['9x actuallyadditions:empowered_uranima_crystal'])
         event.shapeless('9x actuallyadditions:empowered_uranima_crystal', ['actuallyadditions:empowered_uranima_crystal_block'])
-        
+
         event.shapeless('actuallyadditions:mosium_crystal', ['9x actuallyadditions:mosium_crystal_shard'])
         event.shapeless('9x actuallyadditions:mosium_crystal_shard', ['actuallyadditions:mosium_crystal'])
         event.shapeless('actuallyadditions:mosium_crystal_block', ['9x actuallyadditions:mosium_crystal'])
@@ -263,7 +263,7 @@ ServerEvents.recipes(event => {
         event.shapeless('9x actuallyadditions:empowered_mosium_crystal_shard', ['actuallyadditions:empowered_mosium_crystal'])
         event.shapeless('actuallyadditions:empowered_mosium_crystal_block', ['9x actuallyadditions:empowered_mosium_crystal'])
         event.shapeless('9x actuallyadditions:empowered_mosium_crystal', ['actuallyadditions:empowered_mosium_crystal_block'])
-        
+
         event.shapeless('actuallyadditions:richoum_crystal', ['9x actuallyadditions:richoum_crystal_shard'])
         event.shapeless('9x actuallyadditions:richoum_crystal_shard', ['actuallyadditions:richoum_crystal'])
         event.shapeless('actuallyadditions:richoum_crystal_block', ['9x actuallyadditions:richoum_crystal'])
@@ -272,7 +272,7 @@ ServerEvents.recipes(event => {
         event.shapeless('9x actuallyadditions:empowered_richoum_crystal_shard', ['actuallyadditions:empowered_richoum_crystal'])
         event.shapeless('actuallyadditions:empowered_richoum_crystal_block', ['9x actuallyadditions:empowered_richoum_crystal'])
         event.shapeless('9x actuallyadditions:empowered_richoum_crystal', ['actuallyadditions:empowered_richoum_crystal_block'])
-        
+
         event.shapeless('actuallyadditions:mythase_crystal', ['9x actuallyadditions:mythase_crystal_shard'])
         event.shapeless('9x actuallyadditions:mythase_crystal_shard', ['actuallyadditions:mythase_crystal'])
         event.shapeless('actuallyadditions:mythase_crystal_block', ['9x actuallyadditions:mythase_crystal'])
@@ -281,7 +281,7 @@ ServerEvents.recipes(event => {
         event.shapeless('9x actuallyadditions:empowered_mythase_crystal_shard', ['actuallyadditions:empowered_mythase_crystal'])
         event.shapeless('actuallyadditions:empowered_mythase_crystal_block', ['9x actuallyadditions:empowered_mythase_crystal'])
         event.shapeless('9x actuallyadditions:empowered_mythase_crystal', ['actuallyadditions:empowered_mythase_crystal_block'])
-        
+
         event.shapeless('actuallyadditions:surcea_crystal', ['9x actuallyadditions:surcea_crystal_shard'])
         event.shapeless('9x actuallyadditions:surcea_crystal_shard', ['actuallyadditions:surcea_crystal'])
         event.shapeless('actuallyadditions:surcea_crystal_block', ['9x actuallyadditions:surcea_crystal'])
@@ -290,7 +290,7 @@ ServerEvents.recipes(event => {
         event.shapeless('9x actuallyadditions:empowered_surcea_crystal_shard', ['actuallyadditions:empowered_surcea_crystal'])
         event.shapeless('actuallyadditions:empowered_surcea_crystal_block', ['9x actuallyadditions:empowered_surcea_crystal'])
         event.shapeless('9x actuallyadditions:empowered_surcea_crystal', ['actuallyadditions:empowered_surcea_crystal_block'])
-        
+
         event.shaped('actuallyadditions:lamp_white', ['ABA', 'BCB', 'ABA'], { 'A': 'minecraft:glowstone', 'B': 'actuallyadditions:enori_crystal_shard', 'C': 'actuallyadditions:black_quartz' })
         event.shaped('actuallyadditions:lamp_orange', ['ABA', 'BCB', 'ABA'], { 'A': 'minecraft:glowstone', 'B': 'actuallyadditions:zerbon_crystal_shard', 'C': 'actuallyadditions:black_quartz' })
         event.shaped('actuallyadditions:lamp_magenta', ['ABA', 'BCB', 'ABA'], { 'A': 'minecraft:glowstone', 'B': 'actuallyadditions:mythase_crystal_shard', 'C': 'actuallyadditions:black_quartz' })
@@ -307,6 +307,29 @@ ServerEvents.recipes(event => {
         event.shaped('actuallyadditions:lamp_green', ['ABA', 'BCB', 'ABA'], { 'A': 'minecraft:glowstone', 'B': 'actuallyadditions:emeradic_crystal_shard', 'C': 'actuallyadditions:black_quartz' })
         event.shaped('actuallyadditions:lamp_red', ['ABA', 'BCB', 'ABA'], { 'A': 'minecraft:glowstone', 'B': 'actuallyadditions:restonia_crystal_shard', 'C': 'actuallyadditions:black_quartz' })
         event.shaped('actuallyadditions:lamp_black', ['ABA', 'BCB', 'ABA'], { 'A': 'minecraft:glowstone', 'B': 'actuallyadditions:void_crystal_shard', 'C': 'actuallyadditions:black_quartz' })
+
+        //--------Applied-----------//
+        event.shaped('ae2:cell_component_1k', ['ABA', 'BCB', 'ABA'], { 'A': 'actuallyadditions:empowered_mosium_crystal_shard', 'B': 'ae2:charged_certus_quartz_crystal', 'C': 'ae2:quartz_vibrant_glass' })
+        event.shaped('ae2:cell_component_4k', ['ABA', 'BCB', 'ABA'], { 'A': 'actuallyadditions:empowered_zartiq_crystal_shard', 'B': 'ae2:cell_component_1k', 'C': 'ae2:logic_processor' })
+        event.shaped('ae2:cell_component_16k', ['ABA', 'BCB', 'ABA'], { 'A': 'actuallyadditions:empowered_inerthet_crystal_shard', 'B': 'ae2:cell_component_4k', 'C': 'ae2:calculation_processor' })
+        event.shaped('ae2:cell_component_64k', ['ABA', 'BCB', 'ABA'], { 'A': 'actuallyadditions:empowered_zerbonkys_crystal_shard', 'B': 'ae2:cell_component_16k', 'C': 'ae2:engineering_processor' })
+        event.shaped('ae2:cell_component_256k', ['ABA', 'BCB', 'ABA'], { 'A': 'actuallyadditions:empowered_zerbon_crystal_shard', 'B': 'ae2:cell_component_64k', 'C': 'extendedae:concurrent_processor' })
+        event.shaped('megacells:cell_component_1m', ['ABA', 'BCB', 'ABA'], { 'A': 'actuallyadditions:empowered_lectruma_crystal_shard', 'B': 'ae2:cell_component_256k', 'C': 'megacells:accumulation_processor' })
+        event.shaped('megacells:cell_component_4m', ['ABA', 'BCB', 'ABA'], { 'A': 'actuallyadditions:empowered_uranima_crystal_shard', 'B': 'megacells:cell_component_1m', 'C': 'ae2:logic_processor' })
+        event.shaped('megacells:cell_component_16m', ['ABA', 'BCB', 'ABA'], { 'A': 'actuallyadditions:empowered_richoum_crystal_shard', 'B': 'megacells:cell_component_4m', 'C': 'ae2:calculation_processor' })
+        event.shaped('megacells:cell_component_64m', ['ABA', 'BCB', 'ABA'], { 'A': 'actuallyadditions:empowered_mythase_crystal_shard', 'B': 'megacells:cell_component_16m', 'C': 'ae2:engineering_processor' })
+        event.shaped('megacells:cell_component_256m', ['ABA', 'BCB', 'ABA'], { 'A': 'actuallyadditions:empowered_surcea_crystal_shard', 'B': 'megacells:cell_component_64m', 'C': 'extendedae:concurrent_processor' })
+        event.shaped('advanced_ae:quantum_storage_component', ['ABA', 'BCB', 'ABA'], { 'A': 'ae2:spatial_cell_component_128', 'B': 'megacells:cell_component_256m', 'C': 'advanced_ae:quantum_processor' })
+        event.shaped('ae2:spatial_cell_housing', ['ABA', 'B B', 'CCC'], { 'A': 'ae2:quartz_vibrant_glass', 'B': 'minecraft:glowstone_dust', 'C': 'mekanism:ingot_steel' })
+        event.shaped('megacells:bulk_item_cell_housing', ['ABA', 'B B', 'CCC'], { 'A': 'ae2:quartz_vibrant_glass', 'B': 'ae2:sky_dust', 'C': 'minecraft:netherite_ingot' })
+        event.shaped('megacells:radioactive_chemical_cell_housing', ['ABA', 'B B', 'CDC'], { 'A': 'mekanismgenerators:reactor_glass', 'B': 'ae2:sky_dust', 'C': 'mekanism:hdpe_sheet', 'D': 'mekanism:block_polonium' })
+        event.shapeless('ae2:portable_item_cell_housing', ['ae2:item_cell_housing', 'ae2:chest', 'ae2:energy_cell'])
+        event.shapeless('ae2:portable_fluid_cell_housing', ['ae2:fluid_cell_housing', 'ae2:chest', 'ae2:energy_cell'])
+        event.shapeless('appmek:portable_chemical_cell_housing', ['appmek:chemical_cell_housing', 'ae2:chest', 'ae2:energy_cell'])
+        event.shapeless('megacells:portable_item_cell_housing', ['megacells:mega_item_cell_housing', 'ae2:chest', 'ae2:dense_energy_cell'])
+        event.shapeless('megacells:portable_fluid_cell_housing', ['megacells:mega_fluid_cell_housing', 'ae2:chest', 'ae2:dense_energy_cell'])
+        event.shapeless('megacells:portable_chemical_cell_housing', ['megacells:mega_chemical_cell_housing', 'ae2:chest', 'ae2:dense_energy_cell'])
+        event.shapeless('megacells:portable_cell_workbench', ['ae2:item_cell_housing', 'ae2:cell_workbench', 'ae2:singularity'])
 
         //--------Other-----------//
         event.shapeless('createcasing:chorium_block', ['4x createcasing:chorium_ingot'])
