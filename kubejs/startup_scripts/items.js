@@ -8,6 +8,14 @@ global.colors = ['white', 'orange', 'magenta', 'light_blue', 'yellow', 'lime', '
 StartupEvents.registry('item', e => {
     /************************************Normal Item************************************/
 
+    /**************Start**************/
+    registerFood('moss_ball', 'Moss Ball', food => {
+        food.hunger(1)
+        food.saturation(10)
+        food.fastToEat()
+        food.effect('minecraft:nausea', 40,0,1)
+    })
+
     /**************Chapter 0**************/
     register('bedrock_shard', 'Bedrock Shard')
     register('bedrock_scraper', 'Bedrock Scraper').unstackable().maxDamage(64)
@@ -174,6 +182,7 @@ StartupEvents.registry('item', e => {
 
     /**************Other**************/
     registerOtherMod('minecraft', 'copper_nugget', 'Copper Nugget').tag('c:nuggets').tag('c:nuggets/copper')
+    register('empty', "No Item")
     // register('platinum_ingot','Platinum Ingot')
     // register('minecraft_ore_ingot','Minecraft Ores Ingot')
     // register('platinum_nugget','Platinum Nugget')
@@ -236,6 +245,10 @@ StartupEvents.registry('item', e => {
     }
     function registerOtherMod(mod, unlocname, displayname) {
         return e.create(mod + ':' + unlocname).displayName(displayname).texture(mod + ':item/' + unlocname)
+    }
+    
+    function registerFood(unlocname, displayname, foodProperties) {
+        return e.create('technicresources:' + unlocname).displayName(displayname).texture('technicresources:item/' + unlocname).food(food => foodProperties(food))
     }
 })
 
