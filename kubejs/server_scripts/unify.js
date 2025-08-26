@@ -113,8 +113,10 @@ ServerEvents.recipes(e => {
     plateGearRodWire('neutron', 'c:ingots/neutron')
 
     function dusts(input, output) {
-        e.custom({ "type": "create:milling", "ingredients": [{ "item": input }], "processingTime": 50, "results": [{ "count": 1, "id": output }] })
-        e.custom({ "type": "mekanism:crushing", "input": { "item": input }, "output": { "id": output } })
+        e.custom({ "type": "create:milling", "ingredients": [{ "item": input }], "processingTime": 50, "results": [{ "count": 1, "id": output }]})
+        e.custom({ "type": "mekanism:crushing", "input": { "item": input }, "output": { "id": output }})
+        e.custom({ "type": "actuallyadditions:crushing", "ingredient": { "item": input }, "result": [{ "result": { "count": 1, "id": output }}]
+        })
     }
     dusts('advanced_ae:shattered_singularity', 'advanced_ae:quantum_infused_dust')
     dusts('ae2:certus_quartz_crystal', 'ae2:certus_quartz_dust')
