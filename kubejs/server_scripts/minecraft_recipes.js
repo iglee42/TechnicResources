@@ -115,6 +115,7 @@ ServerEvents.recipes(event => {
         event.shaped(Item.of('minecraft:end_stone'), ['PP', 'PP'], { 'P': 'technicresources:endstone_pebble' })
 
         event.shapeless(Item.of('create:andesite_alloy', 2), ['technicresources:andesite_pebble', 'technicresources:tuff_pebble'])
+        event.shapeless(Item.of('create:iron_alloy'), ['2x minecraft:iron_nugget', 'technicresources:bedrock_shard'])
 
         event.shapeless(Item.of('createcasing:stone_cogwheel'), ['create:shaft', 'minecraft:cobblestone'])
         event.shapeless(Item.of('createcasing:stone_large_cogwheel'), ['createcasing:stone_cogwheel', 'minecraft:cobblestone'])
