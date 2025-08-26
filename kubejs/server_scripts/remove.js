@@ -202,6 +202,18 @@ ServerEvents.recipes(event => {
         /mekanism:factory\/advanced\/.*/,
         /mekanism:factory\/elite\/.*/,
         /mekanism:factory\/ultimate\/.*/,
+        'actuallyadditions:empowering/diamatine',
+        'actuallyadditions:empowering/diamatine_block',
+        'actuallyadditions:empowering/emeradic',
+        'actuallyadditions:empowering/emeradic_block',
+        'actuallyadditions:empowering/enori',
+        'actuallyadditions:empowering/enori_block',
+        'actuallyadditions:empowering/palis',
+        'actuallyadditions:empowering/palis_block',
+        'actuallyadditions:empowering/restonia',
+        'actuallyadditions:empowering/restonia_block',
+        'actuallyadditions:empowering/void',
+        'actuallyadditions:empowering/void_block',
 
     ])
 

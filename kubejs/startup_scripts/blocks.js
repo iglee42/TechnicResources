@@ -34,7 +34,11 @@ StartupEvents.registry('block', e => {
         return e.create('technicresources:' + unlocname).mapColor(type).soundType(type).hardness(hardness).resistance(resistance).displayName(displayname).tagBlock('minecraft:mineable/' + tool).tagBlock('minecraft:needs_' + toolLevel + '_tool').requiresTool(requires)
     }
     function registerOtherMod(mod, unlocname, displayname, type, hardness, resistance, tool, toolLevel, requires) {
-        return e.create(mod + ':' + unlocname).mapColor(type).soundType(type).hardness(hardness).resistance(resistance).displayName(displayname).tagBlock('minecraft:mineable/' + tool).tagBlock('minecraft:needs_' + toolLevel + '_tool').requiresTool(requires)
+        if (requires === true) {
+            return e.create(mod + ':' + unlocname).mapColor(type).soundType(type).hardness(hardness).resistance(resistance).displayName(displayname).tagBlock('minecraft:mineable/' + tool).tagBlock('minecraft:needs_' + toolLevel + '_tool').requiresTool(requires)
+        } else {
+            return e.create(mod + ':' + unlocname).mapColor(type).soundType(type).hardness(hardness).resistance(resistance).displayName(displayname)
+        }
     }
 
     /***********************************Other****************************************/
@@ -42,6 +46,7 @@ StartupEvents.registry('block', e => {
     registerOtherMod('mekanism', 'block_plutonium', 'Block of Plutonium', 'metal', 8, 10, 'pickaxe', 'diamond', true).tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/plutonium')
     registerOtherMod('mekanism', 'block_polonium', 'Block of Polonium', 'metal', 8, 10, 'pickaxe', 'diamond', true).tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/polonium')
     registerOtherMod('mekanism', 'block_antimatter', 'Block of Antimatter', 'metal', 10, 12, 'pickaxe', 'diamond', true).tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/antimatter')
+    registerOtherMod('createcasing', 'chorium_block', 'Chorium Block', 'metal', 5, 6, 'pickaxe', 'deepslate', true)
 
     /***************************Custom Machine Casings*******************************/
     registerOtherMod('hostilenetworks', 'hostile_machine_casing', 'Hostile Machine Casing', 'metal', 5, 6, 'pickaxe', 'iron', true)
@@ -58,7 +63,7 @@ StartupEvents.registry('block', e => {
     registerOtherMod('rftoolsbase', 'infused_machine_casing', 'Infused Machine Casing', 'metal', 5, 6, 'pickaxe', 'iron', true)
     registerOtherMod('rftoolsbase', 'infused_machine_base', 'Infused Machine Base', 'metal', 5, 6, 'pickaxe', 'iron', true).box(0, 0, 0, 16, 5, 16, true)
     registerOtherMod('avaritia', 'matrix_machine_casing', 'Matrix Machine Casing', 'metal', 5, 6, 'pickaxe', 'iron', true)
-    
+
     /********************************Alloy Blocks************************************/
     registerOtherMod('create', 'basalt_alloy_block', 'Block of Basalt Alloy', 'stone', 2, 3, 'pickaxe', 'stone', true).tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/basalt_alloy')
     registerOtherMod('create', 'blackstone_alloy_block', 'Block of Blackstone Alloy', 'stone', 2, 3, 'pickaxe', 'stone', true).tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/blackstone_alloy')
@@ -71,7 +76,7 @@ StartupEvents.registry('block', e => {
     registerOtherMod('create', 'source_alloy_block', 'Block of Source Alloy', 'stone', 2, 3, 'pickaxe', 'stone', true).tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/source_alloy')
     registerOtherMod('create', 'stone_alloy_block', 'Block of Stone Alloy', 'stone', 2, 3, 'pickaxe', 'stone', true).tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/stone_alloy')
     registerOtherMod('create', 'tuff_alloy_block', 'Block of Tuff Alloy', 'stone', 2, 3, 'pickaxe', 'stone', true).tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/tuff_alloy')
-    
+
     registerOtherMod('create', 'iron_alloy_block', 'Block of Iron Alloy', 'stone', 2, 3, 'pickaxe', 'stone', true).tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/iron_alloy')
     registerOtherMod('create', 'zinc_alloy_block', 'Block of Zinc Alloy', 'stone', 2, 3, 'pickaxe', 'stone', true).tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/zinc_alloy')
     registerOtherMod('create', 'gold_alloy_block', 'Block of Gold Alloy', 'stone', 2, 3, 'pickaxe', 'stone', true).tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/gold_alloy')
@@ -81,12 +86,45 @@ StartupEvents.registry('block', e => {
     registerOtherMod('create', 'electrum_alloy_block', 'Block of Electrum Alloy', 'stone', 2, 3, 'pickaxe', 'stone', true).tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/electrum_alloy')
     registerOtherMod('create', 'uranium_alloy_block', 'Block of Uranium Alloy', 'stone', 2, 3, 'pickaxe', 'stone', true).tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/uranium_alloy')
     registerOtherMod('create', 'netherite_alloy_block', 'Block of Netherite Alloy', 'stone', 2, 3, 'pickaxe', 'stone', true).tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/netherite_alloy')
-    
+
     registerOtherMod('create', 'red_iron_alloy_block', 'Block of Red Iron Alloy', 'stone', 2, 3, 'pickaxe', 'stone', true).tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/red_iron_alloy')
-    
+
     registerOtherMod('create', 'chromatic_compound_block', 'Block of Chromatic Compound', 'stone', 2, 3, 'pickaxe', 'stone', true).tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/chromatic_compound')
     registerOtherMod('create', 'refined_radiance_block', 'Block of Refined Radiance', 'stone', 2, 3, 'pickaxe', 'stone', true).tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/refined_radiance')
     registerOtherMod('create', 'shadow_steel_block', 'Block of Shadow Steel', 'stone', 2, 3, 'pickaxe', 'stone', true).tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/shadow_steel')
+
+
+    /*******Actually Additions Crystals*******/
+    registerOtherMod('actuallyadditions', 'zartiq_crystal_block', 'Zartiq Crystal Block', 'metal', 4, 6, 'pickaxe', 'stone', true).tagItem('actuallyadditions:crystal_blocks').tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/zartiq_crystal')
+    registerOtherMod('actuallyadditions', 'empowered_zartiq_crystal_block', 'Empowered Zartiq Crystal Block', 'metal', 4, 6, 'pickaxe', 'stone', true).item(i => i.glow(true)).tagItem('actuallyadditions:empowered_crystal_blocks').tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/empowered_zartiq_crystal')
+    registerOtherMod('actuallyadditions', 'zartiq_crystal_cluster', 'Light Gray Crystal Cluster', 'amethyst', 1, 2, 'pickaxe', '', false).box(4, 6, 4, 8, 10, 8).box(6, 2, 6, 10, 14, 10).box(4, 0, 4, 14, 2, 14).box(2, 0, 2, 8, 6, 8).box(8, 2, 8, 12, 8, 12).box(8, 0, 2, 12, 4, 6)
+    registerOtherMod('actuallyadditions', 'inerthet_crystal_block', 'Inerthet Crystal Block', 'metal', 4, 6, 'pickaxe', 'stone', true).tagItem('actuallyadditions:crystal_blocks').tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/inerthet_crystal')
+    registerOtherMod('actuallyadditions', 'empowered_inerthet_crystal_block', 'Empowered Inerthet Crystal Block', 'metal', 4, 6, 'pickaxe', 'stone', true).item(i => i.glow(true)).tagItem('actuallyadditions:empowered_crystal_blocks').tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/empowered_inerthet_crystal')
+    registerOtherMod('actuallyadditions', 'inerthet_crystal_cluster', 'Gray Crystal Cluster', 'amethyst', 1, 2, 'pickaxe', '', false).box(4, 6, 4, 8, 10, 8).box(6, 2, 6, 10, 14, 10).box(4, 0, 4, 14, 2, 14).box(2, 0, 2, 8, 6, 8).box(8, 2, 8, 12, 8, 12).box(8, 0, 2, 12, 4, 6)
+    registerOtherMod('actuallyadditions', 'zerbonkys_crystal_block', 'Zerbonkys Crystal Block', 'metal', 4, 6, 'pickaxe', 'stone', true).tagItem('actuallyadditions:crystal_blocks').tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/zerbonkys_crystal')
+    registerOtherMod('actuallyadditions', 'empowered_zerbonkys_crystal_block', 'Empowered Zerbonkys Crystal Block', 'metal', 4, 6, 'pickaxe', 'stone', true).item(i => i.glow(true)).tagItem('actuallyadditions:empowered_crystal_blocks').tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/empowered_zerbonkys_crystal')
+    registerOtherMod('actuallyadditions', 'zerbonkys_crystal_cluster', 'Brown Crystal Cluster', 'amethyst', 1, 2, 'pickaxe', '', false).box(4, 6, 4, 8, 10, 8).box(6, 2, 6, 10, 14, 10).box(4, 0, 4, 14, 2, 14).box(2, 0, 2, 8, 6, 8).box(8, 2, 8, 12, 8, 12).box(8, 0, 2, 12, 4, 6)
+    registerOtherMod('actuallyadditions', 'zerbon_crystal_block', 'Zerbon Crystal Block', 'metal', 4, 6, 'pickaxe', 'stone', true).tagItem('actuallyadditions:crystal_blocks').tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/zerbon_crystal')
+    registerOtherMod('actuallyadditions', 'empowered_zerbon_crystal_block', 'Empowered Zerbon Crystal Block', 'metal', 4, 6, 'pickaxe', 'stone', true).item(i => i.glow(true)).tagItem('actuallyadditions:empowered_crystal_blocks').tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/empowered_zerbon_crystal')
+    registerOtherMod('actuallyadditions', 'zerbon_crystal_cluster', 'Orange Crystal Cluster', 'amethyst', 1, 2, 'pickaxe', '', false).box(4, 6, 4, 8, 10, 8).box(6, 2, 6, 10, 14, 10).box(4, 0, 4, 14, 2, 14).box(2, 0, 2, 8, 6, 8).box(8, 2, 8, 12, 8, 12).box(8, 0, 2, 12, 4, 6)
+    registerOtherMod('actuallyadditions', 'lectruma_crystal_block', 'Lectruma Crystal Block', 'metal', 4, 6, 'pickaxe', 'stone', true).tagItem('actuallyadditions:crystal_blocks').tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/lectruma_crystal')
+    registerOtherMod('actuallyadditions', 'empowered_lectruma_crystal_block', 'Empowered Lectruma Crystal Block', 'metal', 4, 6, 'pickaxe', 'stone', true).item(i => i.glow(true)).tagItem('actuallyadditions:empowered_crystal_blocks').tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/empowered_lectruma_crystal')
+    registerOtherMod('actuallyadditions', 'lectruma_crystal_cluster', 'Yellow Crystal Cluster', 'amethyst', 1, 2, 'pickaxe', '', false).box(4, 6, 4, 8, 10, 8).box(6, 2, 6, 10, 14, 10).box(4, 0, 4, 14, 2, 14).box(2, 0, 2, 8, 6, 8).box(8, 2, 8, 12, 8, 12).box(8, 0, 2, 12, 4, 6)
+    registerOtherMod('actuallyadditions', 'uranima_crystal_block', 'Uranima Crystal Block', 'metal', 4, 6, 'pickaxe', 'stone', true).tagItem('actuallyadditions:crystal_blocks').tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/uranima_crystal')
+    registerOtherMod('actuallyadditions', 'empowered_uranima_crystal_block', 'Empowered Uranima Crystal Block', 'metal', 4, 6, 'pickaxe', 'stone', true).item(i => i.glow(true)).tagItem('actuallyadditions:empowered_crystal_blocks').tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/empowered_uranima_crystal')
+    registerOtherMod('actuallyadditions', 'uranima_crystal_cluster', 'Lime Crystal Cluster', 'amethyst', 1, 2, 'pickaxe', '', false).box(4, 6, 4, 8, 10, 8).box(6, 2, 6, 10, 14, 10).box(4, 0, 4, 14, 2, 14).box(2, 0, 2, 8, 6, 8).box(8, 2, 8, 12, 8, 12).box(8, 0, 2, 12, 4, 6)
+    registerOtherMod('actuallyadditions', 'mosium_crystal_block', 'Mosium Crystal Block', 'metal', 4, 6, 'pickaxe', 'stone', true).tagItem('actuallyadditions:crystal_blocks').tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/mosium_crystal')
+    registerOtherMod('actuallyadditions', 'empowered_mosium_crystal_block', 'Empowered Mosium Crystal Block', 'metal', 4, 6, 'pickaxe', 'stone', true).item(i => i.glow(true)).tagItem('actuallyadditions:empowered_crystal_blocks').tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/empowered_mosium_crystal')
+    registerOtherMod('actuallyadditions', 'mosium_crystal_cluster', 'Cyan Crystal Cluster', 'amethyst', 1, 2, 'pickaxe', '', false).box(4, 6, 4, 8, 10, 8).box(6, 2, 6, 10, 14, 10).box(4, 0, 4, 14, 2, 14).box(2, 0, 2, 8, 6, 8).box(8, 2, 8, 12, 8, 12).box(8, 0, 2, 12, 4, 6)
+    registerOtherMod('actuallyadditions', 'richoum_crystal_block', 'Richoum Crystal Block', 'metal', 4, 6, 'pickaxe', 'stone', true).tagItem('actuallyadditions:crystal_blocks').tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/richoum_crystal')
+    registerOtherMod('actuallyadditions', 'empowered_richoum_crystal_block', 'Empowered Richoum Crystal Block', 'metal', 4, 6, 'pickaxe', 'stone', true).item(i => i.glow(true)).tagItem('actuallyadditions:empowered_crystal_blocks').tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/empowered_richoum_crystal')
+    registerOtherMod('actuallyadditions', 'richoum_crystal_cluster', 'Purple Crystal Cluster', 'amethyst', 1, 2, 'pickaxe', '', false).box(4, 6, 4, 8, 10, 8).box(6, 2, 6, 10, 14, 10).box(4, 0, 4, 14, 2, 14).box(2, 0, 2, 8, 6, 8).box(8, 2, 8, 12, 8, 12).box(8, 0, 2, 12, 4, 6)
+    registerOtherMod('actuallyadditions', 'mythase_crystal_block', 'Mythase Crystal Block', 'metal', 4, 6, 'pickaxe', 'stone', true).tagItem('actuallyadditions:crystal_blocks').tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/mythase_crystal')
+    registerOtherMod('actuallyadditions', 'empowered_mythase_crystal_block', 'Empowered Mythase Crystal Block', 'metal', 4, 6, 'pickaxe', 'stone', true).item(i => i.glow(true))
+    registerOtherMod('actuallyadditions', 'mythase_crystal_cluster', 'Magenta Crystal Cluster', 'amethyst', 1, 2, 'pickaxe', '', false).box(4, 6, 4, 8, 10, 8).box(6, 2, 6, 10, 14, 10).box(4, 0, 4, 14, 2, 14).box(2, 0, 2, 8, 6, 8).box(8, 2, 8, 12, 8, 12).box(8, 0, 2, 12, 4, 6)
+    registerOtherMod('actuallyadditions', 'surcea_crystal_block', 'Surcea Crystal Block', 'metal', 4, 6, 'pickaxe', 'stone', true).tagItem('actuallyadditions:crystal_blocks').tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/surcea_crystal')
+    registerOtherMod('actuallyadditions', 'empowered_surcea_crystal_block', 'Empowered Surcea Crystal Block', 'metal', 4, 6, 'pickaxe', 'stone', true).item(i => i.glow(true))
+    registerOtherMod('actuallyadditions', 'surcea_crystal_cluster', 'Pink Crystal Cluster', 'amethyst', 1, 2, 'pickaxe', '', false).box(4, 6, 4, 8, 10, 8).box(6, 2, 6, 10, 14, 10).box(4, 0, 4, 14, 2, 14).box(2, 0, 2, 8, 6, 8).box(8, 2, 8, 12, 8, 12).box(8, 0, 2, 12, 4, 6)
 })
 
 BlockEvents.modification(e => {

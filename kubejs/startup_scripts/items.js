@@ -1,7 +1,7 @@
 const ModsUtils = Java.loadClass('fr.iglee42.igleelib.api.utils.ModsUtils')
 
 global.pebbles = ['stone', 'granite', 'diorite', 'andesite', 'calcite', 'tuff', 'deepslate', 'netherrack', 'blackstone', 'basalt', 'endstone']
-global.materials = ['wooden','stone','diamond','gold','iron','netherite','copper','compressed_iron','uraninite','redstone','emerald','lapis_lazuli','quartz','amethyst','zinc','andesite_alloy','brass','electrum','certus_quartz','fluix','crystalized_menril','crystalized_chorus','desh','ostrum','calorite','bronze','steel','refined_obsidian','refined_glowstone','osmium','tin','lead','uranium','fluorite','black_quartz','neutron','the_ultimate']
+global.materials = ['wooden', 'stone', 'diamond', 'gold', 'iron', 'netherite', 'copper', 'compressed_iron', 'uraninite', 'redstone', 'emerald', 'lapis_lazuli', 'quartz', 'amethyst', 'zinc', 'andesite_alloy', 'brass', 'electrum', 'certus_quartz', 'fluix', 'crystalized_menril', 'crystalized_chorus', 'desh', 'ostrum', 'calorite', 'bronze', 'steel', 'refined_obsidian', 'refined_glowstone', 'osmium', 'tin', 'lead', 'uranium', 'fluorite', 'black_quartz', 'neutron', 'the_ultimate']
 global.colors = ['white', 'orange', 'magenta', 'light_blue', 'yellow', 'lime', 'pink', 'gray', 'light_gray', 'cyan', 'purple', 'blue', 'brown', 'green', 'red', 'black'];
 
 
@@ -38,24 +38,24 @@ StartupEvents.registry('item', e => {
     register('menril_sprout', 'Menril Sprout')
     register('ancient_sprout', 'Ancient Sprout')
     register('rubber_sprout', 'Rubber Sprout')
-    
+
     /**************Chapter 2**************/
     register('room_upgrader_3', 'Room Upgrader Tier 3').unstackable()
-    
+
     /**************Chapter 3**************/
     register('room_upgrader_4', 'Room Upgrader Tier 4').unstackable()
-    
+
     /**************Chapter 4**************/
     register('room_upgrader_5', 'Room Upgrader Tier 5').unstackable()
 
     /**************Gears**************/
     global.materials.forEach((m) => {
-        registerTag('gears', m + '_gear', (m.equals('the_ultimate') ? '§c' : '') + ModsUtils.getUpperName(m, '_') + ' Gear').tag('c:gears/'+m)
+        registerTag('gears', m + '_gear', (m.equals('the_ultimate') ? '§c' : '') + ModsUtils.getUpperName(m, '_') + ' Gear').tag('c:gears/' + m)
     })
 
     /**************Plates**************/
     global.materials.forEach((m) => {
-        registerTag('plates', m + '_plate', (m.equals('the_ultimate') ? '§c' : '' )+  ModsUtils.getUpperName(m, '_') + ' Plate').tag('c:plates/' + m)
+        registerTag('plates', m + '_plate', (m.equals('the_ultimate') ? '§c' : '') + ModsUtils.getUpperName(m, '_') + ' Plate').tag('c:plates/' + m)
     })
 
     /**************Rods**************/
@@ -102,7 +102,76 @@ StartupEvents.registry('item', e => {
     registerOtherMod('create', 'uranium_alloy', 'Uranium Alloy').tag('c:ingots').tag('c:ingots/uranium_alloy')
     registerOtherMod('create', 'netherite_alloy', 'Netherite Alloy').tag('c:ingots').tag('c:ingots/netherite_alloy')
     registerOtherMod('create', 'red_iron_alloy', 'Red Iron Alloy').tag('c:ingots').tag('c:ingots/red_iron_alloy')
-    
+
+    /*******Actually Additions Crystals and Other*******/
+    registerOtherMod('actuallyadditions', 'empowered_restonia_crystal_shard', 'Empowered Red Crystal Shard').glow(true)
+    registerOtherMod('actuallyadditions', 'empowered_palis_crystal_shard', 'Empowered Blue Crystal Shard').glow(true)
+    registerOtherMod('actuallyadditions', 'empowered_diamatine_crystal_shard', 'Empowered Light Blue Crystal Shard').glow(true)
+    registerOtherMod('actuallyadditions', 'empowered_void_crystal_shard', 'Empowered Black Crystal Shard').glow(true)
+    registerOtherMod('actuallyadditions', 'empowered_emeradic_crystal_shard', 'Empowered Green Crystal Shard').glow(true)
+    registerOtherMod('actuallyadditions', 'empowered_enori_crystal_shard', 'Empowered White Crystal Shard').glow(true)
+
+    registerOtherMod('actuallyadditions', 'zartiq_crystal', 'Zartiq Crystal').tag('actuallyadditions:crystals').tag('actuallyadditions:crystals/zartiq')
+    registerOtherMod('actuallyadditions', 'zartiq_crystal_shard', 'Light Gray Crystal Shard').tag('actuallyadditions:crystal_shards').tag('actuallyadditions:crystal_shards/zartiq')
+    registerOtherMod('actuallyadditions', 'empowered_zartiq_crystal', 'Empowered Zartiq Crystal').glow(true).tag('actuallyadditions:empowered_crystals').tag('actuallyadditions:empowered_crystals/zartiq')
+    registerOtherMod('actuallyadditions', 'empowered_zartiq_crystal_shard', 'Empowered Light Gray Crystal Shard').glow(true).tag('actuallyadditions:empowered_crystal_shards').tag('actuallyadditions:empowered_crystal_shards/zartiq')
+
+    registerOtherMod('actuallyadditions', 'inerthet_crystal', 'Inerthet Crystal').tag('actuallyadditions:crystals').tag('actuallyadditions:crystals/inerthet')
+    registerOtherMod('actuallyadditions', 'inerthet_crystal_shard', 'Gray Crystal Shard').tag('actuallyadditions:crystal_shards').tag('actuallyadditions:crystal_shards/inerthet')
+    registerOtherMod('actuallyadditions', 'empowered_inerthet_crystal', 'Empowered Inerthet Crystal').glow(true).tag('actuallyadditions:empowered_crystals').tag('actuallyadditions:empowered_crystals/inerthet')
+    registerOtherMod('actuallyadditions', 'empowered_inerthet_crystal_shard', 'Empowered Gray Crystal Shard').glow(true).tag('actuallyadditions:empowered_crystal_shards').tag('actuallyadditions:empowered_crystal_shards/inerthet')
+
+    registerOtherMod('actuallyadditions', 'zerbonkys_crystal', 'Zerbonkys Crystal').tag('actuallyadditions:crystals').tag('actuallyadditions:crystals/zerbonkys')
+    registerOtherMod('actuallyadditions', 'zerbonkys_crystal_shard', 'Brown Crystal Shard').tag('actuallyadditions:crystal_shards').tag('actuallyadditions:crystal_shards/zerbonkys')
+    registerOtherMod('actuallyadditions', 'empowered_zerbonkys_crystal', 'Empowered Zerbonkys Crystal').glow(true).tag('actuallyadditions:empowered_crystals').tag('actuallyadditions:empowered_crystals/zerbonkys')
+    registerOtherMod('actuallyadditions', 'empowered_zerbonkys_crystal_shard', 'Empowered Brown Crystal Shard').glow(true).tag('actuallyadditions:empowered_crystal_shards').tag('actuallyadditions:empowered_crystal_shards/zerbonkys')
+
+    registerOtherMod('actuallyadditions', 'zerbon_crystal', 'Zerbon Crystal').tag('actuallyadditions:crystals').tag('actuallyadditions:crystals/zerbon')
+    registerOtherMod('actuallyadditions', 'zerbon_crystal_shard', 'Orange Crystal Shard').tag('actuallyadditions:crystal_shards').tag('actuallyadditions:crystal_shards/zerbon')
+    registerOtherMod('actuallyadditions', 'empowered_zerbon_crystal', 'Empowered Zerbon Crystal').glow(true).tag('actuallyadditions:empowered_crystals').tag('actuallyadditions:empowered_crystals/zerbon')
+    registerOtherMod('actuallyadditions', 'empowered_zerbon_crystal_shard', 'Empowered Orange Crystal Shard').glow(true).tag('actuallyadditions:empowered_crystal_shards').tag('actuallyadditions:empowered_crystal_shards/zerbon')
+
+    registerOtherMod('actuallyadditions', 'lectruma_crystal', 'Lectruma Crystal').tag('actuallyadditions:crystals').tag('actuallyadditions:crystals/lectruma')
+    registerOtherMod('actuallyadditions', 'lectruma_crystal_shard', 'Yellow Crystal Shard').tag('actuallyadditions:crystal_shards').tag('actuallyadditions:crystal_shards/lectruma')
+    registerOtherMod('actuallyadditions', 'empowered_lectruma_crystal', 'Empowered Lectruma Crystal').glow(true).tag('actuallyadditions:empowered_crystals').tag('actuallyadditions:empowered_crystals/lectruma')
+    registerOtherMod('actuallyadditions', 'empowered_lectruma_crystal_shard', 'Empowered Yellow Crystal Shard').glow(true).tag('actuallyadditions:empowered_crystal_shards').tag('actuallyadditions:empowered_crystal_shards/lectruma')
+
+    registerOtherMod('actuallyadditions', 'uranima_crystal', 'Uranima Crystal').tag('actuallyadditions:crystals').tag('actuallyadditions:crystals/uranima')
+    registerOtherMod('actuallyadditions', 'uranima_crystal_shard', 'Lime Crystal Shard').tag('actuallyadditions:crystal_shards').tag('actuallyadditions:crystal_shards/uranima')
+    registerOtherMod('actuallyadditions', 'empowered_uranima_crystal', 'Empowered Uranima Crystal').glow(true).tag('actuallyadditions:empowered_crystals').tag('actuallyadditions:empowered_crystals/uranima')
+    registerOtherMod('actuallyadditions', 'empowered_uranima_crystal_shard', 'Empowered Lime Crystal Shard').glow(true).tag('actuallyadditions:empowered_crystal_shards').tag('actuallyadditions:empowered_crystal_shards/uranima')
+
+    registerOtherMod('actuallyadditions', 'mosium_crystal', 'Mosium Crystal').tag('actuallyadditions:crystals').tag('actuallyadditions:crystals/mosium')
+    registerOtherMod('actuallyadditions', 'mosium_crystal_shard', 'Cyan Crystal Shard').tag('actuallyadditions:crystal_shards').tag('actuallyadditions:crystal_shards/mosium')
+    registerOtherMod('actuallyadditions', 'empowered_mosium_crystal', 'Empowered Mosium Crystal').glow(true).tag('actuallyadditions:empowered_crystals').tag('actuallyadditions:empowered_crystals/mosium')
+    registerOtherMod('actuallyadditions', 'empowered_mosium_crystal_shard', 'Empowered Cyan Crystal Shard').glow(true).tag('actuallyadditions:empowered_crystal_shards').tag('actuallyadditions:empowered_crystal_shards/mosium')
+
+    registerOtherMod('actuallyadditions', 'richoum_crystal', 'Richoum Crystal').tag('actuallyadditions:crystals').tag('actuallyadditions:crystals/richoum')
+    registerOtherMod('actuallyadditions', 'richoum_crystal_shard', 'Purple Crystal Shard').tag('actuallyadditions:crystal_shards').tag('actuallyadditions:crystal_shards/richoum')
+    registerOtherMod('actuallyadditions', 'empowered_richoum_crystal', 'Empowered Richoum Crystal').glow(true).tag('actuallyadditions:empowered_crystals').tag('actuallyadditions:empowered_crystals/richoum')
+    registerOtherMod('actuallyadditions', 'empowered_richoum_crystal_shard', 'Empowered Purple Crystal Shard').glow(true).tag('actuallyadditions:empowered_crystal_shards').tag('actuallyadditions:empowered_crystal_shards/richoum')
+
+    registerOtherMod('actuallyadditions', 'mythase_crystal', 'Mythase Crystal').tag('actuallyadditions:crystals').tag('actuallyadditions:crystals/mythase')
+    registerOtherMod('actuallyadditions', 'mythase_crystal_shard', 'Magenta Crystal Shard').tag('actuallyadditions:crystal_shards').tag('actuallyadditions:crystal_shards/mythase')
+    registerOtherMod('actuallyadditions', 'empowered_mythase_crystal', 'Empowered Mythase Crystal').glow(true).tag('actuallyadditions:empowered_crystals').tag('actuallyadditions:empowered_crystals/mythase')
+    registerOtherMod('actuallyadditions', 'empowered_mythase_crystal_shard', 'Empowered Magenta Crystal Shard').glow(true).tag('actuallyadditions:empowered_crystal_shards').tag('actuallyadditions:empowered_crystal_shards/mythase')
+
+    registerOtherMod('actuallyadditions', 'surcea_crystal', 'Surcea Crystal').tag('actuallyadditions:crystals').tag('actuallyadditions:crystals/surcea')
+    registerOtherMod('actuallyadditions', 'surcea_crystal_shard', 'Pink Crystal Shard').tag('actuallyadditions:crystal_shards').tag('actuallyadditions:crystal_shards/surcea')
+    registerOtherMod('actuallyadditions', 'empowered_surcea_crystal', 'Empowered Surcea Crystal').glow(true).tag('actuallyadditions:empowered_crystals').tag('actuallyadditions:empowered_crystals/surcea')
+    registerOtherMod('actuallyadditions', 'empowered_surcea_crystal_shard', 'Empowered Pink Crystal Shard').glow(true).tag('actuallyadditions:empowered_crystal_shards').tag('actuallyadditions:empowered_crystal_shards/surcea')
+
+    // quartz zartiq light_gray
+    // netherite inerthet gray
+    // skybronze zerbonkys brown
+    // bronze zerbon orange
+    // electrum lectruma yellow
+    // uranium uranima lime
+    // osmium mosium cyan
+    // chorium richoum purple
+    // amethyst mythase magenta
+    // source surcea pink
+
     /**************Other**************/
     registerOtherMod('minecraft', 'copper_nugget', 'Copper Nugget').tag('c:nuggets').tag('c:nuggets/copper')
     // register('platinum_ingot','Platinum Ingot')
@@ -172,7 +241,7 @@ StartupEvents.registry('item', e => {
 
 ItemEvents.modelProperties(e => {
     global.materials.forEach(plate =>
-        e.register(Item.of('technicresources:'+plate+'_plate'), "count", (stack, world, living, seed) => {
+        e.register(Item.of('technicresources:' + plate + '_plate'), "count", (stack, world, living, seed) => {
             return stack.getCount() / stack.getMaxStackSize()
         })
     )
