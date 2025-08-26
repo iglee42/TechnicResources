@@ -1,0 +1,41 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6casings"
+	group: "125F8BF3AF28765F"
+	icon: {
+		id: "create:andesite_casing"
+	}
+	id: "4A1D034E4937DE09"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "291F4A78B3EC1554"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B40CED9A3B3F2CD"
+				table_id: 5746011841320684914L
+				type: "random"
+			}]
+			tasks: [{
+				id: "67BA91BCC606D635"
+				item: { count: 1, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["291F4A78B3EC1554"]
+			id: "4B89DD28F9C999CB"
+			tasks: [{
+				id: "3FF44CB57A4E8ECE"
+				item: { count: 1, id: "create:andesite_casing" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+	]
+}

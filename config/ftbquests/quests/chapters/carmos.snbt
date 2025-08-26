@@ -1,0 +1,45 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "carmos"
+	group: "125F8BF3AF28765F"
+	icon: {
+		id: "avaritia:infinity_chestplate"
+	}
+	id: "167BBA84E770F7C5"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "477EEBF199432ED8"
+		rewards: [{
+			exclude_from_claim_all: true
+			id: "7949FF1E77CE94A3"
+			table_id: 7614359593176399220L
+			type: "random"
+		}]
+		tasks: [
+			{
+				id: "5E1BA64767A55AB2"
+				item: { count: 1, id: "create:cardboard_helmet" }
+				type: "item"
+			}
+			{
+				id: "724B48B698A1CECC"
+				item: { count: 1, id: "create:cardboard_chestplate" }
+				type: "item"
+			}
+			{
+				id: "2815123CD379759F"
+				item: { count: 1, id: "create:cardboard_leggings" }
+				type: "item"
+			}
+			{
+				id: "59A8FA391D3ACDED"
+				item: { count: 1, id: "create:cardboard_boots" }
+				type: "item"
+			}
+		]
+		x: 2.0d
+		y: -3.0d
+	}]
+}

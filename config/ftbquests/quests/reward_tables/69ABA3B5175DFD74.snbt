@@ -1,0 +1,25 @@
+{
+	id: "69ABA3B5175DFD74"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ id: "02C559FC2FFE008A", item: { count: 1, id: "minecraft:sentry_armor_trim_smithing_template" } }
+		{ id: "0910533E0C3027C0", item: { count: 1, id: "minecraft:vex_armor_trim_smithing_template" } }
+		{ id: "1CA8F914B18C4168", item: { count: 1, id: "minecraft:wild_armor_trim_smithing_template" } }
+		{ id: "1982E86875710AFF", item: { count: 1, id: "minecraft:coast_armor_trim_smithing_template" } }
+		{ id: "44B91EA652463E33", item: { count: 1, id: "minecraft:dune_armor_trim_smithing_template" } }
+		{ id: "046C2AAB5ABE0D6B", item: { count: 1, id: "minecraft:wayfinder_armor_trim_smithing_template" } }
+		{ id: "669A4501312B97AB", item: { count: 1, id: "minecraft:raiser_armor_trim_smithing_template" } }
+		{ id: "1586145C142C0BB5", item: { count: 1, id: "minecraft:shaper_armor_trim_smithing_template" } }
+		{ id: "4DBCD77D050F36FB", item: { count: 1, id: "minecraft:host_armor_trim_smithing_template" } }
+		{ id: "0096AB9D61EB6EBC", item: { count: 1, id: "minecraft:ward_armor_trim_smithing_template" } }
+		{ id: "24498333BA79F560", item: { count: 1, id: "minecraft:silence_armor_trim_smithing_template" } }
+		{ id: "002978A2934E337B", item: { count: 1, id: "minecraft:tide_armor_trim_smithing_template" } }
+		{ id: "11B9D06EB4ADB2C7", item: { count: 1, id: "minecraft:snout_armor_trim_smithing_template" } }
+		{ id: "12682ABCAAF7C5C2", item: { count: 1, id: "minecraft:rib_armor_trim_smithing_template" } }
+		{ id: "1E0A4C0883F999F7", item: { count: 1, id: "minecraft:eye_armor_trim_smithing_template" } }
+		{ id: "5E95F66B34DCADD8", item: { count: 1, id: "minecraft:spire_armor_trim_smithing_template" } }
+		{ id: "3AC7957D8DD10482", item: { count: 1, id: "minecraft:flow_armor_trim_smithing_template" } }
+		{ id: "3F32B6B600A8C33F", item: { count: 1, id: "minecraft:bolt_armor_trim_smithing_template" } }
+	]
+}

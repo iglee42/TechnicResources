@@ -1,8 +1,11 @@
 {
+	chapter.167BBA84E770F7C5.title: "&cArmors"
 	chapter.237AB2138BA1378C.title: "&bWelcome"
 	chapter.3A690EAA4DF5F972.chapter_subtitle: ["&7&oRemember Something..."]
 	chapter.3A690EAA4DF5F972.title: "&eChapter 0 - &6Start in a box"
+	chapter.4A1D034E4937DE09.title: "&6Alloys \\& Casings"
 	chapter.7CF45575D43EBA3A.title: "&eChapter 1 - &6Getting An Upgrade"
+	chapter_group.125F8BF3AF28765F.title: "Suits Madness"
 	chapter_group.1624E617A68B85BD.title: "Escape The Box"
 	file.0000000000000001.title: "Technic Resources"
 	quest.01854E4661D0ECC3.quest_subtitle: "The modpack Github"
@@ -147,6 +150,7 @@
 		""
 		"As you gain new hearts, your health bar will change color."
 	]
+	quest.477EEBF199432ED8.title: "Cardboard Armor"
 	quest.48C2D253428050F7.quest_desc: [
 		"On Gogo08's Discord server, you will find support channels for Chroma Endless."
 		""
@@ -197,6 +201,8 @@
 		""
 		"&aMekanism-CTM-Fusion &rResource Pack : &aMekanism multiblock &rwith &aconnected textures &r(thanks to the Fusion mod)"
 	]
+	reward_table.4FBDEF53751B8D72.title: "Alloys"
+	reward_table.69ABA3B5175DFD74.title: "Trims"
 	task.09C9AE62C617B067.title: "JEI"
 	task.0A24A552ED32FFB7.title: "Quests"
 	task.0A5A73AB42F7DDF6.title: "Chunk Claim / Loading"

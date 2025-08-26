@@ -1,0 +1,15 @@
+{
+	id: "4FBDEF53751B8D72"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ id: "56F6DE33BCC431AB", item: { count: 1, id: "create:basalt_alloy" } }
+		{ id: "32ECA68319E34357", item: { count: 1, id: "create:blackstone_alloy" } }
+		{ id: "5EDF9E2B3A93CE60", item: { count: 1, id: "create:deepslate_alloy" } }
+		{ id: "426E88A0CCCA78E2", item: { count: 1, id: "create:diorite_alloy" } }
+		{ id: "57B5D397C4F20850", item: { count: 1, id: "create:granite_alloy" } }
+		{ id: "21705373DAE347A1", item: { count: 1, id: "create:stone_alloy" } }
+		{ id: "47672CAEC079BA20", item: { count: 1, id: "create:tuff_alloy" } }
+		{ id: "7ED9583F62D08C87", item: { count: 1, id: "create:andesite_alloy" } }
+	]
+}
