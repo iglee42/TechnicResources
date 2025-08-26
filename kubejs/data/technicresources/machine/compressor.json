@@ -5,7 +5,12 @@
         "item": "technicresources:machine/compressor_idle",
         "running": {
             "custommachinery:block": "technicresources:machine/compressor_running",
-            "ambient_sound": "create:mechanical_press_activation"
+            "ambient_sound": {
+                "sound":"create:mechanical_press_activation",
+                "volume":0.2,
+                "loop":false,
+                "delay": 20
+            }
         }
     },
     "components": [

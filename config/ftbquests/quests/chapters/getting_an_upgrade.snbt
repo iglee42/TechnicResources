@@ -23,7 +23,7 @@
 			linked_quest: "5344EA2AB08BBFBB"
 			size: 1.5d
 			x: 0.0d
-			y: -3.75d
+			y: -6.75d
 		}
 		{
 			disable_toast: true
@@ -71,8 +71,8 @@
 				item: { count: 1, id: "minecraft:redstone" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: -2.0d
+			x: 0.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["5344EA2AB08BBFBB"]
@@ -82,19 +82,19 @@
 				item: { count: 1, id: "minecraft:coal" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: -5.0d
+			x: 4.0d
+			y: -8.0d
 		}
 		{
-			dependencies: ["1804239D20D9F619"]
+			dependencies: ["4A41A65AA6848C09"]
 			id: "2426119EFE67E83F"
 			tasks: [{
 				id: "53DF1A0C502CD991"
-				item: { count: 1, id: "createcasing:iron_casing" }
+				item: { count: 1, id: "createcasing:red_iron_casing" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: -3.5d
+			x: 4.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["2426119EFE67E83F"]
@@ -105,7 +105,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -5.0d
+			y: -6.5d
 		}
 		{
 			dependencies: [
@@ -134,8 +134,8 @@
 				item: { count: 1, id: "technicresources:room_upgrader_2" }
 				type: "item"
 			}]
-			x: 6.25d
-			y: -2.5d
+			x: 4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -162,8 +162,8 @@
 				item: { count: 1, id: "minecraft:diamond_pickaxe" }
 				type: "item"
 			}]
-			x: 16.5d
-			y: -6.5d
+			x: 13.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["29936F3B72C49C21"]
@@ -178,8 +178,8 @@
 				to_observe: "technicresources:dirt"
 				type: "observation"
 			}]
-			x: 9.0d
-			y: -2.5d
+			x: 7.5d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -193,7 +193,7 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7665B84DCEFA079D"]
@@ -215,6 +215,61 @@
 				type: "item"
 			}]
 			x: 13.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"17E78B3C8FFB68B4"
+				"6021B43C2E6F6E8A"
+				"085F1EB700F52528"
+			]
+			id: "73065FD54CD92565"
+			tasks: [{
+				id: "7F665CDF8D289E18"
+				item: { count: 1, id: "createcasing:iron_mixer" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"1804239D20D9F619"
+				"73065FD54CD92565"
+				"65E612FCD11030D3"
+			]
+			id: "4A41A65AA6848C09"
+			tasks: [{
+				id: "501DD3CD3758B344"
+				item: { count: 1, id: "create:red_iron_alloy" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"4D85FE19767F4F82"
+				"2148C47C03622790"
+			]
+			id: "65E612FCD11030D3"
+			tasks: [{
+				id: "628943C47B83D5D4"
+				item: { count: 1, id: "create:iron_alloy" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["65E612FCD11030D3"]
+			id: "085F1EB700F52528"
+			tasks: [{
+				id: "3D4D7D37C240966D"
+				item: { count: 1, id: "createcasing:iron_casing" }
+				type: "item"
+			}]
+			x: 8.0d
 			y: -3.5d
 		}
 	]

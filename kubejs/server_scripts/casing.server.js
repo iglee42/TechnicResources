@@ -33,4 +33,15 @@ ServerEvents.tags("block",l => {
         l.add("mineable/pickaxe", casing.blocks.map(c=>c.getId()));
         l.add("mineable/axe", casing.blocks.map(c => c.getId()));
     }
+    for (let c in global.cogwheels) {
+        let casing = global.cogwheels[c]
+        l.add("mineable/pickaxe", casing.blocks.map(c => c.getId()));
+        l.add("mineable/axe", casing.blocks.map(c => c.getId()));
+    }
+})
+ServerEvents.tags("item", l => {
+    for (let c in global.cogwheels) {
+        let casing = global.cogwheels[c]
+        if (casing.cogwheel !== null) l.add("create:coghweel", casing.cogwheel.getId());
+    }
 })

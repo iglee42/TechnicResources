@@ -29,12 +29,31 @@
 			}
 			id: "67F21B17C1FE14A4"
 			rewards: [{
-				auto: "invisible"
-				command: "/fill ~-1 ~ ~-1 ~1 ~2 ~1 air replace #technicresources:start_break"
-				id: "45D345ED56CBAE42"
-				permission_level: 2
-				team_reward: false
-				type: "command"
+				count: 48
+				id: "3D0A742DC76AB439"
+				item: {
+					components: {
+						"minecraft:food": {
+							eat_seconds: 0.8f
+							effects: [{
+								effect: {
+									duration: 40
+									id: "minecraft:nausea"
+									"neoforge:cures": [
+										"milk"
+										"protected_by_totem"
+									]
+									show_icon: 1b
+								}
+							}]
+							nutrition: 1
+							saturation: 20.0f
+						}
+					}
+					count: 1
+					id: "technicresources:moss_ball"
+				}
+				type: "item"
 			}]
 			size: 1.5d
 			tasks: [{
@@ -149,20 +168,6 @@
 			}]
 			x: 13.0d
 			y: 0.0d
-		}
-		{
-			dependencies: [
-				"5005F19D57530B1C"
-				"6FA4AD2C0C318D48"
-			]
-			id: "17E78B3C8FFB68B4"
-			tasks: [{
-				id: "7D5DE00B21F02288"
-				item: { count: 1, id: "createcasing:stone_cogwheel" }
-				type: "item"
-			}]
-			x: 11.5d
-			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -321,6 +326,20 @@
 			}]
 			x: 11.5d
 			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5005F19D57530B1C"
+				"6FA4AD2C0C318D48"
+			]
+			id: "17E78B3C8FFB68B4"
+			tasks: [{
+				id: "7D5DE00B21F02288"
+				item: { count: 1, id: "createcasing:stone_cogwheel" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.0d
 		}
 	]
 }

@@ -11,3 +11,7 @@
 	# Default: 100
 	# Range: > 0
 	energy_usage = 100
+	#How many ticks should the Chemical Package Filler wait between each refresh.
+	# Default: 4
+	# Range: 1 ~ 40
+	refresh_interval = 4
