@@ -4,6 +4,11 @@ ServerEvents.recipes(e => {
         e.replaceInput({}, input, output)
         e.replaceOutput({}, input, output)
     }
+    function replaceIn(input, output) {
+        e.replaceInput({}, input, output)
+    }
+
+    replaceIn('create:cogwheel', '#create:cogwheel')
 
     // replaceIO('create:iron_sheet', '#c:plates/iron')
 
@@ -128,6 +133,7 @@ ServerEvents.tags('item', event => {
     event.add('c:storage_blocks/crystalized_menril', 'integrateddynamics:crystalized_menril_block')
     event.add('c:storage_blocks/crystalized_chorus', 'integrateddynamics:crystalized_chorus_block')
     event.add('c:storage_blocks/lapis_lazuli', 'minecraft:lapis_block')
+    event.add('create:cogwheel', ['create:cogwheel', 'createcasing:oak_cogwheel', 'createcasing:birch_cogwheel', 'createcasing:jungle_cogwheel', 'createcasing:acacia_cogwheel', 'createcasing:dark_oak_cogwheel', 'createcasing:cherry_cogwheel', 'createcasing:mangrove_cogwheel', 'createcasing:bamboo_cogwheel', 'createcasing:warped_cogwheel', 'createcasing:crimson_cogwheel'])
 
 })
 ServerEvents.tags('block', event => {

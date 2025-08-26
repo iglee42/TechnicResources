@@ -44,8 +44,8 @@ RecipeViewerEvents.removeEntries("item", event => {
     /mekanism:advanced_.*_factory/,
     /mekanism:elite_.*_factory/,
     /mekanism:ultimate_.*_factory/,
-
   ]
+  event.remove(/createcasing:.+_encased_.+/)
   event.remove(hided);
   event.remove(/ae2:facade/);
   event.remove(/create_dragons_plus:.+_bucket/)
