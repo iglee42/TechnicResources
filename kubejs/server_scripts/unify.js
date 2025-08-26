@@ -25,6 +25,43 @@ ServerEvents.recipes(e => {
         'createaddition:rolling/copper_plate',
         'pneumaticcraft:compressed_iron_gear',
         'avaritia:neutron_gear',
+        'extendedae:inscriber/crush_entro',
+        'ae2:inscriber/fluix_dust',
+        'advanced_ae:quantum_infused_dust',
+        'ae2:inscriber/certus_quartz_dust',
+        'ae2:inscriber/ender_dust',
+        'ae2:inscriber/sky_stone_dust',
+        'advanced_ae:quantum_infused_dust_crushed',
+        'create:milling/compat/ae2/certus_quartz',
+        'mekanism:compat/ae2/certus_crystal_to_dust',
+        'create:milling/compat/ae2/fluix_crystal',
+        'mekanism:compat/ae2/fluix_crystal_to_dust',
+        'create:milling/compat/ae2/sky_stone_block',
+        'mekanism:compat/ae2/sky_stone_to_dust',
+        'create:milling/compat/ae2/ender_pearl',
+        'mekanism:compat/ae2/ender_pearl_to_dust',
+        'extendedae:mek/entro_dust',
+        'mekanism:processing/fluorite/to_dust',
+        'mekanism:processing/netherite/ingot_to_dust',
+        'mekanism:processing/netherite/scrap_to_dust',
+        'mekanism:crushing/charcoal_dust',
+        'mekanism:enriching/charcoal_dust',
+        'mekanism:processing/coal/to_dust',
+        'mekanism:processing/bronze/dust/from_ingot',
+        'mekanism:processing/lapis_lazuli/to_dust',
+        'mekanism:processing/quartz/to_dust',
+        'mekanism:processing/emerald/to_dust',
+        'mekanism:processing/diamond/to_dust',
+        'mekanism:processing/steel/ingot_to_dust',
+        'mekanism:crushing/obsidian_to_dust',
+        'mekanism:processing/refined_obsidian/dust/from_ingot',
+        'mekanism:processing/iron/dust/from_ingot',
+        'mekanism:processing/gold/dust/from_ingot',
+        'mekanism:processing/osmium/dust/from_ingot',
+        'mekanism:processing/copper/dust/from_ingot',
+        'create:crushing/obsidian',
+        'createaddition:crushing/diamond',
+
     ])
 
     function plateGearRodWire(material, base) {
@@ -74,6 +111,38 @@ ServerEvents.recipes(e => {
     plateGearRodWire('fluorite', 'c:gems/fluorite')
     plateGearRodWire('black_quartz', 'c:gems/black_quartz')
     plateGearRodWire('neutron', 'c:ingots/neutron')
+
+    function dusts(input, output) {
+        e.custom({ "type": "create:milling", "ingredients": [{ "item": input }], "processingTime": 50, "results": [{ "count": 1, "id": output }] })
+        e.custom({ "type": "mekanism:crushing", "input": { "item": input }, "output": { "id": output } })
+    }
+    dusts('advanced_ae:shattered_singularity', 'advanced_ae:quantum_infused_dust')
+    dusts('ae2:certus_quartz_crystal', 'ae2:certus_quartz_dust')
+    dusts('ae2:fluix_crystal', 'ae2:fluix_dust')
+    dusts('ae2:sky_stone_block', 'ae2:sky_dust')
+    dusts('minecraft:ender_pearl', 'ae2:ender_dust')
+    dusts('extendedae:entro_crystal', 'extendedae:entro_dust')
+    dusts('mekanism:fluorite_gem', 'mekanism:dust_fluorite')
+    dusts('minecraft:netherite_ingot', 'mekanism:dust_netherite')
+    dusts('minecraft:charcoal', 'mekanism:dust_charcoal')
+    dusts('minecraft:coal', 'mekanism:dust_coal')
+    dusts('mekanism:ingot_bronze', 'mekanism:dust_bronze')
+    dusts('minecraft:lapis_lazuli', 'mekanism:dust_lapis_lazuli')
+    dusts('minecraft:quartz', 'mekanism:dust_quartz')
+    dusts('minecraft:emerald', 'mekanism:dust_emerald')
+    dusts('minecraft:diamond', 'mekanism:dust_diamond')
+    dusts('mekanism:ingot_steel', 'mekanism:dust_steel')
+    dusts('minecraft:obsidian', 'mekanism:dust_obsidian')
+    dusts('mekanism:ingot_refined_obsidian', 'mekanism:dust_refined_obsidian')
+    dusts('minecraft:iron_ingot', 'mekanism:dust_iron')
+    dusts('minecraft:gold_ingot', 'mekanism:dust_gold')
+    dusts('mekanism:ingot_osmium', 'mekanism:dust_osmium')
+    dusts('minecraft:copper_ingot', 'mekanism:dust_copper')
+    dusts('mekanism:ingot_tin', 'mekanism:dust_tin')
+    dusts('mekanism:ingot_lead', 'mekanism:dust_lead')
+    dusts('mekanism:ingot_uranium', 'mekanism:dust_uranium')
+    dusts('draconicevolution:awakened_draconium_ingot', 'draconicevolution:awakened_draconium_dust')
+    dusts('draconicevolution:draconium_ingot', 'draconicevolution:draconium_dust')
 })
 
 ServerEvents.tags('item', event => {
