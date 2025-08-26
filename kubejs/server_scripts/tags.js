@@ -5,6 +5,10 @@ ServerEvents.tags('block', event => {
     event.add('c:bedrock', ['minecraft:bedrock', 'technicresources:glowrock'])
     event.remove('minecraft:mineable/axe', ['minecraft:crafting_table'])
     event.add('c:storage_blocks', ['actuallyadditions:enori_crystal_block', 'actuallyadditions:emeradic_crystal_block', 'actuallyadditions:void_crystal_block', 'actuallyadditions:diamatine_crystal_block', 'actuallyadditions:palis_crystal_block', 'actuallyadditions:restonia_crystal_block', 'actuallyadditions:empowered_enori_crystal_block', 'actuallyadditions:empowered_emeradic_crystal_block', 'actuallyadditions:empowered_void_crystal_block', 'actuallyadditions:empowered_diamatine_crystal_block', 'actuallyadditions:empowered_palis_crystal_block', 'actuallyadditions:empowered_restonia_crystal_block'])
+    event.add('c:storage_blocks', ['naturesaura:infused_iron_block', 'naturesaura:sky_block', 'naturesaura:depth_block'])
+    event.add('c:storage_blocks/infused_iron', ['naturesaura:infused_iron_block'])
+    event.add('c:storage_blocks/sky', ['naturesaura:sky_block'])
+    event.add('c:storage_blocks/depth', ['naturesaura:depth_block'])
 })
 
 ServerEvents.tags('item', event => {
@@ -48,4 +52,13 @@ ServerEvents.tags('item', event => {
     event.removeAllTagsFrom(['create:powdered_obsidian', 'createaddition:diamond_grit'])
     event.remove('c:gems/certus_quartz', 'ae2:charged_certus_quartz_crystal')
     event.add('c:gems/charged_certus_quartz', 'ae2:charged_certus_quartz_crystal')
+
+    event.add('c:storage_blocks', ['naturesaura:infused_iron_block', 'naturesaura:sky_ingot_block', 'naturesaura:depth_ingot_block'])
+    event.add('c:storage_blocks/infused_iron', ['naturesaura:infused_iron_block'])
+    event.add('c:storage_blocks/sky', ['naturesaura:sky_ingot_block'])
+    event.add('c:storage_blocks/depth', ['naturesaura:depth_ingot_block'])
+    event.add('c:ingots', ['naturesaura:infused_iron', 'naturesaura:sky_ingot', 'naturesaura:depth_ingot'])
+    event.add('c:ingots/infused_iron', ['naturesaura:infused_iron'])
+    event.add('c:ingots/sky', ['naturesaura:sky_ingot'])
+    event.add('c:ingots/depth', ['naturesaura:depth_ingot'])
 })

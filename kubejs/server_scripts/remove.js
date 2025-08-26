@@ -237,6 +237,19 @@ ServerEvents.recipes(event => {
         'megacells:network/portable_cell_workbench',
         'rftoolsbase:infused_diamond',
         'rftoolsbase:infused_enderpearl',
+        /(minecraft|ae2|naturesaura|mekanismtools):.*sword/,
+        /(minecraft|ae2|naturesaura|mekanismtools):.*pickaxe/,
+        /(minecraft|ae2|naturesaura|mekanismtools):.*axe/,
+        /(minecraft|ae2|naturesaura|mekanismtools):.*shovel/,
+        /(minecraft|ae2|naturesaura|mekanismtools):.*hoe/,
+        /(create|minecraft|mekanismtools|pneumaticcraft):.*helmet/,
+        /(create|minecraft|mekanismtools|pneumaticcraft):.*chestplate/,
+        /(create|minecraft|mekanismtools|pneumaticcraft):.*leggings/,
+        /(create|minecraft|mekanismtools|pneumaticcraft):.*boots/,
+        /naturesaura:.*helmet/,
+        /naturesaura:.*chest/,
+        /naturesaura:.*pants/,
+        /naturesaura:.*shoes/,
 
     ])
 
