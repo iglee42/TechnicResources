@@ -214,6 +214,7 @@ ServerEvents.recipes(event => {
         'actuallyadditions:empowering/restonia_block',
         'actuallyadditions:empowering/void',
         'actuallyadditions:empowering/void_block',
+        /actuallyadditions:lamp_.*/,
 
     ])
 
