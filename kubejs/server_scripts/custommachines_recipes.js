@@ -936,7 +936,7 @@ ServerEvents.recipes(event => {
     // 'mekanism:qio_drive_array', ['ae2:cell_component_1k', 'mekanism:personal_barrel', , 'mekanism:personal_chest']
 
     // Antimatter Table
-    customTables('mekanism:antiprotonic_nucleosynthesizer', 'netherite', [
+    customTables('mekanism:antiprotonic_nucleosynthesizer', 'antimatter', [
         'AABCCCCCBAA',
         'ADBEEEEEBDA',
         'BBFFFGFFFBB',
