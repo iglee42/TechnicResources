@@ -12,13 +12,16 @@ ServerEvents.recipes(e => {
                 }
             })
         })
+        posts.push({
+            "type": "damage_item"
+        })
         let custom = {
             "type": "lychee:block_clicking",
             "block_in": block,
             "post": posts
         }
         if (item !== "minecraft:air") {
-            custom.item_in = {"item": item}
+            custom.item_in = {item: item}
         }
         e.custom(custom)
     }
@@ -30,4 +33,64 @@ ServerEvents.recipes(e => {
             chance: 0.35
         }
     ])
+
+    leftClick('minecraft:bedrock', 'minecraft:iron_pickaxe', [
+        {
+            id: "minecraft:coal",
+            chance: 0.075,
+            count: 1
+        },
+        {
+            id: "minecraft:redstone",
+            chance: 0.075,
+            count: 1
+        }
+    ])
+
+    leftClick('technicresources:dirt', 'technicresources:bedrock_scraper', [
+        {
+            id: "technicresources:oak_sprout",
+            chance: 0.2,
+            count: 1
+        }
+    ])
+    leftClick('minecraft:bedrock', 'technicresources:bedrock_scraper', [
+        {
+            id: "technicresources:stone_pebble",
+            chance: 0.45,
+            count: 1
+        },
+        {
+            id: "technicresources:andesite_pebble",
+            chance: 0.35,
+            count: 1
+        },
+        {
+            id: "technicresources:diorite_pebble",
+            chance: 0.35,
+            count: 1
+        },
+        {
+            id: "technicresources:granite_pebble",
+            chance: 0.35,
+            count: 1
+        },
+        {
+            id: "technicresources:deepslate_pebble",
+            chance: 0.2,
+            count: 1
+        },
+        {
+            id: "technicresources:tuff_pebble",
+            chance: 0.2,
+            count: 1
+        },
+        {
+            id: "technicresources:calcite_pebble",
+            chance: 0.2,
+            count: 1
+        }
+    ])
+
+
 })

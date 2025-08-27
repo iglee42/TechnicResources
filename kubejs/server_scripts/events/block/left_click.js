@@ -7,7 +7,6 @@ BlockEvents.leftClicked(event => {
     if (level.isClientSide()) return;
     if (item.id === "minecraft:air" && block.id === "minecraft:bedrock" && Math.random() <= 0.15) {
         player.give('1x technicresources:bedrock_shard')
-        player.displayClientMessage(Text.red('Shard'), false)
         player.attack(1)
         event.cancel()
     }

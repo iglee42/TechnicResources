@@ -250,6 +250,10 @@ ServerEvents.recipes(event => {
         /naturesaura:.*chest/,
         /naturesaura:.*pants/,
         /naturesaura:.*shoes/,
+        'create:crafting/materials/andesite_alloy',
+        'create:crafting/materials/andesite_alloy_from_zinc',
+        'create:mixing/andesite_alloy_from_zinc',
+        'create:mixing/andesite_alloy',
 
     ])
 

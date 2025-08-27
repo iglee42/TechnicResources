@@ -262,7 +262,10 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["65E612FCD11030D3"]
+			dependencies: [
+				"65E612FCD11030D3"
+				"5FC29C57DD2931F3"
+			]
 			id: "085F1EB700F52528"
 			tasks: [{
 				id: "3D4D7D37C240966D"
@@ -271,6 +274,27 @@
 			}]
 			x: 8.0d
 			y: -3.5d
+		}
+		{
+			dependencies: ["66D4E8DC00AB87AE"]
+			id: "5FC29C57DD2931F3"
+			tasks: [{
+				id: "6C9586B4D39317E4"
+				item: { count: 1, id: "create:copper_casing" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -3.5d
+		}
+		{
+			id: "66D4E8DC00AB87AE"
+			tasks: [{
+				id: "3A3A6E96ACC3FBF9"
+				item: { count: 1, id: "create:copper_alloy" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -4.5d
 		}
 	]
 }
