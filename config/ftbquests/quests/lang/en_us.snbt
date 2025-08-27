@@ -3,12 +3,13 @@
 	chapter.237AB2138BA1378C.title: "&bWelcome"
 	chapter.3A690EAA4DF5F972.chapter_subtitle: ["&7&oRemember Something..."]
 	chapter.3A690EAA4DF5F972.title: "&eChapter 0 - &6Start in a box"
-	chapter.4A1D034E4937DE09.title: "&6Alloys \\& Casings"
+	chapter.4A1D034E4937DE09.title: "&6Dyes, Alloys \\& Casings"
 	chapter.7CF45575D43EBA3A.title: "&eChapter 1 - &6Getting An Upgrade"
 	chapter_group.125F8BF3AF28765F.title: "Suits Madness"
 	chapter_group.1624E617A68B85BD.title: "Escape The Box"
 	file.0000000000000001.title: "Technic Resources"
 	quest.01854E4661D0ECC3.quest_subtitle: "The modpack Github"
+	quest.02F75F0404FE625E.title: "Soulstrider's Armor"
 	quest.033315243A54DDEA.quest_desc: [
 		"Hi!"
 		""
@@ -29,6 +30,7 @@
 		"You can find them in the Schematics Table !"
 	]
 	quest.03A7B400A1F002B5.title: "&dInformation about Create Schematics !"
+	quest.0A3B1D35FBA35115.title: "Refined Obsidian Armor"
 	quest.0C83115865AC72DF.quest_desc: [
 		"On this website you will find more informations about Chroma Endless, the Chroma Team and our other modpacks."
 		""
@@ -38,6 +40,7 @@
 	]
 	quest.0C83115865AC72DF.quest_subtitle: "Chroma Team's website."
 	quest.0C83115865AC72DF.title: "Website"
+	quest.0E5E043085C2F9F6.title: "Diamond Armor"
 	quest.0F3AA93C73E3986C.quest_desc: [
 		"This &6Questbook&r has a very simple quest system."
 		"In fact a &8quest&r by default does not require a &7&ldependancy&r so you can do it right now or later, up to you to decide."
@@ -59,6 +62,9 @@
 	]
 	quest.1416718F40ED7569.quest_subtitle: "A brand new hardcore adventure!"
 	quest.1416718F40ED7569.title: "Welcome to Chroma Endless!"
+	quest.148751C5F7DC964B.title: "Refined Glowstone Armor"
+	quest.166E35D1C0573D6E.title: "&4Infinity Armor"
+	quest.1A89D273F79BAD3A.title: "Iron Armor"
 	quest.1CA9744CB5D85432.quest_desc: [
 		"To share your quests with your friends, you need to create a team."
 		""
@@ -125,7 +131,11 @@
 		"&bShift-right-click&r on forceloaded chunks to unforceload it."
 	]
 	quest.33DFBD6ADA6339F1.quest_subtitle: "Explaination for FTB Chunks"
+	quest.346BC1BB45ED295D.title: "Bronze Armor"
+	quest.349B0155FF5E6D0C.title: "Osmium Armor"
+	quest.38EC954648CEBDDE.title: "Shadow Radiance Armor"
 	quest.3A85E71F97D2CE59.quest_desc: ["The icons that you see in the game menu are issued from the &5Icons &r resource pack, created by mr_ch0c0late and his team"]
+	quest.3C3A2450DD399519.title: "Chainmail Armor"
 	quest.3CC29AE46F90E8F8.quest_subtitle: "&aIglee&r's Website"
 	quest.3F6525C9F04A5EA5.quest_desc: ["&4JEI&r is an item and recipe viewer that helps the player throughout his adventure. "]
 	quest.3FCBA1147733405D.quest_desc: [
@@ -157,6 +167,9 @@
 		"It's a french community server, but you can also speak english, the community and staff will most certainly try to help you."
 	]
 	quest.48C2D253428050F7.quest_subtitle: "Gogo08's Discord server."
+	quest.4998414486D8168C.title: "MekaSuit Armor"
+	quest.4B29916F5B7E4A7F.title: "Botanist's Armor"
+	quest.4C36726697D78C34.title: "Lapis Lazuli Armor"
 	quest.4C99953231A58014.quest_desc: [
 		"&6&lUltimine&r is a very useful mod for mining."
 		""
@@ -165,6 +178,8 @@
 		"This &c&lUltimine Zone&r can be changed. In fact you can see that, if you keep pressing the ² key, you can change the shape of this zone and find the one that suits you best."
 	]
 	quest.4C99953231A58014.quest_subtitle: "Mining at it's best"
+	quest.537D99876C2443D5.title: "Skyseeker's Armor"
+	quest.53C1515844EBF148.title: "Leather Armor"
 	quest.560E28E8C2FA86AB.quest_subtitle: "&aIglee42&r's discord server"
 	quest.57F8BCA00BBD45CA.quest_desc: [
 		"In this modpack we have put together some challenges for you."
@@ -175,10 +190,13 @@
 	quest.5B1AA6E54F33323A.quest_desc: ["&aSpice of Life: Carrot Edition&r keeps track of how many unique foods a player has eaten. As they pass certain milestone amounts of unique foods, they permanently gain new hearts, increasing their max health! In order to max out their HP bars, players will have to quest for and craft exotic foods."]
 	quest.5ECCA818F5A4AF4E.quest_desc: ["The room manager can be restored with a sneak right click on the dirt"]
 	quest.5ECCA818F5A4AF4E.quest_subtitle: "&6You can &achange&6 your &aroom manager &6into &adirt &6with a &aright click &6on it"
+	quest.62319FDBB2C22807.title: "Pneumatic Armor"
+	quest.672D3D10190E26E4.title: "Golden Armor"
 	quest.67F21B17C1FE14A4.quest_subtitle: "&6This &amodpack &6start in a &abedrock box"
 	quest.6CC407BE9AE118B6.title: "Scraper Parts"
 	quest.6D9666C0C7A9B260.quest_subtitle: "Promo code: &n&aIglee&r&r"
 	quest.6D9666C0C7A9B260.title: "Get a server!"
+	quest.6EB8AB70FA896C89.title: "Netherite Armor"
 	quest.7665B84DCEFA079D.quest_subtitle: "&aObtain &6when left click on &adirt &6with a &ascraper"
 	quest.7B91BD470E4DDB96.quest_desc: [
 		"You can disable sounds by clicking on the button at the top right of your player in your inventory."
@@ -189,6 +207,8 @@
 		"Either &lSearch ''Plaques'' in &oExtreme Sound Muffler&r &lmenu and mute them&r"
 	]
 	quest.7B91BD470E4DDB96.quest_subtitle: "Sh*t up !!!"
+	quest.7D7A6A7CDF3D9CEC.title: "Steel Armor"
+	quest.7EDC242648E0A316.title: "Compressed Iron Armor"
 	quest.7EE344EBE45D28B3.quest_desc: [
 		"The modpack can be customized with some &aresources packs&r"
 		""
@@ -201,6 +221,7 @@
 		""
 		"&aMekanism-CTM-Fusion &rResource Pack : &aMekanism multiblock &rwith &aconnected textures &r(thanks to the Fusion mod)"
 	]
+	quest.7F1D6901E2B3E857.title: "Quantum Armor"
 	reward_table.4FBDEF53751B8D72.title: "Alloys"
 	reward_table.69ABA3B5175DFD74.title: "Trims"
 	task.09C9AE62C617B067.title: "JEI"
@@ -226,7 +247,9 @@
 	task.6A5654BCADFF14BF.title: "Create Schematics"
 	task.6BF05D66E82274FB.title: "Look at Dirt"
 	task.6C6142946AD27705.title: "Feeding"
+	task.6EF275E50817259D.title: "&4Armors"
 	task.7140C1C22B224BA0.title: "Teams"
+	task.73480268B9434CF6.title: "&6Dyes, Alloys \\& Casings"
 	task.7531DAFD16223DC7.title: "FTB Chunk"
 	task.76BA08A8920CDC83.title: "Ultimine"
 	task.78D014895D893621.title: "Chroma's website"

@@ -1,45 +1,1078 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: true
 	default_quest_shape: ""
 	filename: "carmos"
 	group: "125F8BF3AF28765F"
+	hide_quest_until_deps_complete: true
 	icon: {
 		id: "avaritia:infinity_chestplate"
 	}
 	id: "167BBA84E770F7C5"
+	images: [
+		{
+			dependency: "399FFF3331FB63CB"
+			height: 4.25d
+			image: "ftbquests:textures/armors/cardboard.png"
+			rotation: 0.0d
+			width: 3.36d
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			dependency: "477EEBF199432ED8"
+			height: 4.25d
+			image: "ftbquests:textures/armors/leather.png"
+			rotation: 0.0d
+			width: 3.36d
+			x: -3.0d
+			y: -7.0d
+		}
+		{
+			dependency: "53C1515844EBF148"
+			height: 4.25d
+			image: "ftbquests:textures/armors/lapis_lazuli.png"
+			rotation: 0.0d
+			width: 3.36d
+			x: -4.5d
+			y: -9.0d
+		}
+		{
+			dependency: "4C36726697D78C34"
+			height: 4.25d
+			image: "ftbquests:textures/armors/chainmail.png"
+			rotation: 0.0d
+			width: 3.36d
+			x: -6.0d
+			y: -11.0d
+		}
+		{
+			dependency: "3C3A2450DD399519"
+			height: 4.25d
+			image: "ftbquests:textures/armors/gold.png"
+			rotation: 0.0d
+			width: 3.36d
+			x: -7.5d
+			y: -13.0d
+		}
+		{
+			dependency: "672D3D10190E26E4"
+			height: 4.25d
+			image: "ftbquests:textures/armors/iron.png"
+			rotation: 0.0d
+			width: 3.36d
+			x: -6.0d
+			y: -14.5d
+		}
+		{
+			dependency: "1A89D273F79BAD3A"
+			height: 4.25d
+			image: "ftbquests:textures/armors/infused_iron.png"
+			rotation: 0.0d
+			width: 3.36d
+			x: -4.5d
+			y: -16.0d
+		}
+		{
+			dependency: "4B29916F5B7E4A7F"
+			height: 4.25d
+			image: "ftbquests:textures/armors/compressed_iron.png"
+			rotation: 0.0d
+			width: 3.36d
+			x: -3.0d
+			y: -17.5d
+		}
+		{
+			dependency: "7EDC242648E0A316"
+			height: 4.25d
+			image: "ftbquests:textures/armors/pneumatic.png"
+			rotation: 0.0d
+			width: 3.36d
+			x: -1.5d
+			y: -19.0d
+		}
+		{
+			dependency: "62319FDBB2C22807"
+			height: 4.25d
+			image: "ftbquests:textures/armors/bronze.png"
+			rotation: 0.0d
+			width: 3.36d
+			x: 0.0d
+			y: -20.5d
+		}
+		{
+			dependency: "346BC1BB45ED295D"
+			height: 4.25d
+			image: "ftbquests:textures/armors/refined_glowstone.png"
+			rotation: 0.0d
+			width: 3.36d
+			x: 1.5d
+			y: -19.0d
+		}
+		{
+			dependency: "148751C5F7DC964B"
+			height: 4.25d
+			image: "ftbquests:textures/armors/diamond.png"
+			rotation: 0.0d
+			width: 3.36d
+			x: 3.0d
+			y: -17.5d
+		}
+		{
+			dependency: "0E5E043085C2F9F6"
+			height: 4.25d
+			image: "ftbquests:textures/armors/steel.png"
+			rotation: 0.0d
+			width: 3.36d
+			x: 4.5d
+			y: -16.0d
+		}
+		{
+			dependency: "7D7A6A7CDF3D9CEC"
+			height: 4.25d
+			image: "ftbquests:textures/armors/sky.png"
+			rotation: 0.0d
+			width: 3.36d
+			x: 6.0d
+			y: -14.375d
+		}
+		{
+			dependency: "537D99876C2443D5"
+			height: 4.25d
+			image: "ftbquests:textures/armors/osmium.png"
+			rotation: 0.0d
+			width: 3.36d
+			x: 7.5d
+			y: -12.75d
+		}
+		{
+			dependency: "349B0155FF5E6D0C"
+			height: 4.25d
+			image: "ftbquests:textures/armors/depth.png"
+			rotation: 0.0d
+			width: 3.36d
+			x: 6.0d
+			y: -11.125d
+		}
+		{
+			dependency: "02F75F0404FE625E"
+			height: 4.25d
+			image: "ftbquests:textures/armors/netherite.png"
+			rotation: 0.0d
+			width: 3.36d
+			x: 4.5d
+			y: -9.125d
+		}
+		{
+			dependency: "6EB8AB70FA896C89"
+			height: 4.25d
+			image: "ftbquests:textures/armors/refined_obsidian.png"
+			rotation: 0.0d
+			width: 3.36d
+			x: 3.0d
+			y: -7.125d
+		}
+		{
+			dependency: "0A3B1D35FBA35115"
+			height: 4.25d
+			image: "ftbquests:textures/armors/refined_radiance.png"
+			rotation: 0.0d
+			width: 3.36d
+			x: 1.5d
+			y: -5.125d
+		}
+		{
+			dependency: "7F1D6901E2B3E857"
+			height: 4.25d
+			image: "ftbquests:textures/armors/quantum.png"
+			rotation: 0.0d
+			width: 3.36d
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependency: "7F1D6901E2B3E857"
+			height: 4.25d
+			image: "ftbquests:textures/armors/mekasuit.png"
+			rotation: 0.0d
+			width: 3.36d
+			x: 0.0d
+			y: -12.0d
+		}
+		{
+			dependency: "4998414486D8168C"
+			height: 4.25d
+			image: "ftbquests:textures/armors/infinity.png"
+			rotation: 0.0d
+			width: 3.36d
+			x: 0.0d
+			y: -16.0d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		id: "477EEBF199432ED8"
-		rewards: [{
-			exclude_from_claim_all: true
-			id: "7949FF1E77CE94A3"
-			table_id: 7614359593176399220L
-			type: "random"
-		}]
-		tasks: [
-			{
-				id: "5E1BA64767A55AB2"
-				item: { count: 1, id: "create:cardboard_helmet" }
-				type: "item"
+	quests: [
+		{
+			dependencies: ["399FFF3331FB63CB"]
+			icon: {
+				id: "technicresources:empty"
 			}
-			{
-				id: "724B48B698A1CECC"
-				item: { count: 1, id: "create:cardboard_chestplate" }
-				type: "item"
+			id: "477EEBF199432ED8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7949FF1E77CE94A3"
+				table_id: 7614359593176399220L
+				type: "random"
+			}]
+			shape: "none"
+			size: 2.0d
+			tasks: [
+				{
+					id: "5E1BA64767A55AB2"
+					item: { count: 1, id: "create:cardboard_helmet" }
+					type: "item"
+				}
+				{
+					id: "724B48B698A1CECC"
+					item: { count: 1, id: "create:cardboard_chestplate" }
+					type: "item"
+				}
+				{
+					id: "2815123CD379759F"
+					item: { count: 1, id: "create:cardboard_leggings" }
+					type: "item"
+				}
+				{
+					id: "59A8FA391D3ACDED"
+					item: { count: 1, id: "create:cardboard_boots" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			id: "399FFF3331FB63CB"
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				id: "6EF275E50817259D"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["477EEBF199432ED8"]
+			icon: {
+				id: "technicresources:empty"
 			}
-			{
-				id: "2815123CD379759F"
-				item: { count: 1, id: "create:cardboard_leggings" }
-				type: "item"
+			id: "53C1515844EBF148"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "797077D80F119E1E"
+				table_id: 7614359593176399220L
+				type: "loot"
+			}]
+			shape: "none"
+			size: 2.0d
+			tasks: [
+				{
+					id: "60F9FB4DF60B0B69"
+					item: { count: 1, id: "minecraft:leather_helmet" }
+					type: "item"
+				}
+				{
+					id: "19902BE63A1B317C"
+					item: { count: 1, id: "minecraft:leather_chestplate" }
+					type: "item"
+				}
+				{
+					id: "69F7B35DEAB87A25"
+					item: { count: 1, id: "minecraft:leather_leggings" }
+					type: "item"
+				}
+				{
+					id: "14285803B629EEF9"
+					item: { count: 1, id: "minecraft:leather_boots" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -7.125d
+		}
+		{
+			dependencies: ["53C1515844EBF148"]
+			icon: {
+				id: "technicresources:empty"
 			}
-			{
-				id: "59A8FA391D3ACDED"
-				item: { count: 1, id: "create:cardboard_boots" }
-				type: "item"
+			id: "4C36726697D78C34"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A7BE59C05F4634F"
+				table_id: 7614359593176399220L
+				type: "loot"
+			}]
+			shape: "none"
+			size: 2.0d
+			tasks: [
+				{
+					id: "6807158E73D0FC86"
+					item: { count: 1, id: "mekanismtools:lapis_lazuli_helmet" }
+					type: "item"
+				}
+				{
+					id: "476A5FDB9C7286A9"
+					item: { count: 1, id: "mekanismtools:lapis_lazuli_chestplate" }
+					type: "item"
+				}
+				{
+					id: "39103F1D46F9B74F"
+					item: { count: 1, id: "mekanismtools:lapis_lazuli_leggings" }
+					type: "item"
+				}
+				{
+					id: "1EA9304A4189AC16"
+					item: { count: 1, id: "mekanismtools:lapis_lazuli_boots" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["4C36726697D78C34"]
+			icon: {
+				id: "technicresources:empty"
 			}
-		]
-		x: 2.0d
-		y: -3.0d
-	}]
+			id: "3C3A2450DD399519"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "78243824B3112855"
+				table_id: 7614359593176399220L
+				type: "loot"
+			}]
+			shape: "none"
+			size: 2.0d
+			tasks: [
+				{
+					id: "582DBA2323823257"
+					item: { count: 1, id: "minecraft:chainmail_helmet" }
+					type: "item"
+				}
+				{
+					id: "60E0F55A40638204"
+					item: { count: 1, id: "minecraft:chainmail_chestplate" }
+					type: "item"
+				}
+				{
+					id: "214FFA449056B150"
+					item: { count: 1, id: "minecraft:chainmail_leggings" }
+					type: "item"
+				}
+				{
+					id: "0514CCFE993E7D5E"
+					item: { count: 1, id: "minecraft:chainmail_boots" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: -11.25d
+		}
+		{
+			dependencies: ["3C3A2450DD399519"]
+			icon: {
+				id: "technicresources:empty"
+			}
+			id: "672D3D10190E26E4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "650D11649C4F0715"
+				table_id: 7614359593176399220L
+				type: "loot"
+			}]
+			shape: "none"
+			size: 2.0d
+			tasks: [
+				{
+					id: "069124C81E8A61DE"
+					item: { count: 1, id: "minecraft:golden_helmet" }
+					type: "item"
+				}
+				{
+					id: "7B193BC53FF7C412"
+					item: { count: 1, id: "minecraft:golden_chestplate" }
+					type: "item"
+				}
+				{
+					id: "7767618227298E7C"
+					item: { count: 1, id: "minecraft:golden_leggings" }
+					type: "item"
+				}
+				{
+					id: "2F28103EEA0F0CF3"
+					item: { count: 1, id: "minecraft:golden_boots" }
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: -13.125d
+		}
+		{
+			dependencies: ["672D3D10190E26E4"]
+			icon: {
+				id: "technicresources:empty"
+			}
+			id: "1A89D273F79BAD3A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "038DCE0E9247F16E"
+				table_id: 7614359593176399220L
+				type: "loot"
+			}]
+			shape: "none"
+			size: 2.0d
+			tasks: [
+				{
+					id: "33CFD22CE06C400B"
+					item: { count: 1, id: "minecraft:iron_helmet" }
+					type: "item"
+				}
+				{
+					id: "785CE5D33B19577B"
+					item: { count: 1, id: "minecraft:iron_chestplate" }
+					type: "item"
+				}
+				{
+					id: "57AA6C6A5E9E6EFA"
+					item: { count: 1, id: "minecraft:iron_leggings" }
+					type: "item"
+				}
+				{
+					id: "3594681EF4E24DB7"
+					item: { count: 1, id: "minecraft:iron_boots" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: -14.625d
+		}
+		{
+			dependencies: ["1A89D273F79BAD3A"]
+			icon: {
+				id: "technicresources:empty"
+			}
+			id: "4B29916F5B7E4A7F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0203F238AE8024FF"
+				table_id: 7614359593176399220L
+				type: "loot"
+			}]
+			shape: "none"
+			size: 2.0d
+			tasks: [
+				{
+					id: "02565F858AC82864"
+					item: { count: 1, id: "naturesaura:infused_iron_helmet" }
+					type: "item"
+				}
+				{
+					id: "66FB790F4302775A"
+					item: { count: 1, id: "naturesaura:infused_iron_chest" }
+					type: "item"
+				}
+				{
+					id: "7ADF5D0C36A855B8"
+					item: { count: 1, id: "naturesaura:infused_iron_pants" }
+					type: "item"
+				}
+				{
+					id: "3DF6F74124B5E45A"
+					item: { count: 1, id: "naturesaura:infused_iron_shoes" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -16.125d
+		}
+		{
+			dependencies: ["4B29916F5B7E4A7F"]
+			icon: {
+				id: "technicresources:empty"
+			}
+			id: "7EDC242648E0A316"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5AC0A8823ED63B3E"
+				table_id: 7614359593176399220L
+				type: "loot"
+			}]
+			shape: "none"
+			size: 2.0d
+			tasks: [
+				{
+					id: "0550F4F44FB0023E"
+					item: { count: 1, id: "pneumaticcraft:compressed_iron_helmet" }
+					type: "item"
+				}
+				{
+					id: "72145DCD59D596D9"
+					item: { count: 1, id: "pneumaticcraft:compressed_iron_chestplate" }
+					type: "item"
+				}
+				{
+					id: "03EEEB39DE0CB144"
+					item: { count: 1, id: "pneumaticcraft:compressed_iron_leggings" }
+					type: "item"
+				}
+				{
+					id: "63525B3D6DFB3163"
+					item: { count: 1, id: "pneumaticcraft:compressed_iron_boots" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -17.625d
+		}
+		{
+			dependencies: ["62319FDBB2C22807"]
+			icon: {
+				id: "technicresources:empty"
+			}
+			id: "346BC1BB45ED295D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A299CD24809643D"
+				table_id: 7614359593176399220L
+				type: "loot"
+			}]
+			shape: "none"
+			size: 2.0d
+			tasks: [
+				{
+					id: "6E0DC4596736D5AA"
+					item: { count: 1, id: "mekanismtools:bronze_helmet" }
+					type: "item"
+				}
+				{
+					id: "2C312F8689CEF15B"
+					item: { count: 1, id: "mekanismtools:bronze_chestplate" }
+					type: "item"
+				}
+				{
+					id: "3BF4488DA89FB34B"
+					item: { count: 1, id: "mekanismtools:bronze_leggings" }
+					type: "item"
+				}
+				{
+					id: "6C4A70D11118388C"
+					item: { count: 1, id: "mekanismtools:bronze_boots" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -20.625d
+		}
+		{
+			dependencies: ["346BC1BB45ED295D"]
+			icon: {
+				id: "technicresources:empty"
+			}
+			id: "148751C5F7DC964B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "59A4E703E7AB9108"
+				table_id: 7614359593176399220L
+				type: "loot"
+			}]
+			shape: "none"
+			size: 2.0d
+			tasks: [
+				{
+					id: "090A96112607E700"
+					item: { count: 1, id: "mekanismtools:refined_glowstone_helmet" }
+					type: "item"
+				}
+				{
+					id: "45C94C33710A83AD"
+					item: { count: 1, id: "mekanismtools:refined_glowstone_chestplate" }
+					type: "item"
+				}
+				{
+					id: "11EA465E7CCA4845"
+					item: { count: 1, id: "mekanismtools:refined_glowstone_leggings" }
+					type: "item"
+				}
+				{
+					id: "17516E8389938285"
+					item: { count: 1, id: "mekanismtools:refined_glowstone_boots" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -19.125d
+		}
+		{
+			dependencies: ["148751C5F7DC964B"]
+			icon: {
+				id: "technicresources:empty"
+			}
+			id: "0E5E043085C2F9F6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5A279501A17A87B8"
+				table_id: 7614359593176399220L
+				type: "loot"
+			}]
+			shape: "none"
+			size: 2.0d
+			tasks: [
+				{
+					id: "591C60902D8393E3"
+					item: { count: 1, id: "minecraft:diamond_helmet" }
+					type: "item"
+				}
+				{
+					id: "6012A8062C5ECF97"
+					item: { count: 1, id: "minecraft:diamond_chestplate" }
+					type: "item"
+				}
+				{
+					id: "5897B71C87F81735"
+					item: { count: 1, id: "minecraft:diamond_leggings" }
+					type: "item"
+				}
+				{
+					id: "0DA0FADC5A164AE9"
+					item: { count: 1, id: "minecraft:diamond_boots" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -17.625d
+		}
+		{
+			dependencies: ["0E5E043085C2F9F6"]
+			icon: {
+				id: "technicresources:empty"
+			}
+			id: "7D7A6A7CDF3D9CEC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "24D85B293EAE3279"
+				table_id: 7614359593176399220L
+				type: "loot"
+			}]
+			shape: "none"
+			size: 2.0d
+			tasks: [
+				{
+					id: "79AD8CDB75ADE3CB"
+					item: { count: 1, id: "mekanismtools:steel_helmet" }
+					type: "item"
+				}
+				{
+					id: "739F620B1D310701"
+					item: { count: 1, id: "mekanismtools:steel_chestplate" }
+					type: "item"
+				}
+				{
+					id: "5002B32BF7CF7AA4"
+					item: { count: 1, id: "mekanismtools:steel_leggings" }
+					type: "item"
+				}
+				{
+					id: "742F3C188C929451"
+					item: { count: 1, id: "mekanismtools:steel_boots" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -16.125d
+		}
+		{
+			dependencies: ["7D7A6A7CDF3D9CEC"]
+			icon: {
+				id: "technicresources:empty"
+			}
+			id: "537D99876C2443D5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E4E5D6F27542EF7"
+				table_id: 7614359593176399220L
+				type: "loot"
+			}]
+			shape: "none"
+			size: 2.0d
+			tasks: [
+				{
+					id: "16794E13704DFEFB"
+					item: { count: 1, id: "naturesaura:sky_helmet" }
+					type: "item"
+				}
+				{
+					id: "7A808FBD49A72754"
+					item: { count: 1, id: "naturesaura:sky_chest" }
+					type: "item"
+				}
+				{
+					id: "5CB73112E609C0F2"
+					item: { count: 1, id: "naturesaura:sky_pants" }
+					type: "item"
+				}
+				{
+					id: "255AF08E59AE9063"
+					item: { count: 1, id: "naturesaura:sky_shoes" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -14.625d
+		}
+		{
+			dependencies: ["537D99876C2443D5"]
+			icon: {
+				id: "technicresources:empty"
+			}
+			id: "349B0155FF5E6D0C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5FB23B661597DF3A"
+				table_id: 7614359593176399220L
+				type: "loot"
+			}]
+			shape: "none"
+			size: 2.0d
+			tasks: [
+				{
+					id: "423B6D120D7FCF59"
+					item: { count: 1, id: "mekanismtools:osmium_helmet" }
+					type: "item"
+				}
+				{
+					id: "1F25DDA528CF2399"
+					item: { count: 1, id: "mekanismtools:osmium_chestplate" }
+					type: "item"
+				}
+				{
+					id: "325923F649A738F9"
+					item: { count: 1, id: "mekanismtools:osmium_leggings" }
+					type: "item"
+				}
+				{
+					id: "57F7DC1E7478B671"
+					item: { count: 1, id: "mekanismtools:osmium_boots" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -13.125d
+		}
+		{
+			dependencies: ["349B0155FF5E6D0C"]
+			icon: {
+				id: "technicresources:empty"
+			}
+			id: "02F75F0404FE625E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "07A121435B157C0A"
+				table_id: 7614359593176399220L
+				type: "loot"
+			}]
+			shape: "none"
+			size: 2.0d
+			tasks: [
+				{
+					id: "202C608BAEA29B64"
+					item: { count: 1, id: "naturesaura:depth_helmet" }
+					type: "item"
+				}
+				{
+					id: "04075AA5B016A4A6"
+					item: { count: 1, id: "naturesaura:depth_chest" }
+					type: "item"
+				}
+				{
+					id: "6CC2BC7121900620"
+					item: { count: 1, id: "naturesaura:depth_pants" }
+					type: "item"
+				}
+				{
+					id: "58D6CEA7592862CE"
+					item: { count: 1, id: "naturesaura:depth_shoes" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -11.25d
+		}
+		{
+			dependencies: ["02F75F0404FE625E"]
+			icon: {
+				id: "technicresources:empty"
+			}
+			id: "6EB8AB70FA896C89"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0CC97770BF2FE1D4"
+				table_id: 7614359593176399220L
+				type: "loot"
+			}]
+			shape: "none"
+			size: 2.0d
+			tasks: [
+				{
+					id: "084BF44FA7CD5A89"
+					item: { count: 1, id: "minecraft:netherite_helmet" }
+					type: "item"
+				}
+				{
+					id: "6F89B20EE6087C02"
+					item: { count: 1, id: "minecraft:netherite_chestplate" }
+					type: "item"
+				}
+				{
+					id: "6928E29DDE170E9D"
+					item: { count: 1, id: "minecraft:netherite_leggings" }
+					type: "item"
+				}
+				{
+					id: "08731D52A106AD43"
+					item: { count: 1, id: "minecraft:netherite_boots" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6EB8AB70FA896C89"]
+			icon: {
+				id: "technicresources:empty"
+			}
+			id: "0A3B1D35FBA35115"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "522B314E184E6CEB"
+				table_id: 7614359593176399220L
+				type: "loot"
+			}]
+			shape: "none"
+			size: 2.0d
+			tasks: [
+				{
+					id: "45989BC9DAF2F1F3"
+					item: { count: 1, id: "mekanismtools:refined_obsidian_helmet" }
+					type: "item"
+				}
+				{
+					id: "5710A02601097519"
+					item: { count: 1, id: "mekanismtools:refined_obsidian_chestplate" }
+					type: "item"
+				}
+				{
+					id: "15837E7274DD374D"
+					item: { count: 1, id: "mekanismtools:refined_obsidian_leggings" }
+					type: "item"
+				}
+				{
+					id: "1AE2EAD55FD80281"
+					item: { count: 1, id: "mekanismtools:refined_obsidian_boots" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -7.125d
+		}
+		{
+			dependencies: ["38EC954648CEBDDE"]
+			icon: {
+				id: "technicresources:empty"
+			}
+			id: "4998414486D8168C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "68B8B28D56DF160D"
+				table_id: 7614359593176399220L
+				type: "loot"
+			}]
+			shape: "none"
+			size: 2.0d
+			tasks: [
+				{
+					id: "0087FC12D769F715"
+					item: { count: 1, id: "mekanism:mekasuit_helmet" }
+					type: "item"
+				}
+				{
+					id: "270B1C0F635B0925"
+					item: { count: 1, id: "mekanism:mekasuit_bodyarmor" }
+					type: "item"
+				}
+				{
+					id: "2EB4E6C1C897C354"
+					item: { count: 1, id: "mekanism:mekasuit_pants" }
+					type: "item"
+				}
+				{
+					id: "1BA6DAC34ABB114E"
+					item: { count: 1, id: "mekanism:mekasuit_boots" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -12.0d
+		}
+		{
+			dependencies: [
+				"0A3B1D35FBA35115"
+				"38EC954648CEBDDE"
+			]
+			icon: {
+				id: "technicresources:empty"
+			}
+			id: "7F1D6901E2B3E857"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "50169D383885B906"
+				table_id: 7614359593176399220L
+				type: "loot"
+			}]
+			shape: "none"
+			size: 2.0d
+			tasks: [
+				{
+					id: "6D8EE8C36B102097"
+					item: { count: 1, id: "advanced_ae:quantum_helmet" }
+					type: "item"
+				}
+				{
+					id: "54C8B73DC32D2789"
+					item: { count: 1, id: "advanced_ae:quantum_chestplate" }
+					type: "item"
+				}
+				{
+					id: "4ABDF5B3E635F709"
+					item: { count: 1, id: "advanced_ae:quantum_leggings" }
+					type: "item"
+				}
+				{
+					id: "7EEF2B0DED8B5569"
+					item: { count: 1, id: "advanced_ae:quantum_boots" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0A3B1D35FBA35115"]
+			icon: {
+				id: "technicresources:empty"
+			}
+			id: "38EC954648CEBDDE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2EB7BB90530B7200"
+				table_id: 7614359593176399220L
+				type: "loot"
+			}]
+			shape: "none"
+			size: 2.0d
+			tasks: [
+				{
+					id: "09D7D4D29B5665F5"
+					item: { count: 1, id: "createqol:shadow_radiance_helmet" }
+					type: "item"
+				}
+				{
+					id: "3E6E066834A1F925"
+					item: { components: { "create:banktank_air": 900 }, count: 1, id: "createqol:shadow_radiance_chestplate" }
+					type: "item"
+				}
+				{
+					id: "39E165D85804826B"
+					item: { count: 1, id: "createqol:shadow_radiance_leggings" }
+					type: "item"
+				}
+				{
+					id: "34DD4C09B7CAC2B6"
+					item: { count: 1, id: "createqol:shadow_radiance_boots" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7EDC242648E0A316"]
+			icon: {
+				id: "technicresources:empty"
+			}
+			id: "62319FDBB2C22807"
+			shape: "none"
+			size: 2.0d
+			tasks: [
+				{
+					id: "4713624DEAD4DE92"
+					item: { count: 1, id: "pneumaticcraft:pneumatic_helmet" }
+					type: "item"
+				}
+				{
+					id: "0C8AC538E4DF3586"
+					item: { count: 1, id: "pneumaticcraft:pneumatic_chestplate" }
+					type: "item"
+				}
+				{
+					id: "720BCD7B5A9389FB"
+					item: { count: 1, id: "pneumaticcraft:pneumatic_leggings" }
+					type: "item"
+				}
+				{
+					id: "7CDBBB66D7003766"
+					item: { count: 1, id: "pneumaticcraft:pneumatic_boots" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -19.125d
+		}
+		{
+			dependencies: [
+				"4998414486D8168C"
+				"7F1D6901E2B3E857"
+			]
+			icon: {
+				id: "technicresources:empty"
+			}
+			id: "166E35D1C0573D6E"
+			shape: "none"
+			size: 2.0d
+			tasks: [
+				{
+					id: "667172DF52C0C8BD"
+					item: { count: 1, id: "avaritia:infinity_helmet" }
+					type: "item"
+				}
+				{
+					id: "6A31340CFA3979B4"
+					item: { count: 1, id: "avaritia:infinity_chestplate" }
+					type: "item"
+				}
+				{
+					id: "2BBFFF5008018B6C"
+					item: { count: 1, id: "avaritia:infinity_pants" }
+					type: "item"
+				}
+				{
+					id: "650C37265148942E"
+					item: { count: 1, id: "avaritia:infinity_boots" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -16.125d
+		}
+	]
 }
