@@ -37,7 +37,7 @@ ServerEvents.recipes(event => {
   itemApplication('ars_nouveau:stripped_red_archwood_wood', 'create:source_alloy', 'createcasing:source_casing')
   itemApplication('ars_nouveau:stripped_purple_archwood_wood', 'create:source_alloy', 'createcasing:source_casing')
   itemApplication('integrateddynamics:menril_wood_stripped', 'create:chorus_alloy', 'createcasing:chorus_casing')
-  
+
   itemApplication('create:copper_casing', 'create:iron_alloy', 'createcasing:iron_casing')
   itemApplication('createcasing:iron_casing', 'create:red_iron_alloy', 'createcasing:red_iron_casing')
   itemApplication('createcasing:iron_casing', 'create:zinc_alloy', 'createcasing:zinc_casing')
@@ -88,6 +88,11 @@ ServerEvents.recipes(event => {
   deploying('appmek:chemical_storage_cell_16k', ['appmek:chemical_cell_housing', 'ae2:cell_component_16k'], false, 1)
   deploying('appmek:chemical_storage_cell_64k', ['appmek:chemical_cell_housing', 'ae2:cell_component_64k'], false, 1)
   deploying('appmek:chemical_storage_cell_256k', ['appmek:chemical_cell_housing', 'ae2:cell_component_256k'], false, 1)
+  deploying('arseng:source_storage_cell_1k', ['arseng:source_cell_housing', 'ae2:cell_component_1k'], false, 1)
+  deploying('arseng:source_storage_cell_4k', ['arseng:source_cell_housing', 'ae2:cell_component_4k'], false, 1)
+  deploying('arseng:source_storage_cell_16k', ['arseng:source_cell_housing', 'ae2:cell_component_16k'], false, 1)
+  deploying('arseng:source_storage_cell_64k', ['arseng:source_cell_housing', 'ae2:cell_component_64k'], false, 1)
+  deploying('arseng:source_storage_cell_256k', ['arseng:source_cell_housing', 'ae2:cell_component_256k'], false, 1)
   deploying('megacells:item_storage_cell_1m', ['megacells:mega_item_cell_housing', 'megacells:cell_component_1m'], false, 1)
   deploying('megacells:item_storage_cell_4m', ['megacells:mega_item_cell_housing', 'megacells:cell_component_4m'], false, 1)
   deploying('megacells:item_storage_cell_16m', ['megacells:mega_item_cell_housing', 'megacells:cell_component_16m'], false, 1)
@@ -121,6 +126,11 @@ ServerEvents.recipes(event => {
   deploying('appmek:portable_chemical_cell_16k', ['appmek:portable_chemical_cell_housing', 'ae2:cell_component_16k'], false, 1)
   deploying('appmek:portable_chemical_cell_64k', ['appmek:portable_chemical_cell_housing', 'ae2:cell_component_64k'], false, 1)
   deploying('appmek:portable_chemical_cell_256k', ['appmek:portable_chemical_cell_housing', 'ae2:cell_component_256k'], false, 1)
+  deploying('arseng:portable_source_cell_1k', ['arseng:portable_source_cell_housing', 'ae2:cell_component_1k'], false, 1)
+  deploying('arseng:portable_source_cell_4k', ['arseng:portable_source_cell_housing', 'ae2:cell_component_4k'], false, 1)
+  deploying('arseng:portable_source_cell_16k', ['arseng:portable_source_cell_housing', 'ae2:cell_component_16k'], false, 1)
+  deploying('arseng:portable_source_cell_64k', ['arseng:portable_source_cell_housing', 'ae2:cell_component_64k'], false, 1)
+  deploying('arseng:portable_source_cell_256k', ['arseng:portable_source_cell_housing', 'ae2:cell_component_256k'], false, 1)
   deploying('megacells:portable_item_cell_1m', ['megacells:portable_item_cell_housing', 'megacells:cell_component_1m'], false, 1)
   deploying('megacells:portable_item_cell_4m', ['megacells:portable_item_cell_housing', 'megacells:cell_component_4m'], false, 1)
   deploying('megacells:portable_item_cell_16m', ['megacells:portable_item_cell_housing', 'megacells:cell_component_16m'], false, 1)
@@ -136,6 +146,11 @@ ServerEvents.recipes(event => {
   deploying('megacells:portable_chemical_cell_16m', ['megacells:portable_chemical_cell_housing', 'megacells:cell_component_16m'], false, 1)
   deploying('megacells:portable_chemical_cell_64m', ['megacells:portable_chemical_cell_housing', 'megacells:cell_component_64m'], false, 1)
   deploying('megacells:portable_chemical_cell_256m', ['megacells:portable_chemical_cell_housing', 'megacells:cell_component_256m'], false, 1)
+  deploying('megacells:portable_source_cell_1m', ['megacells:portable_source_cell_housing', 'megacells:cell_component_1m'], false, 1)
+  deploying('megacells:portable_source_cell_4m', ['megacells:portable_source_cell_housing', 'megacells:cell_component_4m'], false, 1)
+  deploying('megacells:portable_source_cell_16m', ['megacells:portable_source_cell_housing', 'megacells:cell_component_16m'], false, 1)
+  deploying('megacells:portable_source_cell_64m', ['megacells:portable_source_cell_housing', 'megacells:cell_component_64m'], false, 1)
+  deploying('megacells:portable_source_cell_256m', ['megacells:portable_source_cell_housing', 'megacells:cell_component_256m'], false, 1)
 
   function mixing(ingredients, result, count) {
     event.custom({

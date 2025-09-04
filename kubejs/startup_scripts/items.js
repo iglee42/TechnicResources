@@ -176,9 +176,11 @@ StartupEvents.registry('item', e => {
     registerOtherMod('ae2', 'portable_item_cell_housing', 'Portable Item Cell Housing')
     registerOtherMod('ae2', 'portable_fluid_cell_housing', 'Portable Fluid Cell Housing')
     registerOtherMod('appmek', 'portable_chemical_cell_housing', 'Portable Chemical Cell Housing')
+    registerOtherMod('arseng', 'portable_source_cell_housing', 'Portable Source Cell Housing')
     registerOtherMod('megacells', 'portable_item_cell_housing', 'Portable Item Cell Housing')
     registerOtherMod('megacells', 'portable_fluid_cell_housing', 'Portable Fluid Cell Housing')
     registerOtherMod('megacells', 'portable_chemical_cell_housing', 'Portable Chemical Cell Housing')
+    registerOtherMod('megacells', 'portable_source_cell_housing', 'Portable Source Cell Housing')
     
     /**************RFTools Infused**************/
     registerOtherMod('rftoolsbase', 'infused_emerald', 'Infused Emerald ')
