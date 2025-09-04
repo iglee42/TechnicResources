@@ -501,9 +501,11 @@ ServerEvents.recipes(event => {
         event.shapeless('ae2:portable_item_cell_housing', ['ae2:item_cell_housing', 'ae2:chest', 'ae2:energy_cell'])
         event.shapeless('ae2:portable_fluid_cell_housing', ['ae2:fluid_cell_housing', 'ae2:chest', 'ae2:energy_cell'])
         event.shapeless('appmek:portable_chemical_cell_housing', ['appmek:chemical_cell_housing', 'ae2:chest', 'ae2:energy_cell'])
+        event.shapeless('arseng:portable_source_cell_housing', ['arseng:source_cell_housing', 'ae2:chest', 'ae2:energy_cell'])
         event.shapeless('megacells:portable_item_cell_housing', ['megacells:mega_item_cell_housing', 'ae2:chest', 'ae2:dense_energy_cell'])
         event.shapeless('megacells:portable_fluid_cell_housing', ['megacells:mega_fluid_cell_housing', 'ae2:chest', 'ae2:dense_energy_cell'])
         event.shapeless('megacells:portable_chemical_cell_housing', ['megacells:mega_chemical_cell_housing', 'ae2:chest', 'ae2:dense_energy_cell'])
+        event.shapeless('megacells:portable_source_cell_housing', ['megacells:mega_source_cell_housing', 'ae2:chest', 'ae2:dense_energy_cell'])
         event.shapeless('megacells:portable_cell_workbench', ['ae2:item_cell_housing', 'ae2:cell_workbench', 'ae2:singularity'])
 
         //--------Other-----------//
