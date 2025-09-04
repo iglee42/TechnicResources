@@ -90,11 +90,6 @@ StartupEvents.registry('block', e => {
 
     registerOtherMod('create', 'red_iron_alloy_block', 'Block of Red Iron Alloy', 'stone', 2, 3, 'pickaxe', 'stone', true).tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/red_iron_alloy')
 
-    registerOtherMod('create', 'chromatic_compound_block', 'Block of Chromatic Compound', 'stone', 2, 3, 'pickaxe', 'stone', true).tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/chromatic_compound')
-    registerOtherMod('create', 'refined_radiance_block', 'Block of Refined Radiance', 'stone', 2, 3, 'pickaxe', 'stone', true).tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/refined_radiance')
-    registerOtherMod('create', 'shadow_steel_block', 'Block of Shadow Steel', 'stone', 2, 3, 'pickaxe', 'stone', true).tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/shadow_steel')
-
-
     /*******Actually Additions Crystals*******/
     registerOtherMod('actuallyadditions', 'zartiq_crystal_block', 'Zartiq Crystal Block', 'metal', 4, 6, 'pickaxe', 'stone', true).tagItem('actuallyadditions:crystal_blocks').tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/zartiq_crystal')
     registerOtherMod('actuallyadditions', 'empowered_zartiq_crystal_block', 'Empowered Zartiq Crystal Block', 'metal', 4, 6, 'pickaxe', 'stone', true).item(i => i.glow(true)).tagItem('actuallyadditions:empowered_crystal_blocks').tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/empowered_zartiq_crystal')

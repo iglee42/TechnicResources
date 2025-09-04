@@ -48,10 +48,6 @@ ServerEvents.recipes(event => {
         event.shapeless('9x create:uranium_alloy', ['create:uranium_alloy_block'])
         event.shaped(Item.of('create:netherite_alloy_block'), ['AAA', 'AAA', 'AAA'], { 'A': 'create:netherite_alloy' })
         event.shapeless('9x create:netherite_alloy', ['create:netherite_alloy_block'])
-        event.shaped(Item.of('create:shadow_steel_block'), ['AAA', 'AAA', 'AAA'], { 'A': 'create:shadow_steel' })
-        event.shapeless('9x create:shadow_steel', ['create:shadow_steel_block'])
-        event.shaped(Item.of('create:refined_radiance_block'), ['AAA', 'AAA', 'AAA'], { 'A': 'create:refined_radiance' })
-        event.shapeless('9x create:refined_radiance', ['create:refined_radiance_block'])
         event.shaped(Item.of('create:red_iron_alloy_block'), ['AAA', 'AAA', 'AAA'], { 'A': 'create:red_iron_alloy' })
         event.shapeless('9x create:red_iron_alloy', ['create:red_iron_alloy_block'])
 
