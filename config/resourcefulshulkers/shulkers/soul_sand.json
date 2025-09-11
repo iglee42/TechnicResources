@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:soul_sand",
+  "item": "minecraft:soul_sand",
+  "color": "brown",
+  "shellItemColor": "49372C",
+  "texture": "resourcefulshulkers:entity/mod_base/soul_sand.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/soul_sand.png",
+  "type": "resourcefulshulkers:nether"
+}

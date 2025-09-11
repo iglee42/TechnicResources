@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:mosium",
+  "item": "#actuallyadditions:crystals/mosium",
+  "color": "light_blue",
+  "shellItemColor": "ABBACA",
+  "texture": "resourcefulshulkers:entity/mod_base/mosium.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/mosium.png",
+  "type": "resourcefulshulkers:overworld"
+}

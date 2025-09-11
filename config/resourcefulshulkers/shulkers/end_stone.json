@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:end_stone",
+  "item": "minecraft:end_stone",
+  "color": "yellow",
+  "shellItemColor": "D5DA94",
+  "texture": "resourcefulshulkers:entity/mod_base/end_stone.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/end_stone.png",
+  "type": "resourcefulshulkers:end"
+}

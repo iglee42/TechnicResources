@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:lectruma",
+  "item": "#actuallyadditions:crystals/lectruma",
+  "color": "yellow",
+  "shellItemColor": "EBBA51",
+  "texture": "resourcefulshulkers:entity/mod_base/lectruma.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/lectruma.png",
+  "type": "resourcefulshulkers:overworld"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:hdpe",
+  "item": "#c:pellets/hdpe",
+  "color": "white",
+  "shellItemColor": "E7E9DB",
+  "texture": "resourcefulshulkers:entity/mod_base/hdpe.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/hdpe.png",
+  "type": "resourcefulshulkers:overworld"
+}

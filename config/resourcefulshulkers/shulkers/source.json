@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:source",
+  "item": "#c:gems/source",
+  "color": "pink",
+  "shellItemColor": "B36DE0",
+  "texture": "resourcefulshulkers:entity/mod_base/source.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/source.png",
+  "type": "resourcefulshulkers:overworld"
+}

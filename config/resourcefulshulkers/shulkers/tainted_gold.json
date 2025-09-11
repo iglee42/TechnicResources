@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:tainted_gold",
+  "item": "#c:ingots/tainted_gold",
+  "color": "orange",
+  "shellItemColor": "B96B26",
+  "texture": "resourcefulshulkers:entity/mod_base/tainted_gold.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/tainted_gold.png",
+  "type": "resourcefulshulkers:nether"
+}

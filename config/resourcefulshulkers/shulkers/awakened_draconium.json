@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:awakened_draconium",
+  "item": "#c:ingots/awakened_draconium",
+  "color": "orange",
+  "shellItemColor": "FF7200",
+  "texture": "resourcefulshulkers:entity/mod_base/awakened_draconium.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/awakened_draconium.png",
+  "type": "resourcefulshulkers:nether"
+}

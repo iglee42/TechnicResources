@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:glowstone",
+  "item": "#c:dusts/glowstone",
+  "color": "yellow",
+  "shellItemColor": "EBAA4E",
+  "texture": "resourcefulshulkers:entity/mod_base/glowstone.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/glowstone.png",
+  "type": "resourcefulshulkers:nether"
+}

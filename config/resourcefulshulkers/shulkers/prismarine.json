@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:prismarine",
+  "item": "#c:gems/prismarine",
+  "color": "light_blue",
+  "shellItemColor": "B4D8CA",
+  "texture": "resourcefulshulkers:entity/mod_base/prismarine.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/prismarine.png",
+  "type": "resourcefulshulkers:overworld"
+}

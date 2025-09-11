@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:mythase",
+  "item": "#actuallyadditions:crystals/mythase",
+  "color": "magenta",
+  "shellItemColor": "8D6ACC",
+  "texture": "resourcefulshulkers:entity/mod_base/mythase.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/mythase.png",
+  "type": "resourcefulshulkers:overworld"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:crystal_matrix",
+  "item": "#c:ingots/crystal_matrix",
+  "color": "light_blue",
+  "shellItemColor": "67BBB6",
+  "texture": "resourcefulshulkers:entity/mod_base/crystal_matrix.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/crystal_matrix.png",
+  "type": "resourcefulshulkers:nether"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:chorium",
+  "item": "#c:ingots/chorium",
+  "color": "purple",
+  "shellItemColor": "A47CA4",
+  "texture": "resourcefulshulkers:entity/mod_base/chorium.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/chorium.png",
+  "type": "resourcefulshulkers:end"
+}

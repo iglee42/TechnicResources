@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:diamatine",
+  "item": "#actuallyadditions:crystals/diamatine",
+  "color": "light_blue",
+  "shellItemColor": "55EFCA",
+  "texture": "resourcefulshulkers:entity/mod_base/diamatine.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/diamatine.png",
+  "type": "resourcefulshulkers:overworld"
+}

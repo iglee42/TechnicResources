@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:richoum",
+  "item": "#actuallyadditions:crystals/richoum",
+  "color": "pink",
+  "shellItemColor": "825782",
+  "texture": "resourcefulshulkers:entity/mod_base/richoum.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/richoum.png",
+  "type": "resourcefulshulkers:end"
+}

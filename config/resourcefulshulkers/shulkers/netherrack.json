@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:netherrack",
+  "item": "minecraft:netherrack",
+  "color": "red",
+  "shellItemColor": "501B1B",
+  "texture": "resourcefulshulkers:entity/mod_base/netherrack.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/netherrack.png",
+  "type": "resourcefulshulkers:nether"
+}

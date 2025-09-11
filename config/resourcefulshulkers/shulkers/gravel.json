@@ -1,6 +1,6 @@
 {
   "id": "resourcefulshulkers:gravel",
-  "item": "minecraft:gravel",
+  "item": "#c:gravels",
   "color": "light_gray",
   "shellItemColor": "817F7F",
   "texture": "resourcefulshulkers:entity/mod_base/gravel.png",

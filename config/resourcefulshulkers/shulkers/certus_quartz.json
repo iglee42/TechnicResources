@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:certus_quartz",
+  "item": "#c:gems/certus_quartz",
+  "color": "light_blue",
+  "shellItemColor": "9CD3FF",
+  "texture": "resourcefulshulkers:entity/mod_base/certus_quartz.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/certus_quartz.png",
+  "type": "resourcefulshulkers:overworld"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:inerthet",
+  "item": "#actuallyadditions:crystals/inerthet",
+  "color": "black",
+  "shellItemColor": "484548",
+  "texture": "resourcefulshulkers:entity/mod_base/inerthet.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/inerthet.png",
+  "type": "resourcefulshulkers:nether"
+}

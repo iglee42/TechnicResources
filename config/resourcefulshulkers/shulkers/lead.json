@@ -1,8 +1,8 @@
 {
   "id": "resourcefulshulkers:lead",
   "item": "#c:ingots/lead",
-  "color": "blue",
-  "shellItemColor": "484E6A",
+  "color": "gray",
+  "shellItemColor": "8CA7A3",
   "texture": "resourcefulshulkers:entity/mod_base/lead.png",
   "boxTexture": "resourcefulshulkers:entity/boxes/lead.png",
   "type": "resourcefulshulkers:overworld"

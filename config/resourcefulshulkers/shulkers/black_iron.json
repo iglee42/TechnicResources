@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:black_iron",
+  "item": "#c:ingots/black_iron",
+  "color": "black",
+  "shellItemColor": "585858",
+  "texture": "resourcefulshulkers:entity/mod_base/black_iron.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/black_iron.png",
+  "type": "resourcefulshulkers:overworld"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:crystalized_chorus",
+  "item": "#c:gems/crystalized_chorus",
+  "color": "magenta",
+  "shellItemColor": "9A6A9A",
+  "texture": "resourcefulshulkers:entity/mod_base/crystalized_chorus.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/crystalized_chorus.png",
+  "type": "resourcefulshulkers:end"
+}

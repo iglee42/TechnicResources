@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:red_sand",
+  "item": "minecraft:red_sand",
+  "color": "orange",
+  "shellItemColor": "AC5712",
+  "texture": "resourcefulshulkers:entity/mod_base/red_sand.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/red_sand.png",
+  "type": "resourcefulshulkers:overworld"
+}

@@ -5,5 +5,5 @@
   "shellItemColor": "FFFFFF",
   "texture": "resourcefulshulkers:entity/mod_base/dye.png",
   "boxTexture": "resourcefulshulkers:entity/boxes/dye.png",
-  "type": "resourcefulshulkers:sky"
+  "type": "resourcefulshulkers:overworld"
 }

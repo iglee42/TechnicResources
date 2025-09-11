@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:sky_stone",
+  "item": "#c:dusts/sky_stone",
+  "color": "gray",
+  "shellItemColor": "3A423A",
+  "texture": "resourcefulshulkers:entity/mod_base/sky_stone.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/sky_stone.png",
+  "type": "resourcefulshulkers:sky"
+}

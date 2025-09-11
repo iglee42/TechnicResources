@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:black_quartz",
+  "item": "#c:gems/black_quartz",
+  "color": "black",
+  "shellItemColor": "36414F",
+  "texture": "resourcefulshulkers:entity/mod_base/black_quartz.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/black_quartz.png",
+  "type": "resourcefulshulkers:overworld"
+}

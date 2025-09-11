@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:plutonium",
+  "item": "#c:pellets/plutonium",
+  "color": "light_blue",
+  "shellItemColor": "66BCC4",
+  "texture": "resourcefulshulkers:entity/mod_base/plutonium.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/plutonium.png",
+  "type": "resourcefulshulkers:overworld"
+}

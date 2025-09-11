@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:uranima",
+  "item": "#actuallyadditions:crystals/uranima",
+  "color": "green",
+  "shellItemColor": "82B681",
+  "texture": "resourcefulshulkers:entity/mod_base/uranima.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/uranima.png",
+  "type": "resourcefulshulkers:overworld"
+}

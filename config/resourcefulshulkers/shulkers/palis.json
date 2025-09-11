@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:palis",
+  "item": "#actuallyadditions:crystals/palis",
+  "color": "blue",
+  "shellItemColor": "2D5FCC",
+  "texture": "resourcefulshulkers:entity/mod_base/palis.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/palis.png",
+  "type": "resourcefulshulkers:overworld"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:plastic",
+  "item": "#pneumaticcraft:plastic_sheets",
+  "color": "light_gray",
+  "shellItemColor": "C1C1C1",
+  "texture": "resourcefulshulkers:entity/mod_base/plastic.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/plastic.png",
+  "type": "resourcefulshulkers:overworld"
+}

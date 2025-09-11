@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:neutron",
+  "item": "#c:ingots/neutron",
+  "color": "black",
+  "shellItemColor": "161616",
+  "texture": "resourcefulshulkers:entity/mod_base/neutron.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/neutron.png",
+  "type": "resourcefulshulkers:overworld"
+}

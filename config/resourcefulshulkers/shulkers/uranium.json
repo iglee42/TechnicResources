@@ -2,7 +2,7 @@
   "id": "resourcefulshulkers:uranium",
   "item": "#c:ingots/uranium",
   "color": "lime",
-  "shellItemColor": "9FC3A1",
+  "shellItemColor": "A4F5A2",
   "texture": "resourcefulshulkers:entity/mod_base/uranium.png",
   "boxTexture": "resourcefulshulkers:entity/boxes/uranium.png",
   "type": "resourcefulshulkers:overworld"

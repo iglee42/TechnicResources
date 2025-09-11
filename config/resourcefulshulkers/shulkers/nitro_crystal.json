@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:nitro_crystal",
+  "item": "#c:gems/nitro_crystal",
+  "color": "red",
+  "shellItemColor": "990000",
+  "texture": "resourcefulshulkers:entity/mod_base/nitro_crystal.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/nitro_crystal.png",
+  "type": "resourcefulshulkers:overworld"
+}

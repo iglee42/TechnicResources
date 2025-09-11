@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:dielectric",
+  "item": "powah:dielectric_paste",
+  "color": "black",
+  "shellItemColor": "151A1B",
+  "texture": "resourcefulshulkers:entity/mod_base/dielectric.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/dielectric.png",
+  "type": "resourcefulshulkers:overworld"
+}

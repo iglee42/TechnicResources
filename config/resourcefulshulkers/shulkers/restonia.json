@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:restonia",
+  "item": "#actuallyadditions:crystals/restonia",
+  "color": "red",
+  "shellItemColor": "BE1200",
+  "texture": "resourcefulshulkers:entity/mod_base/restonia.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/restonia.png",
+  "type": "resourcefulshulkers:overworld"
+}

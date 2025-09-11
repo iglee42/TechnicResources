@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:infinity",
+  "item": "#c:ingots/infinity",
+  "color": "white",
+  "shellItemColor": "FFFFEF",
+  "texture": "resourcefulshulkers:entity/mod_base/infinity.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/infinity.png",
+  "type": "resourcefulshulkers:sky"
+}

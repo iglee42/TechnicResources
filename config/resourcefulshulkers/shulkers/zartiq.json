@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:zartiq",
+  "item": "#actuallyadditions:crystals/zartiq",
+  "color": "light_gray",
+  "shellItemColor": "B3A091",
+  "texture": "resourcefulshulkers:entity/mod_base/zartiq.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/zartiq.png",
+  "type": "resourcefulshulkers:nether"
+}

@@ -2,7 +2,7 @@
   "id": "resourcefulshulkers:refined_glowstone",
   "item": "#c:ingots/refined_glowstone",
   "color": "yellow",
-  "shellItemColor": "EABE2B",
+  "shellItemColor": "FFEE9B",
   "texture": "resourcefulshulkers:entity/mod_base/refined_glowstone.png",
   "boxTexture": "resourcefulshulkers:entity/boxes/refined_glowstone.png",
   "type": "resourcefulshulkers:nether"

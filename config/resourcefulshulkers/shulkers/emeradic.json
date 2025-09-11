@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:emeradic",
+  "item": "#actuallyadditions:crystals/emeradic",
+  "color": "green",
+  "shellItemColor": "47CF43",
+  "texture": "resourcefulshulkers:entity/mod_base/emeradic.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/emeradic.png",
+  "type": "resourcefulshulkers:overworld"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:energized_steel",
+  "item": "#c:ingots/energized_steel",
+  "color": "brown",
+  "shellItemColor": "D0B28C",
+  "texture": "resourcefulshulkers:entity/mod_base/energized_steel.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/energized_steel.png",
+  "type": "resourcefulshulkers:overworld"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:enhanced_ender_ingot",
+  "item": "#c:ingots/enhanced_ender_ingot",
+  "color": "blue",
+  "shellItemColor": "117382",
+  "texture": "resourcefulshulkers:entity/mod_base/enhanced_ender_ingot.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/enhanced_ender_ingot.png",
+  "type": "resourcefulshulkers:end"
+}

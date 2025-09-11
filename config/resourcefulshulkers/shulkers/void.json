@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:void",
+  "item": "#actuallyadditions:crystals/void",
+  "color": "black",
+  "shellItemColor": "2E4049",
+  "texture": "resourcefulshulkers:entity/mod_base/void.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/void.png",
+  "type": "resourcefulshulkers:overworld"
+}

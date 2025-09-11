@@ -1,6 +1,6 @@
 {
   "id": "resourcefulshulkers:obsidian",
-  "item": "minecraft:obsidian",
+  "item": "#c:obsidians/normal",
   "color": "purple",
   "shellItemColor": "271E3D",
   "texture": "resourcefulshulkers:entity/mod_base/obsidian.png",

@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:lithium",
+  "item": "#c:dusts/lithium",
+  "color": "brown",
+  "shellItemColor": "AD9B90",
+  "texture": "resourcefulshulkers:entity/mod_base/lithium.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/lithium.png",
+  "type": "resourcefulshulkers:overworld"
+}

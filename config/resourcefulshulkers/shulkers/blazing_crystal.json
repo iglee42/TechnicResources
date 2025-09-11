@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:blazing_crystal",
+  "item": "#c:gems/blazing_crystal",
+  "color": "orange",
+  "shellItemColor": "F36323",
+  "texture": "resourcefulshulkers:entity/mod_base/blazing_crystal.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/blazing_crystal.png",
+  "type": "resourcefulshulkers:overworld"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:the_ultimate",
+  "item": "#c:ingots/the_ultimate",
+  "color": "white",
+  "shellItemColor": "F6F6F6",
+  "texture": "resourcefulshulkers:entity/mod_base/the_ultimate.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/the_ultimate.png",
+  "type": "resourcefulshulkers:sky"
+}

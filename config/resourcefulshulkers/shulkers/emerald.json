@@ -1,6 +1,6 @@
 {
   "id": "resourcefulshulkers:emerald",
-  "item": "minecraft:emerald",
+  "item": "#c:gems/emerald",
   "color": "lime",
   "shellItemColor": "17DD62",
   "texture": "resourcefulshulkers:entity/mod_base/emerald.png",

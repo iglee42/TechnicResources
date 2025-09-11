@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:surcea",
+  "item": "#actuallyadditions:crystals/surcea",
+  "color": "magenta",
+  "shellItemColor": "941F90",
+  "texture": "resourcefulshulkers:entity/mod_base/surcea.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/surcea.png",
+  "type": "resourcefulshulkers:overworld"
+}

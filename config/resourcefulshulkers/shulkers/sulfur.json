@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:sulfur",
+  "item": "#c:dusts/sulfur",
+  "color": "yellow",
+  "shellItemColor": "EBC956",
+  "texture": "resourcefulshulkers:entity/mod_base/sulfur.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/sulfur.png",
+  "type": "resourcefulshulkers:overworld"
+}

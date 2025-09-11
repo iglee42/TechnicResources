@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:crying_obsidian",
+  "item": "#c:obsidians/crying",
+  "color": "purple",
+  "shellItemColor": "6006AB",
+  "texture": "resourcefulshulkers:entity/mod_base/crying_obsidian.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/crying_obsidian.png",
+  "type": "resourcefulshulkers:nether"
+}

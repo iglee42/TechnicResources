@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:dimensional",
+  "item": "#rftoolsbase:shards",
+  "color": "light_blue",
+  "shellItemColor": "5AB3B1",
+  "texture": "resourcefulshulkers:entity/mod_base/dimensional.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/dimensional.png",
+  "type": "resourcefulshulkers:overworld"
+}

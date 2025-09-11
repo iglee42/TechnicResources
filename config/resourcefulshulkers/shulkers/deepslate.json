@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:deepslate",
+  "item": "minecraft:deepslate",
+  "color": "gray",
+  "shellItemColor": "515151",
+  "texture": "resourcefulshulkers:entity/mod_base/deepslate.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/deepslate.png",
+  "type": "resourcefulshulkers:overworld"
+}

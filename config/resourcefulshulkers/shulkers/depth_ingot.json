@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:depth_ingot",
+  "item": "#c:ingots/depth",
+  "color": "purple",
+  "shellItemColor": "735A7F",
+  "texture": "resourcefulshulkers:entity/mod_base/depth_ingot.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/depth_ingot.png",
+  "type": "resourcefulshulkers:nether"
+}

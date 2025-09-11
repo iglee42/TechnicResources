@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:enhanced_redstone_ingot",
+  "item": "#c:ingots/enhanced_redstone_ingot",
+  "color": "red",
+  "shellItemColor": "AA4701",
+  "texture": "resourcefulshulkers:entity/mod_base/enhanced_redstone_ingot.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/enhanced_redstone_ingot.png",
+  "type": "resourcefulshulkers:overworld"
+}

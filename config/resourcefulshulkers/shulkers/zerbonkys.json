@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:zerbonkys",
+  "item": "#actuallyadditions:crystals/zerbonkys",
+  "color": "brown",
+  "shellItemColor": "803B2B",
+  "texture": "resourcefulshulkers:entity/mod_base/zerbonkys.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/zerbonkys.png",
+  "type": "resourcefulshulkers:overworld"
+}

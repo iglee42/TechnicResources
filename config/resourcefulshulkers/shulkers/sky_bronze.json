@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:sky_bronze",
+  "item": "#c:ingots/sky_bronze",
+  "color": "brown",
+  "shellItemColor": "A67C49",
+  "texture": "resourcefulshulkers:entity/mod_base/sky_bronze.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/sky_bronze.png",
+  "type": "resourcefulshulkers:sky"
+}

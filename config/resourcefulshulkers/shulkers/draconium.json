@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:draconium",
+  "item": "#c:ingots/draconium",
+  "color": "purple",
+  "shellItemColor": "7C4AAE",
+  "texture": "resourcefulshulkers:entity/mod_base/draconium.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/draconium.png",
+  "type": "resourcefulshulkers:nether"
+}

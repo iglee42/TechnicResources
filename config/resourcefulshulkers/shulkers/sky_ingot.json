@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:sky_ingot",
+  "item": "#c:ingots/sky",
+  "color": "light_blue",
+  "shellItemColor": "7FD8FF",
+  "texture": "resourcefulshulkers:entity/mod_base/sky_ingot.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/sky_ingot.png",
+  "type": "resourcefulshulkers:sky"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:compressed_iron",
+  "item": "#c:ingots/compressed_iron",
+  "color": "gray",
+  "shellItemColor": "66625E",
+  "texture": "resourcefulshulkers:entity/mod_base/compressed_iron.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/compressed_iron.png",
+  "type": "resourcefulshulkers:overworld"
+}

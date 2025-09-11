@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:entro",
+  "item": "#c:gems/entro",
+  "color": "green",
+  "shellItemColor": "65E883",
+  "texture": "resourcefulshulkers:entity/mod_base/entro.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/entro.png",
+  "type": "resourcefulshulkers:overworld"
+}

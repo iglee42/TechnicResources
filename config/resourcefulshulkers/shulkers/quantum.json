@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:quantum",
+  "item": "#c:ingots/quantum_alloy",
+  "color": "purple",
+  "shellItemColor": "B66FFF",
+  "texture": "resourcefulshulkers:entity/mod_base/quantum.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/quantum.png",
+  "type": "resourcefulshulkers:overworld"
+}

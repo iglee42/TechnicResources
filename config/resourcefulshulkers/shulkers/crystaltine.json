@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:crystaltine",
+  "item": "#c:ingots/crystaltine",
+  "color": "light_blue",
+  "shellItemColor": "9CDFFC",
+  "texture": "resourcefulshulkers:entity/mod_base/crystaltine.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/crystaltine.png",
+  "type": "resourcefulshulkers:nether"
+}

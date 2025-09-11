@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:uraninite",
+  "item": "#c:gems/uraninite",
+  "color": "green",
+  "shellItemColor": "008551",
+  "texture": "resourcefulshulkers:entity/mod_base/uraninite.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/uraninite.png",
+  "type": "resourcefulshulkers:overworld"
+}

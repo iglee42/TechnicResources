@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:fluix",
+  "item": "#c:gems/fluix",
+  "color": "purple",
+  "shellItemColor": "915DCD",
+  "texture": "resourcefulshulkers:entity/mod_base/fluix.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/fluix.png",
+  "type": "resourcefulshulkers:overworld"
+}

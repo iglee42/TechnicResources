@@ -1,6 +1,6 @@
 {
   "id": "resourcefulshulkers:quartz",
-  "item": "minecraft:quartz",
+  "item": "#c:gems/quartz",
   "color": "white",
   "shellItemColor": "F2EFED",
   "texture": "resourcefulshulkers:entity/mod_base/quartz.png",

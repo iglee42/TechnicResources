@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:silicon",
+  "item": "#c:silicon",
+  "color": "black",
+  "shellItemColor": "444D57",
+  "texture": "resourcefulshulkers:entity/mod_base/silicon.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/silicon.png",
+  "type": "resourcefulshulkers:nether"
+}

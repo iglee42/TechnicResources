@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:zerbon",
+  "item": "#actuallyadditions:crystals/zerbon",
+  "color": "orange",
+  "shellItemColor": "BF805C",
+  "texture": "resourcefulshulkers:entity/mod_base/zerbon.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/zerbon.png",
+  "type": "resourcefulshulkers:overworld"
+}

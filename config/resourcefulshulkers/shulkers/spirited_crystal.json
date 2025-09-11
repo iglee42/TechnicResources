@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:spirited_crystal",
+  "item": "#c:gems/spirited_crystal",
+  "color": "green",
+  "shellItemColor": "00BF00",
+  "texture": "resourcefulshulkers:entity/mod_base/spirited_crystal.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/spirited_crystal.png",
+  "type": "resourcefulshulkers:overworld"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:honeycomb",
+  "item": "minecraft:honeycomb",
+  "color": "orange",
+  "shellItemColor": "FABF29",
+  "texture": "resourcefulshulkers:entity/mod_base/honeycomb.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/honeycomb.png",
+  "type": "resourcefulshulkers:overworld"
+}

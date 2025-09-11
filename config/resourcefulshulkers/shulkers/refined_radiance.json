@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:refined_radiance",
+  "item": "#c:ingots/refined_radiance",
+  "color": "white",
+  "shellItemColor": "FFFFFE",
+  "texture": "resourcefulshulkers:entity/mod_base/refined_radiance.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/refined_radiance.png",
+  "type": "resourcefulshulkers:sky"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:shadow_radiance",
+  "item": "#c:ingots/shadow_radiance",
+  "color": "black",
+  "shellItemColor": "2E2742",
+  "texture": "resourcefulshulkers:entity/mod_base/shadow_radiance.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/shadow_radiance.png",
+  "type": "resourcefulshulkers:sky"
+}

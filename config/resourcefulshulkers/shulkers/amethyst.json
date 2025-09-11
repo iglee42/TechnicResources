@@ -1,6 +1,6 @@
 {
   "id": "resourcefulshulkers:amethyst",
-  "item": "minecraft:amethyst_shard",
+  "item": "#c:gems/amethyst",
   "color": "magenta",
   "shellItemColor": "B38EF3",
   "texture": "resourcefulshulkers:entity/mod_base/amethyst.png",

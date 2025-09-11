@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:soap",
+  "item": "supplementaries:soap",
+  "color": "pink",
+  "shellItemColor": "F1A1D6",
+  "texture": "resourcefulshulkers:entity/mod_base/soap.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/soap.png",
+  "type": "resourcefulshulkers:overworld"
+}

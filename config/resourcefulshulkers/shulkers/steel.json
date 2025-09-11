@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:steel",
+  "item": "#c:ingots/steel",
+  "color": "gray",
+  "shellItemColor": "898888",
+  "texture": "resourcefulshulkers:entity/mod_base/steel.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/steel.png",
+  "type": "resourcefulshulkers:overworld"
+}

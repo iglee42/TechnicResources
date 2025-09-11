@@ -1,9 +1,9 @@
 {
   "id": "resourcefulshulkers:lapis",
-  "item": "minecraft:lapis_lazuli",
+  "item": "#c:gems/lapis",
   "color": "blue",
-  "shellItemColor": "1E4285",
+  "shellItemColor": "1C53A8",
   "texture": "resourcefulshulkers:entity/mod_base/lapis.png",
   "boxTexture": "resourcefulshulkers:entity/boxes/lapis.png",
-  "type": "resourcefulshulkers:sky"
+  "type": "resourcefulshulkers:overworld"
 }

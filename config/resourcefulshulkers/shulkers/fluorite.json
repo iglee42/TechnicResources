@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:fluorite",
+  "item": "#c:gems/fluorite",
+  "color": "white",
+  "shellItemColor": "EEFDF6",
+  "texture": "resourcefulshulkers:entity/mod_base/fluorite.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/fluorite.png",
+  "type": "resourcefulshulkers:overworld"
+}

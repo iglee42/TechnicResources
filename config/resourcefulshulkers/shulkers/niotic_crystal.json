@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:niotic_crystal",
+  "item": "#c:gems/niotic_crystal",
+  "color": "light_blue",
+  "shellItemColor": "00C6DF",
+  "texture": "resourcefulshulkers:entity/mod_base/niotic_crystal.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/niotic_crystal.png",
+  "type": "resourcefulshulkers:overworld"
+}

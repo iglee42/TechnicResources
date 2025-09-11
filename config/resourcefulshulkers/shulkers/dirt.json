@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:dirt",
+  "item": "minecraft:dirt",
+  "color": "brown",
+  "shellItemColor": "966C4A",
+  "texture": "resourcefulshulkers:entity/mod_base/dirt.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/dirt.png",
+  "type": "resourcefulshulkers:end"
+}

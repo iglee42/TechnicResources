@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:luminessence",
+  "item": "extendedcrafting:luminessence",
+  "color": "yellow",
+  "shellItemColor": "E7EB1D",
+  "texture": "resourcefulshulkers:entity/mod_base/luminessence.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/luminessence.png",
+  "type": "resourcefulshulkers:overworld"
+}

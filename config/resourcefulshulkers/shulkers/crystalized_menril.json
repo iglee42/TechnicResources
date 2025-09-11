@@ -1,0 +1,9 @@
+{
+  "id": "resourcefulshulkers:crystalized_menril",
+  "item": "#c:gems/crystalized_menril",
+  "color": "blue",
+  "shellItemColor": "28AECB",
+  "texture": "resourcefulshulkers:entity/mod_base/crystalized_menril.png",
+  "boxTexture": "resourcefulshulkers:entity/boxes/crystalized_menril.png",
+  "type": "resourcefulshulkers:overworld"
+}
