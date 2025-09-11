@@ -55,7 +55,7 @@ ServerEvents.tags('item', event => {
     event.add('c:storage_blocks', ['createcasing:chorium_block'])
     event.add('c:storage_blocks/chorium', ['createcasing:chorium_block'])
 
-    event.removeAllTagsFrom(['create:powdered_obsidian', 'createaddition:diamond_grit'])
+    event.removeAllTagsFrom(['create:powdered_obsidian', 'createaddition:diamond_grit', 'pneumaticcraft:copper_nugget', 'create:copper_nugget'])
     event.remove('c:gems/certus_quartz', 'ae2:charged_certus_quartz_crystal')
     event.add('c:gems/charged_certus_quartz', 'ae2:charged_certus_quartz_crystal')
 

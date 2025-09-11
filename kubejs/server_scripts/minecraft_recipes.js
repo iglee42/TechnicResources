@@ -507,5 +507,7 @@ ServerEvents.recipes(event => {
         //--------Other-----------//
         event.shaped('createcasing:chorium_block', ['AA', 'AA'], { 'A': 'createcasing:chorium_ingot' })
         event.shapeless('4x createcasing:chorium_ingot', ['createcasing:chorium_block'])
+        event.shapeless('minecraft:copper_ingot', ['9x minecraft:copper_nugget'])
+        event.shapeless('9x minecraft:copper_nugget', ['minecraft:copper_ingot'])
 
 })

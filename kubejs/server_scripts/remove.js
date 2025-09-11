@@ -260,6 +260,8 @@ ServerEvents.recipes(event => {
         'create:crafting/materials/andesite_alloy_from_zinc',
         'create:mixing/andesite_alloy_from_zinc',
         'create:mixing/andesite_alloy',
+        'create:crafting/materials/copper_ingot',
+        'pneumaticcraft:copper_ingot_from_nugget',
 
     ])
 

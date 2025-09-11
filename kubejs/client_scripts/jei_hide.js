@@ -46,6 +46,8 @@ RecipeViewerEvents.removeEntries("item", event => {
     /mekanism:ultimate_.*_factory/,
     'create:powdered_obsidian',
     'createaddition:diamond_grit',
+    'pneumaticcraft:copper_nugget',
+    'create:copper_nugget',
   ]
   event.remove(/createcasing:.+_encased_.+/)
   event.remove(hided);
