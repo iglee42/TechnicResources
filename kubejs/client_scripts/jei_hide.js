@@ -48,6 +48,7 @@ RecipeViewerEvents.removeEntries("item", event => {
     'createaddition:diamond_grit',
     'pneumaticcraft:copper_nugget',
     'create:copper_nugget',
+    'technicresources:empty',
   ]
   event.remove(/createcasing:.+_encased_.+/)
   event.remove(hided);
