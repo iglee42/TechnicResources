@@ -61,3 +61,5 @@ command_history.txt
 /fancymenu_data/
 /kubejs/external_scripts/
 config/Mekanism/client.toml
+dynamic-resource-pack-cache/supplementaries-generated_pack/
+dynamic-data-pack-cache/supplementaries-generated_pack/
