@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "rftoolsbase:block/infused_diamond_block_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "rftoolsbase:block/infused_diamond_block"
+    },
+    "axis=z": {
+      "model": "rftoolsbase:block/infused_diamond_block_horizontal",
+      "x": 90
+    }
+  }
+}

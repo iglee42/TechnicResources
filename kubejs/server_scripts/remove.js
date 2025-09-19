@@ -301,6 +301,7 @@ ServerEvents.recipes(event => {
         'rftoolsutility:redstone_receiver',
         'rftoolsutility:redstone_transmitter',
         'rftoolsutility:simple_dialer',
+        'rftoolsbase:dimensionalshard',
     ])
 
     event.remove({ type: 'integrateddynamics:squeezer' })

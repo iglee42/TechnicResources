@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "rftoolsbase:block/infused_redstone_block_top",
+    "side": "rftoolsbase:block/infused_redstone_block_side"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "rftoolsbase:block/infused_lapis_lazuli_block_top",
+    "side": "rftoolsbase:block/infused_lapis_lazuli_block_side"
+  }
+}

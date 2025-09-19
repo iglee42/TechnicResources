@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "rftoolsbase:block/infused_gold_block_top",
+    "side": "rftoolsbase:block/infused_gold_block_side"
+  }
+}

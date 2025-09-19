@@ -509,5 +509,7 @@ ServerEvents.recipes(event => {
         event.shapeless('4x createcasing:chorium_ingot', ['createcasing:chorium_block'])
         event.shapeless('minecraft:copper_ingot', ['9x minecraft:copper_nugget'])
         event.shapeless('9x minecraft:copper_nugget', ['minecraft:copper_ingot'])
+        event.shapeless('minecraft:ender_pearl_block', ['9x minecraft:ender_pearl'])
+        event.shapeless('9x minecraft:ender_pearl', ['minecraft:ender_pearl_block'])
 
 })

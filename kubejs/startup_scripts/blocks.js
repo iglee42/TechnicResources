@@ -42,12 +42,26 @@ StartupEvents.registry('block', e => {
     }
 
     /***********************************Other****************************************/
-    registerOtherMod('createaddition', 'electrum_block', 'Electrum Block', 'metal', 5, 6, 'pickaxe', 'iron', true)
+    registerOtherMod('createaddition', 'electrum_block', 'Block of Electrum', 'metal', 5, 6, 'pickaxe', 'iron', true)
     registerOtherMod('mekanism', 'block_plutonium', 'Block of Plutonium', 'metal', 8, 10, 'pickaxe', 'diamond', true).tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/plutonium')
     registerOtherMod('mekanism', 'block_polonium', 'Block of Polonium', 'metal', 8, 10, 'pickaxe', 'diamond', true).tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/polonium')
     registerOtherMod('mekanism', 'block_antimatter', 'Block of Antimatter', 'metal', 10, 12, 'pickaxe', 'diamond', true).tagBoth('c:storage_blocks').tagBoth('c:storage_blocks/antimatter')
-    registerOtherMod('createcasing', 'chorium_block', 'Chorium Block', 'deepslate', 5, 6, 'pickaxe', 'iron', true)
-    registerOtherMod('rftoolsbase', 'dimensionalshard_block', 'Dimensional Shard Block', 'deepslate', 2, 3, 'pickaxe', 'iron', true)
+    registerOtherMod('createcasing', 'chorium_block', 'Block of Chorium', 'deepslate', 5, 6, 'pickaxe', 'iron', true)
+    registerOtherMod('minecraft', 'ender_pearl_block', 'Block of Ender Pearl', 'amethyst', 5, 6, 'pickaxe', 'iron', true)
+
+    /******************************RFTools Infused***********************************/
+    registerOtherMod('rftoolsbase', 'dimensionalshard_block', 'Block of Dimensional Shard', 'deepslate', 2, 3, 'pickaxe', 'iron', true)
+    registerOtherMod('rftoolsbase', 'infused_diamond_block', 'Block of Infused Diamond', 'deepslate', 2, 3, 'pickaxe', 'iron', true)
+    registerOtherMod('rftoolsbase', 'infused_enderpearl_block', 'Block of Infused Ender Pearl', 'deepslate', 2, 3, 'pickaxe', 'iron', true)
+    registerOtherMod('rftoolsbase', 'infused_emerald_block', 'Block of Infused Emerald', 'deepslate', 2, 3, 'pickaxe', 'iron', true)
+    registerOtherMod('rftoolsbase', 'infused_quartz_block', 'Block of Infused Quartz', 'deepslate', 2, 3, 'pickaxe', 'iron', true)
+    registerOtherMod('rftoolsbase', 'infused_redstone_block', 'Block of Infused Redstone', 'deepslate', 2, 3, 'pickaxe', 'iron', true)
+    registerOtherMod('rftoolsbase', 'infused_lapis_lazuli_block', 'Block of Infused Lapis Lazuli', 'deepslate', 2, 3, 'pickaxe', 'iron', true)
+    registerOtherMod('rftoolsbase', 'infused_iron_block', 'Block of Infused Iron', 'deepslate', 2, 3, 'pickaxe', 'iron', true)
+    registerOtherMod('rftoolsbase', 'infused_gold_block', 'Block of Infused Gold', 'deepslate', 2, 3, 'pickaxe', 'iron', true)
+    registerOtherMod('rftoolsbase', 'infused_copper_block', 'Block of Infused Copper', 'deepslate', 2, 3, 'pickaxe', 'iron', true)
+    registerOtherMod('rftoolsbase', 'infused_netherite_block', 'Block of Infused Netherite', 'deepslate', 2, 3, 'pickaxe', 'iron', true)
+    registerOtherMod('rftoolsbase', 'infused_amethyst_block', 'Block of Infused Amethyst', 'deepslate', 2, 3, 'pickaxe', 'iron', true)
 
     /***************************Custom Machine Casings*******************************/
     registerOtherMod('hostilenetworks', 'hostile_machine_casing', 'Hostile Machine Casing', 'metal', 5, 6, 'pickaxe', 'iron', true)
