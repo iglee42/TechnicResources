@@ -975,6 +975,115 @@ ServerEvents.recipes(event => {
         'K': 'ae2:controller'
     })
 
+    //RFTools Machines
+    //Source Table
+    rftoolsSource('rftoolsbase:machine_infuser', ['rftoolsbase:dimensionalshard_block', 'naturesaura:infused_stone'])
+    rftoolsSource('rftoolsbuilder:space_chamber', ['minecraft:light_blue_concrete', 'pneumaticcraft:pressure_chamber_glass'])
+    rftoolsSource('rftoolsbuilder:space_chamber_controller', ['rftoolsbuilder:space_chamber', 'pneumaticcraft:programmable_controller'])
+    rftoolsSource('rftoolsbuilder:builder', ['buildinggadgets2:gadget_building', 'minecraft:bricks'])
+    rftoolsSource('rftoolsbuilder:shield_block1', ['mekanismtools:lapis_lazuli_shield', 'minecraft:obsidian'])
+    rftoolsSource('rftoolsbuilder:shield_block2', ['mekanismtools:lapis_lazuli_shield', 'rftoolsbuilder:shield_block1'])
+    rftoolsSource('rftoolsbuilder:shield_block3', ['mekanismtools:lapis_lazuli_shield', 'rftoolsbuilder:shield_block2'])
+    rftoolsSource('rftoolsbuilder:shield_block4', ['mekanismtools:lapis_lazuli_shield', 'rftoolsbuilder:shield_block3'])
+    rftoolsSource('rftoolsbuilder:mover_control', ['minecraft:minecart', 'minecraft:redstone'])
+    rftoolsSource('rftoolsbuilder:mover_controller', ['minecraft:minecart', 'minecraft:repeater'])
+    rftoolsSource('rftoolsbuilder:mover_status', ['minecraft:minecart', 'minecraft:comparator'])
+    rftoolsSource('rftoolsstorage:crafting_manager', ['createqol:stock_manager', 'actuallyadditions:crafter_on_a_stick'])
+    rftoolsSource('rftoolsstorage:modular_storage', ['minecraft:barrel', 'create:stock_ticker'])
+    rftoolsSource('rftoolsstorage:storage_scanner', ['integrateddynamics:part_display_panel', 'create:stock_ticker'])
+    rftoolsSource('rftoolsutility:crafter1', ['minecraft:crafter', 'actuallyadditions:crafter_on_a_stick'])
+    rftoolsSource('rftoolsutility:crafter2', ['minecraft:crafter', 'rftoolsutility:crafter1'])
+    rftoolsSource('rftoolsutility:crafter3', ['minecraft:crafter', 'rftoolsutility:crafter2'])
+    rftoolsSource('rftoolsutility:screen_controller', ['create:rotation_speed_controller', 'rftoolsbase:information_screen'])
+    rftoolsSource('rftoolsutility:environmental_controller', ['naturesaura:eye_improved', 'pneumaticcraft:programmable_controller'])
+    rftoolsSource('rftoolsutility:matter_beamer', ['minecraft:glowstone', 'minecraft:beacon'])
+    rftoolsSource('rftoolsutility:spawner', ['pneumaticcraft:pressurized_spawner', 'mob_grinding_utils:entity_spawner'])
+    rftoolsSource('rftoolsutility:tank', ['minecraft:bucket', 'ae2:sky_stone_tank'])
+    rftoolsSource('rftoolsutility:matter_transmitter', ['naturesaura:infused_iron_block', 'minecraft:ender_pearl'])
+    rftoolsSource('rftoolsutility:matter_receiver', ['minecraft:ender_pearl', 'naturesaura:infused_iron_block'])
+    rftoolsSource('rftoolsutility:dialing_device', ['minecraft:redstone_torch', 'minecraft:respawn_anchor'])
+    rftoolsSource('rftoolsutility:destination_analyzer', ['minecraft:ender_pearl', 'minecraft:recovery_compass'])
+    rftoolsSource('rftoolsutility:matter_booster', ['supplementaries:sugar_cube', 'minecraft:redstone_block'])
+    customTables('rftoolsbase:infused_machine_casing', 'source', [
+        'ABCCBA',
+        'DEFFED',
+        'CFGHFC',
+        'CFHGFC',
+        'DEFFED',
+        'ABCCBA'
+    ], {
+        'A': 'modularrouters:modular_router',
+        'B': 'rftoolsbase:infused_iron_ingot',
+        'C': 'modularrouters:augment_core',
+        'D': 'rftoolsbase:infused_emerald',
+        'E': 'integrateddynamics:logic_director',
+        'F': 'technicresources:compressed_iron_plate',
+        'G': 'minecraft:blue_concrete',
+        'H': 'minecraft:gold_block'
+    })
+    function rftoolsSource(output, inputs) {
+        customTables(output, 'source', [
+            'ABCCBA',
+            'DEFFED',
+            'CFGHFC',
+            'CFHGFC',
+            'DEFFED',
+            'ABCCBA'
+        ], {
+            'A': 'rftoolsbase:infused_machine_casing',
+            'B': 'rftoolsbase:infused_iron_ingot',
+            'C': 'modularrouters:augment_core',
+            'D': 'rftoolsbase:infused_emerald',
+            'E': 'integrateddynamics:logic_director',
+            'F': 'technicresources:compressed_iron_plate',
+            'G': inputs[0],
+            'H': inputs[1]
+        })
+    }
+    //Brass Table
+    rftoolsBrass('rftoolsutility:analog', ['minecraft:comparator', 'create:analog_lever'])
+    rftoolsBrass('rftoolsutility:counter', ['minecraft:gold_nugget', 'minecraft:clock'])
+    rftoolsBrass('rftoolsutility:digit', ['minecraft:redstone', 'create:framed_glass_pane'])
+    rftoolsBrass('rftoolsutility:invchecker', ['minecraft:chest', 'minecraft:comparator'])
+    rftoolsBrass('rftoolsutility:sensor', ['minecraft:quartz', 'minecraft:comparator'])
+    rftoolsBrass('rftoolsutility:sequencer', ['minecraft:redstone', 'minecraft:redstone_torch'])
+    rftoolsBrass('rftoolsutility:logic', ['minecraft:redstone', 'minecraft:comparator'])
+    rftoolsBrass('rftoolsutility:timer', ['minecraft:redstone_torch', 'minecraft:clock'])
+    rftoolsBrass('rftoolsutility:wire', ['minecraft:redstone', 'technicresources:redstone_wire'])
+    rftoolsBrass('rftoolsutility:redstone_receiver', ['minecraft:comparator', 'minecraft:ender_pearl'])
+    rftoolsBrass('rftoolsutility:redstone_transmitter', ['minecraft:ender_pearl', 'minecraft:comparator'])
+    rftoolsBrass('rftoolsutility:simple_dialer', ['minecraft:redstone_torch', 'minecraft:redstone_block'])
+    customTables('rftoolsbase:infused_machine_base', 'brass', [
+        'ABBBA',
+        'BCDCB',
+        'BEFEB',
+        'BCDCB',
+        'ABBBA'
+    ], {
+        'A': 'modularrouters:augment_core',
+        'B': 'technicresources:compressed_iron_plate',
+        'C': 'integrateddynamics:logic_director',
+        'D': 'minecraft:gold_block',
+        'E': 'minecraft:blue_concrete',
+        'F': 'pneumaticcraft:charging_station'
+    })
+    function rftoolsBrass(output, inputs) {
+        customTables(output, 'brass', [
+            'ABBBA',
+            'BCDCB',
+            'BEFEB',
+            'BCDCB',
+            'ABBBA'
+        ], {
+            'A': 'modularrouters:augment_core',
+            'B': 'technicresources:compressed_iron_plate',
+            'C': 'integrateddynamics:logic_director',
+            'D': inputs[0],
+            'E': inputs[1],
+            'F': 'rftoolsbase:infused_machine_base'
+        })
+    }
+
     // The Ultimate Crafts
     theUltimate('gear')
     theUltimate('plate')
@@ -1038,7 +1147,7 @@ ServerEvents.recipes(event => {
                 for (const charIndex in chars) {
                     if (Object.prototype.hasOwnProperty.call(chars, charIndex)) {
                         let char = chars[charIndex];
-                        if (char == ' ') continue; 
+                        if (char == ' ') continue;
                         let slot = parseInt(patternIndex) * pattern.length + parseInt(charIndex);
                         requirements.push({
                             "type": "custommachinery:item",

@@ -68,6 +68,7 @@ RecipeViewerEvents.addEntries('item', event => {
     Item.of('ae2:facade[ae2:facade_item="minecraft:stone"]'),
     Item.of('mekanism:creative_fluid_tank'),
     Item.of('mekanism:creative_chemical_tank'),
+    Item.of('rftoolsbuilder:mover_controller'),
   ]);
 
 });
