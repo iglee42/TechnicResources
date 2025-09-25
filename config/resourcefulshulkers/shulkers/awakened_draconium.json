@@ -1,6 +1,6 @@
 {
   "id": "resourcefulshulkers:awakened_draconium",
-  "item": "#c:ingots/awakened_draconium",
+  "item": "#c:ingots/draconium_awakened",
   "color": "orange",
   "shellItemColor": "FF7200",
   "texture": "resourcefulshulkers:entity/mod_base/awakened_draconium.png",

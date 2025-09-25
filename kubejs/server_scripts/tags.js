@@ -5,8 +5,9 @@ ServerEvents.tags('block', event => {
     event.add('c:bedrock', ['minecraft:bedrock', 'technicresources:glowrock'])
     event.remove('minecraft:mineable/axe', ['minecraft:crafting_table'])
     event.add('c:storage_blocks', ['actuallyadditions:enori_crystal_block', 'actuallyadditions:emeradic_crystal_block', 'actuallyadditions:void_crystal_block', 'actuallyadditions:diamatine_crystal_block', 'actuallyadditions:palis_crystal_block', 'actuallyadditions:restonia_crystal_block', 'actuallyadditions:empowered_enori_crystal_block', 'actuallyadditions:empowered_emeradic_crystal_block', 'actuallyadditions:empowered_void_crystal_block', 'actuallyadditions:empowered_diamatine_crystal_block', 'actuallyadditions:empowered_palis_crystal_block', 'actuallyadditions:empowered_restonia_crystal_block'])
-    event.add('c:storage_blocks', ['naturesaura:infused_iron_block', 'naturesaura:sky_ingot_block', 'naturesaura:depth_ingot_block'])
+    event.add('c:storage_blocks', ['naturesaura:infused_iron_block', 'naturesaura:tainted_gold_block', 'naturesaura:sky_ingot_block', 'naturesaura:depth_ingot_block'])
     event.add('c:storage_blocks/infused_iron', ['naturesaura:infused_iron_block'])
+    event.add('c:storage_blocks/tainted_gold', ['naturesaura:tainted_gold_block'])
     event.add('c:storage_blocks/sky', ['naturesaura:sky_ingot_block'])
     event.add('c:storage_blocks/depth', ['naturesaura:depth_ingot_block'])
     event.add('c:storage_blocks', ['powah:energized_steel_block', 'powah:blazing_crystal_block', 'powah:niotic_crystal_block', 'powah:spirited_crystal_block', 'powah:nitro_crystal_block'])
@@ -15,6 +16,9 @@ ServerEvents.tags('block', event => {
     event.add('c:storage_blocks/niotic_crystal', ['powah:niotic_crystal_block'])
     event.add('c:storage_blocks/spirited_crystal', ['powah:spirited_crystal_block'])
     event.add('c:storage_blocks/nitro_crystal', ['powah:nitro_crystal_block'])
+    event.add('c:storage_blocks', ['avaritia:infinity', 'avaritia:neutron', 'avaritia:crystal_matrix'])
+    event.add('c:storage_blocks/infinity', ['avaritia:infinity'])
+    event.add('c:storage_blocks/crystal_matrix', ['avaritia:crystal_matrix'])
 })
 
 ServerEvents.tags('item', event => {
@@ -59,12 +63,14 @@ ServerEvents.tags('item', event => {
     event.remove('c:gems/certus_quartz', 'ae2:charged_certus_quartz_crystal')
     event.add('c:gems/charged_certus_quartz', 'ae2:charged_certus_quartz_crystal')
 
-    event.add('c:storage_blocks', ['naturesaura:infused_iron_block', 'naturesaura:sky_ingot_block', 'naturesaura:depth_ingot_block'])
+    event.add('c:storage_blocks', ['naturesaura:infused_iron_block', 'naturesaura:tainted_gold_block', 'naturesaura:sky_ingot_block', 'naturesaura:depth_ingot_block'])
     event.add('c:storage_blocks/infused_iron', ['naturesaura:infused_iron_block'])
+    event.add('c:storage_blocks/tainted_gold', ['naturesaura:tainted_gold_block'])
     event.add('c:storage_blocks/sky', ['naturesaura:sky_ingot_block'])
     event.add('c:storage_blocks/depth', ['naturesaura:depth_ingot_block'])
-    event.add('c:ingots', ['naturesaura:infused_iron', 'naturesaura:sky_ingot', 'naturesaura:depth_ingot'])
+    event.add('c:ingots', ['naturesaura:infused_iron', 'naturesaura:tainted_gold', 'naturesaura:sky_ingot', 'naturesaura:depth_ingot'])
     event.add('c:ingots/infused_iron', ['naturesaura:infused_iron'])
+    event.add('c:ingots/tainted_gold', ['naturesaura:tainted_gold'])
     event.add('c:ingots/sky', ['naturesaura:sky_ingot'])
     event.add('c:ingots/depth', ['naturesaura:depth_ingot'])
 
@@ -91,4 +97,12 @@ ServerEvents.tags('item', event => {
 
     event.add('c:pellets', ['mekanism:hdpe_pellet', 'mekanism:pellet_polonium', 'mekanism:pellet_plutonium', 'mekanism:pellet_antimatter'])
     event.add('c:pellets/hdpe', ['mekanism:hdpe_pellet'])
+    
+    event.add('c:storage_blocks', ['avaritia:infinity', 'avaritia:neutron', 'avaritia:crystal_matrix'])
+    event.add('c:storage_blocks/infinity', ['avaritia:infinity'])
+    event.add('c:storage_blocks/crystal_matrix', ['avaritia:crystal_matrix'])
+    
+    event.add('c:ingots', ['avaritia:infinity_ingot', 'avaritia:crystal_matrix_ingot'])
+    event.add('c:ingots/infinity', ['avaritia:infinity_ingot'])
+    event.add('c:ingots/crystal_matrix', ['avaritia:crystal_matrix_ingot'])
 })
