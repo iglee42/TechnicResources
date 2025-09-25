@@ -1,0 +1,9 @@
+["ResourcefulShulker Client Config"]
+	# The x position of the aura bar, it is based on the right of the screen , so it's screenWidth - auraBarX
+	# Default: 24
+	# Range: > 0
+	aura_bar_x = 24
+	# The y position of the aura bar
+	# Default: 0
+	# Range: > 0
+	aura_bar_y = 0

@@ -28,3 +28,7 @@
 	# Default: 0.5
 	# Range: 0.0 ~ 1.7976931348623157E308
 	shell_upgrade_modifier = 0.5
+	# Define if a shulker head is placed on a purpur target, it should be consumed to drop 2 base essences
+	head_target_essence = true
+	# Define if the absorber can be used to create shulker shells by placing resource shulkers on it
+	absorber_works_as_target = true

@@ -2,13 +2,13 @@ type = user_variables
 
 variable {
   name = wait_int
-  value = 2
+  value = 0
   reset_on_launch = false
 }
 
 variable {
   name = wait_points
-  value = ..
+  value = ...
   reset_on_launch = false
 }
 

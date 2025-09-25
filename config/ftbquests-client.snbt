@@ -5,11 +5,11 @@
 		
 		# Default: "toast"
 		# Valid values: "toast", "chat", "action_bar", "none"
-		completion_style: "toast"
+		completion_style: "action_bar"
 		
 		# Default: "toast"
 		# Valid values: "toast", "chat", "action_bar", "none"
-		reward_style: "toast"
+		reward_style: "action_bar"
 	}
 	pinned: {
 		# Default: "chapter"
@@ -43,7 +43,7 @@
 		old_scroll_wheel: false
 		
 		# Default: true
-		show_lock_icon: true
+		show_lock_icon: false
 	}
 	xlate: {
 		# Default: ""
