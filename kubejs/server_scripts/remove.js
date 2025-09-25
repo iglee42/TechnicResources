@@ -1,7 +1,7 @@
 //priority: -10
 
-ServerEvents.recipes(event => {
-    event.remove([
+ServerEvents.recipes(e => {
+    e.remove([
         'hammerlib:gears/stone',
         'hammerlib:gears/wooden',
         'hammerlib:gears/copper',
@@ -304,6 +304,6 @@ ServerEvents.recipes(event => {
         'rftoolsbase:dimensionalshard',
     ])
 
-    event.remove({ type: 'integrateddynamics:squeezer' })
-    event.remove({ type: 'integrateddynamics:mechanical_squeezer' })
+    e.remove({ type: 'integrateddynamics:squeezer' })
+    e.remove({ type: 'integrateddynamics:mechanical_squeezer' })
 })

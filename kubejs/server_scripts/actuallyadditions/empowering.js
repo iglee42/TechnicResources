@@ -1,31 +1,7 @@
 ServerEvents.recipes(e => {
-    function laser(input, output, energy) {
-        e.custom({ "type": "actuallyadditions:laser", "energy": energy, "ingredient": { "item": input }, "result": { "id": output } })
-    }
     function empowering(base, inputs, output, count, energy, time, color) {
         e.custom({ "type": "actuallyadditions:empowering", "base": { "item": base }, "color": color, "energy": energy, "modifiers": [{ "item": inputs[0] }, { "item": inputs[1] }, { "item": inputs[2] }, { "item": inputs[3] }], "result": { "count": count, "id": output }, "time": time })
     }
-    laser('minecraft:quartz', 'actuallyadditions:zartiq_crystal', 60)
-    laser('minecraft:smooth_quartz', 'actuallyadditions:zartiq_crystal_block', 600)
-    laser('minecraft:netherite_ingot', 'actuallyadditions:inerthet_crystal', 60)
-    laser('minecraft:netherite_block', 'actuallyadditions:inerthet_crystal_block', 600)
-    laser('megacells:sky_bronze_ingot', 'actuallyadditions:zerbonkys_crystal', 60)
-    laser('megacells:sky_bronze_block', 'actuallyadditions:zerbonkys_crystal_block', 600)
-    laser('mekanism:ingot_bronze', 'actuallyadditions:zerbon_crystal', 60)
-    laser('mekanism:block_bronze', 'actuallyadditions:zerbon_crystal_block', 600)
-    laser('createaddition:electrum_ingot', 'actuallyadditions:lectruma_crystal', 60)
-    laser('createaddition:electrum_block', 'actuallyadditions:lectruma_crystal_block', 600)
-    laser('mekanism:ingot_uranium', 'actuallyadditions:uranima_crystal', 60)
-    laser('mekanism:block_uranium', 'actuallyadditions:uranima_crystal_block', 600)
-    laser('mekanism:ingot_osmium', 'actuallyadditions:mosium_crystal', 60)
-    laser('mekanism:block_osmium', 'actuallyadditions:mosium_crystal_block', 600)
-    laser('createcasing:chorium_ingot', 'actuallyadditions:richoum_crystal', 60)
-    laser('createcasing:chorium_block', 'actuallyadditions:richoum_crystal_block', 600)
-    laser('minecraft:amethyst_shard', 'actuallyadditions:mythase_crystal', 60)
-    laser('minecraft:amethyst_block', 'actuallyadditions:mythase_crystal_block', 600)
-    laser('ars_nouveau:source_gem', 'actuallyadditions:surcea_crystal', 60)
-    laser('ars_nouveau:source_gem_block', 'actuallyadditions:surcea_crystal_block', 600)
-
     empowering('actuallyadditions:restonia_crystal', ['minecraft:red_nether_bricks', 'minecraft:red_mushroom_block', 'minecraft:bricks', 'minecraft:red_glazed_terracotta'], 'actuallyadditions:empowered_restonia_crystal', 1, 5000, 50, 6522834)
     empowering('actuallyadditions:palis_crystal', ['minecraft:sea_lantern', 'actuallyadditions:water_bowl', 'create_enchantment_industry:experience_cake_slice', 'minecraft:blue_glazed_terracotta'], 'actuallyadditions:empowered_palis_crystal', 1, 5000, 50, 6522834)
     empowering('actuallyadditions:diamatine_crystal', ['minecraft:clay', 'minecraft:packed_ice', 'chipped:large_diamond_leaded_glass_pane', 'minecraft:light_blue_glazed_terracotta'], 'actuallyadditions:empowered_diamatine_crystal', 1, 5000, 50, 6522834)

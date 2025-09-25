@@ -1,0 +1,22 @@
+
+ServerEvents.recipes(e => {
+    //-----------Chapter 1----------------//
+    e.shaped('technicresources:breakable_bedrock', ['WWW', 'WWW', 'WWW'], { 'W': 'technicresources:small_bedrock' })
+    e.shaped('technicresources:compressed_breakable_bedrock', ['WWW', 'WWW', 'WWW'], { 'W': 'technicresources:breakable_bedrock' })
+    e.shaped('technicresources:room_upgrader_2', ['WWW', 'WIW', 'WWW'], { 'W': 'technicresources:compressed_breakable_bedrock', 'I': 'minecraft:redstone_block' })
+    e.shaped('minecraft:oak_sapling', ['WWW', 'WWW', 'WWW'], { 'W': 'technicresources:oak_sprout' })
+    e.shaped('minecraft:spruce_sapling', ['WWW', 'WWW', 'WWW'], { 'W': 'technicresources:spruce_sprout' })
+    e.shaped('minecraft:dark_oak_sapling', ['WWW', 'WWW', 'WWW'], { 'W': 'technicresources:dark_oak_sprout' })
+    e.shaped('minecraft:birch_sapling', ['WWW', 'WWW', 'WWW'], { 'W': 'technicresources:birch_sprout' })
+    e.shaped('minecraft:jungle_sapling', ['WWW', 'WWW', 'WWW'], { 'W': 'technicresources:jungle_sprout' })
+    e.shaped('minecraft:acacia_sapling', ['WWW', 'WWW', 'WWW'], { 'W': 'technicresources:acacia_sprout' })
+    e.shaped('minecraft:cherry_sapling', ['WWW', 'WWW', 'WWW'], { 'W': 'technicresources:cherry_sprout' })
+    e.shaped('minecraft:mangrove_propagule', ['WWW', 'WWW', 'WWW'], { 'W': 'technicresources:mangrove_sprout' })
+    e.shaped('ars_nouveau:green_archwood_sapling', ['WWW', 'WWW', 'WWW'], { 'W': 'technicresources:green_archwood_sprout' })
+    e.shaped('ars_nouveau:red_archwood_sapling', ['WWW', 'WWW', 'WWW'], { 'W': 'technicresources:red_archwood_sprout' })
+    e.shaped('ars_nouveau:purple_archwood_sapling', ['WWW', 'WWW', 'WWW'], { 'W': 'technicresources:purple_archwood_sprout' })
+    e.shaped('ars_nouveau:blue_archwood_sapling', ['WWW', 'WWW', 'WWW'], { 'W': 'technicresources:blue_archwood_sprout' })
+    e.shaped('integrateddynamics:menril_sapling', ['WWW', 'WWW', 'WWW'], { 'W': 'technicresources:menril_sprout' })
+    e.shaped('naturesaura:ancient_sapling', ['WWW', 'WWW', 'WWW'], { 'W': 'technicresources:ancient_sprout' })
+    e.shaped('iska_utils:rubber_sapling', ['WWW', 'WWW', 'WWW'], { 'W': 'technicresources:rubber_sprout' })
+})
