@@ -21,9 +21,11 @@ StartupEvents.registry('block', e => {
     registerUnbreakable('glowrock', 'Glowrock', 'glass').lightLevel(1)
 
     /**************Chapter 1**************/
-
     register('breakable_bedrock', 'Breakable Bedrock', 'stone', 8, 256, 'pickaxe', 'stone', true)
     register('compressed_breakable_bedrock', 'Compressed Breakable Bedrock', 'stone', 9, 210000, 'pickaxe', 'stone', true)
+    
+    /**************Chapter 2**************/
+    registerOtherMod('minecraft', 'dust', 'Dust', 'sand', 0.5, 0.5, 'shovel', 'gold', true)
 
 
     /************************************Function************************************/
@@ -38,6 +40,13 @@ StartupEvents.registry('block', e => {
             return e.create(mod + ':' + unlocname).mapColor(type).soundType(type).hardness(hardness).resistance(resistance).displayName(displayname).tagBlock('minecraft:mineable/' + tool).tagBlock('minecraft:needs_' + toolLevel + '_tool').requiresTool(requires)
         } else {
             return e.create(mod + ':' + unlocname).mapColor(type).soundType(type).hardness(hardness).resistance(resistance).displayName(displayname)
+        }
+    }
+    function registerOtherModFalling(mod, unlocname, displayname, type, hardness, resistance, tool, toolLevel, requires) {
+        if (requires === true) {
+            return e.create(mod + ':' + unlocname, 'falling').mapColor(type).soundType(type).hardness(hardness).resistance(resistance).displayName(displayname).tagBlock('minecraft:mineable/' + tool).tagBlock('minecraft:needs_' + toolLevel + '_tool').requiresTool(requires)
+        } else {
+            return e.create(mod + ':' + unlocname, 'falling').mapColor(type).soundType(type).hardness(hardness).resistance(resistance).displayName(displayname)
         }
     }
 

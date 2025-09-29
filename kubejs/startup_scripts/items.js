@@ -25,6 +25,9 @@ StartupEvents.registry('item', e => {
         registerWithTexture(p + '_pebble', ModsUtils.getUpperName(p, ' ') + ' Pebble', 'technicresources:item/pebbles/' + p)
     });
     registerTool('stone_hammer', 'Stone Hammer', 'pickaxe', 'stone')
+    registerTool('gold_hammer', 'Golden Hammer', 'pickaxe', 'gold')
+    registerTool('diamond_hammer', 'Diamond Hammer', 'pickaxe', 'diamond')
+    registerTool('netherite_hammer', 'Netherite Hammer', 'pickaxe', 'netherite')
     register('deepslate_stick', 'Deepslate Stick')
     register('room_upgrader', 'Room Upgrader').unstackable()
 
