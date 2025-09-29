@@ -1,4 +1,5 @@
 {
+	chapter.02A4F1EBB88207D6.title: "&eChapter 2 - &6Trouve moi un nom"
 	chapter.167BBA84E770F7C5.title: "&cArmors"
 	chapter.237AB2138BA1378C.title: "&bWelcome"
 	chapter.3A690EAA4DF5F972.chapter_subtitle: ["&7&oRemember Something..."]
@@ -30,6 +31,7 @@
 		"You can find them in the Schematics Table !"
 	]
 	quest.03A7B400A1F002B5.title: "&dInformation about Create Schematics !"
+	quest.0539BDEC6AFD4727.title: "Some wood"
 	quest.0A3B1D35FBA35115.title: "Refined Obsidian Armor"
 	quest.0C83115865AC72DF.quest_desc: [
 		"On this website you will find more informations about Chroma Endless, the Chroma Team and our other modpacks."
